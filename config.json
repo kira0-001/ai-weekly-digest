@@ -1,0 +1,9 @@
+{
+  "email_recipients": [
+    "karthi.mrkl@gmail.com"
+  ],
+  "whatsapp_recipients": [],
+  "sender_name": "AI Daily Digest Bot",
+  "timezone": "Asia/Kolkata",
+  "days_back": 30
+}

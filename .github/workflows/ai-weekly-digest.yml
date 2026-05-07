@@ -1,9 +1,12 @@
-name: AI Weekly Digest
+name: AI Daily Digest
 
 on:
   schedule:
-    - cron: "30 4 * * 0"   # 04:30 UTC Sunday -> 10:00 IST Sunday
+    - cron: "30 4 * * *"   # 04:30 UTC every day -> 10:00 IST daily
   workflow_dispatch: {}
+
+permissions:
+  contents: write
 
 jobs:
   run:
@@ -27,7 +30,17 @@ jobs:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
-          SENDER_NAME: "AI Weekly Digest Bot"
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          SENDER_NAME: "AI Daily Digest Bot"
           TIMEZONE: "Asia/Kolkata"
+          WHATSAPP_PHONE: ${{ secrets.WHATSAPP_PHONE }}
+          WHATSAPP_API_KEY: ${{ secrets.WHATSAPP_API_KEY }}
         run: |
           python digest/main.py
+
+      - name: Deploy website to GitHub Pages
+        run: |
+          git config user.name "AI Digest Bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add docs/
+          git diff --cached --quiet || (git commit -m "update: daily digest $(date +%Y-%m-%d)" && git push)

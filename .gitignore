@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Preview files (generated locally, not needed in repo)
+digest/digest_preview.html
+digest/digest_preview.txt
+
+# Debug/test scripts
+digest/check_models.py
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Never commit secrets or API keys
+*.env
+.env.*
+.env
+
+# Logs
+*.log

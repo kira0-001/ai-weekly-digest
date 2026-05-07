@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Daily Digest — Your AI Intelligence Briefing</title>
+  <meta name="description" content="A daily AI-curated news digest featuring launches, tools, research breakthroughs, and career insights.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+
+    :root {
+      --bg-primary: #0a0a1a;
+      --bg-card: rgba(255,255,255,0.04);
+      --bg-glass: rgba(255,255,255,0.06);
+      --border-glass: rgba(255,255,255,0.08);
+      --text-primary: #e8e8f0;
+      --text-secondary: #8888aa;
+      --text-muted: #555577;
+      --accent-purple: #a78bfa;
+      --accent-pink: #f472b6;
+      --accent-blue: #60a5fa;
+      --accent-green: #34d399;
+      --accent-orange: #fb923c;
+      --accent-red: #f87171;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* Animated Background */
+    .bg-animation {
+      position: fixed; top:0; left:0; width:100%; height:100%; z-index:0; pointer-events:none;
+    }
+    .bg-orb {
+      position: absolute; border-radius: 50%; filter: blur(120px); opacity: 0.15; animation: float 20s ease-in-out infinite;
+    }
+    .bg-orb:nth-child(1) { width:600px; height:600px; background: var(--accent-purple); top:-10%; left:-10%; animation-delay:0s; }
+    .bg-orb:nth-child(2) { width:500px; height:500px; background: var(--accent-pink); top:40%; right:-15%; animation-delay:-7s; }
+    .bg-orb:nth-child(3) { width:400px; height:400px; background: var(--accent-blue); bottom:-5%; left:30%; animation-delay:-14s; }
+
+    @keyframes float {
+      0%, 100% { transform: translate(0, 0) scale(1); }
+      33% { transform: translate(30px, -40px) scale(1.05); }
+      66% { transform: translate(-20px, 20px) scale(0.95); }
+    }
+
+    /* Layout */
+    .container { max-width: 900px; margin: 0 auto; padding: 20px 16px; position: relative; z-index: 1; }
+
+    /* Header */
+    .header { text-align: center; padding: 48px 0 32px; }
+    .header-title {
+      font-size: clamp(2.2rem, 5vw, 3.5rem); font-weight: 900; letter-spacing: -2px;
+      background: linear-gradient(135deg, var(--accent-purple), var(--accent-pink), var(--accent-orange));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+      animation: gradient-shift 8s ease infinite; background-size: 200% 200%;
+    }
+    @keyframes gradient-shift {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+    }
+    .header-subtitle { color: var(--text-secondary); font-size: 14px; margin-top: 8px; font-weight: 400; }
+    .header-date {
+      display: inline-block; margin-top: 16px; padding: 8px 20px; border-radius: 50px;
+      background: var(--bg-glass); border: 1px solid var(--border-glass);
+      backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+      color: var(--accent-purple); font-size: 13px; font-weight: 600;
+    }
+
+    /* Stats Bar */
+    .stats-bar {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 24px 0;
+    }
+    .stat-card {
+      text-align: center; padding: 20px 12px; border-radius: 16px;
+      background: var(--bg-glass); border: 1px solid var(--border-glass);
+      backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+      transition: transform 0.3s, border-color 0.3s;
+    }
+    .stat-card:hover { transform: translateY(-3px); border-color: rgba(255,255,255,0.15); }
+    .stat-number { font-size: 32px; font-weight: 900; line-height: 1; }
+    .stat-label { font-size: 10px; text-transform: uppercase; letter-spacing: 2px; color: var(--text-muted); margin-top: 6px; }
+
+    /* Search */
+    .search-wrapper { margin: 20px 0; position: relative; }
+    .search-input {
+      width: 100%; padding: 14px 20px 14px 48px; border-radius: 16px;
+      background: var(--bg-glass); border: 1px solid var(--border-glass);
+      backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+      color: var(--text-primary); font-size: 15px; font-family: inherit;
+      outline: none; transition: border-color 0.3s, box-shadow 0.3s;
+    }
+    .search-input::placeholder { color: var(--text-muted); }
+    .search-input:focus { border-color: var(--accent-purple); box-shadow: 0 0 30px rgba(167,139,250,0.1); }
+    .search-icon { position: absolute; left: 18px; top: 50%; transform: translateY(-50%); font-size: 18px; color: var(--text-muted); }
+
+    /* Section */
+    .section { margin: 36px 0; }
+    .section-header {
+      display: flex; align-items: center; gap: 12px; margin-bottom: 16px;
+      padding-bottom: 12px; border-bottom: 1px solid var(--border-glass);
+    }
+    .section-icon { font-size: 24px; }
+    .section-title { font-size: 20px; font-weight: 800; letter-spacing: -0.5px; }
+    .section-count {
+      margin-left: auto; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600;
+      background: var(--bg-glass); border: 1px solid var(--border-glass); color: var(--text-secondary);
+    }
+
+    /* News Card — Glassmorphism */
+    .news-card {
+      display: block;
+      position: relative; padding: 20px; margin-bottom: 12px; border-radius: 16px;
+      background: var(--bg-glass); border: 1px solid var(--border-glass);
+      backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+      transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+      overflow: hidden; cursor: pointer; text-decoration: none;
+    }
+    .news-card::before {
+      content: ''; position: absolute; top:0; left:0; width: 4px; height: 100%;
+      border-radius: 4px 0 0 4px; transition: width 0.3s;
+    }
+    .news-card:hover {
+      transform: translateY(-4px) scale(1.01);
+      border-color: rgba(255,255,255,0.12);
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3), 0 0 40px rgba(167,139,250,0.05);
+    }
+    .news-card:hover::before { width: 6px; }
+
+    .news-card[data-accent="purple"]::before { background: var(--accent-purple); }
+    .news-card[data-accent="orange"]::before { background: var(--accent-orange); }
+    .news-card[data-accent="green"]::before { background: var(--accent-green); }
+    .news-card[data-accent="pink"]::before { background: var(--accent-pink); }
+    .news-card[data-accent="red"]::before { background: var(--accent-red); }
+
+    .card-top { display: flex; align-items: flex-start; gap: 14px; }
+    .card-favicon {
+      width: 36px; height: 36px; border-radius: 10px; flex-shrink: 0;
+      background: var(--bg-card); border: 1px solid var(--border-glass);
+      display: flex; align-items: center; justify-content: center; overflow: hidden;
+    }
+    .card-favicon img { width: 24px; height: 24px; border-radius: 4px; }
+    .card-body { flex: 1; min-width: 0; }
+    .card-title {
+      font-size: 16px; font-weight: 700; line-height: 1.4; color: var(--text-primary);
+      text-decoration: none; display: block; transition: color 0.2s;
+    }
+    .card-title:hover { color: var(--accent-purple); }
+    .card-summary { font-size: 13px; color: var(--text-secondary); line-height: 1.6; margin-top: 8px; }
+    .card-meta { display: flex; align-items: center; gap: 10px; margin-top: 10px; flex-wrap: wrap; }
+    .card-source { font-size: 11px; color: var(--text-muted); }
+
+    /* Trust Badges */
+    .badge {
+      display: inline-flex; align-items: center; gap: 4px;
+      padding: 3px 10px; border-radius: 20px; font-size: 10px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.5px;
+    }
+    .badge-official { background: rgba(52,211,153,0.15); color: #34d399; border: 1px solid rgba(52,211,153,0.2); }
+    .badge-academic { background: rgba(96,165,250,0.15); color: #60a5fa; border: 1px solid rgba(96,165,250,0.2); }
+    .badge-community { background: rgba(251,146,60,0.15); color: #fb923c; border: 1px solid rgba(251,146,60,0.2); }
+
+    /* Spotlight Card (Tool of Day) */
+    .spotlight {
+      margin: 32px 0; padding: 28px; border-radius: 20px;
+      background: linear-gradient(135deg, rgba(167,139,250,0.15), rgba(244,114,182,0.1));
+      border: 1px solid rgba(167,139,250,0.2);
+      backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+      position: relative; overflow: hidden;
+    }
+    .spotlight::after {
+      content: ''; position: absolute; top: -50%; right: -50%;
+      width: 200px; height: 200px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(167,139,250,0.1) 0%, transparent 70%);
+    }
+    .spotlight-label {
+      font-size: 10px; text-transform: uppercase; letter-spacing: 3px;
+      color: var(--accent-purple); font-weight: 700; margin-bottom: 10px;
+    }
+    .spotlight-title { font-size: 20px; font-weight: 800; color: var(--text-primary); text-decoration: none; display: block; }
+    .spotlight-title:hover { color: var(--accent-purple); }
+    .spotlight-summary { font-size: 14px; color: var(--text-secondary); margin-top: 8px; line-height: 1.6; }
+
+    /* Hot Take */
+    .hot-take {
+      margin: 20px 0; padding: 20px 24px; border-radius: 16px;
+      background: rgba(248,113,113,0.08); border: 1px solid rgba(248,113,113,0.15);
+      border-left: 4px solid var(--accent-red);
+    }
+    .hot-take-label { font-size: 10px; text-transform: uppercase; letter-spacing: 3px; color: var(--accent-red); font-weight: 700; margin-bottom: 6px; }
+    .hot-take-text { font-size: 14px; color: var(--text-secondary); font-style: italic; line-height: 1.6; }
+
+    /* Archive */
+    .archive-nav { margin: 40px 0 20px; }
+    .archive-title { font-size: 18px; font-weight: 700; margin-bottom: 12px; color: var(--text-secondary); }
+    .archive-list { display: flex; flex-wrap: wrap; gap: 8px; }
+    .archive-link {
+      padding: 6px 14px; border-radius: 10px; font-size: 12px; font-weight: 600;
+      background: var(--bg-glass); border: 1px solid var(--border-glass);
+      color: var(--text-secondary); text-decoration: none; transition: all 0.2s;
+    }
+    .archive-link:hover { background: rgba(167,139,250,0.1); border-color: var(--accent-purple); color: var(--accent-purple); }
+
+    /* Footer */
+    .footer {
+      text-align: center; padding: 40px 0 24px; border-top: 1px solid var(--border-glass);
+      margin-top: 40px; color: var(--text-muted); font-size: 12px; line-height: 1.8;
+    }
+
+    /* Animations */
+    .fade-in { opacity: 0; transform: translateY(20px); animation: fadeIn 0.5s ease forwards; }
+    @keyframes fadeIn { to { opacity: 1; transform: translateY(0); } }
+
+    /* Loading */
+    .loading { text-align: center; padding: 60px 0; color: var(--text-muted); }
+    .spinner {
+      width: 40px; height: 40px; border: 3px solid var(--border-glass);
+      border-top-color: var(--accent-purple); border-radius: 50%;
+      animation: spin 0.8s linear infinite; margin: 0 auto 16px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      .stats-bar { grid-template-columns: repeat(3, 1fr); gap: 8px; }
+      .stat-card { padding: 14px 8px; }
+      .stat-number { font-size: 24px; }
+      .news-card { padding: 16px; }
+      .container { padding: 12px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="bg-animation">
+    <div class="bg-orb"></div>
+    <div class="bg-orb"></div>
+    <div class="bg-orb"></div>
+  </div>
+
+  <div class="container">
+    <!-- Header -->
+    <header class="header fade-in">
+      <h1 class="header-title">AI Daily Digest</h1>
+      <p class="header-subtitle">Your daily AI intelligence briefing — curated by AI</p>
+      <div class="header-date" id="dateDisplay">Loading...</div>
+    </header>
+
+    <!-- Stats -->
+    <div class="stats-bar fade-in" style="animation-delay:0.1s">
+      <div class="stat-card">
+        <div class="stat-number" id="statStories" style="color:var(--accent-purple)">—</div>
+        <div class="stat-label">Stories</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number" id="statCategories" style="color:var(--accent-blue)">—</div>
+        <div class="stat-label">Categories</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number" id="statSources" style="color:var(--accent-green)">—</div>
+        <div class="stat-label">Sources</div>
+      </div>
+    </div>
+
+    <!-- Search -->
+    <div class="search-wrapper fade-in" style="animation-delay:0.2s">
+      <span class="search-icon">🔍</span>
+      <input type="text" class="search-input" id="searchInput" placeholder="Search today's AI news...">
+    </div>
+
+    <!-- Content -->
+    <main id="content">
+      <div class="loading">
+        <div class="spinner"></div>
+        <p>Loading today's digest...</p>
+      </div>
+    </main>
+
+    <!-- Archive -->
+    <nav class="archive-nav fade-in" id="archiveNav" style="display:none">
+      <div class="archive-title">📅 Past Digests</div>
+      <div class="archive-list" id="archiveList"></div>
+    </nav>
+
+    <!-- Footer -->
+    <footer class="footer fade-in">
+      Curated by AI • Powered by Groq & Llama 3<br>
+      Every link goes to the original source — click to verify<br>
+      Archive retains 60 days of AI news history
+    </footer>
+  </div>
+
+  <script>
+    const SECTION_CONFIG = {
+      "🚀 Big Launches":       { accent: "purple", icon: "🚀", label: "Big Launches" },
+      "🛠️ Builder's Toolbox":  { accent: "orange", icon: "🛠️", label: "Builder's Toolbox" },
+      "🎯 Interview Edge":     { accent: "green",  icon: "🎯", label: "Interview Edge" },
+      "⚖️ Responsible AI":     { accent: "pink",   icon: "⚖️", label: "Responsible AI" },
+      "🔮 On the Horizon":     { accent: "red",    icon: "🔮", label: "On the Horizon" },
+    };
+
+    function getFavicon(url) {
+      try {
+        const domain = new URL(url).hostname;
+        return `https://www.google.com/s2/favicons?domain=${domain}&sz=32`;
+      } catch { return 'https://www.google.com/s2/favicons?domain=github.com&sz=32'; }
+    }
+
+    // XSS Protection: sanitize all data before rendering
+    function esc(str) {
+      if (!str) return '';
+      const div = document.createElement('div');
+      div.textContent = String(str);
+      return div.innerHTML;
+    }
+
+    // Sanitize URLs — only allow http/https
+    function safeUrl(url) {
+      if (typeof url === 'string' && url.startsWith('http')) return url;
+      try {
+        const u = new URL(url);
+        if (u.protocol === 'http:' || u.protocol === 'https:') return u.href;
+      } catch {}
+      return 'javascript:void(0)';
+    }
+
+    function trustBadge(trust) {
+      const t = esc(trust || '');
+      if (t.includes("Official")) return '<span class="badge badge-official">✅ Official</span>';
+      if (t.includes("Academic")) return '<span class="badge badge-academic">🎓 Academic</span>';
+      return '<span class="badge badge-community">📰 News</span>';
+    }
+
+    function renderDigest(data) {
+      const content = document.getElementById('content');
+      let html = '';
+      let totalItems = 0;
+      let categories = 0;
+      const sources = new Set();
+
+      // Sections
+      for (const [key, items] of Object.entries(data.sections || {})) {
+        if (!items || items.length === 0) continue;
+        categories++;
+        const config = SECTION_CONFIG[key] || { accent: "purple", icon: "📌", label: esc(key) };
+
+        html += `<div class="section fade-in">
+          <div class="section-header">
+            <span class="section-icon">${config.icon}</span>
+            <span class="section-title">${esc(config.label)}</span>
+            <span class="section-count">${items.length} ${items.length === 1 ? 'story' : 'stories'}</span>
+          </div>`;
+
+        items.forEach(item => {
+          totalItems++;
+          const source = esc(item.source || 'Unknown');
+          sources.add(source);
+          const link = safeUrl(item.link || '#');
+          const favicon = getFavicon(item.link || '');
+          const title = esc(item.title || 'Untitled');
+          const summary = esc(item.summary || '');
+          html += `<a href="${link}" target="_blank" rel="noopener noreferrer" class="news-card" data-accent="${config.accent}" data-searchable="${(title + ' ' + summary + ' ' + source).toLowerCase()}">
+            <div class="card-top">
+              <div class="card-favicon"><img src="${favicon}" alt="" loading="lazy"></div>
+              <div class="card-body">
+                <span class="card-title">${title}</span>
+                <p class="card-summary">${summary}</p>
+                <div class="card-meta">
+                  <span class="card-source">${source}</span>
+                  ${trustBadge(item.trust)}
+                </div>
+              </div>
+            </div>
+          </a>`;
+        });
+
+        html += '</div>';
+      }
+
+      // Tool of the Day
+      if (data.tool_of_day) {
+        const t = data.tool_of_day;
+        const tLink = safeUrl(t.link || '#');
+        html += `<div class="spotlight fade-in">
+          <div class="spotlight-label">⭐ Tool of the Day</div>
+          <a href="${tLink}" target="_blank" rel="noopener noreferrer" class="spotlight-title">${esc(t.title || '')}</a>
+          <p class="spotlight-summary">${esc(t.summary || '')}</p>
+        </div>`;
+      }
+
+      // Hot Take
+      if (data.hot_take) {
+        html += `<div class="hot-take fade-in">
+          <div class="hot-take-label">🔥 Hot Take</div>
+          <p class="hot-take-text">${esc(data.hot_take)}</p>
+        </div>`;
+      }
+
+      content.innerHTML = html;
+
+      // Stats
+      document.getElementById('dateDisplay').textContent = data.date_display || data.date || 'Today';
+      document.getElementById('statStories').textContent = totalItems;
+      document.getElementById('statCategories').textContent = categories;
+      document.getElementById('statSources').textContent = sources.size;
+
+      // Stagger animations
+      document.querySelectorAll('.news-card').forEach((card, i) => {
+        card.style.animationDelay = `${0.05 * i}s`;
+        card.classList.add('fade-in');
+      });
+    }
+
+    // Search
+    document.getElementById('searchInput').addEventListener('input', e => {
+      const q = e.target.value.toLowerCase();
+      document.querySelectorAll('.news-card').forEach(card => {
+        const text = card.getAttribute('data-searchable') || '';
+        card.style.display = text.includes(q) ? '' : 'none';
+      });
+    });
+
+    // Load data
+    async function loadDigest(file = 'data/latest.json') {
+      try {
+        const res = await fetch(file);
+        if (!res.ok) throw new Error('No data');
+        const data = await res.json();
+        renderDigest(data);
+      } catch (err) {
+        document.getElementById('content').innerHTML = `
+          <div class="loading">
+            <p style="font-size:48px;margin-bottom:16px;">📭</p>
+            <p>No digest data yet. Run the pipeline first!</p>
+            <p style="margin-top:8px;font-size:12px;color:var(--text-muted)">python digest/main.py --dry-run</p>
+          </div>`;
+      }
+    }
+
+    // Load archive
+    async function loadArchive() {
+      try {
+        const res = await fetch('data/archive_index.json');
+        if (!res.ok) return;
+        const dates = await res.json();
+        if (dates.length === 0) return;
+
+        const nav = document.getElementById('archiveNav');
+        const list = document.getElementById('archiveList');
+        nav.style.display = '';
+        list.innerHTML = dates.map(d =>
+          `<a href="#" class="archive-link" data-date="${d}">${new Date(d + 'T00:00:00').toLocaleDateString('en-US', {month:'short',day:'numeric'})}</a>`
+        ).join('');
+
+        list.addEventListener('click', e => {
+          e.preventDefault();
+          const link = e.target.closest('.archive-link');
+          if (!link) return;
+          loadDigest(`data/archive/${link.dataset.date}.json`);
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      } catch {}
+    }
+
+    loadDigest();
+    loadArchive();
+  </script>
+</body>
+</html>

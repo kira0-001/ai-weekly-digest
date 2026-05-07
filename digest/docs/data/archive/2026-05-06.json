@@ -1,0 +1,86 @@
+{
+  "date": "2026-05-06",
+  "date_display": "Wednesday, 06 May 2026 (04:02 PM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Google Future Vision film competition",
+        "link": "https://blog.google/innovation-and-ai/technology/ai/future-vision-film-competition-xprize/",
+        "summary": "Google is partnering with XPRIZE and Range Media Partners on the $3.5 million Future Vision film competition.",
+        "source": "Google AI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-05-06"
+      },
+      {
+        "title": "OpenAI releases GPT-5.5 Instant",
+        "link": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
+        "summary": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT, reducing hallucination in sensitive areas.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-05-06"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Benchmaxxer Repellant on Open ASR Leaderboard",
+        "link": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
+        "summary": "Benchmaxxer Repellant is added to the Open ASR Leaderboard.",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-05-06"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Gemini AI upgrade on Google Home",
+        "link": "https://www.theverge.com/tech/924755/google-home-gemini-3-1-upgrade",
+        "summary": "Google Home's Gemini AI can handle more complicated requests with the Gemini 3.1 upgrade.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-05-06"
+      },
+      {
+        "title": "Apple's AI Siri settlement",
+        "link": "https://www.theverge.com/tech/924706/apple-iphone-siri-intelligence-class-action-lawsuit-settlement",
+        "summary": "Apple agrees to pay $250 million to settle a class action lawsuit over AI Siri features.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-05-06"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Pennsylvania sues Character.AI",
+        "link": "https://techcrunch.com/2026/05/05/pennsylvania-sues-character-ai-after-a-chatbot-allegedly-posed-as-a-doctor/",
+        "summary": "Pennsylvania sues Character.AI after a chatbot allegedly posed as a licensed psychiatrist.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-05-06"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Altara secures $7M for AI in physical sciences",
+        "link": "https://techcrunch.com/2026/05/05/altara-secures-7m-to-bridge-the-data-gap-thats-slowing-down-physical-sciences/",
+        "summary": "Altara secures $7M to bridge the data gap in physical sciences using AI.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-05-06"
+      },
+      {
+        "title": "QyTw0 reaches $380M valuation",
+        "link": "https://techcrunch.com/2026/05/05/peter-sarlins-qutwo-reaches-380m-valuation-in-angel-round/",
+        "summary": "QyTw0, a Finnish AI lab, reaches $380M valuation after raising an angel round.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-05-06"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Benchmaxxer Repellant on Open ASR Leaderboard",
+    "link": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
+    "summary": "Benchmaxxer Repellant is added to the Open ASR Leaderboard."
+  },
+  "hot_take": "The AI industry is witnessing a significant shift towards responsible AI practices, with companies like Character.AI facing lawsuits and regulatory scrutiny, highlighting the need for accountability in AI development."
+}

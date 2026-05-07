@@ -1,0 +1,78 @@
+{
+  "date": "2026-04-10",
+  "date_display": "Friday, 10 April 2026",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Parloa builds service agents customers want to talk to",
+        "link": "https://openai.com/index/parloa",
+        "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-05-07"
+      },
+      {
+        "title": "Google updates AI search to include quotes from Reddit and other sources",
+        "link": "https://techcrunch.com/2026/05/06/google-updates-ai-search-to-include-expert-advice-from-reddit-and-other-web-forums/",
+        "summary": "Google is updating its AI Search features to include quotes from Reddit and other sources.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-05-07"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+        "link": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+        "summary": "vLLM V0 to V1: Correctness Before Corrections in RL",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-05-07"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "CreativityBench: Evaluating Agent Creative Reasoning via Affordance-Based Tool Repurposing",
+        "link": "https://arxiv.org/abs/2605.02910",
+        "summary": "We study creative problem-solving in large language models through the lens of creative tool use.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-05-07"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Barry Diller trusts Sam Altman. But ‘trust is irrelevant’ as AGI nears, he says.",
+        "link": "https://techcrunch.com/2026/05/06/barry-diller-trusts-sam-altman-but-trust-is-irrelevant-as-agi-nears-he-says/",
+        "summary": "Barry Diller defended OpenAI CEO Sam Altman, while warning that AGI remains an unpredictable force needing guardrails.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-05-07"
+      },
+      {
+        "title": "Mira Murati tells the court that she couldn’t trust Sam Altman’s words",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/925338/openai-musk-v-altman-mira-murati",
+        "summary": "Mira Murati, OpenAI's former CTO, has testified under oath that CEO Sam Altman lied to her about the safety standards for a new AI model.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-05-07"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "DeepSeek could hit $45B valuation from its first investment round",
+        "link": "https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round/",
+        "summary": "The Chinese AI lab came to prominence in early 2025 after launching a large language model.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-05-07"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+    "link": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+    "summary": "vLLM V0 to V1: Correctness Before Corrections in RL"
+  },
+  "hot_take": "The AI industry is shifting towards more practical applications, with companies like Google and OpenAI focusing on real-world use cases, while startups like DeepSeek are making waves with innovative language models."
+}

@@ -1,0 +1,196 @@
+{
+  "date": "2026-05-05",
+  "date_display": "Tuesday, 05 May 2026 (02:39 PM IST)",
+  "sections": {
+    "🚀 **Big Launches**": [
+      {
+        "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
+        "link": "https://openai.com/index/openai-pwc-finance-collaboration",
+        "summary": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-05-04T21:00:00+00:00"
+      }
+    ],
+    "📄 **Viral Papers / Research**": [
+      {
+        "title": "TADI: Tool-Augmented Drilling Intelligence via Agentic LLM Orchestration over Heterogeneous Wellsite Data",
+        "link": "https://arxiv.org/abs/2605.00060",
+        "summary": "arXiv:2605.00060v1 Announce Type: new Abstract: We present TADI (Tool-Augmented Drilling Intelligence), an agentic AI system that transforms drilling operational data into evidence-based analytical intelligence. Applied to the Equinor Volve Field dataset, TADI integrates 1,759 daily drilling reports, selected WITSML real-time…",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-05-05T00:00:00-04:00"
+      },
+      {
+        "title": "AgentReputation: A Decentralized Agentic AI Reputation Framework",
+        "link": "https://arxiv.org/abs/2605.00073",
+        "summary": "arXiv:2605.00073v1 Announce Type: new Abstract: Decentralized, agentic AI marketplaces are rapidly emerging to support software engineering tasks such as debugging, patch generation, and security auditing, often operating without centralized oversight. However, existing reputation mechanisms fail in this setting for three…",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-05-05T00:00:00-04:00"
+      },
+      {
+        "title": "Minimal, Local, Causal Explanations for Jailbreak Success in Large Language Models",
+        "link": "https://arxiv.org/abs/2605.00123",
+        "summary": "arXiv:2605.00123v1 Announce Type: new Abstract: Safety trained large language models (LLMs) can often be induced to answer harmful requests through jailbreak prompts. Because we lack a robust understanding of why LLMs are susceptible to jailbreaks, future frontier models operating more…",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-05-05T00:00:00-04:00"
+      },
+      {
+        "title": "Are Tools All We Need? Unveiling the Tool-Use Tax in LLM Agents",
+        "link": "https://arxiv.org/abs/2605.00136",
+        "summary": "arXiv:2605.00136v1 Announce Type: new Abstract: Tool-augmented reasoning has become a popular direction for LLM-based agents, and it is widely assumed to improve reasoning and reliability. However, we demonstrate that this consensus does not always hold: in the presence of semantic…",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-05-05T00:00:00-04:00"
+      },
+      {
+        "title": "TUR-DPO: Topology- and Uncertainty-Aware Direct Preference Optimization",
+        "link": "https://arxiv.org/abs/2605.00224",
+        "summary": "arXiv:2605.00224v1 Announce Type: new Abstract: Aligning large language models (LLMs) with human preferences is commonly done via reinforcement learning from human feedback (RLHF) with Proximal Policy Optimization (PPO) or, more simply, via Direct Preference Optimization (DPO). While DPO is stable…",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-05-05T00:00:00-04:00"
+      },
+      {
+        "title": "ARMOR 2025: A Military-Aligned Benchmark for Evaluating Large Language Model Safety Beyond Civilian Contexts",
+        "link": "https://arxiv.org/abs/2605.00245",
+        "summary": "arXiv:2605.00245v1 Announce Type: new Abstract: Large language models (LLMs) are now being explored for defense applications that require reliable and legally compliant decision support. They also hold significant potential to enhance decision making, coordination, and operational efficiency in military contexts.…",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-05-05T00:00:00-04:00"
+      },
+      {
+        "title": "Causal Foundations of Collective Agency",
+        "link": "https://arxiv.org/abs/2605.00248",
+        "summary": "arXiv:2605.00248v1 Announce Type: new Abstract: A key challenge for the safety of advanced AI systems is the possibility that multiple simpler agents might inadvertently form a collective agent with capabilities and goals distinct from those of any individual. More generally,…",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-05-05T00:00:00-04:00"
+      },
+      {
+        "title": "Agentic AI for Trip Planning Optimization Application",
+        "link": "https://arxiv.org/abs/2605.00276",
+        "summary": "arXiv:2605.00276v1 Announce Type: new Abstract: Trip planning for intelligent vehicles increasingly requires selecting optimal routes rather than merely producing feasible itineraries, as interacting factors such as travel time, energy consumption, and traffic conditions directly affect plan quality. Yet existing systems…",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-05-05T00:00:00-04:00"
+      },
+      {
+        "title": "Token Arena: A Continuous Benchmark Unifying Energy and Cognition in AI Inference",
+        "link": "https://arxiv.org/abs/2605.00300",
+        "summary": "arXiv:2605.00300v1 Announce Type: new Abstract: Public inference benchmarks compare AI systems at the model and provider level, but the unit at which deployment decisions are actually made is the endpoint: the (provider, model, stock-keeping-unit) tuple at which a specific quantization,…",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-05-05T00:00:00-04:00"
+      },
+      {
+        "title": "AgentFloor: How Far Up the tool use Ladder Can Small Open-Weight Models Go?",
+        "link": "https://arxiv.org/abs/2605.00334",
+        "summary": "arXiv:2605.00334v1 Announce Type: new Abstract: Production agentic systems make many model calls per user request, and most of those calls are short, structured, and routine. This raises a practical routing question that existing evaluations do not directly answer: which parts…",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-05-05T00:00:00-04:00"
+      }
+    ],
+    "🧪 **Cool Experiments & Demos**": [
+      {
+        "title": "nvidia/DeepSeek-R1-FP4",
+        "link": "https://huggingface.co/nvidia/DeepSeek-R1-FP4",
+        "summary": "nvidia/DeepSeek-R1-FP4",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-05-05T09:10:32.977497+00:00"
+      },
+      {
+        "title": "hexgrad/Kokoro-82M",
+        "link": "https://huggingface.co/hexgrad/Kokoro-82M",
+        "summary": "hexgrad/Kokoro-82M",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-05-05T09:10:32.977497+00:00"
+      },
+      {
+        "title": "microsoft/Phi-4-mini-instruct",
+        "link": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+        "summary": "microsoft/Phi-4-mini-instruct",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-05-05T09:10:32.977497+00:00"
+      },
+      {
+        "title": "Wan-AI/Wan2.1-T2V-1.3B",
+        "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+        "summary": "Wan-AI/Wan2.1-T2V-1.3B",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-05-05T09:10:32.977497+00:00"
+      },
+      {
+        "title": "stepfun-ai/stepvideo-t2v",
+        "link": "https://huggingface.co/stepfun-ai/stepvideo-t2v",
+        "summary": "stepfun-ai/stepvideo-t2v",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-05-05T09:10:32.976771+00:00"
+      },
+      {
+        "title": "Kijai/WanVideo_comfy",
+        "link": "https://huggingface.co/Kijai/WanVideo_comfy",
+        "summary": "Kijai/WanVideo_comfy",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-05-05T09:10:32.976771+00:00"
+      },
+      {
+        "title": "convergence-ai/proxy-lite-3b",
+        "link": "https://huggingface.co/convergence-ai/proxy-lite-3b",
+        "summary": "convergence-ai/proxy-lite-3b",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-05-05T09:10:32.972223+00:00"
+      },
+      {
+        "title": "unsloth/DeepSeek-R1-GGUF",
+        "link": "https://huggingface.co/unsloth/DeepSeek-R1-GGUF",
+        "summary": "unsloth/DeepSeek-R1-GGUF",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-05-05T09:10:32.972223+00:00"
+      },
+      {
+        "title": "Comfy-Org/Wan_2.1_ComfyUI_repackaged",
+        "link": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged",
+        "summary": "Comfy-Org/Wan_2.1_ComfyUI_repackaged",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-05-05T09:10:32.972223+00:00"
+      },
+      {
+        "title": "perplexity-ai/r1-1776-distill-llama-70b",
+        "link": "https://huggingface.co/perplexity-ai/r1-1776-distill-llama-70b",
+        "summary": "perplexity-ai/r1-1776-distill-llama-70b",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-05-05T09:10:32.972223+00:00"
+      }
+    ],
+    "🛠️ **New AI Tools**": [
+      {
+        "title": "Register now for OpenClaw: After Hours @ GitHub",
+        "link": "https://github.blog/open-source/register-now-for-openclaw-after-hours-github/",
+        "summary": "OpenClaw builders will gather at GitHub HQ during Microsoft Build 2026 for demos and conversations. Join in person, or watch the livestream on Twitch. The post Register now for OpenClaw: After Hours @ GitHub appeared first on The GitHub Blog…",
+        "source": "GitHub AI & ML Blog",
+        "trust": "🟢 Official",
+        "date": "2026-05-04T15:00:00+00:00"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Register now for OpenClaw: After Hours @ GitHub",
+    "link": "https://github.blog/open-source/register-now-for-openclaw-after-hours-github/",
+    "summary": "OpenClaw builders will gather at GitHub HQ during Microsoft Build 2026 for demos and conversations. Join in person, or watch the livestream on Twitch. The post Register now for OpenClaw: After Hours @ GitHub appeared first on The GitHub Blog…"
+  },
+  "hot_take": "**Research velocity** beat product launches today; expect more **evals** and **benchmarks** shaping discourse."
+}
