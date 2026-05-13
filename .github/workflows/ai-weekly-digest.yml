@@ -2,7 +2,7 @@ name: AI Daily Digest
 
 on:
   schedule:
-    - cron: "30 4 * * *"   # 04:30 UTC every day -> 10:00 IST daily
+    - cron: "30 2 * * *"   # 02:30 UTC (8:00 AM IST) — arrives ~10 AM after GitHub delay
   workflow_dispatch: {}
 
 permissions:
