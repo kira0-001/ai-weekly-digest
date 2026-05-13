@@ -1,0 +1,150 @@
+{
+  "date": "2026-05-09",
+  "date_display": "Saturday, 09 May 2026 (12:03 PM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Running Codex safely at OpenAI",
+        "link": "https://openai.com/index/running-codex-safely",
+        "summary": "OpenAI discusses how they run Codex securely with sandboxing, approvals, network policies, and agent-native telemetry.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-05-09"
+      },
+      {
+        "title": "See what happens when creative legends use AI to make ads for small businesses.",
+        "link": "https://blog.google/company-news/inside-google/company-announcements/the-small-brief/",
+        "summary": "Google showcases how creative legends use AI to make ads for small businesses.",
+        "source": "Google AI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-05-09"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Wan-AI/Wan2.1-T2V-1.3B",
+        "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+        "summary": "A new model Wan-AI/Wan2.1-T2V-1.3B is available on Hugging Face.",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-05-09"
+      },
+      {
+        "title": "microsoft/Phi-4-mini-instruct",
+        "link": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+        "summary": "A new model microsoft/Phi-4-mini-instruct is available on Hugging Face.",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-05-09"
+      },
+      {
+        "title": "hexgrad/Kokoro-82M",
+        "link": "https://huggingface.co/hexgrad/Kokoro-82M",
+        "summary": "A new model hexgrad/Kokoro-82M is available on Hugging Face.",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-05-09"
+      },
+      {
+        "title": "nvidia/DeepSeek-R1-FP4",
+        "link": "https://huggingface.co/nvidia/DeepSeek-R1-FP4",
+        "summary": "A new model nvidia/DeepSeek-R1-FP4 is available on Hugging Face.",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-05-09"
+      },
+      {
+        "title": "Kijai/WanVideo_comfy",
+        "link": "https://huggingface.co/Kijai/WanVideo_comfy",
+        "summary": "A new model Kijai/WanVideo_comfy is available on Hugging Face.",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-05-09"
+      },
+      {
+        "title": "stepfun-ai/stepvideo-t2v",
+        "link": "https://huggingface.co/stepfun-ai/stepvideo-t2v",
+        "summary": "A new model stepfun-ai/stepvideo-t2v is available on Hugging Face.",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-05-09"
+      },
+      {
+        "title": "EMO: Pretraining mixture of experts for emergent modularity",
+        "link": "https://huggingface.co/blog/allenai/emo",
+        "summary": "Allen AI discusses their work on pretraining mixture of experts for emergent modularity.",
+        "source": "Hugging Face Blog",
+        "trust": "🟡 Community",
+        "date": "2026-05-09"
+      },
+      {
+        "title": "CyberSecQwen-4B: Why Defensive Cyber Needs Small, Specialized, Locally-Runnable Models",
+        "link": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b",
+        "summary": "Hugging Face discusses the importance of small, specialized, locally-runnable models in defensive cyber.",
+        "source": "Hugging Face Blog",
+        "trust": "🟡 Community",
+        "date": "2026-05-09"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high",
+        "link": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
+        "summary": "Cloudflare's use of AI has led to the elimination of 1,100 jobs, despite a record high revenue.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-05-09"
+      },
+      {
+        "title": "Everybody wants to rule the AI world",
+        "link": "https://www.theverge.com/podcast/926707/openai-ceo-murati-musk-trial-vergecast",
+        "summary": "The AI industry is seeing a surge in companies vying for dominance, with OpenAI's CEO at the center of the controversy.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-05-09"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Laid-off Oracle workers tried to negotiate better severance. Oracle said no.",
+        "link": "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
+        "summary": "Laid-off Oracle workers attempted to negotiate better severance packages, but were denied by the company.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-05-09"
+      },
+      {
+        "title": "Intel's comeback story is even wilder than it seems",
+        "link": "https://techcrunch.com/2026/05/08/intels-comeback-story-is-even-wilder-than-it-seems/",
+        "summary": "Intel's stock has risen 490% in the past year, but the company's actual turnaround may be slower than expected.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-05-09"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "PlayStation sees AI as a ‘powerful tool’ to help make games",
+        "link": "https://www.theverge.com/games/926914/sony-playstation-ai-powerful-tool-games",
+        "summary": "PlayStation is exploring the use of AI to enhance game development.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-05-09"
+      },
+      {
+        "title": "Microsoft was worried OpenAI would run off to Amazon and ‘shit-talk’ Azure",
+        "link": "https://www.theverge.com/report/926771/microsoft-openai-amazon-worries-shit-talk-azure",
+        "summary": "Microsoft was concerned that OpenAI might partner with Amazon and criticize Azure, but the partnership ultimately went through.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-05-09"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Hugging Face Models",
+    "link": "https://huggingface.co/",
+    "summary": "Explore a wide range of pre-trained models, including Wan-AI/Wan2.1-T2V-1.3B, microsoft/Phi-4-mini-instruct, and more."
+  },
+  "hot_take": "The AI industry is seeing a surge in companies vying for dominance, with OpenAI's CEO at the center of the controversy, highlighting the need for professionals to stay up-to-date on the latest trends and technologies."
+}
