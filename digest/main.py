@@ -388,6 +388,7 @@ def analyze_with_ai(raw_items, api_key):
                     model=current_model,
                     temperature=0.2,
                     max_tokens=1200,
+                    timeout=45.0,  # 45-second timeout to prevent hangs on overloaded models
                 )
                 response_text = chat_completion.choices[0].message.content.strip()
                 succeeded = True
