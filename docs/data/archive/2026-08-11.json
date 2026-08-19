@@ -1,0 +1,94 @@
+{
+  "date": "2026-08-11",
+  "date_display": "Tuesday, 11 August 2026 (09:28 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "OpenAI's Daybreak Expands Cyber Defense",
+        "link": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+        "summary": "OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-11"
+      },
+      {
+        "title": "Meta's new Glimmer AI model",
+        "link": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/",
+        "summary": "Meta's new open-weight Muse Glimmer model offers a glimpse of Mark Zuckerberg's personal superintelligence vision, as well as the emerging divide between AI users can own and access.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-11"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+        "link": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+        "summary": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+        "source": "Hugging Face Blog",
+        "trust": "🟡 Community",
+        "date": "2026-08-11"
+      },
+      {
+        "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+        "link": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+        "summary": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+        "source": "Hugging Face Blog",
+        "trust": "🟡 Community",
+        "date": "2026-08-11"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "OpenAI's Daybreak Expands Cyber Defense",
+        "link": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+        "summary": "OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-11"
+      },
+      {
+        "title": "Meta's new Glimmer AI model",
+        "link": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/",
+        "summary": "Meta's new open-weight Muse Glimmer model offers a glimpse of Mark Zuckerberg's personal superintelligence vision, as well as the emerging divide between AI users can own and access.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-11"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "OpenAI's letter to Governor Abbott on responsible AI infrastructure in Texas",
+        "link": "https://openai.com/index/responsible-ai-infrastructure-texas",
+        "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-11"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Towards Multi-Label Graph Foundation Models: from Single-Vector Representation Learning to Multi-Semantic Basis Learning",
+        "link": "https://arxiv.org/abs/2608.06394",
+        "summary": "Multi-label node classification is an important yet challenging task in graph learning, where nodes exhibit multiple semantics simultaneously.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-08-11"
+      },
+      {
+        "title": "EntropyMoE: Entropy-Aware Sparse Expert Routing for Tokenizer-Free LLMs",
+        "link": "https://arxiv.org/abs/2608.06398",
+        "summary": "Recent byte-level large language models (LLMs) have made tokenizer-free modeling increasingly competitive by grouping bytes into dynamically sized patches.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-08-11"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+    "link": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+    "summary": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS"
+  },
+  "hot_take": "The tech industry is rapidly evolving, with AI playing a central role in various sectors, from finance to cybersecurity, and it's essential for professionals to stay updated on the latest developments to remain competitive."
+}

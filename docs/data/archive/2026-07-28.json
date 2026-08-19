@@ -1,0 +1,134 @@
+{
+  "date": "2026-07-28",
+  "date_display": "Tuesday, 28 July 2026 (10:57 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
+        "link": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
+        "summary": "Microsoft has launched its first AI security model and a new security platform, bolstering its AI cybersecurity offerings.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-28"
+      },
+      {
+        "title": "Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
+        "summary": "Nvidia and Microsoft have launched an open AI security alliance with other tech companies to build and share open-source AI security tools.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-28"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Concept-based Visual Counterfactual Explanations with Diffusion Models",
+        "link": "https://arxiv.org/abs/2607.22544",
+        "summary": "This paper proposes a method for visual counterfactual explanations using diffusion models, which can produce realistic edits to images.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-28"
+      },
+      {
+        "title": "SeT-Diff: Towards Semantic Foundation Models for HPC Telemetry and Time-Series",
+        "link": "https://arxiv.org/abs/2607.22548",
+        "summary": "This paper presents a method for building semantic foundation models for high-performance computing (HPC) telemetry and time-series data.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-28"
+      },
+      {
+        "title": "QFoldAgent: An Autonomous Quantum Optimization Multi-Agent System for Protein Structure Prediction",
+        "link": "https://arxiv.org/abs/2607.22549",
+        "summary": "This paper proposes a multi-agent system for protein structure prediction using quantum optimization, which can efficiently search for optimal solutions.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-28"
+      },
+      {
+        "title": "Same Question, Different Answers: Evaluating LLM Reliability Beyond Accuracy",
+        "link": "https://arxiv.org/abs/2607.22554",
+        "summary": "This paper evaluates the reliability of large language models (LLMs) by studying how their answers change under meaning-preserving paraphrases.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-28"
+      },
+      {
+        "title": "DeepLens Diagnosis Agent: Agentic Workflow Design Lets a Small Reasoning Model Compete with Frontier LLMs",
+        "link": "https://arxiv.org/abs/2607.22555",
+        "summary": "This paper presents a five-stage harnessing pipeline for medical diagnosis, which can compete with frontier LLMs using a small reasoning model.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-28"
+      },
+      {
+        "title": "MIITA: Memory-Induced Inference-Time Adaptation for Continual Learning with Small Language Models",
+        "link": "https://arxiv.org/abs/2607.22556",
+        "summary": "This paper proposes a method for continual learning with small language models, which can adapt to evolving real-world needs.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-28"
+      },
+      {
+        "title": "Codifying the Judge: Scalable Evaluation via Program Distillation",
+        "link": "https://arxiv.org/abs/2607.22561",
+        "summary": "This paper presents a method for scalable evaluation using program distillation, which can efficiently evaluate LLMs.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-28"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Satya Nadella says companies that trust one AI for everything may not survive",
+        "link": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/",
+        "summary": "Satya Nadella warns that companies relying on a single AI model may not survive, emphasizing the need for AI gateways and multiple models.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-28"
+      },
+      {
+        "title": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
+        "link": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+        "summary": "Anthropic's Dario Amodei responds to concerns about open-weight models, expressing fears about Chinese AI capabilities.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-28"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "OpenAI’s Hugging Face breach has reignited the debate over alignment and control",
+        "link": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/",
+        "summary": "The OpenAI Hugging Face breach has reignited the debate over AI alignment and control, highlighting the need for better security and regulation.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-28"
+      },
+      {
+        "title": "Why China is giving away its best AI models",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
+        "summary": "China is giving away its best AI models, raising concerns about the impact on US companies and the need for regulation.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-28"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+        "link": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+        "summary": "NVIDIA has announced Cosmos-H-Dreams, a real-time generative simulation platform for surgical robotics, which can simulate complex procedures.",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-28"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "arXiv",
+    "link": "https://arxiv.org/",
+    "summary": "arXiv is a free online repository of electronic preprints (known as e-prints) in fields such as physics, mathematics, computer science, and related disciplines."
+  },
+  "hot_take": "The rapid development of AI models and their applications is creating new challenges for companies and regulators, highlighting the need for better security, regulation, and responsible AI practices."
+}

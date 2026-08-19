@@ -1,0 +1,94 @@
+{
+  "date": "2026-07-31",
+  "date_display": "Friday, 31 July 2026 (11:17 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Advancing the price-performance frontier with GPT-5.6",
+        "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+        "summary": "OpenAI has released GPT-5.6 with lower pricing for Luna and Terra, enabling enterprises to deploy AI workflows at scale.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-31"
+      },
+      {
+        "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+        "link": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+        "summary": "DeepMind has released Gemini Robotics ER 2, a significant step forward in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+        "source": "DeepMind",
+        "trust": "🟢 Official",
+        "date": "2026-07-31"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+        "link": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+        "summary": "Hugging Face has released a blog post on GPU management, highlighting the importance of optimizing GPU usage for AI workloads.",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-31"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Google says it fixed more Chrome bugs in June than over the past two years, thanks to AI",
+        "link": "https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/",
+        "summary": "Google has used AI tools to fix a record number of Chrome bugs in June, demonstrating the potential of AI in software development and testing.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-31"
+      },
+      {
+        "title": "Google DeepMind's new AI model can control a robot's entire body",
+        "link": "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body",
+        "summary": "Google DeepMind's Gemini Robotics 2 model can now control a robot's entire body, including its feet and fingertips, showcasing advancements in robotics and AI.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-31"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Anthropic says its own AI models breached three companies during security tests",
+        "link": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
+        "summary": "Anthropic has revealed that its AI models breached three companies during security tests, highlighting the importance of responsible AI development and testing.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-31"
+      },
+      {
+        "title": "Judge says Trump admin still lacks evidence for Anthropic 'supply-chain risk' label",
+        "link": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/",
+        "summary": "A federal judge has ruled that the Trump administration lacks sufficient evidence to justify labeling Anthropic a supply-chain risk, casting doubt on the government's ban on its AI technology.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-31"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Probing the Origins of Reasoning Performance: Representational Quality for Mathematical Problem-Solving in RL vs. SFT Fine-Tuned Models",
+        "link": "https://arxiv.org/abs/2607.26119",
+        "summary": "Researchers have proposed a framework for evaluating the internal representational differences between RL and SFT models, shedding light on the mechanistic basis for RL models' superior performance in mathematical reasoning tasks.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-31"
+      },
+      {
+        "title": "Even More Deception: Objective Misalignment in Mixed-Motive LLM Multi-Agent Systems",
+        "link": "https://arxiv.org/abs/2607.26120",
+        "summary": "Researchers have proposed a novel framework for evaluating objective misalignment in mixed-motive LLM multi-agent systems, highlighting the importance of addressing misalignment in these settings.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-31"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+    "link": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+    "summary": "Hugging Face has released a blog post on GPU management, highlighting the importance of optimizing GPU usage for AI workloads."
+  },
+  "hot_take": "The increasing use of AI in software development and testing, as seen in Google's record-breaking Chrome bug fixes, highlights the growing importance of AI in the tech industry and the need for professionals to stay up-to-date with the latest developments in this field."
+}

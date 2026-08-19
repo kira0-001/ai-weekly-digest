@@ -1,0 +1,126 @@
+{
+  "date": "2026-07-08",
+  "date_display": "Wednesday, 08 July 2026 (11:04 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
+        "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+        "summary": "Google has expanded its Managed Agents feature in the Gemini API, adding support for background tasks and remote MCP.",
+        "source": "Google AI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-08"
+      },
+      {
+        "title": "From Hugging Face to Amazon SageMaker Studio in one click",
+        "link": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+        "summary": "Hugging Face has announced a new integration with Amazon SageMaker Studio, allowing users to deploy models in one click.",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-08"
+      },
+      {
+        "title": "Hugging Face Models on Foundry Managed Compute",
+        "link": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+        "summary": "Hugging Face has announced support for its models on Foundry Managed Compute, a cloud-based platform for AI development.",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-08"
+      },
+      {
+        "title": "Meta just launched a new AI generator, Muse Image, and users are already pushing back over use of their photos",
+        "link": "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
+        "summary": "Meta has launched a new AI image generator, Muse Image, which can pull other Instagram users into AI photos.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-08"
+      },
+      {
+        "title": "Anthropic is launching Claude Cowork on mobile and web",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
+        "summary": "Anthropic is launching its Claude Cowork AI platform on mobile and web, expanding access to its users.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-08"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "From Hugging Face to Amazon SageMaker Studio in one click",
+        "link": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+        "summary": "Hugging Face has announced a new integration with Amazon SageMaker Studio, allowing users to deploy models in one click.",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-08"
+      },
+      {
+        "title": "Hugging Face Models on Foundry Managed Compute",
+        "link": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+        "summary": "Hugging Face has announced support for its models on Foundry Managed Compute, a cloud-based platform for AI development.",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-08"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Prompt-to-Paper: Agentic AI System for Bioinformatics",
+        "link": "https://arxiv.org/abs/2607.05456",
+        "summary": "Researchers have proposed a new agentic AI system for bioinformatics that can generate manuscripts from scratch.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-08"
+      },
+      {
+        "title": "Foundation Models for Automatic CAD Generation",
+        "link": "https://arxiv.org/abs/2607.05573",
+        "summary": "Researchers have explored the use of foundation models for automatic Computer-Aided Design (CAD) generation of mechanical parts.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-08"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Discord admits AI moderation bug wrongfully banned users over harmless images",
+        "link": "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/",
+        "summary": "Discord has admitted to an AI moderation bug that wrongfully banned users over harmless images.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-08"
+      },
+      {
+        "title": "Savi’s app aims to protect consumers from realistic AI scams like kidnappers demanding ransom",
+        "link": "https://techcrunch.com/2026/07/07/savis-app-aims-to-protect-consumers-from-realistic-ai-scams-like-kidnappers-demanding-ransom/",
+        "summary": "A new app, Savi, aims to protect consumers from realistic AI scams like kidnappers demanding ransom.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-08"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Prompt-to-Paper: Agentic AI System for Bioinformatics",
+        "link": "https://arxiv.org/abs/2607.05456",
+        "summary": "Researchers have proposed a new agentic AI system for bioinformatics that can generate manuscripts from scratch.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-08"
+      },
+      {
+        "title": "Memory in the Loop: In-Process Retrieval as ExtendedWorking Memory for Language Agents",
+        "link": "https://arxiv.org/abs/2607.05690",
+        "summary": "Researchers have explored the use of in-process retrieval as extended working memory for language agents.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-08"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Hugging Face Models on Foundry Managed Compute",
+    "link": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+    "summary": "Hugging Face has announced support for its models on Foundry Managed Compute, a cloud-based platform for AI development."
+  },
+  "hot_take": "The AI industry is shifting towards more self-sufficient models, with companies like Microsoft and Meta relying more on their own models to cut costs."
+}

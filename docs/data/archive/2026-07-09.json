@@ -1,0 +1,110 @@
+{
+  "date": "2026-07-09",
+  "date_display": "Thursday, 09 July 2026 (11:54 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "OpenAI releases new voice models for more natural live conversations",
+        "link": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
+        "summary": "OpenAI has released new voice models that can speak and listen at the same time, a key ability for live translation.",
+        "source": "TechCrunch AI",
+        "trust": "🟢 Official",
+        "date": "2026-07-09"
+      },
+      {
+        "title": "SpaceXAI releases Grok 4.5, which Elon describes as an ‘Opus-class model’",
+        "link": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
+        "summary": "SpaceXAI has released the newest version of Grok, promising a cheaper, more efficient alternative to other powerful AI models.",
+        "source": "TechCrunch AI",
+        "trust": "🟢 Official",
+        "date": "2026-07-09"
+      },
+      {
+        "title": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents",
+        "link": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/",
+        "summary": "Prime Intellect has raised $130M Series A to help enterprises build their own AI agents without relying on frontier AI labs.",
+        "source": "TechCrunch AI",
+        "trust": "🟢 Official",
+        "date": "2026-07-09"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Data for Agents",
+        "link": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+        "summary": "Hugging Face has released data for agents, a collection of datasets and tools for training and evaluating AI agents.",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-09"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "AgentLens: Production-Assessed Trajectory Reviews for Coding Agent Evaluation",
+        "link": "https://arxiv.org/abs/2607.06624",
+        "summary": "AgentLens is a production-assessed benchmark for interactive code agents, evaluating the entire trajectory of the agent's behavior.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-09"
+      },
+      {
+        "title": "When Does In-Context Search Help? A Sampling-Complexity Theory of Reflection-Driven Reasoning",
+        "link": "https://arxiv.org/abs/2607.06720",
+        "summary": "This paper provides a theoretical analysis of in-context search, modeling it as approximate inference over reasoning traces.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-09"
+      },
+      {
+        "title": "LLM-powered reasoning in agent-based modeling",
+        "link": "https://arxiv.org/abs/2607.06757",
+        "summary": "This research provides a novel approach to addressing the limitations of traditional agent-based modeling by incorporating LLM-powered reasoning.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-09"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Our approach to government and national security partnerships",
+        "link": "https://openai.com/index/government-national-security-partnerships",
+        "summary": "OpenAI has outlined its approach to government and national security partnerships, emphasizing responsible AI use and democratic accountability.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-09"
+      },
+      {
+        "title": "Meta wants its AI glasses to seem less creepy. Its AI strategy says otherwise.",
+        "link": "https://techcrunch.com/2026/07/08/meta-wants-its-ai-glasses-to-seem-less-creepy-its-ai-strategy-says-otherwise/",
+        "summary": "Meta is adding a new safeguard to its AI glasses, but its AI strategy continues to raise concerns about data collection and use.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-09"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "QANTIS: Hardware-Calibrated Sequential POMDP Belief Updates on IBM Heron",
+        "link": "https://arxiv.org/abs/2607.06760",
+        "summary": "QANTIS is a hardware-calibrated sequential POMDP belief update system that uses a quantum processor as a calibrated belief-update service.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-09"
+      },
+      {
+        "title": "Cost-Effective Agent Harnesses for Abstract Reasoning and Generalization on ARC-AGI-1",
+        "link": "https://arxiv.org/abs/2607.06764",
+        "summary": "This research studies a third regime for abstract reasoning and generalization on ARC-AGI-1, using a cost-effective agent harness.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-09"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Data for Agents",
+    "link": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+    "summary": "Hugging Face has released data for agents, a collection of datasets and tools for training and evaluating AI agents."
+  },
+  "hot_take": "The AI industry is shifting towards more practical and responsible applications, with a focus on agent-based modeling, in-context search, and cost-effective agent harnesses."
+}

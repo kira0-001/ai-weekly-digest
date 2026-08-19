@@ -1,0 +1,128 @@
+{
+  "date": "2026-06-23",
+  "date_display": "Tuesday, 23 June 2026 (12:00 PM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Daybreak: Tools for securing every organization in the world",
+        "link": "https://openai.com/index/daybreak-securing-the-world",
+        "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-06-23"
+      },
+      {
+        "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
+        "link": "https://openai.com/index/patch-the-planet",
+        "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-06-23"
+      },
+      {
+        "title": "Google DeepMind bets $75M on AI’s future in Hollywood with A24 deal",
+        "link": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
+        "summary": "Google DeepMind and A24 are teaming up to build AI filmmaking tools.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-23"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+        "link": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+        "summary": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-06-23"
+      },
+      {
+        "title": "Wan-AI/Wan2.1-T2V-1.3B",
+        "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+        "summary": "Wan-AI/Wan2.1-T2V-1.3B",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-06-23"
+      },
+      {
+        "title": "microsoft/Phi-4-mini-instruct",
+        "link": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+        "summary": "microsoft/Phi-4-mini-instruct",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-06-23"
+      },
+      {
+        "title": "hexgrad/Kokoro-82M",
+        "link": "https://huggingface.co/hexgrad/Kokoro-82M",
+        "summary": "hexgrad/Kokoro-82M",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-06-23"
+      },
+      {
+        "title": "nvidia/DeepSeek-R1-FP4",
+        "link": "https://huggingface.co/nvidia/DeepSeek-R1-FP4",
+        "summary": "nvidia/DeepSeek-R1-FP4",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-06-23"
+      },
+      {
+        "title": "Kijai/WanVideo_comfy",
+        "link": "https://huggingface.co/Kijai/WanVideo_comfy",
+        "summary": "Kijai/WanVideo_comfy",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-06-23"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "The AI world is getting ‘loopy’",
+        "link": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
+        "summary": "The loop takes agentic AI a step further by authorizing a swarm of agents to work continuously in the background, endlessly.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-23"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "AI is cursing renters with the promise of impossible homes",
+        "link": "https://www.theverge.com/report/953888/ai-virtual-staging-real-estate-apartment-listings",
+        "summary": "Joyce, a native New Yorker, didn't think finding her first solo apartment in the city would be easy. But she also didn't think it'd be \"hell.\" After looking at a lot of tiny, overpriced places she described as \"shitholes,\" Joyce found her dream apartment: a reasonably priced studio in Manhattan.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-23"
+      },
+      {
+        "title": "Read this before you vibe-code another app",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/950844/vibe-coding-security-risks-apps",
+        "summary": "Bob Starr was delighted with his vibe-coded website. \"Boomberg\" showed how much US tax money is going to tech companies, and Starr launched it online immediately after making it. It wasn't until months after the site went live that he realized there was a problem: a hidden SQL injection risk.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-23"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Nvidia wants to cut data center water use, but that’s not the same as fixing AI’s water problem",
+        "link": "https://www.theverge.com/tech/954139/nvidia-data-centers-rubin-liquid-cooling",
+        "summary": "Public pushback against data centers has emphasized their water and energy consumption, and now Nvidia is highlighting its claim that the Rubin generation reference design for a fully liquid-cooled data center has \"eliminated massive amounts of power usage and pretty much all water usage.\" Still, it doesn't address all of…",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-23"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+    "link": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+    "summary": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+    "source": "Hugging Face Blog",
+    "trust": "🟢 Official"
+  },
+  "hot_take": "The AI industry is shifting towards more responsible and sustainable practices, with companies like OpenAI and Nvidia launching initiatives to address the environmental impact of AI."
+}

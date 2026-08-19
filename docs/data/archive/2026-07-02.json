@@ -1,0 +1,110 @@
+{
+  "date": "2026-07-02",
+  "date_display": "Thursday, 02 July 2026 (11:43 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Google AI Updates June 2026",
+        "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+        "summary": "Google AI updates for June 2026",
+        "source": "Google AI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-02"
+      },
+      {
+        "title": "NYC AI Summit for Education Leaders",
+        "link": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
+        "summary": "Google hosted an AI summit for education leaders in NYC",
+        "source": "Google AI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-02"
+      },
+      {
+        "title": "Gemini Spark, Google's agentic assistant, is now available on Mac",
+        "link": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+        "summary": "Google's 24/7 agentic assistant, Gemini Spark, comes to Mac",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-02"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Cloudflare's new policy pushes AI companies to pay for publishers' content",
+        "link": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+        "summary": "Cloudflare is giving AI companies until September 15 to separate web crawlers used for search from those used for AI training and agents",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-02"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Gemini Spark, Google's agentic assistant, is now available on Mac",
+        "link": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+        "summary": "Google's 24/7 agentic assistant, Gemini Spark, comes to Mac",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-02"
+      },
+      {
+        "title": "Constructive Alignment: Governing Preference Dynamics in Human-AI Interaction",
+        "link": "https://arxiv.org/abs/2607.00001",
+        "summary": "A new approach to AI alignment that treats human preferences as dynamic and constructed through interaction",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-02"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Cloudflare's new policy pushes AI companies to pay for publishers' content",
+        "link": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+        "summary": "Cloudflare is giving AI companies until September 15 to separate web crawlers used for search from those used for AI training and agents",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-02"
+      },
+      {
+        "title": "Constructive Alignment: Governing Preference Dynamics in Human-AI Interaction",
+        "link": "https://arxiv.org/abs/2607.00001",
+        "summary": "A new approach to AI alignment that treats human preferences as dynamic and constructed through interaction",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-02"
+      },
+      {
+        "title": "Bounded Morality: Defining the Space of Moral Computation",
+        "link": "https://arxiv.org/abs/2607.00002",
+        "summary": "A formal framework for analyzing the computational demands of moral problems faced by finite agents",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-02"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Constructive Alignment: Governing Preference Dynamics in Human-AI Interaction",
+        "link": "https://arxiv.org/abs/2607.00001",
+        "summary": "A new approach to AI alignment that treats human preferences as dynamic and constructed through interaction",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-02"
+      },
+      {
+        "title": "From Signals to Structure: How Memory Architecture Drives Language Emergence in LLM Agents",
+        "link": "https://arxiv.org/abs/2607.00233",
+        "summary": "A study on how memory architecture drives language emergence in LLM agents",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-02"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Cloudflare's new policy pushes AI companies to pay for publishers' content",
+    "link": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+    "summary": "Cloudflare is giving AI companies until September 15 to separate web crawlers used for search from those used for AI training and agents"
+  },
+  "hot_take": "The intersection of AI and business is becoming increasingly complex, with companies like Google and Meta exploring new revenue streams through AI compute power and infrastructure."
+}

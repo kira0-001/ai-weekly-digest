@@ -1,0 +1,94 @@
+{
+  "date": "2026-07-16",
+  "date_display": "Thursday, 16 July 2026 (10:52 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "OpenAI outlines a 'reverse federalism' approach to AI governance",
+        "link": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+        "summary": "OpenAI outlines a 'reverse federalism' approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-16"
+      },
+      {
+        "title": "OpenAI releases a $230 keyboard for Codex",
+        "link": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
+        "summary": "OpenAI, which is in the middle of a legal battle with Apple over hardware trade theft allegations, just released a light-up keyboard designed to be paired with its agentic coding app.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-16"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "OriginBlame: Record- and Token-Level Data Provenance for AI Training Datasets",
+        "link": "https://arxiv.org/abs/2607.13037",
+        "summary": "OriginBlame is a tool for record- and token-level data provenance for AI training datasets.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-16"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+        "link": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+        "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-16"
+      },
+      {
+        "title": "SPINE: Bridging the Cyber-Physical Gap with Agentic AI",
+        "link": "https://arxiv.org/abs/2607.13049",
+        "summary": "SPINE is a system that bridges the cyber-physical gap with agentic AI, enabling robots to make complex decisions.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-16"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "The US is advancing AI safety through state and federal action",
+        "link": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+        "summary": "OpenAI outlines a 'reverse federalism' approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-16"
+      },
+      {
+        "title": "xAI sues a man for using Grok to generate CSAM 'deepfakes'",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam",
+        "summary": "xAI is suing a South Carolina man who allegedly used the company's Grok AI chatbot to generate child sexual abuse material (CSAM).",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-16"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "SPINE: Bridging the Cyber-Physical Gap with Agentic AI",
+        "link": "https://arxiv.org/abs/2607.13049",
+        "summary": "SPINE is a system that bridges the cyber-physical gap with agentic AI, enabling robots to make complex decisions.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-16"
+      },
+      {
+        "title": "OriginBlame: Record- and Token-Level Data Provenance for AI Training Datasets",
+        "link": "https://arxiv.org/abs/2607.13037",
+        "summary": "OriginBlame is a tool for record- and token-level data provenance for AI training datasets.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-16"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "OriginBlame: Record- and Token-Level Data Provenance for AI Training Datasets",
+    "link": "https://arxiv.org/abs/2607.13037",
+    "summary": "OriginBlame is a tool for record- and token-level data provenance for AI training datasets."
+  },
+  "hot_take": "The intersection of AI and hardware is becoming increasingly important, with companies like OpenAI and xAI releasing new products and facing legal battles over intellectual property."
+}

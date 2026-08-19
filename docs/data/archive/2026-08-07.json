@@ -1,0 +1,86 @@
+{
+  "date": "2026-08-07",
+  "date_display": "Friday, 07 August 2026 (10:04 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "ChatGPT brings unlimited text chats to free users",
+        "link": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/",
+        "summary": "OpenAI said that ChatGPT free and Go users are also getting a new think button for complex queries.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-07"
+      },
+      {
+        "title": "Improving GPT-5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+        "link": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+        "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-07"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Google Maps adds agentic features, including food ordering and hotel bookings",
+        "link": "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/",
+        "summary": "The launch of these new features reflects Google’s ambitions to transform Google Maps from a navigation tool into an assistant that's capable of helping users complete real-world tasks.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-07"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Google Maps adds agentic features, including food ordering and hotel bookings",
+        "link": "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings/",
+        "summary": "The launch of these new features reflects Google’s ambitions to transform Google Maps from a navigation tool into an assistant that's capable of helping users complete real-world tasks.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-07"
+      },
+      {
+        "title": "Exclusive: Mirendil inks $100M+ Google Cloud deal to scale self-improving AI",
+        "link": "https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai/",
+        "summary": "Mirendil has signed a $100 million-plus Google Cloud partnership to expand its compute infrastructure, powering research into self-improving AI systems designed to accelerate scientific discovery and AI development.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-07"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Working with the American Psychological Association on youth mental health and AI",
+        "link": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+        "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-07"
+      },
+      {
+        "title": "Suno shares plans to combat spammy AI music",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/976289/suno-ai-music-spam-watermark",
+        "summary": "Suno announced plans to implement a new watermarking technology and download policy to limit the spread of spammy AI tracks and increase transparency.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-07"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+        "link": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+        "summary": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+        "source": "DeepMind",
+        "trust": "🟢 Official",
+        "date": "2026-08-07"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Google Maps",
+    "link": "https://www.google.com/maps",
+    "summary": "Google Maps is a free mapping service that provides turn-by-turn directions, real-time traffic updates, and Street View imagery."
+  },
+  "hot_take": "The AI industry is shifting towards more agentic and responsible AI, with companies like Google and OpenAI investing in features like food ordering and watermarking to increase transparency and user trust."
+}

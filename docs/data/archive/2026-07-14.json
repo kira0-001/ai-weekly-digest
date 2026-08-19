@@ -1,0 +1,102 @@
+{
+  "date": "2026-07-14",
+  "date_display": "Tuesday, 14 July 2026 (10:42 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "PixVerse raises $439M, valuation soars past $2B",
+        "link": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
+        "summary": "Video-generation startup PixVerse raises $439M, aiming to expand its world model offering and reach customers across geographies.",
+        "source": "TechCrunch AI",
+        "trust": "🟢 Official",
+        "date": "2026-07-14"
+      },
+      {
+        "title": "Uber's product chief on hotels, robotaxis, and why the company doesn't want to be 'everything for everyone'",
+        "link": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
+        "summary": "Uber Chief Product Officer Sachin Kansal discusses the company's financial-services ambitions, its relationship with Waymo, and how AI is starting to show up in ways riders and drivers will notice.",
+        "source": "TechCrunch AI",
+        "trust": "🟢 Official",
+        "date": "2026-07-14"
+      },
+      {
+        "title": "Waze adds new AI-powered features and customization updates",
+        "link": "https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates/",
+        "summary": "Waze is getting an AI makeover with new features powered by Google's Gemini AI assistant, aiming to let users personalize their trips.",
+        "source": "TechCrunch AI",
+        "trust": "🟢 Official",
+        "date": "2026-07-14"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "GES-TSP: Graph Edge Sparsification for TSP",
+        "link": "https://arxiv.org/abs/2607.09708",
+        "summary": "A new method for solving large-scale instances of the Traveling Salesman Problem (TSP) exactly, using graph sparsification to improve computational efficiency.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-14"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Waze adds new AI-powered features and customization updates",
+        "link": "https://techcrunch.com/2026/07/13/waze-adds-new-ai-powered-features-and-customization-updates/",
+        "summary": "Waze is integrating Google's Gemini AI assistant to let users personalize their trips, reflecting the broader push to integrate AI across products.",
+        "source": "TechCrunch AI",
+        "trust": "🟢 Official",
+        "date": "2026-07-14"
+      },
+      {
+        "title": "Anthropic starts localizing Claude pricing for India, its biggest market after the US",
+        "link": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/",
+        "summary": "Anthropic is offering Indian rupee-denominated subscription plans for Claude users in India, a move to cater to its biggest market after the US.",
+        "source": "TechCrunch AI",
+        "trust": "🟢 Official",
+        "date": "2026-07-14"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Satya Nadella has issued a shocking warning to companies using AI",
+        "link": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
+        "summary": "Microsoft CEO Satya Nadella warns companies using AI to be cautious of proprietary models acting as Trojan horses, highlighting concerns about AI's potential downsides.",
+        "source": "TechCrunch AI",
+        "trust": "🟢 Official",
+        "date": "2026-07-14"
+      },
+      {
+        "title": "Should AI help you get away with killing your spouse?",
+        "link": "https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse/",
+        "summary": "A thought-provoking question about the ethics of AI, highlighting the need for responsible AI development and deployment.",
+        "source": "TechCrunch AI",
+        "trust": "🟢 Official",
+        "date": "2026-07-14"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "From ML Predictions to Informed Diagnostic Assistance Using the Toulmin Model of Argumentation",
+        "link": "https://arxiv.org/abs/2607.09664",
+        "summary": "A new approach to providing structured and interpretable assessments using the Toulmin model of argumentation, decomposing image-based diagnosis into components.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-14"
+      },
+      {
+        "title": "Format Sensitivity Index: Token-Controlled Prompt Wrapper Robustness and Schema Compliance in LLM Benchmarking",
+        "link": "https://arxiv.org/abs/2607.09665",
+        "summary": "A study on the variance of model scores due to prompt wrapper differences, introducing two complementary metrics: the Format Sensitivity Index (FSI) and the accuracy range induced by wrapper choice.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-14"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "GES-TSP: Graph Edge Sparsification for TSP",
+    "link": "https://arxiv.org/abs/2607.09708",
+    "summary": "A new method for solving large-scale instances of the Traveling Salesman Problem (TSP) exactly, using graph sparsification to improve computational efficiency."
+  },
+  "hot_take": "The tech industry is shifting towards responsible AI development and deployment, with companies like Microsoft and Anthropic taking steps to address concerns about AI's potential downsides."
+}

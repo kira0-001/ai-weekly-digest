@@ -1,0 +1,94 @@
+{
+  "date": "2026-08-14",
+  "date_display": "Friday, 14 August 2026 (09:50 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "OpenAI introduces 'Ultrafast', a new mode that makes GPT-5.6 Sol work at 14x the speed",
+        "link": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+        "summary": "OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-14"
+      },
+      {
+        "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+        "link": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+        "summary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-14"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Bring your spreadsheet data to life with Sheets canvas",
+        "link": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
+        "summary": "The video shows Sheets canvas in action.",
+        "source": "Google AI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-14"
+      },
+      {
+        "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+        "link": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+        "summary": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-14"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Anthropic set AI agents loose on the same task. They started a turf war.",
+        "link": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
+        "summary": "Anthropic researchers found AI agents can clash, collude, and coordinate in unexpected ways, raising new questions about whether today’s safety tests capture the risks of multi-agent systems.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-14"
+      },
+      {
+        "title": "OpenAI introduces 'Ultrafast', a new mode that makes GPT-5.6 Sol work at 14x the speed",
+        "link": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+        "summary": "OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-14"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Anthropic set AI agents loose on the same task. They started a turf war.",
+        "link": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
+        "summary": "Anthropic researchers found AI agents can clash, collude, and coordinate in unexpected ways, raising new questions about whether today’s safety tests capture the risks of multi-agent systems.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-14"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Introducing Gemini 3.7 Flash",
+        "link": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+        "summary": "Introducing Gemini 3.7 Flash",
+        "source": "DeepMind",
+        "trust": "🟢 Official",
+        "date": "2026-08-14"
+      },
+      {
+        "title": "OpenAI introduces 'Ultrafast', a new mode that makes GPT-5.6 Sol work at 14x the speed",
+        "link": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+        "summary": "OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-14"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Sheets canvas",
+    "link": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
+    "summary": "A new feature in Google Sheets that allows users to bring their spreadsheet data to life with interactive visualizations."
+  },
+  "hot_take": "The AI industry is shifting towards enterprise-focused solutions, with OpenAI and other players launching new features and services to cater to the needs of large businesses."
+}

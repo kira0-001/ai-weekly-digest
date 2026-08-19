@@ -1,0 +1,102 @@
+{
+  "date": "2026-07-18",
+  "date_display": "Saturday, 18 July 2026 (10:37 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "A scorecard for the AI age",
+        "link": "https://openai.com/index/a-scorecard-for-the-ai-age",
+        "summary": "OpenAI introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-18"
+      },
+      {
+        "title": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and Diffusers",
+        "link": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+        "summary": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and Diffusers",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-18"
+      },
+      {
+        "title": "Databricks hits $188B valuation, extending its run as AI's favorite second act",
+        "link": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
+        "summary": "Databricks has remade its image into an AI company and has published research on the cost savings of open weight AI models for coding.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-18"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "NVIDIA NeMo Automodel and Diffusers",
+        "link": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+        "summary": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and Diffusers",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-18"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "HG-RAG: Hierarchy-Guided Retrieval-Augmented Generation for Structured Knowledge Graphs",
+        "link": "https://arxiv.org/abs/2607.14095",
+        "summary": "Retrieval Augmented Generation (RAG) has proven to be a widely successful process at improving the quality of outputs from a Large Language Model (LLM) for wider context.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-18"
+      },
+      {
+        "title": "IMEX Interaction-Based Model Explanation",
+        "link": "https://arxiv.org/abs/2607.14096",
+        "summary": "In predictive modeling, the ability to explain why a model produces a given target prediction has become increasingly important.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-18"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "TikTok is testing an AI likeness detection tool",
+        "link": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
+        "summary": "TikTok is starting to test an opt-in tool that scans for AI likenesses and lets creators report them to the company.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-18"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Intelligent Three Level Learning Architecture for Autonomous UAV Swarms in Search and Rescue",
+        "link": "https://arxiv.org/abs/2607.14093",
+        "summary": "This paper presents a novel three level hierarchical learning architecture for autonomous UAV swarms performing search and rescue operations.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-18"
+      },
+      {
+        "title": "DialogueVPR: Towards Conversational Visual Place Recognition",
+        "link": "https://arxiv.org/abs/2607.14115",
+        "summary": "Inspired by how humans communicate spatial information, language-guided geo-localization has gained significant traction for its intuitive and practical value.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-18"
+      },
+      {
+        "title": "Interpretable Language Model for Closed-Loop Type 1 Diabetes Control",
+        "link": "https://arxiv.org/abs/2607.14126",
+        "summary": "Type 1 Diabetes (T1D) is a chronic, life-threatening autoimmune condition characterized by the complete destruction of insulin-producing pancreatic beta cells.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-18"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "NVIDIA NeMo Automodel and Diffusers",
+    "link": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+    "summary": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and Diffusers"
+  },
+  "hot_take": "The AI industry is witnessing a shift towards more responsible AI practices, with companies like TikTok testing AI likeness detection tools and researchers exploring new architectures for autonomous systems."
+}

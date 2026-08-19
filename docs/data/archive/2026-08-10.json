@@ -1,0 +1,86 @@
+{
+  "date": "2026-08-10",
+  "date_display": "Monday, 10 August 2026 (09:41 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Anthropic is turning Claude Code’s auto mode on by default",
+        "link": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+        "summary": "Anthropic is making Claude Code more accessible by turning on auto mode by default, requiring less human oversight for programming.",
+        "source": "TechCrunch AI",
+        "trust": "🟢 Official",
+        "date": "2026-08-10"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
+        "link": "https://arxiv.org/abs/2608.06474",
+        "summary": "WebGrader is a self-evolving programmatic grader for training LLMs in web development, making it easier to close the functional gap between LLMs and human developers.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-08-10"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "ADIAS: Automated Design of Interactive Agentic Systems",
+        "link": "https://arxiv.org/abs/2608.06410",
+        "summary": "ADIAS is a framework for automated agent design, which can improve agent harnesses through iterative revision, evaluation, and feedback summarization.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-08-10"
+      },
+      {
+        "title": "TaskSense: Focusing on What Matters in World Models",
+        "link": "https://arxiv.org/abs/2608.06544",
+        "summary": "TaskSense is a framework for focusing on task-relevant content in world models, which can improve efficiency and reduce background clutter.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-08-10"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "The AI safety test is becoming a safety risk",
+        "link": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+        "summary": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about the safety infrastructure and regulation.",
+        "source": "TechCrunch AI",
+        "trust": "🟢 Official",
+        "date": "2026-08-10"
+      },
+      {
+        "title": "AI detectors are creating a new era of distrust",
+        "link": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion",
+        "summary": "AI detectors are creating a new era of distrust, as people become suspicious of AI-generated content.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-10"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Towards Multi-Label Graph Foundation Models: from Single-Vector Representation Learning to Multi-Semantic Basis Learning",
+        "link": "https://arxiv.org/abs/2608.06394",
+        "summary": "This paper proposes a new approach to multi-label graph foundation models, which can learn multiple semantics simultaneously.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-08-10"
+      },
+      {
+        "title": "EntropyMoE: Entropy-Aware Sparse Expert Routing for Tokenizer-Free LLMs",
+        "link": "https://arxiv.org/abs/2608.06398",
+        "summary": "EntropyMoE is a new approach to sparse expert routing for tokenizer-free LLMs, which can adapt model capacity to variations in patch semantics.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-08-10"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
+    "link": "https://arxiv.org/abs/2608.06474",
+    "summary": "WebGrader is a self-evolving programmatic grader for training LLMs in web development, making it easier to close the functional gap between LLMs and human developers."
+  },
+  "hot_take": "The rapid advancement of LLMs is creating new opportunities for web development, but also raises concerns about safety and regulation."
+}

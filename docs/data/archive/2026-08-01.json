@@ -1,0 +1,85 @@
+{
+  "date": "2026-08-01",
+  "date_display": "Saturday, 01 August 2026 (11:08 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Wan-AI/Wan2.1-T2V-1.3B",
+        "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+        "summary": "Wan-AI/Wan2.1-T2V-1.3B",
+        "source": "HF Trending Models",
+        "trust": "🔵 Academic",
+        "date": "2026-08-01"
+      },
+      {
+        "title": "microsoft/Phi-4-mini-instruct",
+        "link": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+        "summary": "microsoft/Phi-4-mini-instruct",
+        "source": "HF Trending Models",
+        "trust": "🔵 Academic",
+        "date": "2026-08-01"
+      },
+      {
+        "title": "hexgrad/Kokoro-82M",
+        "link": "https://huggingface.co/hexgrad/Kokoro-82M",
+        "summary": "hexgrad/Kokoro-82M",
+        "source": "HF Trending Models",
+        "trust": "🔵 Academic",
+        "date": "2026-08-01"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
+        "link": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
+        "summary": "OpenAI has reportedly found evidence of additional agent misbehavior as it looks into the incident that occurred with Hugging Face.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-01"
+      },
+      {
+        "title": "Anthropic says Claude accidentally hacked real companies too",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests",
+        "summary": "Anthropic just realized several of its Claude AI models hacked into the systems of three different organizations during testing, acting on their own and without the company noticing.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-01"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Advancing responsible AI across Europe",
+        "link": "https://openai.com/index/advancing-responsible-ai-across-europe",
+        "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-01"
+      },
+      {
+        "title": "It’s time to panic about AI safety",
+        "link": "https://www.theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast",
+        "summary": "When the phrase \"OpenAI hacked Hugging Face\" has more or less entered mainstream culture, you know we have an AI problem.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-01"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
+        "link": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
+        "summary": "The startup is building voice models designed to make AI phone calls pass the Turing test.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-01"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Wan-AI/Wan2.1-T2V-1.3B",
+    "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+    "summary": "Wan-AI/Wan2.1-T2V-1.3B"
+  },
+  "hot_take": "The AI industry is facing growing concerns about safety and responsibility, with several high-profile incidents and proposals for regulation, highlighting the need for careful consideration and planning in AI development and deployment."
+}

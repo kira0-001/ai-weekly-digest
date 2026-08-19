@@ -1,0 +1,77 @@
+{
+  "date": "2026-07-20",
+  "date_display": "Monday, 20 July 2026 (11:21 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Current AI is racing to build the World Wide Web of AI, free for all",
+        "link": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+        "summary": "Current AI, a non-profit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat and more.",
+        "source": "TechCrunch AI",
+        "trust": "🟢 Official",
+        "date": "2026-07-20"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "GraphDx: A Cost-Aware Knowledge-Enhanced Multi-Agent Framework for Sequential Diagnosis",
+        "link": "https://arxiv.org/abs/2607.15280",
+        "summary": "Sequential diagnosis requires balancing diagnostic accuracy against resource costs through iterative information gathering.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-20"
+      },
+      {
+        "title": "Cura 1T: Specialized Model for Agentic Healthcare",
+        "link": "https://arxiv.org/abs/2607.15314",
+        "summary": "Healthcare spans high-stakes communication, expert reasoning, and workflow execution, yet specialized LLMs that cover these use cases together remain limited.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-20"
+      },
+      {
+        "title": "AnovaX: A Local, Multi-Agent Voice Assistant with LLM Planning, Typed Executors, and Adaptive Recovery",
+        "link": "https://arxiv.org/abs/2607.15367",
+        "summary": "Desktop voice assistants are still dominated by cloud pipelines that ship raw audio off the machine and expose a fixed set of skills.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-20"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "A Critical Analysis of Trustworthy AI Tools, Mark Frameworks, and the Implementation Chasms",
+        "link": "https://arxiv.org/abs/2607.15480",
+        "summary": "As artificial intelligence (AI) systems increasingly impact society, ensuring their ethical and trustworthy deployment has become a global priority.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-20"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Position: Quantum Program Generation Must Prioritize Validity Over Probabilistic Scaling",
+        "link": "https://arxiv.org/abs/2607.15313",
+        "summary": "The scaling hypothesis assumes that increasing model parameters yields emergent reasoning capabilities, but this may not be the case for quantum circuits.",
+        "source": "arXiv cs.LG",
+        "trust": "🔵 Academic",
+        "date": "2026-07-20"
+      },
+      {
+        "title": "From Black Box to Executable Logic: Explainable Reinforcement Learning through Prolog Expert Systems",
+        "link": "https://arxiv.org/abs/2607.15459",
+        "summary": "A trained deep reinforcement learning policy is a black box, and we ask whether it can be made explainable by rewriting it as an executable logic program.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-20"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Current AI is racing to build the World Wide Web of AI, free for all",
+    "link": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+    "summary": "Current AI, a non-profit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat and more."
+  },
+  "hot_take": "The intersection of AI and healthcare is gaining momentum, with researchers exploring specialized models for agentic healthcare and local, multi-agent voice assistants."
+}

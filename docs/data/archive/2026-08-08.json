@@ -1,0 +1,103 @@
+{
+  "date": "2026-08-08",
+  "date_display": "Saturday, 08 August 2026 (09:19 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+        "link": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+        "summary": "Cloudflare launches Kitesurf, a cloud-hosted browser designed for AI agents instead of people.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-08"
+      },
+      {
+        "title": "Airbnb says AI is helping it ship features faster as it tests a new search function",
+        "link": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
+        "summary": "Airbnb will debut a new AI-powered search experience with a toggle.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-08"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+        "link": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+        "summary": "Cloudflare launches Kitesurf, a cloud-hosted browser designed for AI agents instead of people.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-08"
+      },
+      {
+        "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+        "link": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+        "summary": "Rippling unveiled AI Spend Console, a product that tracks individual and team employee AI spending.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-08"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services",
+        "link": "https://arxiv.org/abs/2608.05159",
+        "summary": "A new methodology for existing enterprise application integration and services is proposed.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-08-08"
+      },
+      {
+        "title": "SkillTrace: Multi-Trace Provenance Auditing for LLM-Agent Skill Reuse",
+        "link": "https://arxiv.org/abs/2608.05204",
+        "summary": "A new method for auditing the reuse of skills in LLM-agent ecosystems is proposed.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-08-08"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "New Mexico court orders Meta to pay additional $567M in child safety case",
+        "link": "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case/",
+        "summary": "Meta's total fine has racked up to $942 million in this case.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-08"
+      },
+      {
+        "title": "OpenAI puts the brakes on a new model because it’s supposedly too powerful",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+        "summary": "OpenAI is pausing internal activities around an in-development AI model, Astra, because it doesn't yet meet new security standards.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-08"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services",
+        "link": "https://arxiv.org/abs/2608.05159",
+        "summary": "A new methodology for existing enterprise application integration and services is proposed.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-08-08"
+      },
+      {
+        "title": "Woodpecker Distillation: Weak Models Diagnose Reasoning Bugs in Strong Models",
+        "link": "https://arxiv.org/abs/2608.05168",
+        "summary": "A new method for diagnosing reasoning bugs in large language models is proposed.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-08-08"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+    "link": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+    "summary": "Cloudflare launches Kitesurf, a cloud-hosted browser designed for AI agents instead of people.",
+    "highlight": "FREE"
+  },
+  "hot_take": "The industry is shifting towards more responsible AI development, with companies like OpenAI and Meta facing increasing scrutiny over their AI models and their impact on society."
+}

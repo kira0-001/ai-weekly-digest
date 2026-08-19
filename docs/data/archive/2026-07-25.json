@@ -1,0 +1,158 @@
+{
+  "date": "2026-07-25",
+  "date_display": "Saturday, 25 July 2026 (10:56 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Anthropic launches Opus 5",
+        "link": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
+        "summary": "Opus 5 will be both cheaper and less restrictive than Fable, likely making it preferable in most use cases.",
+        "source": "TechCrunch AI",
+        "trust": "🟢 Official",
+        "date": "2026-07-25"
+      },
+      {
+        "title": "OpenAI's new voice mode makes it to the ChatGPT desktop app",
+        "link": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
+        "summary": "ChatGPT Voice on desktop can work with both ChatGPT Work and Codex to complete tasks and control agents.",
+        "source": "TechCrunch AI",
+        "trust": "🟢 Official",
+        "date": "2026-07-25"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Wan-AI/Wan2.1-T2V-1.3B",
+        "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+        "summary": "Wan-AI/Wan2.1-T2V-1.3B",
+        "source": "HF Trending Models",
+        "trust": "🔵 Academic",
+        "date": "2026-07-25"
+      },
+      {
+        "title": "microsoft/Phi-4-mini-instruct",
+        "link": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+        "summary": "microsoft/Phi-4-mini-instruct",
+        "source": "HF Trending Models",
+        "trust": "🔵 Academic",
+        "date": "2026-07-25"
+      },
+      {
+        "title": "hexgrad/Kokoro-82M",
+        "link": "https://huggingface.co/hexgrad/Kokoro-82M",
+        "summary": "hexgrad/Kokoro-82M",
+        "source": "HF Trending Models",
+        "trust": "🔵 Academic",
+        "date": "2026-07-25"
+      },
+      {
+        "title": "nvidia/DeepSeek-R1-FP4",
+        "link": "https://huggingface.co/nvidia/DeepSeek-R1-FP4",
+        "summary": "nvidia/DeepSeek-R1-FP4",
+        "source": "HF Trending Models",
+        "trust": "🔵 Academic",
+        "date": "2026-07-25"
+      },
+      {
+        "title": "Kijai/WanVideo_comfy",
+        "link": "https://huggingface.co/Kijai/WanVideo_comfy",
+        "summary": "Kijai/WanVideo_comfy",
+        "source": "HF Trending Models",
+        "trust": "🔵 Academic",
+        "date": "2026-07-25"
+      },
+      {
+        "title": "stepfun-ai/stepvideo-t2v",
+        "link": "https://huggingface.co/stepfun-ai/stepvideo-t2v",
+        "summary": "stepfun-ai/stepvideo-t2v",
+        "source": "HF Trending Models",
+        "trust": "🔵 Academic",
+        "date": "2026-07-25"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Anthropic releases Opus 5 with 'close' to Fable 5's capabilities",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release",
+        "summary": "The company said in a release that Opus 5 'comes close to the capabilities of Claude Fable 5 in many areas, including text generation and conversational dialogue.'",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-25"
+      },
+      {
+        "title": "Meta is making its AI chatbot more like an assistant",
+        "link": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
+        "summary": "The update will allow Meta AI to tap into your calendar to help you plan events and generate daily briefings, as well as perform in-depth research that you can use to inform your decisions.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-25"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions",
+        "link": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
+        "summary": "AI companies, including Nvidia and Mistral, urge policymakers to avoid broad restrictions on open-weight AI models as Washington debates responses to Chinese AI and alleged model distillation.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-25"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Wan-AI/Wan2.1-T2V-1.3B",
+        "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+        "summary": "Wan-AI/Wan2.1-T2V-1.3B",
+        "source": "HF Trending Models",
+        "trust": "🔵 Academic",
+        "date": "2026-07-25"
+      },
+      {
+        "title": "microsoft/Phi-4-mini-instruct",
+        "link": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+        "summary": "microsoft/Phi-4-mini-instruct",
+        "source": "HF Trending Models",
+        "trust": "🔵 Academic",
+        "date": "2026-07-25"
+      },
+      {
+        "title": "hexgrad/Kokoro-82M",
+        "link": "https://huggingface.co/hexgrad/Kokoro-82M",
+        "summary": "hexgrad/Kokoro-82M",
+        "source": "HF Trending Models",
+        "trust": "🔵 Academic",
+        "date": "2026-07-25"
+      },
+      {
+        "title": "nvidia/DeepSeek-R1-FP4",
+        "link": "https://huggingface.co/nvidia/DeepSeek-R1-FP4",
+        "summary": "nvidia/DeepSeek-R1-FP4",
+        "source": "HF Trending Models",
+        "trust": "🔵 Academic",
+        "date": "2026-07-25"
+      },
+      {
+        "title": "Kijai/WanVideo_comfy",
+        "link": "https://huggingface.co/Kijai/WanVideo_comfy",
+        "summary": "Kijai/WanVideo_comfy",
+        "source": "HF Trending Models",
+        "trust": "🔵 Academic",
+        "date": "2026-07-25"
+      },
+      {
+        "title": "stepfun-ai/stepvideo-t2v",
+        "link": "https://huggingface.co/stepfun-ai/stepvideo-t2v",
+        "summary": "stepfun-ai/stepvideo-t2v",
+        "source": "HF Trending Models",
+        "trust": "🔵 Academic",
+        "date": "2026-07-25"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Wan-AI/Wan2.1-T2V-1.3B",
+    "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+    "summary": "Wan-AI/Wan2.1-T2V-1.3B"
+  },
+  "hot_take": "The AI industry is shifting towards more conversational and productive AI assistants, with companies like Meta and Anthropic releasing updates to their chatbots and models."
+}

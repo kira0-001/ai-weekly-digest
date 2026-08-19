@@ -1,0 +1,110 @@
+{
+  "date": "2026-08-13",
+  "date_display": "Thursday, 13 August 2026 (09:53 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "OpenAI research reveals how enterprises are adopting agentic AI",
+        "link": "https://openai.com/index/how-enterprises-put-ai-to-work",
+        "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-13"
+      },
+      {
+        "title": "Introducing sign-language-to-text (SL2T) model",
+        "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+        "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
+        "source": "DeepMind",
+        "trust": "🟢 Official",
+        "date": "2026-08-13"
+      },
+      {
+        "title": "Introducing OlmoEarth embeddings",
+        "link": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+        "summary": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-13"
+      },
+      {
+        "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
+        "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+        "summary": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-13"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Mesh, an AI-powered contacts app and relationship manager",
+        "link": "https://techcrunch.com/2026/08/12/mesh-automattics-crm-for-everyone-comes-to-android/",
+        "summary": "Mesh, an AI-powered contacts app and relationship manager from Automattic, is now an Android app.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-13"
+      },
+      {
+        "title": "Grok Bot, an always-on AI agent service",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
+        "summary": "SpaceXAI has introduced Grok Bot, an always-on AI agent service designed to behave like independent \"AI teammates\" that can do your work for you.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-13"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "How enterprises are adopting agentic AI",
+        "link": "https://openai.com/index/how-enterprises-put-ai-to-work",
+        "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-13"
+      },
+      {
+        "title": "Sign-language-to-text (SL2T) model",
+        "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+        "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
+        "source": "DeepMind",
+        "trust": "🟢 Official",
+        "date": "2026-08-13"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Twitch streamers can now opt out from training Amazon's AI",
+        "link": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+        "summary": "Twitch users can now opt out of allowing their content to be used to train Amazon's generative AI models.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-13"
+      },
+      {
+        "title": "Guitar company D'Addario admits that AI music was used in a promotional video",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno",
+        "summary": "After weeks of controversy and speculation, music company D'Addario has admitted that AI, specifically Suno, was used as part of a recent promotional video.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-13"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes",
+        "link": "https://arxiv.org/abs/2608.11207",
+        "summary": "arXiv:2608.11207v1 Announce Type: new Abstract: When two LLM agents with structurally opposed objectives interact across multiple turns, the absence of a shared goal function produces not competition but collapse: the visitor capitulates, the site agent stops varying its approach, and the conversation terminates without achieving either agent's stated objective.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-08-13"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Mesh, an AI-powered contacts app and relationship manager",
+    "link": "https://techcrunch.com/2026/08/12/mesh-automattics-crm-for-everyone-comes-to-android/",
+    "summary": "Mesh, an AI-powered contacts app and relationship manager from Automattic, is now an Android app."
+  },
+  "hot_take": "The AI industry is shifting towards more responsible and transparent practices, with companies like Twitch and D'Addario acknowledging the use of AI in their products and services."
+}

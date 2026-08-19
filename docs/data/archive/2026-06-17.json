@@ -1,0 +1,70 @@
+{
+  "date": "2026-06-17",
+  "date_display": "Wednesday, 17 June 2026 (01:01 PM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Android 17 launches with new multitasking tools as Google expands Gemini features",
+        "link": "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
+        "summary": "Google has released Android 17 and Wear OS 7, introducing new multitasking features, parental controls, security tools, and smartwatch upgrades.",
+        "source": "TechCrunch AI",
+        "trust": "🟢 Official",
+        "date": "2026-06-17"
+      },
+      {
+        "title": "SpaceX valuation balloons to $2.6T, briefly passes Amazon",
+        "link": "https://techcrunch.com/2026/06/16/spacex-valuation-balloons-to-2-6t-briefly-passes-amazon/",
+        "summary": "SpaceX's valuation has increased by $1 trillion since its shares started trading on Friday.",
+        "source": "TechCrunch AI",
+        "trust": "🟢 Official",
+        "date": "2026-06-17"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Probably raises $9M to build a more reliable kind of AI",
+        "link": "https://techcrunch.com/2026/06/16/probably-raises-9m-to-build-a-more-reliable-kind-of-ai/",
+        "summary": "Probably wants to prevent hallucinations and factual errors from reaching users, and achieve accuracy on par with deterministic systems.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-17"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Beyond Parallel Sampling: Diverse Query Initialization for Agentic Search",
+        "link": "https://arxiv.org/abs/2606.17209",
+        "summary": "The paper explores a new approach to agentic search, focusing on breadth scaling by reducing query redundancy at the first turn.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-17"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Sixty percent of US consumers say ‘AI’ in brand messaging is a turnoff, survey finds",
+        "link": "https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/",
+        "summary": "A survey suggests consumers are wary of AI-generated answers, which may impact companies' use of AI in marketing.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-17"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Nothing from Something: Can a Language Model Discover 0?",
+        "link": "https://arxiv.org/abs/2606.17289",
+        "summary": "The paper explores the ability of language models to discover new mathematical concepts, specifically the number 0.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-17"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Probably raises $9M to build a more reliable kind of AI",
+    "link": "https://techcrunch.com/2026/06/16/probably-raises-9m-to-build-a-more-reliable-kind-of-ai/",
+    "summary": "Probably wants to prevent hallucinations and factual errors from reaching users, and achieve accuracy on par with deterministic systems."
+  },
+  "hot_take": "The AI industry is shifting towards more reliable and trustworthy AI systems, with companies like Probably raising funds to develop more accurate models."
+}

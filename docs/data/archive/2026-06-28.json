@@ -1,0 +1,134 @@
+{
+  "date": "2026-06-28",
+  "date_display": "Sunday, 28 June 2026 (12:11 PM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Apple Vision Pro exec is reportedly leaving for OpenAI",
+        "link": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
+        "summary": "Paul Meade, the Apple vice president in charge of the Vision Pro headset, is reportedly leaving the company to join OpenAI's hardware team.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-28"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Wan-AI/Wan2.1-T2V-1.3B",
+        "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+        "summary": "Wan-AI/Wan2.1-T2V-1.3B",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-06-28"
+      },
+      {
+        "title": "microsoft/Phi-4-mini-instruct",
+        "link": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+        "summary": "microsoft/Phi-4-mini-instruct",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-06-28"
+      },
+      {
+        "title": "hexgrad/Kokoro-82M",
+        "link": "https://huggingface.co/hexgrad/Kokoro-82M",
+        "summary": "hexgrad/Kokoro-82M",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-06-28"
+      },
+      {
+        "title": "nvidia/DeepSeek-R1-FP4",
+        "link": "https://huggingface.co/nvidia/DeepSeek-R1-FP4",
+        "summary": "nvidia/DeepSeek-R1-FP4",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-06-28"
+      },
+      {
+        "title": "Kijai/WanVideo_comfy",
+        "link": "https://huggingface.co/Kijai/WanVideo_comfy",
+        "summary": "Kijai/WanVideo_comfy",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-06-28"
+      },
+      {
+        "title": "stepfun-ai/stepvideo-t2v",
+        "link": "https://huggingface.co/stepfun-ai/stepvideo-t2v",
+        "summary": "stepfun-ai/stepvideo-t2v",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-06-28"
+      },
+      {
+        "title": "yandex/YandexGPT-5-Lite-8B-pretrain",
+        "link": "https://huggingface.co/yandex/YandexGPT-5-Lite-8B-pretrain",
+        "summary": "yandex/YandexGPT-5-Lite-8B-pretrain",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-06-28"
+      },
+      {
+        "title": "moonshotai/Moonlight-16B-A3B-Instruct",
+        "link": "https://huggingface.co/moonshotai/Moonlight-16B-A3B-Instruct",
+        "summary": "moonshotai/Moonlight-16B-A3B-Instruct",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-06-28"
+      },
+      {
+        "title": "microsoft/wham",
+        "link": "https://huggingface.co/microsoft/wham",
+        "summary": "microsoft/wham",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-06-28"
+      },
+      {
+        "title": "Kijai/SkyReels-V1-Hunyuan_comfy",
+        "link": "https://huggingface.co/Kijai/SkyReels-V1-Hunyuan_comfy",
+        "summary": "Kijai/SkyReels-V1-Hunyuan_comfy",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-06-28"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Asian AI startups launch Mythos-like models as Anthropic's export ban drags on",
+        "link": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+        "summary": "New models are launching in Asia that promise Mythos-like capabilities without fear of an export ban. U.S. AI labs may never recover this enormous market.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-28"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Margaret Atwood says the problem with AI is 'garbage in, garbage out'",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
+        "summary": "Margaret Atwood, the storied author of The Handmaid's Tale and The Blind Assassin, was interviewed as part of the Babell Literary and Cultural Festival in Porto, Portugal. As it usually does at these things, the issue of AI came up, and Atwood didn't mince words.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-28"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "The fittest founder in the room got cancer. Here's how he used AI to fight back.",
+        "link": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
+        "summary": "When confronted with cancer, Connor Christou fed everything tied tied to his regime — blood results, scan data, wearable output, journal entries — into Claude.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-28"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Wan-AI/Wan2.1-T2V-1.3B",
+    "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+    "summary": "Wan-AI/Wan2.1-T2V-1.3B"
+  },
+  "hot_take": "The AI industry is shifting towards a more decentralized and export-friendly model, with Asian startups leading the charge, but this shift also raises concerns about the quality and accountability of AI models."
+}

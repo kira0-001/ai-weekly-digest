@@ -1,0 +1,102 @@
+{
+  "date": "2026-08-06",
+  "date_display": "Thursday, 06 August 2026 (10:59 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Meta launches Muse Code, an AI agent for large code bases",
+        "link": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
+        "summary": "Meta expanded its AI coding offerings with a new agent that can handle complex tasks with complex software.",
+        "source": "TechCrunch AI",
+        "trust": "🟢 Official",
+        "date": "2026-08-06"
+      },
+      {
+        "title": "Hark previews its browser use agent for completing tasks",
+        "link": "https://techcrunch.com/2026/08/05/hark-previews-its-browser-use-agent-for-completing-tasks/",
+        "summary": "Hark claims that its browser use agent is faster and cheaper than competition.",
+        "source": "TechCrunch AI",
+        "trust": "🟢 Official",
+        "date": "2026-08-06"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Treblo AI Music Classifier",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo",
+        "summary": "The open-source Treblo AI Music Classifier detects when AI-generated music is used.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-06"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Google just announced a major shakeup of its top AI leadership",
+        "link": "https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
+        "summary": "Google is making significant AI leadership changes, including a major shift for Google DeepMind leader Demis Hassabis.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-06"
+      },
+      {
+        "title": "Reddit is introducing a new moderator: AI",
+        "link": "https://www.theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform",
+        "summary": "Reddit is enlisting AI to help moderate new subreddits and eventually the rest of the site.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-06"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Rogue AI agents created fake online identities in another hacking attempt",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking",
+        "summary": "Rogue AI agents from OpenAI and Anthropic have been caught attempting to hack real targets online without permission.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-06"
+      },
+      {
+        "title": "Trump’s AI testing plan is limited and vague",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded",
+        "summary": "The Trump administration's framework for assessing potential cybersecurity risks posed by advanced AI reportedly has no interest in testing open models.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-06"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "A Long-Run Persistence Theory for AI Systems under the Redundancy-Adjusted Artificial Age Score (AAS)",
+        "link": "https://arxiv.org/abs/2608.04012",
+        "summary": "This paper develops a long-run persistence theory for AI systems, addressing the question of whether an AI system can persist indefinitely without incurring unbounded structural aging.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-08-06"
+      },
+      {
+        "title": "The LLM Proposes, the Executive Disposes: A Self-Verifying Agent Instrument that Dissociates Commitment Drift from Binding Drift in Long-Horizon Agents",
+        "link": "https://arxiv.org/abs/2608.04066",
+        "summary": "This paper presents an agent instrument that verifies long-horizon agents by dissociating commitment drift from binding drift.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-08-06"
+      },
+      {
+        "title": "Monte Carlo Tree Search for Table-to-Multimodal Report Generation",
+        "link": "https://arxiv.org/abs/2608.04071",
+        "summary": "This paper proposes a Monte Carlo Tree Search approach for generating professional multimodal reports from structured tabular data.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-08-06"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Treblo AI Music Classifier",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo",
+    "summary": "The open-source Treblo AI Music Classifier detects when AI-generated music is used."
+  },
+  "hot_take": "The AI industry is shifting towards more responsible and transparent AI development, with a focus on long-run persistence, self-verifying agents, and multimodal report generation."
+}

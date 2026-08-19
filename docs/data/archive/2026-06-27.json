@@ -1,0 +1,86 @@
+{
+  "date": "2026-06-27",
+  "date_display": "Saturday, 27 June 2026 (11:36 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "GPT-5.6 Sol: a next-generation model",
+        "link": "https://openai.com/index/previewing-gpt-5-6-sol",
+        "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-06-27"
+      },
+      {
+        "title": "OpenAI unveils GPT-5.6 amid US AI regulatory drama",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview",
+        "summary": "Less than 24 hours after news broke that OpenAI would stagger its next model release at the request of the Trump administration, that model, GPT-5.6, is here.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-27"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Detecting and Controlling Sycophancy with Cascading Linear Features",
+        "link": "https://arxiv.org/abs/2606.26155",
+        "summary": "A new approach to interpreting and controlling model behaviors through activation steering methods.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-27"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Agentic Analysis for Agentic Infrastructure: An LLM-Powered Pipeline for Comparative Governance of DAO and Corporate AI Protocols",
+        "link": "https://arxiv.org/abs/2606.26203",
+        "summary": "A new pipeline for comparative governance discourse analysis of AI protocols.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-27"
+      },
+      {
+        "title": "Knowledge-augmented Agentic AI for Mental Health Medication Information Seeking",
+        "link": "https://arxiv.org/abs/2606.26205",
+        "summary": "A new approach to integrating knowledge and patient narratives for psychiatric drug information seeking.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-27"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Anthropic's Mythos mess is only getting worse",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations",
+        "summary": "The ongoing saga of Anthropic's Mythos-class models and their negotiations with the Trump administration.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-27"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "AlgoEvolve: LLM-driven Meta-evolution of Algorithmic Trading Programs",
+        "link": "https://arxiv.org/abs/2606.26173",
+        "summary": "A new approach to evolutionary discovery of algorithmic trading programs using Large Language Models.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-27"
+      },
+      {
+        "title": "COrigami: An AI Pipeline for Co-Designing Flat-Foldable Visually Recognisable Origami",
+        "link": "https://arxiv.org/abs/2606.26299",
+        "summary": "A new approach to generating physical art that satisfies both strict geometric constraints and subjective visual aesthetics.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-27"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Detecting and Controlling Sycophancy with Cascading Linear Features",
+    "link": "https://arxiv.org/abs/2606.26155",
+    "summary": "A new approach to interpreting and controlling model behaviors through activation steering methods."
+  },
+  "hot_take": "The ongoing AI regulatory drama and the emergence of new AI models and technologies are driving the need for more responsible AI development and governance."
+}

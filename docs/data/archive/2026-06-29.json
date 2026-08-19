@@ -1,0 +1,78 @@
+{
+  "date": "2026-06-29",
+  "date_display": "Monday, 29 June 2026 (12:40 PM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+        "link": "https://openai.com/index/hp-frontier-partnership",
+        "summary": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-06-29"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Darts Foundation",
+        "link": "https://arxiv.org/abs/2606.27438",
+        "summary": "Darts has become a widely used open-source Python library for time series analysis.",
+        "source": "arXiv cs.LG",
+        "trust": "🔵 Academic",
+        "date": "2026-06-29"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Internalizing the Future: A Unified Agentic Training Paradigm for World Model Planning",
+        "link": "https://arxiv.org/abs/2606.27483",
+        "summary": "Large language model (LLM) agents have demonstrated strong capability in sequential decision-making, yet they remains fundamentally reactive in long-horizon tasks.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-29"
+      },
+      {
+        "title": "Towards Reliable and Robust LLM Planning: Symbolic Feedback-Driven Iterative Self-Refinement Framework",
+        "link": "https://arxiv.org/abs/2606.27757",
+        "summary": "Large language models (LLMs) have attracted widespread attention from academia and industry, yet their deployment raises critical security concerns regarding robustness and reliability.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-29"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Prosecutors used ChatGPT logs as evidence in the Palisades fire trial",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
+        "summary": "Prosecutors turned to location data from the defendant's iPhone, security camera footage, and witness testimony, as well as his ChatGPT logs, to make their case.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-29"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "AI-Model Network: Concept, Current State and Future",
+        "link": "https://arxiv.org/abs/2606.27382",
+        "summary": "The paper discusses the concept, current state, and future of AI-model networks, highlighting their potential applications and challenges.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-29"
+      },
+      {
+        "title": "Odyssey: Constructing Verifiable Local Truth-Preserving Foundation Models",
+        "link": "https://arxiv.org/abs/2606.27593",
+        "summary": "The paper introduces a categorical framework called ODYSSEY for constructing verifiable, local truth-preserving foundation models as compositions of foundries.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-29"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Darts Foundation",
+    "link": "https://arxiv.org/abs/2606.27438",
+    "summary": "Darts has become a widely used open-source Python library for time series analysis."
+  },
+  "hot_take": "The increasing focus on responsible AI and the use of AI in real-world applications, such as the Palisades fire trial, highlights the need for AI developers to prioritize transparency and accountability in their work."
+}

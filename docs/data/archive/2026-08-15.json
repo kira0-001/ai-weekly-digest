@@ -1,0 +1,102 @@
+{
+  "date": "2026-08-15",
+  "date_display": "Saturday, 15 August 2026 (08:39 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Google will now allow users to remove visible watermark from its AI generations",
+        "link": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+        "summary": "Google will now allow users to remove visible watermarks from AI-generated content, but invisible benchmarks will still be used to identify AI-generated files.",
+        "source": "TechCrunch AI",
+        "trust": "🟢 Official",
+        "date": "2026-08-15"
+      },
+      {
+        "title": "You can now turn off Google Gemini’s visible watermarks",
+        "link": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
+        "summary": "Google will now allow users to remove visible watermarks from the images, videos, and music made with AI tools.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-15"
+      },
+      {
+        "title": "Apple trained its own AI model for China with help from Alibaba",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
+        "summary": "Apple has reportedly trained a custom AI model for the China market alongside domestic tech giant Alibaba.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-15"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Google Cloud AI Platform now supports custom machine learning models",
+        "link": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-ai-platform-now-supports-custom-machine-learning-models",
+        "summary": "Google Cloud AI Platform now supports custom machine learning models, allowing developers to train and deploy their own models.",
+        "source": "Google Cloud Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-15"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Kog is going deeper to squeeze more inference out of GPUs",
+        "link": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
+        "summary": "Kog is working on a new approach to squeeze more inference out of GPUs, which could be relevant to agentic workflows.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-15"
+      },
+      {
+        "title": "Dual-Flow Transformers: Decoupling the Primary Prefill Path from Additional Decode Computation",
+        "link": "https://arxiv.org/abs/2608.12385",
+        "summary": "This paper proposes a new architecture for large language models that decouples the primary prefill path from additional decode computation.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-08-15"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Position: The Alignment Community is Unintentionally Building a Censor's Toolkit",
+        "link": "https://arxiv.org/abs/2608.12346",
+        "summary": "This position paper argues that modern AI alignment methods may be dual-use technologies that can be misused for censorship and manipulation.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-08-15"
+      },
+      {
+        "title": "Agreement Is Not Alignment: Divergent Moral Grounds in Human and LLM Ethical Judgments",
+        "link": "https://arxiv.org/abs/2608.12368",
+        "summary": "This paper argues that agreement with human judgments is not a reliable proxy for evaluating the alignment of large language models.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-08-15"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "LoKiFormer: Locality-aware Attention with Decoupled Knowledge Memory for Efficient Large Language Model Pretraining",
+        "link": "https://arxiv.org/abs/2608.12419",
+        "summary": "This paper proposes a new architecture for large language models that incorporates locality-aware attention and decoupled knowledge memory.",
+        "source": "arXiv cs.LG",
+        "trust": "🔵 Academic",
+        "date": "2026-08-15"
+      },
+      {
+        "title": "Which Site, and When: A Free-Satellite-Data Test of Himalayan Glacial Lake Bursts, Landslides, and Ice Floods",
+        "link": "https://arxiv.org/abs/2608.12422",
+        "summary": "This paper uses free satellite data to test the feasibility of detecting glacial lake bursts, landslides, and ice floods in the Himalayas.",
+        "source": "arXiv cs.LG",
+        "trust": "🔵 Academic",
+        "date": "2026-08-15"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Google Cloud AI Platform",
+    "link": "https://cloud.google.com/ai-platform",
+    "summary": "Google Cloud AI Platform now supports custom machine learning models, allowing developers to train and deploy their own models."
+  },
+  "hot_take": "The AI industry is shifting towards more transparency and control, with companies like Google and Apple allowing users to remove visible watermarks from AI-generated content."
+}

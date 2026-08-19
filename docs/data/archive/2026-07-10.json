@@ -1,0 +1,94 @@
+{
+  "date": "2026-07-10",
+  "date_display": "Friday, 10 July 2026 (11:54 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+        "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+        "summary": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot, providing stronger AI capabilities across various applications.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-10"
+      },
+      {
+        "title": "ChatGPT is now a partner for your most ambitious work",
+        "link": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+        "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-10"
+      },
+      {
+        "title": "OpenAI launches its new family of models with GPT-5.6",
+        "link": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+        "summary": "OpenAI's latest family of models promises improvements across a range of areas, including cybersecurity.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-10"
+      },
+      {
+        "title": "Meta enters the crowded AI coding battle with Muse Spark 1.1",
+        "link": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
+        "summary": "Meta's pitch to users is Spark's ability to handle large agentic workloads, fix bugs, and help with large code migrations.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-10"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Google will now disclose which ads are made with AI",
+        "link": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/",
+        "summary": "Google will now disclose which ads are made with AI, adding a label to ads that were created or edited using AI.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-10"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Microsoft's patch Tuesdays are about to get bigger",
+        "link": "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates",
+        "summary": "Microsoft is using AI to identify potential issues earlier, resulting in a higher volume of security updates included in each security release.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-10"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "New York Times says OpenAI hid evidence in ChatGPT copyright trial",
+        "link": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
+        "summary": "The New York Times claims that OpenAI hid tools and datasets that could identify copyrighted journalism in ChatGPT outputs.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-10"
+      },
+      {
+        "title": "Microsoft's carbon emissions went up 25 percent last year",
+        "link": "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026",
+        "summary": "Microsoft's carbon emissions increased 25 percent in 2025, totaling 34 million metric tons without select interventions.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-10"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "OpenAI rolls out GPT-5.6 after government greenlight — and announces 'ChatGPT Work'",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
+        "summary": "OpenAI has received the Trump administration's greenlight for a public rollout of GPT-5.6 and announced ChatGPT Work, an agent that can take action across your apps and files.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-10"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Google's My Ad Center",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label",
+    "summary": "Google's My Ad Center now includes a label to indicate if an ad was created or edited using AI."
+  },
+  "hot_take": "The AI industry is shifting towards more transparency and accountability, with companies like Google and Microsoft incorporating AI-generated labels and disclosures into their products and services."
+}

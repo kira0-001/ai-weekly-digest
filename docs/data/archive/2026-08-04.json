@@ -1,0 +1,78 @@
+{
+  "date": "2026-08-04",
+  "date_display": "Tuesday, 04 August 2026 (10:58 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "GPT-Live enables continuous voice interaction with AI",
+        "link": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+        "summary": "OpenAI's GPT-Live allows for continuous voice interaction with AI using a turnless speech model and low-latency architecture.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-04"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "TAPR: Enhancing LLM Performance with a Task-Aware Prompt Rewriter",
+        "link": "https://arxiv.org/abs/2607.28657",
+        "summary": "TAPR is a model that reformulates user prompts into task-optimized prompts with the goal of enhancing LLM performance.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-08-04"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
+        "link": "https://arxiv.org/abs/2607.28629",
+        "summary": "The paper discusses the challenges in designing and evaluating Agentic AI systems, particularly in separating inference, orchestration, and execution layers for autonomous AI agents.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-08-04"
+      },
+      {
+        "title": "Can AI Evaluate AI Scientists? A Benchmarking Study of Autonomous Research Generation Systems Using Automated Multi-Model Review",
+        "link": "https://arxiv.org/abs/2607.28631",
+        "summary": "The study proposes a benchmarking protocol using an automated peer-review system to evaluate the quality of AI-generated papers.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-08-04"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Europe's AI labeling and transparency rules are now in effect",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+        "summary": "The European Union has ushered in new rules requiring companies to disclose when people are interacting with AI.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-04"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "LLM Framework for Discovering Major Mathematical Conjectures: AI's Quest for the Next Riemann Hypothesis",
+        "link": "https://arxiv.org/abs/2607.28632",
+        "summary": "The paper presents a three-stage pipeline for major conjecture discovery using region search from explicit local evidence modules.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-08-04"
+      },
+      {
+        "title": "ThinkReset: Learnable Intermediate Interface Construction for Bounded-Context Long-Horizon Reasoning",
+        "link": "https://arxiv.org/abs/2607.28642",
+        "summary": "The paper argues that the core bottleneck in long chain-of-thought reasoning is the absence of a reusable intermediate interface.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-08-04"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "TAPR: Enhancing LLM Performance with a Task-Aware Prompt Rewriter",
+    "link": "https://arxiv.org/abs/2607.28657",
+    "summary": "TAPR is a model that reformulates user prompts into task-optimized prompts with the goal of enhancing LLM performance."
+  },
+  "hot_take": "The AI industry is rapidly evolving, with advancements in Agentic AI, LLMs, and responsible AI practices. As a result, professionals in the field must stay adaptable and up-to-date with the latest developments to remain competitive."
+}

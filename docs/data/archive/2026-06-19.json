@@ -1,0 +1,86 @@
+{
+  "date": "2026-06-19",
+  "date_display": "Friday, 19 June 2026 (01:05 PM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise",
+        "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
+        "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-06-19"
+      },
+      {
+        "title": "Photoshop and Premiere now have AI assistants",
+        "link": "https://www.theverge.com/tech/952099/adobe-ai-assistants-photoshop-premiere-illustrator-beta-launch",
+        "summary": "Adobe's plan to stick AI assistants into all of its Creative Cloud suite is now fully underway, with new chatbots now rolling out to its biggest editing and design apps.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-19"
+      },
+      {
+        "title": "Adobe’s redesigned AI studio remembers what your creations look like",
+        "link": "https://www.theverge.com/tech/952104/adobe-firefly-ai-agent-elements-projects-update",
+        "summary": "Adobe is introducing some new capabilities for its Firefly AI assistant, alongside a \"reimagined\" AI studio that lets you edit and generate new designs from a single interface.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-19"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "MosaicLeaks: Can your research agent keep a secret?",
+        "link": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+        "summary": "MosaicLeaks: Can your research agent keep a secret?",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-06-19"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Deontic Policies for Runtime Governance of Agentic AI Systems",
+        "link": "https://arxiv.org/abs/2606.19464",
+        "summary": "Autonomous agentic AI systems driven by Large Language Models (LLMs) introduce a new class of security, privacy, and compliance challenges.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-19"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Amazon employees say they’re facing termination for backing data center limits",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/952180/amazon-seattle-data-center-moratorium-aecj-disciplinary-action",
+        "summary": "Amazon employees are accusing their employer of breaking a city law by retaliating against them for testifying about data centers.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-19"
+      },
+      {
+        "title": "Who decides when AI is too dangerous?",
+        "link": "https://www.theverge.com/podcast/951542/anthropic-claude-fable-5-mythos-ban-pentagon-ai-regulation-trump",
+        "summary": "A discussion on the regulation of AI and who decides when it's too dangerous.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-19"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "General Intuition in talks to raise $300M at around $2B valuation",
+        "link": "https://techcrunch.com/2026/06/18/general-intuition-in-talks-to-raise-300m-at-around-2b-valuation/",
+        "summary": "The startup trains embodied AI and world models using Medal’s dataset of 2 billion videos per year from 10 million monthly active users.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-19"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "MosaicLeaks: Can your research agent keep a secret?",
+    "link": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+    "summary": "MosaicLeaks: Can your research agent keep a secret?"
+  },
+  "hot_take": "The AI industry is shifting towards more responsible and transparent practices, with companies like OpenAI and Adobe introducing new features and tools to address security, privacy, and compliance challenges."
+}

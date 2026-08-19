@@ -1,0 +1,134 @@
+{
+  "date": "2026-06-21",
+  "date_display": "Sunday, 21 June 2026 (12:44 PM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’",
+        "link": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
+        "summary": "Meredith Whittaker emphasizes that AI chatbots are not conscious beings and should not be treated as friends.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-21"
+      },
+      {
+        "title": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
+        "link": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+        "summary": "John Jumper is leaving DeepMind for rival Anthropic, a significant move in the AI research landscape.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-21"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Wan-AI/Wan2.1-T2V-1.3B",
+        "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+        "summary": "Wan-AI/Wan2.1-T2V-1.3B is a pre-trained model available on Hugging Face.",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-06-21"
+      },
+      {
+        "title": "microsoft/Phi-4-mini-instruct",
+        "link": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+        "summary": "microsoft/Phi-4-mini-instruct is a pre-trained model available on Hugging Face.",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-06-21"
+      },
+      {
+        "title": "Python packages for particle swarms, genetic algorithms. Scikit-opt maybe? [D]",
+        "link": "https://www.reddit.com/r/MachineLearning/comments/1ub81us/python_packages_for_particle_swarms_genetic/",
+        "summary": "This Reddit thread discusses Python packages for particle swarms and genetic algorithms.",
+        "source": "r/MachineLearning",
+        "trust": "🟡 Community",
+        "date": "2026-06-21"
+      },
+      {
+        "title": "Studying FLUX in diffusers library was hard, so I built a smaller open-source version [P]",
+        "link": "https://www.reddit.com/r/MachineLearning/comments/1ub1db3/studying_flux_in_diffusers_library_was_hard_so_i/",
+        "summary": "This Reddit thread discusses a smaller open-source version of FLUX diffusion models.",
+        "source": "r/MachineLearning",
+        "trust": "🟡 Community",
+        "date": "2026-06-21"
+      },
+      {
+        "title": "TSAuditor: A time-series auditing framework [P]",
+        "link": "https://www.reddit.com/r/MachineLearning/comments/1ub15wf/tsauditor_a_timeseries_auditing_framework_p/",
+        "summary": "This Reddit thread discusses a time-series auditing framework called TSAuditor.",
+        "source": "r/MachineLearning",
+        "trust": "🟡 Community",
+        "date": "2026-06-21"
+      },
+      {
+        "title": "Hi Reddit, I posted my Build Your Own LLM workshop to Youtube teaching ML, LLM and math intuition [P]",
+        "link": "https://www.reddit.com/r/MachineLearning/comments/1uazlnd/hi_reddit_i_posted_my_build_your_own_llm_workshop/",
+        "summary": "This Reddit thread discusses a workshop on building your own LLM without any math/ML prerequisites.",
+        "source": "r/MachineLearning",
+        "trust": "🟡 Community",
+        "date": "2026-06-21"
+      },
+      {
+        "title": "An open handbook on LLM inference at scale (GPU internals, KV cache, batching, vLLM/SGLang/TensorRT-LLM) [P]",
+        "link": "https://www.reddit.com/r/MachineLearning/comments/1uavduv/an_open_handbook_on_llm_inference_at_scale_gpu/",
+        "summary": "This Reddit thread discusses an open handbook on LLM inference at scale.",
+        "source": "r/MachineLearning",
+        "trust": "🟡 Community",
+        "date": "2026-06-21"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "The Atlantic created a searchable database of the music used to train AI",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
+        "summary": "The Atlantic has created a searchable database of music used to train AI models, highlighting the importance of data quality in AI development.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-21"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’",
+        "link": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
+        "summary": "Meredith Whittaker emphasizes that AI chatbots are not conscious beings and should not be treated as friends.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-21"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "yandex/YandexGPT-5-Lite-8B-pretrain",
+        "link": "https://huggingface.co/yandex/YandexGPT-5-Lite-8B-pretrain",
+        "summary": "yandex/YandexGPT-5-Lite-8B-pretrain is a pre-trained model available on Hugging Face.",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-06-21"
+      },
+      {
+        "title": "moonshotai/Moonlight-16B-A3B-Instruct",
+        "link": "https://huggingface.co/moonshotai/Moonlight-16B-A3B-Instruct",
+        "summary": "moonshotai/Moonlight-16B-A3B-Instruct is a pre-trained model available on Hugging Face.",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-06-21"
+      },
+      {
+        "title": "microsoft/wham",
+        "link": "https://huggingface.co/microsoft/wham",
+        "summary": "microsoft/wham is a pre-trained model available on Hugging Face.",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-06-21"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "minFLUX",
+    "link": "https://www.reddit.com/r/MachineLearning/comments/1ub1db3/studying_flux_in_diffusers_library_was_hard_so_i/",
+    "summary": "minFLUX is a smaller open-source version of FLUX diffusion models, making it easier to study and understand the internals of LLM inference."
+  },
+  "hot_take": "The rapid development of AI models and their applications is driving a need for more responsible AI practices, including transparency, explainability, and accountability."
+}

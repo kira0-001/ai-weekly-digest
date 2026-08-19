@@ -1,0 +1,94 @@
+{
+  "date": "2026-07-21",
+  "date_display": "Tuesday, 21 July 2026 (11:02 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Safety and alignment in an era of long-horizon models",
+        "link": "https://openai.com/index/safety-alignment-long-horizon-models",
+        "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-21"
+      },
+      {
+        "title": "Introducing Cosmos 3 Edge",
+        "link": "https://huggingface.co/blog/nvidia/cosmos3edge",
+        "summary": "Introducing Cosmos 3 Edge",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-21"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Rater State Bias in RLHF Preference Data: An Audit Framework",
+        "link": "https://arxiv.org/abs/2607.16195",
+        "summary": "arXiv:2607.16195v1 Announce Type: new Abstract: We identify a structured confound in Reinforcement Learning from Human Feedback (RLHF). Pairwise preference labels are intended to reflect the compared outputs, but they may also reflect the rater's state during annotation.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-21"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "PlanFlip: Attacking Multi-Agent LLM Systems via Planning-Phase Prompt Injection",
+        "link": "https://arxiv.org/abs/2607.16199",
+        "summary": "arXiv:2607.16199v1 Announce Type: new Abstract: Multi-agent LLM systems increasingly rely on a Planner to decompose goals into sub-task sequences that downstream Executor and Critic agents execute and audit.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-21"
+      },
+      {
+        "title": "Deterministic Replay for AI Agent Systems",
+        "link": "https://arxiv.org/abs/2607.16200",
+        "summary": "arXiv:2607.16200v1 Announce Type: new Abstract: AI agent systems that couple large language models (LLMs) with external tools and APIs are inherently non-deterministic: LLM sampling variance, external API state, CDN infrastructure headers, and execution-environment noise collectively prevent any prior agent run from being faithfully re-executed.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-21"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Safety and alignment in an era of long-horizon models",
+        "link": "https://openai.com/index/safety-alignment-long-horizon-models",
+        "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-21"
+      },
+      {
+        "title": "Anthropic’s landmark $1.5B copyright settlement is approved",
+        "link": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/",
+        "summary": "The final approval settles one case, but it doesn't resolve the broader issue of using copyrighted works to train AI models.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-21"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Some Large Language Models Exhibit Consistent Risk Attitudes",
+        "link": "https://arxiv.org/abs/2607.16197",
+        "summary": "arXiv:2607.16197v1 Announce Type: new Abstract: As artificial intelligence systems are deployed in open-ended, high-stakes settings, a critical dimension remains unmeasured: how perceived risk is translated into action.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-21"
+      },
+      {
+        "title": "A Survey on GNN-based Link Prediction: Techniques, Applications, and Challenges",
+        "link": "https://arxiv.org/abs/2607.16198",
+        "summary": "arXiv:2607.16198v1 Announce Type: new Abstract: Graph Neural Networks (GNNs) have emerged as the leading paradigm for link prediction, enabling the inference of missing connections and the anticipation of potential future links.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-21"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Rater State Bias in RLHF Preference Data: An Audit Framework",
+    "link": "https://arxiv.org/abs/2607.16195",
+    "summary": "arXiv:2607.16195v1 Announce Type: new Abstract: We identify a structured confound in Reinforcement Learning from Human Feedback (RLHF). Pairwise preference labels are intended to reflect the compared outputs, but they may also reflect the rater's state during annotation."
+  },
+  "hot_take": "The recent surge in AI model releases and breakthroughs highlights the increasing importance of responsible AI practices, such as addressing bias and ensuring model safety, to maintain public trust and avoid regulatory backlash."
+}

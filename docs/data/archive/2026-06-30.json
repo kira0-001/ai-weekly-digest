@@ -1,0 +1,118 @@
+{
+  "date": "2026-06-30",
+  "date_display": "Tuesday, 30 June 2026 (12:06 PM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "OpenAI Report Maps AI Workforce Opportunity in EU",
+        "link": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+        "summary": "OpenAI released a report on how AI could reshape jobs across the EU, highlighting occupations that may face automation, growth, or workflow changes.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-06-30"
+      },
+      {
+        "title": "Google Expands Gemini's Personalized AI Image Generation",
+        "link": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
+        "summary": "Google is expanding Gemini's personalized AI image generation to eligible free users in the U.S., allowing the chatbot to create images based on user interests and data from connected Google apps.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-30"
+      },
+      {
+        "title": "Anthropic and Gov. Newsom Forge Deal for Claude",
+        "link": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
+        "summary": "Anthropic and the state of California have forged a deal allowing the California government to use Claude at half price.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-30"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "DiScoFormer: One Transformer for Density and Score",
+        "link": "https://huggingface.co/blog/allenai/discoformer",
+        "summary": "DiScoFormer is a transformer model that can handle density and score across distributions.",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-06-30"
+      },
+      {
+        "title": "Gemini's Personalized AI Image Generation is Now Free for US Users",
+        "link": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
+        "summary": "Gemini's personalized AI image generation is now free for eligible users in the U.S.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-30"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Ask an AI Expert: What Exactly is the Full Stack?",
+        "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+        "summary": "A Google AI expert explains the concept of a full-stack AI infrastructure.",
+        "source": "Google AI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-06-30"
+      },
+      {
+        "title": "TIDAL Cracks Down on AI Music by Cutting Off Monetization",
+        "link": "https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization/",
+        "summary": "TIDAL will stop monetizing AI-generated music and use automated tools to remove AI-generated music that impersonates artists or groups.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-30"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Lawmakers Want to Ban AI Companies from Selling Your Health Data",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon",
+        "summary": "A new proposal would ban the sale of Americans' health and location information to data brokers, including information revealed to AI chatbots.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-30"
+      },
+      {
+        "title": "TIDAL Won't Pay Royalties on AI-Generated Music but Isn't Banning It Outright",
+        "link": "https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label",
+        "summary": "TIDAL will label AI-generated music with an icon and stop monetizing it, but won't ban it outright.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-30"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Recursive Self-Evolving Agents via Held-Out Selection",
+        "link": "https://arxiv.org/abs/2606.28374",
+        "summary": "Researchers study the effectiveness of recursive self-evolving agents in improving LLM performance.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-30"
+      },
+      {
+        "title": "Data and Evaluation Closed-Loop for Model Capability Enhancement",
+        "link": "https://arxiv.org/abs/2606.28471",
+        "summary": "Researchers propose a closed-loop system for model capability enhancement, addressing the limitations of current evaluation methods.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-30"
+      },
+      {
+        "title": "GPTNT: Benchmarking Real-Time Collaboration Between Multimodal Agents on Keep Talking And Nobody Explodes",
+        "link": "https://arxiv.org/abs/2606.28514",
+        "summary": "Researchers introduce a benchmark for real-time collaboration between multimodal agents, focusing on tasks that require human-AI collaboration.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-30"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "DiScoFormer: One Transformer for Density and Score",
+    "link": "https://huggingface.co/blog/allenai/discoformer",
+    "summary": "DiScoFormer is a transformer model that can handle density and score across distributions."
+  },
+  "hot_take": "The AI industry is shifting towards more responsible and collaborative practices, with companies like TIDAL and Google taking steps to address the challenges of AI-generated content and human-AI collaboration."
+}

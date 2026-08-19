@@ -1,0 +1,142 @@
+{
+  "date": "2026-06-26",
+  "date_display": "Friday, 26 June 2026 (12:03 PM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Google Finance upgrades",
+        "link": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
+        "summary": "Google Finance has been upgraded with a new app and various improvements.",
+        "source": "Google AI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-06-26"
+      },
+      {
+        "title": "OpenAI will delay GPT-5.6",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
+        "summary": "OpenAI has been asked by the Trump administration to delay the release of its new model, GPT-5.6, due to safety concerns.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-26"
+      },
+      {
+        "title": "Adobe acquires Topaz Labs",
+        "link": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/",
+        "summary": "Adobe has acquired Topaz Labs, a company that specializes in image and video enhancement tools.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-26"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Run a vLLM Server on HF Jobs in One Command",
+        "link": "https://huggingface.co/blog/vllm-jobs",
+        "summary": "Hugging Face has released a new feature that allows users to run a vLLM server on HF jobs in one command.",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-06-26"
+      },
+      {
+        "title": "Un-0 is an image-generation system tool",
+        "link": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/",
+        "summary": "Un-0 is an image-generation system tool that can replicate conventional AI systems.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-26"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Detecting and Controlling Sycophancy with Cascading Linear Features",
+        "link": "https://arxiv.org/abs/2606.26155",
+        "summary": "Researchers have proposed a method to detect and control sycophancy in AI models using cascading linear features.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-26"
+      },
+      {
+        "title": "Life After Benchmark Saturation: A Case Study of CORE-Bench",
+        "link": "https://arxiv.org/abs/2606.26158",
+        "summary": "Researchers have studied the limitations of benchmark saturation and proposed a new approach to evaluating AI models.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-26"
+      },
+      {
+        "title": "Refusal Lives Downstream of Persona in Chat Models",
+        "link": "https://arxiv.org/abs/2606.26161",
+        "summary": "Researchers have discovered that refusal and persona traits in chat models interact with each other.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-26"
+      },
+      {
+        "title": "AlgoEvolve: LLM-driven Meta-evolution of Algorithmic Trading Programs",
+        "link": "https://arxiv.org/abs/2606.26173",
+        "summary": "Researchers have proposed a method to use LLMs to evolve algorithmic trading programs.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-26"
+      },
+      {
+        "title": "Agentic Analysis for Agentic Infrastructure: An LLM-Powered Pipeline for Comparative Governance of DAO and Corporate AI Protocols",
+        "link": "https://arxiv.org/abs/2606.26203",
+        "summary": "Researchers have proposed a pipeline to analyze and compare the governance structures of AI protocols.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-26"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "The White House is asking OpenAI to slow roll the release of its new model over safety concerns",
+        "link": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+        "summary": "The White House has asked OpenAI to delay the release of its new model due to safety concerns.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-26"
+      },
+      {
+        "title": "Ford had to hire back former engineers to fix mistakes made by its automated systems",
+        "link": "https://www.theverge.com/transportation/956316/ford-quality-jd-power-ranking-ai-automated-mistakes",
+        "summary": "Ford has had to hire back former engineers to fix mistakes made by its automated systems.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-26"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Patronus AI lands $50M to build ‘digital worlds’ that stress-test AI agents",
+        "link": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
+        "summary": "Patronus AI has raised $50M to build digital worlds that can stress-test AI agents.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-26"
+      },
+      {
+        "title": "General Intuition’s $2.3B bet that video games can train AI agents for the real world",
+        "link": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+        "summary": "General Intuition has raised $2.3B to train AI agents using video games.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-26"
+      },
+      {
+        "title": "Amazon ups India bet with fresh $13B AI infrastructure investment",
+        "link": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/",
+        "summary": "Amazon has invested $13B in AI infrastructure in India.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-26"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Run a vLLM Server on HF Jobs in One Command",
+    "link": "https://huggingface.co/blog/vllm-jobs",
+    "summary": "Hugging Face has released a new feature that allows users to run a vLLM server on HF jobs in one command."
+  },
+  "hot_take": "The AI industry is shifting towards more responsible and transparent practices, with a focus on safety, governance, and explainability, as seen in the recent delays and investments in AI infrastructure."
+}

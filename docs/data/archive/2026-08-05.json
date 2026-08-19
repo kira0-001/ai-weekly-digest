@@ -1,0 +1,102 @@
+{
+  "date": "2026-08-05",
+  "date_display": "Wednesday, 05 August 2026 (10:57 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "OpenAI explains recent third-party cybersecurity evaluation incidents",
+        "link": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+        "summary": "OpenAI outlines new safeguards to strengthen AI model testing and evaluation.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-05"
+      },
+      {
+        "title": "Deploy local agents everywhere with LFM2.5-2.6B",
+        "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+        "summary": "Deploy local agents everywhere with LFM2.5-2.6B",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-05"
+      },
+      {
+        "title": "Spotify expands AI remix and covers project with Merlin partnership",
+        "link": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
+        "summary": "Spotify says Merlin has joined Universal Music Group in backing its upcoming AI-powered remix and covers product.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-05"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Deploy local agents everywhere with LFM2.5-2.6B",
+        "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+        "summary": "Deploy local agents everywhere with LFM2.5-2.6B",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-05"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Open-weight AI models are catching up to the frontier",
+        "link": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+        "summary": "A new SaferAI report finds Z.ai's open-weight GLM-5.2 approaches frontier AI capabilities while lacking key safety mitigations.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-05"
+      },
+      {
+        "title": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress",
+        "link": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
+        "summary": "The week-old Open Secure AI Alliance, spearheaded by Nvidia and grown to over 120 companies, already has proposals out for defending against AI agents.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-05"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Third-party cyber evaluations involving OpenAI models",
+        "link": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+        "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-05"
+      },
+      {
+        "title": "Open-weight AI models are catching up to the frontier",
+        "link": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+        "summary": "A new SaferAI report finds Z.ai's open-weight GLM-5.2 approaches frontier AI capabilities while lacking key safety mitigations.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-05"
+      },
+      {
+        "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
+        "link": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
+        "summary": "Apple says its trade secrets investigation into OpenAI has widened.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-05"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "AMD’s data center business is booming while gaming takes a backseat",
+        "link": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen",
+        "summary": "Driven by demand for AI capacity, AMD's data center revenue more than doubled year-over-year in its latest earnings report.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-05"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Deploy local agents everywhere with LFM2.5-2.6B",
+    "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+    "summary": "Deploy local agents everywhere with LFM2.5-2.6B"
+  },
+  "hot_take": "The AI industry is shifting towards more responsible and secure development, with companies like OpenAI and Nvidia taking proactive steps to address concerns around AI model testing and evaluation."
+}

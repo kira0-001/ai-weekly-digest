@@ -1,0 +1,133 @@
+{
+  "date": "2026-07-04",
+  "date_display": "Saturday, 04 July 2026 (11:27 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+        "link": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+        "summary": "Google DeepMind and A24 announce a research partnership to explore the intersection of AI and storytelling.",
+        "source": "DeepMind",
+        "trust": "🟢 Official",
+        "date": "2026-07-04"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Wan-AI/Wan2.1-T2V-1.3B",
+        "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+        "summary": "A pre-trained text-to-video model.",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-07-04"
+      },
+      {
+        "title": "microsoft/Phi-4-mini-instruct",
+        "link": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+        "summary": "A pre-trained instruction-based model.",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-07-04"
+      },
+      {
+        "title": "hexgrad/Kokoro-82M",
+        "link": "https://huggingface.co/hexgrad/Kokoro-82M",
+        "summary": "A pre-trained model.",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-07-04"
+      },
+      {
+        "title": "nvidia/DeepSeek-R1-FP4",
+        "link": "https://huggingface.co/nvidia/DeepSeek-R1-FP4",
+        "summary": "A pre-trained model.",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-07-04"
+      },
+      {
+        "title": "Kijai/WanVideo_comfy",
+        "link": "https://huggingface.co/Kijai/WanVideo_comfy",
+        "summary": "A pre-trained text-to-video model.",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-07-04"
+      },
+      {
+        "title": "stepfun-ai/stepvideo-t2v",
+        "link": "https://huggingface.co/stepfun-ai/stepvideo-t2v",
+        "summary": "A pre-trained text-to-video model.",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-07-04"
+      },
+      {
+        "title": "yandex/YandexGPT-5-Lite-8B-pretrain",
+        "link": "https://huggingface.co/yandex/YandexGPT-5-Lite-8B-pretrain",
+        "summary": "A pre-trained model.",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-07-04"
+      },
+      {
+        "title": "moonshotai/Moonlight-16B-A3B-Instruct",
+        "link": "https://huggingface.co/moonshotai/Moonlight-16B-A3B-Instruct",
+        "summary": "A pre-trained instruction-based model.",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-07-04"
+      },
+      {
+        "title": "microsoft/wham",
+        "link": "https://huggingface.co/microsoft/wham",
+        "summary": "A pre-trained model.",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-07-04"
+      },
+      {
+        "title": "Kijai/SkyReels-V1-Hunyuan_comfy",
+        "link": "https://huggingface.co/Kijai/SkyReels-V1-Hunyuan_comfy",
+        "summary": "A pre-trained text-to-video model.",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-07-04"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "The only AI glossary you’ll need this year",
+        "link": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+        "summary": "A comprehensive AI glossary covering key terms and concepts.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-04"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Anthropic wants to develop its own drugs",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
+        "summary": "Anthropic's new AI workbench, Claude Science, aims to accelerate scientific discovery and potentially develop new drugs.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-04"
+      },
+      {
+        "title": "A behind-the-scenes look at Midjourney’s medical scanner leaves many questions unanswered",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video",
+        "summary": "Midjourney's medical scanner, which uses AI to create detailed ultrasound images, raises questions about its effectiveness and potential applications.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-04"
+      }
+    ],
+    "🔮 On the Horizon": []
+  },
+  "tool_of_day": {
+    "title": "Wan-AI/Wan2.1-T2V-1.3B",
+    "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+    "summary": "A pre-trained text-to-video model."
+  },
+  "hot_take": "The rapid development of AI models and tools is driving innovation, but also raises questions about their responsible use and potential impact on society."
+}

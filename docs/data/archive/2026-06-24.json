@@ -1,0 +1,102 @@
+{
+  "date": "2026-06-24",
+  "date_display": "Wednesday, 24 June 2026 (11:58 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "GPT-5 helps solve 3-year-old immunology mystery",
+        "link": "https://openai.com/index/gpt-5-immunology-mystery",
+        "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-06-24"
+      },
+      {
+        "title": "OpenAI helps build shared standards for advanced AI",
+        "link": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+        "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-06-24"
+      },
+      {
+        "title": "Meta launches cheaper smart glasses without Ray-Ban",
+        "link": "https://www.theverge.com/tech/954052/meta-glasses-hands-on-kylie-jenner-smart-glasses-price-battery-privacy",
+        "summary": "Meta launches cheaper smart glasses without Ray-Ban, offering three different styles and seven colors.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-24"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "RIFT-Bench: Dynamic Red-teaming For Agentic AI Systems",
+        "link": "https://arxiv.org/abs/2606.23927",
+        "summary": "RIFT-Bench is a dynamic red-teaming framework for agentic AI systems, providing a unified comparison across heterogeneous systems.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-24"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+        "link": "https://huggingface.co/blog/ibm-research/cuga-apps",
+        "summary": "Build real agentic apps using CUGA, a lightweight harness with two dozen working examples.",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-06-24"
+      },
+      {
+        "title": "RIFT-Bench: Dynamic Red-teaming For Agentic AI Systems",
+        "link": "https://arxiv.org/abs/2606.23927",
+        "summary": "RIFT-Bench is a dynamic red-teaming framework for agentic AI systems, providing a unified comparison across heterogeneous systems.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-24"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Why corporate AI super PACs spent $27 million on a local election",
+        "link": "https://www.theverge.com/policy/954970/ai-super-pacs-alex-bores-new-york-12th-district",
+        "summary": "Corporate AI super PACs spent $27 million on a local election, raising concerns about the influence of AI on politics.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-24"
+      },
+      {
+        "title": "Something’s off with Midjourney’s pivot to body scanners",
+        "link": "https://www.theverge.com/report/954826/midjourney-medical-ai-ultrasound-body-scanner-lacks-evidence",
+        "summary": "Midjourney's pivot to medical imaging raises concerns about the lack of evidence and potential risks.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-24"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Neuro-Symbolic Drive: Rule-Grounded Faithful Reasoning for Driving VLAs",
+        "link": "https://arxiv.org/abs/2606.23938",
+        "summary": "Neuro-Symbolic Drive is a new approach to driving VLA models, incorporating rule-grounded faithful reasoning.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-24"
+      },
+      {
+        "title": "Safe and Generalizable Hierarchical Multi-Agent RL via Constraint Manifold Control",
+        "link": "https://arxiv.org/abs/2606.24010",
+        "summary": "Safe and Generalizable Hierarchical Multi-Agent RL is a new approach to multi-agent systems, providing safety guarantees and generalizability.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-24"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "RIFT-Bench: Dynamic Red-teaming For Agentic AI Systems",
+    "link": "https://arxiv.org/abs/2606.23927",
+    "summary": "RIFT-Bench is a dynamic red-teaming framework for agentic AI systems, providing a unified comparison across heterogeneous systems."
+  },
+  "hot_take": "The intersection of AI and healthcare is becoming increasingly complex, with new technologies and applications emerging daily. As we move forward, it's essential to prioritize responsible AI development and deployment to ensure that these innovations benefit society as a whole."
+}

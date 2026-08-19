@@ -1,0 +1,117 @@
+{
+  "date": "2026-06-20",
+  "date_display": "Saturday, 20 June 2026 (12:14 PM IST)",
+  "sections": {
+    "🚀 Big Launches": [],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Wan-AI/Wan2.1-T2V-1.3B",
+        "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+        "summary": "Wan-AI/Wan2.1-T2V-1.3B",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-06-20"
+      },
+      {
+        "title": "microsoft/Phi-4-mini-instruct",
+        "link": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+        "summary": "microsoft/Phi-4-mini-instruct",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-06-20"
+      },
+      {
+        "title": "hexgrad/Kokoro-82M",
+        "link": "https://huggingface.co/hexgrad/Kokoro-82M",
+        "summary": "hexgrad/Kokoro-82M",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-06-20"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Deontic Policies for Runtime Governance of Agentic AI Systems",
+        "link": "https://arxiv.org/abs/2606.19464",
+        "summary": "Autonomous agentic AI systems driven by Large Language Models (LLMs) introduce a new class of security, privacy, and compliance challenges.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-20"
+      },
+      {
+        "title": "Hidden Anchors in Multi-Agent LLM Deliberation",
+        "link": "https://arxiv.org/abs/2606.19494",
+        "summary": "Multi-agent LLM deliberation mirrors how humans reach decisions, yet how and why it works is rarely modelled.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-20"
+      },
+      {
+        "title": "DeXposure-Claw: An Agentic System for DeFi Risk Supervision",
+        "link": "https://arxiv.org/abs/2606.19501",
+        "summary": "DeXposure-Claw is a forecast-grounded agentic supervision system for decentralized finance, addressing the challenges of fast-moving, networked credit risks.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-20"
+      },
+      {
+        "title": "Uncertainty Decomposition for Clarification Seeking in LLM Agents",
+        "link": "https://arxiv.org/abs/2606.19559",
+        "summary": "Recent position papers argue that the classical aleatoric/epistemic uncertainty framework is insufficient for interactive large language model (LLM) agents.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-20"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "From PGP to Mythos: a brief history of export controls that didn’t stop anyone",
+        "link": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
+        "summary": "For the last 30 years, stopping the flow of cybersecurity-related software has proven to be ineffective.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-20"
+      },
+      {
+        "title": "Is the US government’s Anthropic ban accidentally helping the brand?",
+        "link": "https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/",
+        "summary": "Cybersecurity researchers have signed an open letter calling the US government's ban on Anthropic's models 'dangerous'.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-20"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Diffusion Language Models: An Experimental Analysis",
+        "link": "https://arxiv.org/abs/2606.19475",
+        "summary": "Diffusion Language Models (DLMs) generate text through iterative denoising rather than next-token prediction, allowing parallel refinement of text.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-20"
+      },
+      {
+        "title": "ITNet: A Learnable Integral Transform That Subsumes Convolution, Attention, and Recurrence",
+        "link": "https://arxiv.org/abs/2606.19538",
+        "summary": "ITNet is a learnable integral transform that subsumes convolution, attention, and recurrence, showing that these different inductive biases are not fundamental.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-20"
+      },
+      {
+        "title": "Emergent Alignment",
+        "link": "https://arxiv.org/abs/2606.19527",
+        "summary": "Emergent Alignment is a method that endows an LLM with a conscience step that reviews its own reasoning and outputs, and extends the training loss with an alignment component.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-20"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Wan-AI/Wan2.1-T2V-1.3B",
+    "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+    "summary": "Wan-AI/Wan2.1-T2V-1.3B"
+  },
+  "hot_take": "The recent developments in agentic AI and large language models highlight the need for more research in runtime governance, uncertainty decomposition, and emergent alignment to ensure responsible AI development."
+}

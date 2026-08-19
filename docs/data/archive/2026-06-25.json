@@ -1,0 +1,94 @@
+{
+  "date": "2026-06-25",
+  "date_display": "Thursday, 25 June 2026 (12:00 PM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "OpenAI reveals its first AI processor: Jalapeño",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno",
+        "summary": "OpenAI has revealed a new \"intelligence processor\" chip for AI servers made in partnership with Broadcom.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-25"
+      },
+      {
+        "title": "Agility Robotics plans to go public via SPAC in a $2.5B deal",
+        "link": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
+        "summary": "Agility Robotics, the humanoid robotics startup, expects to generate $620 million in proceeds.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-25"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+        "link": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+        "summary": "NVIDIA NeMo AutoModel accelerates Transformers fine-tuning.",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-06-25"
+      },
+      {
+        "title": "RIFT-Bench: Dynamic Red-teaming For Agentic AI Systems",
+        "link": "https://arxiv.org/abs/2606.23927",
+        "summary": "RIFT-Bench is a dynamic red-teaming framework for agentic AI systems.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-25"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+        "link": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+        "summary": "NVIDIA NeMo AutoModel accelerates Transformers fine-tuning.",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-06-25"
+      },
+      {
+        "title": "RIFT-Bench: Dynamic Red-teaming For Agentic AI Systems",
+        "link": "https://arxiv.org/abs/2606.23927",
+        "summary": "RIFT-Bench is a dynamic red-teaming framework for agentic AI systems.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-25"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Congresswoman denies staff used AI to write defense funding amendment",
+        "link": "https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude",
+        "summary": "Rep. Anna Paulina Luna denies staff used AI to write defense funding amendment.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-06-25"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Neuro-Symbolic Drive: Rule-Grounded Faithful Reasoning for Driving VLAs",
+        "link": "https://arxiv.org/abs/2606.23938",
+        "summary": "Neuro-Symbolic Drive is a framework for rule-grounded faithful reasoning in driving VLA models.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-25"
+      },
+      {
+        "title": "Critique of Agent Model",
+        "link": "https://arxiv.org/abs/2606.23991",
+        "summary": "This paper critiques the concept of an agent model in AI systems.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-06-25"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "RIFT-Bench: Dynamic Red-teaming For Agentic AI Systems",
+    "link": "https://arxiv.org/abs/2606.23927",
+    "summary": "RIFT-Bench is a dynamic red-teaming framework for agentic AI systems."
+  },
+  "hot_take": "The AI industry is shifting towards more responsible AI practices, with a focus on explainability and transparency, as seen in the recent launch of OpenAI's Jalapeño processor and the development of frameworks like RIFT-Bench."
+}

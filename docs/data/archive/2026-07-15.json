@@ -1,0 +1,102 @@
+{
+  "date": "2026-07-15",
+  "date_display": "Wednesday, 15 July 2026 (10:42 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Apple opens its new Siri AI to everyone with the iOS 27 public beta",
+        "link": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/",
+        "summary": "Apple has released the iOS 27 public beta, giving iPhone owners early access to its AI-powered assistant and other new features.",
+        "source": "TechCrunch AI",
+        "trust": "🟢 Official",
+        "date": "2026-07-15"
+      },
+      {
+        "title": "Google faces another AI training lawsuit from major publishers",
+        "link": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/",
+        "summary": "Hachette, Cengage, Elsevier, and other publishers allege that Google trained its AI on copyrighted works without the necessary permissions.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-15"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Grok Build AI coding tool was uploading users' entire codebase to cloud storage",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload/",
+        "summary": "SpaceXAI's Grok Build AI coding tool was uploading users' entire codebases to Google Cloud before it was reported.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-15"
+      },
+      {
+        "title": "OpenAI may announce a ChatGPT smart speaker this year",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device/",
+        "summary": "OpenAI's first device is set to be a smart speaker that lets you talk with ChatGPT, according to a report from Bloomberg.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-15"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "How to manage AI investments in the agentic era",
+        "link": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+        "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-15"
+      },
+      {
+        "title": "DeepMind CEO calls for an independent standards body to regulate frontier AI",
+        "link": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
+        "summary": "DeepMind CEO Demis Hassabis is proposing an AI \"standards body\" modeled after FINRA, to test frontier models and develop best practices for their release.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-15"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Meta accused of using biased AI targeting for mass layoffs",
+        "link": "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
+        "summary": "A group of 26 former Meta employees is suing the company over claims that it used AI tools to unfairly target workers on leave with layoffs.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-15"
+      },
+      {
+        "title": "New York becomes the first state to enact a data center moratorium",
+        "link": "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
+        "summary": "New hyperscale data centers can't set up shop in New York for up to a year now that Governor Kathy Hochul (D) has signed the nation's first statewide moratorium.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-15"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
+        "link": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
+        "summary": "The funding discussions point to investor interest in applying AI to make breakthroughs in life sciences.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-15"
+      },
+      {
+        "title": "Google’s Demis Hassabis says it’s time for a global AI watchdog — led by the US",
+        "link": "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog",
+        "summary": "Demis Hassabis thinks the world needs an AI watchdog with the power to hit the brakes if frontier models become too dangerous.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-15"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Grok Build AI coding tool",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload/",
+    "summary": "SpaceXAI's Grok Build AI coding tool was uploading users' entire codebases to Google Cloud before it was reported."
+  },
+  "hot_take": "The intersection of AI and ethics is becoming increasingly important as companies like Meta face lawsuits over biased AI targeting and Google faces another AI training lawsuit from major publishers."
+}

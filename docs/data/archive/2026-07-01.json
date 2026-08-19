@@ -1,0 +1,94 @@
+{
+  "date": "2026-07-01",
+  "date_display": "Wednesday, 01 July 2026 (12:19 PM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "OpenClaw is finally available on Android and iOS",
+        "link": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
+        "summary": "The free open source agentic program is finally invading your phone.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-01"
+      },
+      {
+        "title": "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents",
+        "link": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
+        "summary": "Anthropic’s Claude Sonnet 5 brings stronger agentic capabilities, lower pricing, and improved safety, positioning the model as a cheaper alternative to Opus, GPT-5.5, and Gemini Pro.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-01"
+      },
+      {
+        "title": "Google introduces a faster, cheaper image generator with Nano Banana 2 Lite",
+        "link": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/",
+        "summary": "Google is updating its image generator to make it faster and cheaper, making it a more useful tool for creators looking to make AI content.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-01"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "OpenClaw is finally available on Android and iOS",
+        "link": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
+        "summary": "The free open source agentic program is finally invading your phone.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-01"
+      },
+      {
+        "title": "Acti puts AI agents directly into your smartphone keyboard",
+        "link": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/",
+        "summary": "Acti is betting the smartphone keyboard is the next home for AI assistants.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-01"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+        "link": "https://huggingface.co/blog/ibm-research/scarfbench",
+        "summary": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-01"
+      },
+      {
+        "title": "Why Specialization Is Inevitable",
+        "link": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+        "summary": "Why Specialization Is Inevitable",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-01"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Trump drops restrictions on Anthropic’s Mythos and Fable models",
+        "link": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
+        "summary": "The Trump administration's erratic approach to AI policymaking has left companies across the industry with little clarity about what will govern future model releases.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-01"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "What Drives Interactive Improvement from Feedback?",
+        "link": "https://arxiv.org/abs/2606.30774",
+        "summary": "We study when natural-language feedback produces improvement beyond the gains obtainable from repeated attempts alone.",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-07-01"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "OpenClaw",
+    "link": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
+    "summary": "The free open source agentic program is finally invading your phone."
+  },
+  "hot_take": "The AI industry is rapidly evolving, with companies like Anthropic and Google launching new models and tools, while also navigating the complexities of AI policymaking and regulation."
+}

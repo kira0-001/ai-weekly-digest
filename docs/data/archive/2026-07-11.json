@@ -1,0 +1,166 @@
+{
+  "date": "2026-07-11",
+  "date_display": "Saturday, 11 July 2026 (10:54 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Deutsche Telekom's AI-native telco",
+        "link": "https://openai.com/index/deutsche-telekom",
+        "summary": "Deutsche Telekom is becoming an AI-native telco with OpenAI, transforming customer service, employee workflows, network operations, and the future of voice.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-07-11"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Wan-AI/Wan2.1-T2V-1.3B",
+        "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+        "summary": "Wan-AI/Wan2.1-T2V-1.3B",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-07-11"
+      },
+      {
+        "title": "microsoft/Phi-4-mini-instruct",
+        "link": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+        "summary": "microsoft/Phi-4-mini-instruct",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-07-11"
+      },
+      {
+        "title": "hexgrad/Kokoro-82M",
+        "link": "https://huggingface.co/hexgrad/Kokoro-82M",
+        "summary": "hexgrad/Kokoro-82M",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-07-11"
+      },
+      {
+        "title": "nvidia/DeepSeek-R1-FP4",
+        "link": "https://huggingface.co/nvidia/DeepSeek-R1-FP4",
+        "summary": "nvidia/DeepSeek-R1-FP4",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-07-11"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Open source AI matters more than ever",
+        "link": "https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/",
+        "summary": "Hugging Face CEO Clem Delangue says open source AI is booming, with the company growing into a GitHub for AI, where AI builders can share and download open models and datasets.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-11"
+      },
+      {
+        "title": "Companies are done renting their AI",
+        "link": "https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/",
+        "summary": "Hugging Face CEO Clem Delangue says companies are moving away from renting AI and towards open source solutions, with the company's models being used by roughly half the Fortune 500.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-11"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Meta removes controversial AI feature on Instagram",
+        "link": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+        "summary": "Meta has removed a controversial AI feature on Instagram after backlash, saying it 'missed the mark' and was not providing the intended creative tool.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-11"
+      },
+      {
+        "title": "Apple sues OpenAI over alleged trade secret theft",
+        "link": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+        "summary": "Apple has sued OpenAI over alleged trade secret theft, with the company alleging misconduct by OpenAI's senior leadership.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-11"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Unveiling Public Opinion: A Study of Sentiment Analysis Using LSTM and Traditional Models",
+        "link": "https://arxiv.org/abs/2607.07772",
+        "summary": "This study explores the use of LSTM and traditional models for sentiment analysis, with a focus on public opinion and social media data.",
+        "source": "arXiv cs.CL",
+        "trust": "🔵 Academic",
+        "date": "2026-07-11"
+      },
+      {
+        "title": "From Solvers to Research: Large Language Model-Driven Formal Mathematics at the Research Frontier",
+        "link": "https://arxiv.org/abs/2607.07779",
+        "summary": "This study examines the use of large language models for formal mathematics, with a focus on theorem provers and interactive theorem proving languages.",
+        "source": "arXiv cs.CL",
+        "trust": "🔵 Academic",
+        "date": "2026-07-11"
+      },
+      {
+        "title": "DeepSearch-World: Self-Distillation for Deep Search Agents in a Verifiable Environment",
+        "link": "https://arxiv.org/abs/2607.07820",
+        "summary": "This study presents a self-distillation framework for web agents, with a focus on verifiable environments and deep search agents.",
+        "source": "arXiv cs.CL",
+        "trust": "🔵 Academic",
+        "date": "2026-07-11"
+      },
+      {
+        "title": "Scalable and Culturally Specific Stereotype Dataset Construction via Human-LLM Collaboration",
+        "link": "https://arxiv.org/abs/2607.07895",
+        "summary": "This study introduces a cost-efficient human-LLM collaborative annotation framework for constructing culturally specific stereotype datasets.",
+        "source": "arXiv cs.CL",
+        "trust": "🔵 Academic",
+        "date": "2026-07-11"
+      },
+      {
+        "title": "When Debiasing Backfires: Counterintuitive Side Effects of Preprocessing-Based Stereotype Mitigation",
+        "link": "https://arxiv.org/abs/2607.07937",
+        "summary": "This study examines the counterintuitive side effects of preprocessing-based stereotype mitigation methods, with a focus on unintended shifts in stereotyping or counter-stereotyping.",
+        "source": "arXiv cs.CL",
+        "trust": "🔵 Academic",
+        "date": "2026-07-11"
+      },
+      {
+        "title": "A Multi-cluster Boundary Learning Method for Out-of-Scope Intent Detection via MiniLM Embedding",
+        "link": "https://arxiv.org/abs/2607.07974",
+        "summary": "This study presents a multi-cluster boundary learning method for out-of-scope intent detection, with a focus on miniLM embedding and human-machine interaction systems.",
+        "source": "arXiv cs.CL",
+        "trust": "🔵 Academic",
+        "date": "2026-07-11"
+      },
+      {
+        "title": "When Implausible Tokens Get Reinforced: Tail-Aware Credit Calibration for LLM Reinforcement Learning",
+        "link": "https://arxiv.org/abs/2607.07976",
+        "summary": "This study identifies a critical failure mode in widely used critic-free RL methods, with a focus on tail-aware credit calibration for LLM reinforcement learning.",
+        "source": "arXiv cs.CL",
+        "trust": "🔵 Academic",
+        "date": "2026-07-11"
+      },
+      {
+        "title": "A Reliability Assessment of LALM Audio Judges for Full-Duplex Voice Agents",
+        "link": "https://arxiv.org/abs/2607.07985",
+        "summary": "This study reports the empirical reliability of Gemini models as audio judges for full-duplex agent conversations, with a focus on raw stereo waveform scoring.",
+        "source": "arXiv cs.CL",
+        "trust": "🔵 Academic",
+        "date": "2026-07-11"
+      },
+      {
+        "title": "Hallucination Self-Play: Bootstrapping Reinforced Detector via Evolved Generator",
+        "link": "https://arxiv.org/abs/2607.07993",
+        "summary": "This study presents a hallucination self-play framework for bootstrapping reinforced detectors via evolved generators, with a focus on LLM-generated outputs and faithfulness hallucinations.",
+        "source": "arXiv cs.CL",
+        "trust": "🔵 Academic",
+        "date": "2026-07-11"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Wan-AI/Wan2.1-T2V-1.3B",
+    "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+    "summary": "A large language model released on Hugging Face, suitable for a wide range of NLP tasks."
+  },
+  "hot_take": "The AI industry is shifting towards open source solutions, with companies like Hugging Face growing into a GitHub for AI, and companies like Meta removing controversial AI features after backlash, highlighting the need for responsible AI development and deployment."
+}

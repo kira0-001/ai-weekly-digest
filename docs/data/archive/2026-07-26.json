@@ -1,0 +1,157 @@
+{
+  "date": "2026-07-26",
+  "date_display": "Sunday, 26 July 2026 (11:13 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Wan-AI/Wan2.1-T2V-1.3B",
+        "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+        "summary": "A new AI model released on Hugging Face.",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-07-26"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Understanding GPU Inference Workloads [D]",
+        "link": "https://www.reddit.com/r/MachineLearning/comments/1v6sjiu/understanding_gpu_inference_workloads_d/",
+        "summary": "A discussion on GPU inference workloads and compute sourcing.",
+        "source": "r/MachineLearning",
+        "trust": "🟡 Community",
+        "date": "2026-07-26"
+      },
+      {
+        "title": "Link plots/figures in NeurIPS rebuttal [R]",
+        "link": "https://www.reddit.com/r/MachineLearning/comments/1v6qt8l/link_plotsfigures_in_neurips_rebuttal_r/",
+        "summary": "A question on linking plots and figures in NeurIPS rebuttals.",
+        "source": "r/MachineLearning",
+        "trust": "🟡 Community",
+        "date": "2026-07-26"
+      },
+      {
+        "title": "Paper lengths, and reasonable assumptions in ML conferences. [D]",
+        "link": "https://www.reddit.com/r/MachineLearning/comments/1v6gh43/paper_lengths_and_reasonable_assumptions_in_ml/",
+        "summary": "A discussion on paper lengths and assumptions in ML conferences.",
+        "source": "r/MachineLearning",
+        "trust": "🟡 Community",
+        "date": "2026-07-26"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
+        "link": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+        "summary": "A list of tech companies that have blamed AI for layoffs.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-26"
+      },
+      {
+        "title": "Librarians are hosting viral ‘Avoiding AI’ workshops for people who are fed up with Big Tech",
+        "link": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
+        "summary": "Viral workshops on avoiding AI, hosted by librarians.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-26"
+      },
+      {
+        "title": "One fallen power line exposed a growing AI data center problem. Here’s how to fix it.",
+        "link": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
+        "summary": "A discussion on the growing AI data center problem and potential solutions.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-07-26"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Wan-AI/Wan2.1-T2V-1.3B",
+        "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+        "summary": "A new AI model released on Hugging Face.",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-07-26"
+      },
+      {
+        "title": "microsoft/Phi-4-mini-instruct",
+        "link": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+        "summary": "A new AI model released on Hugging Face.",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-07-26"
+      },
+      {
+        "title": "hexgrad/Kokoro-82M",
+        "link": "https://huggingface.co/hexgrad/Kokoro-82M",
+        "summary": "A new AI model released on Hugging Face.",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-07-26"
+      },
+      {
+        "title": "nvidia/DeepSeek-R1-FP4",
+        "link": "https://huggingface.co/nvidia/DeepSeek-R1-FP4",
+        "summary": "A new AI model released on Hugging Face.",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-07-26"
+      },
+      {
+        "title": "Kijai/WanVideo_comfy",
+        "link": "https://huggingface.co/Kijai/WanVideo_comfy",
+        "summary": "A new AI model released on Hugging Face.",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-07-26"
+      },
+      {
+        "title": "stepfun-ai/stepvideo-t2v",
+        "link": "https://huggingface.co/stepfun-ai/stepvideo-t2v",
+        "summary": "A new AI model released on Hugging Face.",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-07-26"
+      },
+      {
+        "title": "yandex/YandexGPT-5-Lite-8B-pretrain",
+        "link": "https://huggingface.co/yandex/YandexGPT-5-Lite-8B-pretrain",
+        "summary": "A new AI model released on Hugging Face.",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-07-26"
+      },
+      {
+        "title": "moonshotai/Moonlight-16B-A3B-Instruct",
+        "link": "https://huggingface.co/moonshotai/Moonlight-16B-A3B-Instruct",
+        "summary": "A new AI model released on Hugging Face.",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-07-26"
+      },
+      {
+        "title": "microsoft/wham",
+        "link": "https://huggingface.co/microsoft/wham",
+        "summary": "A new AI model released on Hugging Face.",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-07-26"
+      },
+      {
+        "title": "Kijai/SkyReels-V1-Hunyuan_comfy",
+        "link": "https://huggingface.co/Kijai/SkyReels-V1-Hunyuan_comfy",
+        "summary": "A new AI model released on Hugging Face.",
+        "source": "HF Trending Models",
+        "trust": "🟢 Official",
+        "date": "2026-07-26"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Wan-AI/Wan2.1-T2V-1.3B",
+    "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+    "summary": "A new AI model released on Hugging Face."
+  },
+  "hot_take": "The rapid release of new AI models highlights the need for responsible AI development and deployment, as well as the importance of considering the social and economic implications of AI adoption."
+}
