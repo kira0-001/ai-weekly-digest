@@ -130,8 +130,8 @@ def entry_datetime(e):
     # Fallback: epoch now
     return datetime.datetime.now(datetime.timezone.utc)
 
-def summarize(text, max_words=50):
-    # Pass 50 words instead of 200 to keep the input token count small enough for Groq's free tier
+def summarize(text, max_words=25):
+    # Truncate to 25 words to keep payload small for groq/compound's context limit
     text = clean_text(text)
     words = text.split()
     if len(words) <= max_words:
@@ -276,11 +276,40 @@ def send_whatsapp(message, phone, api_key):
     except Exception as exc:
         log.warning("⚠ WhatsApp send error: %s", exc)
 
+def get_best_groq_model(api_key):
+    """Auto-detect the best available Groq model from a priority list.
+    This prevents breakage when Groq retires models."""
+    # Priority order: best quality first, fallbacks after
+    PREFERRED = [
+        "openai/gpt-oss-120b",
+        "qwen/qwen3.6-27b",
+        "openai/gpt-oss-20b",
+        "groq/compound",
+        "groq/compound-mini",
+        "allam-2-7b",
+    ]
+    try:
+        resp = requests.get(
+            "https://api.groq.com/openai/v1/models",
+            headers={"Authorization": f"Bearer {api_key}", "User-Agent": "Mozilla/5.0"},
+            timeout=10
+        )
+        if resp.status_code == 200:
+            available = {m["id"] for m in resp.json().get("data", [])}
+            for model in PREFERRED:
+                if model in available:
+                    log.info("🤖 Auto-selected Groq model: %s", model)
+                    return model
+    except Exception as e:
+        log.warning("⚠ Could not auto-detect model, using fallback: %s", e)
+    # Hard fallback
+    return "groq/compound"
+
 def analyze_with_ai(raw_items, api_key):
     client = Groq(api_key=api_key)
     
-    # Using groq/compound which is the currently active default model on Groq's API
-    model_name = "groq/compound"
+    # Auto-detect best available model — never breaks when Groq retires models
+    model_name = get_best_groq_model(api_key)
     
     system_prompt = """
     You are a Senior AI Research Lead and Career Mentor. You receive raw news items from the last 24 hours.
@@ -335,27 +364,54 @@ def analyze_with_ai(raw_items, api_key):
     
     user_prompt = "Raw Items:\n" + json.dumps(clean_items, indent=2)
     
-    max_retries = 3
+    # Model cascade: try best model first, fall back on token/rate errors
+    # You were right — 120B hits token limits faster, so we need smart fallback
+    MODEL_CASCADE = [
+        model_name,            # best available (auto-detected)
+        "openai/gpt-oss-20b",  # fallback: smaller, lower token cost
+        "groq/compound-mini",  # last resort: lightest model
+    ]
+
     response_text = ""
-    for attempt in range(max_retries):
-        try:
-            chat_completion = client.chat.completions.create(
-                messages=[
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_prompt}
-                ],
-                model=model_name,
-                temperature=0.2,
-                max_tokens=2000,
-            )
-            response_text = chat_completion.choices[0].message.content.strip()
+    last_error = None
+
+    for current_model in MODEL_CASCADE:
+        log.info("🤖 Trying model: %s", current_model)
+        succeeded = False
+        for attempt in range(2):  # 2 attempts per model
+            try:
+                chat_completion = client.chat.completions.create(
+                    messages=[
+                        {"role": "system", "content": system_prompt},
+                        {"role": "user", "content": user_prompt}
+                    ],
+                    model=current_model,
+                    temperature=0.2,
+                    max_tokens=1200,
+                )
+                response_text = chat_completion.choices[0].message.content.strip()
+                succeeded = True
+                break
+            except Exception as e:
+                err = str(e)
+                last_error = e
+                if "429" in err:
+                    log.warning("⚠ Rate limit on %s (attempt %d). Switching model...", current_model, attempt + 1)
+                    break  # don't retry same model — cascade to next
+                elif "413" in err:
+                    log.warning("⚠ Payload too large for %s. Switching model...", current_model)
+                    break  # cascade to next
+                elif "404" in err or "400" in err or "decommissioned" in err:
+                    log.warning("⚠ Model %s unavailable: %s. Switching...", current_model, err[:80])
+                    break  # cascade to next
+                else:
+                    log.warning("⚠ Unexpected error on %s: %s", current_model, err[:80])
+                    time.sleep(5)
+        if succeeded:
             break
-        except Exception as e:
-            if "429" in str(e) and attempt < max_retries - 1:
-                log.warning("⚠ Groq API rate limit hit. Waiting 20 seconds before retrying...")
-                time.sleep(20)
-            else:
-                raise
+
+    if not response_text:
+        raise RuntimeError(f"All models failed. Last error: {last_error}")
     
     if response_text.startswith("```json"):
         response_text = response_text[7:]
@@ -450,8 +506,9 @@ def main(dry_run=False):
         
     log.info("Collected %d unique raw items.", len(unique_items))
     
-    # Cap to top 20 items to fit within Groq's strict 6k TPM free limit
-    unique_items = unique_items[:20]
+    # Cap to top 8 items to fit within groq/compound's context window
+    MAX_ITEMS = 8
+    unique_items = unique_items[:MAX_ITEMS]
     log.info("Sending top %d items to AI to respect token limits.", len(unique_items))
 
     # --- AI Analysis ---
