@@ -279,8 +279,8 @@ def send_whatsapp(message, phone, api_key):
 def analyze_with_ai(raw_items, api_key):
     client = Groq(api_key=api_key)
     
-    # Using Mixtral via Groq as it is stable and has generous free tier limits
-    model_name = "mixtral-8x7b-32768"
+    # Using groq/compound which is the currently active default model on Groq's API
+    model_name = "groq/compound"
     
     system_prompt = """
     You are a Senior AI Research Lead and Career Mentor. You receive raw news items from the last 24 hours.
