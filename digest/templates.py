@@ -188,7 +188,7 @@ def html_email(subject_date_str, sections, tool_of_week=None, hot_take=None):
           <!-- Footer -->
           <tr><td style="padding:20px 0;text-align:center;">
             <div style="font-size:11px;color:#999;line-height:1.7;">
-              Curated by AI \u2022 Powered by Groq &amp; Llama 3<br>
+              Curated by AI \u2022 Powered by Groq &amp; Open Models<br>
               Every link goes to the original source \u2014 click to verify<br>
               <span style="color:#bbb;">Built with \u2764\ufe0f for staying ahead in AI</span>
             </div>
