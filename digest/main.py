@@ -388,9 +388,20 @@ def analyze_with_ai(raw_items, api_key):
                     model=current_model,
                     temperature=0.2,
                     max_tokens=1200,
-                    timeout=45.0,  # 45-second timeout to prevent hangs on overloaded models
+                    timeout=45.0,
                 )
-                response_text = chat_completion.choices[0].message.content.strip()
+                raw = ""
+                if chat_completion.choices:
+                    raw = (chat_completion.choices[0].message.content or "").strip()
+
+                log.info("📝 Raw response from %s (%d chars): %s...",
+                         current_model, len(raw), raw[:120])
+
+                if not raw:
+                    log.warning("⚠ %s returned empty response. Switching model...", current_model)
+                    break  # cascade to next model
+
+                response_text = raw
                 succeeded = True
                 break
             except Exception as e:
@@ -398,13 +409,13 @@ def analyze_with_ai(raw_items, api_key):
                 last_error = e
                 if "429" in err:
                     log.warning("⚠ Rate limit on %s (attempt %d). Switching model...", current_model, attempt + 1)
-                    break  # don't retry same model — cascade to next
+                    break
                 elif "413" in err:
                     log.warning("⚠ Payload too large for %s. Switching model...", current_model)
-                    break  # cascade to next
+                    break
                 elif "404" in err or "400" in err or "decommissioned" in err:
                     log.warning("⚠ Model %s unavailable: %s. Switching...", current_model, err[:80])
-                    break  # cascade to next
+                    break
                 else:
                     log.warning("⚠ Unexpected error on %s: %s", current_model, err[:80])
                     time.sleep(5)
@@ -412,7 +423,7 @@ def analyze_with_ai(raw_items, api_key):
             break
 
     if not response_text:
-        raise RuntimeError(f"All models failed. Last error: {last_error}")
+        raise RuntimeError(f"All models in cascade failed. Last error: {last_error}")
     
     if response_text.startswith("```json"):
         response_text = response_text[7:]
