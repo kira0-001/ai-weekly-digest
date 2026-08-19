@@ -279,8 +279,8 @@ def send_whatsapp(message, phone, api_key):
 def analyze_with_ai(raw_items, api_key):
     client = Groq(api_key=api_key)
     
-    # Using Llama 3 8B via Groq because the 70B model has a strict 12k TPM limit on the free tier
-    model_name = "llama3-8b-8192"
+    # Using Mixtral via Groq as it is stable and has generous free tier limits
+    model_name = "mixtral-8x7b-32768"
     
     system_prompt = """
     You are a Senior AI Research Lead and Career Mentor. You receive raw news items from the last 24 hours.
