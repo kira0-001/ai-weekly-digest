@@ -281,12 +281,12 @@ def get_best_groq_model(api_key):
     This prevents breakage when Groq retires models."""
     # Priority order: best quality first, fallbacks after
     PREFERRED = [
-        "openai/gpt-oss-120b",
+        "llama-3.3-70b-versatile",
         "qwen/qwen3.6-27b",
+        "openai/gpt-oss-120b",
         "openai/gpt-oss-20b",
         "groq/compound",
         "groq/compound-mini",
-        "allam-2-7b",
     ]
     try:
         resp = requests.get(
@@ -336,10 +336,10 @@ def analyze_with_ai(raw_items, api_key):
         "🚀 Big Launches": [
           {"title": "...", "link": "...", "summary": "...", "source": "...", "trust": "🟢 Official"}
         ],
-        "🛠️ Builder's Toolbox": [...],
-        "🎯 Interview Edge": [...],
-        "⚖️ Responsible AI": [...],
-        "🔮 On the Horizon": [...]
+        "🛠️ Builder's Toolbox": [],
+        "🎯 Interview Edge": [],
+        "⚖️ Responsible AI": [],
+        "🔮 On the Horizon": []
       },
       "tool_of_day": {"title": "...", "link": "...", "summary": "..."},
       "hot_take": "..."
@@ -365,21 +365,30 @@ def analyze_with_ai(raw_items, api_key):
     user_prompt = "Raw Items:\n" + json.dumps(clean_items, indent=2)
     
     # Model cascade: try best model first, fall back on token/rate errors
-    # You were right — 120B hits token limits faster, so we need smart fallback
     MODEL_CASCADE = [
-        model_name,            # best available (auto-detected)
-        "openai/gpt-oss-20b",  # fallback: smaller, lower token cost
-        "groq/compound-mini",  # last resort: lightest model
+        model_name,
+        "qwen/qwen3.6-27b",
+        "openai/gpt-oss-120b",
+        "openai/gpt-oss-20b",
+        "groq/compound-mini",
     ]
+    # Remove duplicates preserving order
+    seen_models = set()
+    deduped_cascade = []
+    for m in MODEL_CASCADE:
+        if m not in seen_models:
+            seen_models.add(m)
+            deduped_cascade.append(m)
 
-    response_text = ""
+    response_data = None
     last_error = None
+    succeeded = False
 
-    for current_model in MODEL_CASCADE:
+    for current_model in deduped_cascade:
         log.info("🤖 Trying model: %s", current_model)
-        succeeded = False
         for attempt in range(2):  # 2 attempts per model
             try:
+                # Use json_object format and ample max_tokens so output is never truncated
                 chat_completion = client.chat.completions.create(
                     messages=[
                         {"role": "system", "content": system_prompt},
@@ -387,7 +396,8 @@ def analyze_with_ai(raw_items, api_key):
                     ],
                     model=current_model,
                     temperature=0.2,
-                    max_tokens=1200,
+                    max_tokens=2500,
+                    response_format={"type": "json_object"},
                     timeout=45.0,
                 )
                 raw = ""
@@ -401,7 +411,6 @@ def analyze_with_ai(raw_items, api_key):
                     log.warning("⚠ %s returned empty response. Retrying...", current_model)
                     continue
 
-                # Clean markdown blocks if present
                 clean_raw = raw
                 if clean_raw.startswith("```json"):
                     clean_raw = clean_raw[7:]
@@ -430,7 +439,8 @@ def analyze_with_ai(raw_items, api_key):
                 err = str(e)
                 last_error = e
                 if "429" in err:
-                    log.warning("⚠ Rate limit on %s (attempt %d). Switching model...", current_model, attempt + 1)
+                    log.warning("⚠ Rate limit hit on %s. Waiting 15s for TPM limit to reset...", current_model)
+                    time.sleep(15)
                     break
                 elif "413" in err:
                     log.warning("⚠ Payload too large for %s. Switching model...", current_model)
@@ -518,8 +528,8 @@ def main(dry_run=False):
         
     log.info("Collected %d unique raw items.", len(unique_items))
     
-    # Cap to top 8 items to fit within groq/compound's context window
-    MAX_ITEMS = 8
+    # Cap to top 6 items to fit safely within Groq's 12k TPM free limit
+    MAX_ITEMS = 6
     unique_items = unique_items[:MAX_ITEMS]
     log.info("Sending top %d items to AI to respect token limits.", len(unique_items))
 
