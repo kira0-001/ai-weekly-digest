@@ -398,10 +398,32 @@ def analyze_with_ai(raw_items, api_key):
                          current_model, len(raw), raw[:120])
 
                 if not raw:
-                    log.warning("⚠ %s returned empty response. Switching model...", current_model)
-                    break  # cascade to next model
+                    log.warning("⚠ %s returned empty response. Retrying...", current_model)
+                    continue
 
-                response_text = raw
+                # Clean markdown blocks if present
+                clean_raw = raw
+                if clean_raw.startswith("```json"):
+                    clean_raw = clean_raw[7:]
+                if clean_raw.endswith("```"):
+                    clean_raw = clean_raw[:-3]
+                
+                # Validate JSON parsing immediately
+                try:
+                    data = json.loads(clean_raw)
+                except json.JSONDecodeError:
+                    match = re.search(r'\{[\s\S]*\}', clean_raw)
+                    if match:
+                        try:
+                            data = json.loads(match.group())
+                        except json.JSONDecodeError as e:
+                            log.warning("⚠ %s returned invalid JSON: %s. Retrying...", current_model, e)
+                            continue
+                    else:
+                        log.warning("⚠ %s returned no valid JSON. Retrying...", current_model)
+                        continue
+
+                response_data = data
                 succeeded = True
                 break
             except Exception as e:
@@ -422,32 +444,10 @@ def analyze_with_ai(raw_items, api_key):
         if succeeded:
             break
 
-    if not response_text:
-        raise RuntimeError(f"All models in cascade failed. Last error: {last_error}")
-    
-    if response_text.startswith("```json"):
-        response_text = response_text[7:]
-    if response_text.endswith("```"):
-        response_text = response_text[:-3]
+    if not succeeded or not response_data:
+        raise RuntimeError(f"All models in cascade failed to return valid JSON. Last error: {last_error}")
         
-    # Try to extract JSON even if wrapped in extra text
-    try:
-        data = json.loads(response_text)
-    except json.JSONDecodeError:
-        # Try to find JSON object in the response
-        match = re.search(r'\{[\s\S]*\}', response_text)
-        if match:
-            try:
-                data = json.loads(match.group())
-            except json.JSONDecodeError as e:
-                log.error("Failed to parse AI JSON response: %s", e)
-                log.error("Raw response (first 500 chars): %s", response_text[:500])
-                raise
-        else:
-            log.error("No JSON found in AI response. Raw (first 500 chars): %s", response_text[:500])
-            raise ValueError("AI returned no valid JSON")
-        
-    return data.get("sections", {}), data.get("tool_of_day"), data.get("hot_take")
+    return response_data.get("sections", {}), response_data.get("tool_of_day"), response_data.get("hot_take")
 
 # -----------------------
 # MAIN
