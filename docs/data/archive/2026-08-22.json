@@ -1,0 +1,85 @@
+{
+  "date": "2026-08-22",
+  "date_display": "Saturday, 22 August 2026 (07:27 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Nvidia partners with data center developer Cloverleaf",
+        "link": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
+        "summary": "Nvidia teams up with data‑center developer Cloverleaf to build next‑gen AI‑optimized facilities, aiming to meet soaring compute demand. Why it matters: Understanding AI hardware infrastructure is crucial for MLOps and systems design roles.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-22"
+      },
+      {
+        "title": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+        "link": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
+        "summary": "Space‑startup Starcloud secures $250 M to launch orbital data centers, targeting low‑latency AI compute as launch capacity dwindles. Why it matters: Introduces a new edge‑compute paradigm that could reshape latency‑critical AI deployments.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-22"
+      },
+      {
+        "title": "Over 1 million people have clicked LinkedIn’s AI slop button",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
+        "summary": "LinkedIn rolls out a “Seems like AI slop” button, already used by over a million users to flag AI‑generated content. Why it matters: Demonstrates user‑driven content moderation tools, a growing focus in responsible AI product design.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-22"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [],
+    "🎯 Interview Edge": [
+      {
+        "title": "Nvidia just showed that the harness, not the AI model, is now the real hero",
+        "link": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+        "summary": "Nvidia research shows that fine‑tuned “harnesses” (prompt engineering, safety layers) can keep AI agents on task even with modest models. Why it matters: Highlights the interview‑relevant skill of building robust prompt pipelines and safety wrappers for agentic AI.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-22"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Anthropic’s Opus 4.6 is a smut-machine",
+        "link": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
+        "summary": "TechCrunch reports that Anthropic's Claude models still generate sexually explicit content despite safeguards, raising concerns about content moderation. Why it matters: Underscores the difficulty of building safe LLMs, a hot topic for responsible‑AI interview questions.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-22"
+      },
+      {
+        "title": "The DOJ is investigating a16z. What does this mean for venture capital?",
+        "link": "https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/",
+        "summary": "The U.S. Department of Justice probes Andreessen Horowitz over potential antitrust issues stemming from board overlaps in competing AI firms. Why it matters: Signals increasing regulatory scrutiny of AI investments, relevant for future AI product leaders and policy‑aware engineers.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-22"
+      },
+      {
+        "title": "Major YouTube creators are facing backlash for accepting AI money",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
+        "summary": "Prominent YouTube filmmakers face criticism after accepting sponsorships from AI‑focused companies, sparking debate over transparency and ethics. Why it matters: Highlights reputational risks and the need for ethical partnership guidelines in AI‑related content creation.",
+        "source": "The Verge AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-22"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+        "link": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+        "summary": "DeepMind showcases 15 years of AI research applied to games, partnering with studios to prototype advanced gameplay agents. Why it matters: Demonstrates real‑world reinforcement‑learning breakthroughs that are likely to appear in interview case studies.",
+        "source": "DeepMind",
+        "trust": "🟢 Official",
+        "date": "2026-08-22"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Hugging Face Inference API (Free tier)",
+    "link": "https://huggingface.co/inference-api",
+    "summary": "Provides free, rate‑limited access to thousands of open‑source models for rapid prototyping—perfect for student projects and interview demos."
+  },
+  "hot_take": "As AI safety layers, massive infrastructure deals, and regulatory scrutiny dominate the headlines, mastering both the technical depth and governance awareness of AI is becoming essential for any aspiring AI professional."
+}

@@ -1,0 +1,69 @@
+{
+  "date": "2026-08-21",
+  "date_display": "Friday, 21 August 2026 (07:37 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "ChatGPT can now send texts for you with new Apple Messages plug-in",
+        "link": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
+        "summary": "OpenAI released a plug‑in for Apple Messages that lets ChatGPT draft and send texts on your behalf, turning the chat model into a personal texting assistant.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-21"
+      },
+      {
+        "title": "Google gives publishers a new way to fight AI‑driven traffic losses",
+        "link": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
+        "summary": "Google added a ‘preferred source’ button that lets publishers signal to Search, Discover and News that their content should be prioritized, aiming to recover traffic lost to AI‑generated content.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-21"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+        "link": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+        "summary": "Hugging Face announced LFM2.5‑DSpark, an open‑source inference engine that accelerates large‑language‑model serving by up to 3.2× on commodity hardware.",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-21"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "ChatGPT can now send texts for you with new Apple Messages plug-in",
+        "link": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
+        "summary": "The new plug‑in showcases Agentic AI, where a model performs actions (sending texts) autonomously—a hot topic for interview questions on prompting and tool use.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-21"
+      },
+      {
+        "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+        "link": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+        "summary": "Speed‑up techniques like DSpark are becoming interview fodder for MLOps roles, highlighting quantization, batching, and hardware‑aware serving strategies.",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-21"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Introducing AI Futures",
+        "link": "https://openai.com/index/introducing-ai-futures",
+        "summary": "OpenAI’s new blog series explores how transformative AI could reshape power structures, governance, economies, and individual freedoms, underscoring the need for ethical frameworks.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-21"
+      }
+    ],
+    "🔮 On the Horizon": []
+  },
+  "tool_of_day": {
+    "title": "LFM2.5‑DSpark Inference Engine",
+    "link": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+    "summary": "An open‑source engine that boosts LLM inference speed up to 3.2×, ideal for students building low‑latency AI services."
+  },
+  "hot_take": "The industry is shifting from headline‑grabbing model releases to real‑world integrations and performance engineering, so fresh grads should double‑down on MLOps, agentic AI, and deployment efficiency."
+}

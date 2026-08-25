@@ -1,0 +1,118 @@
+{
+  "date": "2026-08-23",
+  "date_display": "Sunday, 23 August 2026 (07:38 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Inherent launches Faraday AI teammate that outperforms Anthropic and OpenAI at research replication",
+        "link": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+        "summary": "Inherent, a UK AI lab founded by DeepMind alumni, unveiled Faraday, an autonomous AI agent that can reproduce scientific papers, beating leading models in accuracy.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-23"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Microsoft Phi-4 mini instruct",
+        "link": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+        "summary": "A 7B-parameter instruction‑tuned model released for free on Hugging Face, ideal for building lightweight chatbots or fine‑tuning projects.",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-08-23"
+      },
+      {
+        "title": "NVIDIA DeepSeek-R1 FP4",
+        "link": "https://huggingface.co/nvidia/DeepSeek-R1-FP4",
+        "summary": "NVIDIA’s open‑source 7B model optimized for fast inference (FP4), useful for rapid prototyping on consumer GPUs.",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-08-23"
+      },
+      {
+        "title": "Wan‑AI Wan2.1 T2V 1.3B",
+        "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+        "summary": "A 1.3B text‑to‑video model that generates short clips from prompts, released under a permissive license for research and hobby projects.",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-08-23"
+      },
+      {
+        "title": "hexgrad Kokoro‑82M",
+        "link": "https://huggingface.co/hexgrad/Kokoro-82M",
+        "summary": "An 82‑million‑parameter multilingual language model that runs comfortably on a laptop, perfect for low‑resource experimentation.",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-08-23"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Inherent Faraday AI teammate",
+        "link": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+        "summary": "Shows how agentic AI can autonomously conduct literature reviews—a skill interviewers love to see in MLOps and research‑focused roles.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-23"
+      },
+      {
+        "title": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
+        "link": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+        "summary": "AI‑driven avatars give real‑time pitch feedback, illustrating practical uses of conversational agents for interview prep and soft‑skill training.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-23"
+      },
+      {
+        "title": "Phi-4 mini instruct model",
+        "link": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+        "summary": "A compact instruction‑tuned model that lets candidates prototype chat‑based assistants quickly—great for demonstrating prompt‑engineering in interviews.",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-08-23"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "OpenAI urges stronger California AI safety bill",
+        "link": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+        "summary": "OpenAI flips its stance, recommending tighter regulations (SB 53) to mitigate misuse, highlighting the evolving policy landscape for AI practitioners.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-23"
+      },
+      {
+        "title": "Frontier AI labs still won’t say how they’d contain a rogue model",
+        "link": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+        "summary": "A study finds leading labs lack public containment plans, underscoring the need for engineers to understand model‑governance and safety protocols.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-23"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Wan‑AI Wan2.1 T2V 1.3B text‑to‑video breakthrough",
+        "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+        "summary": "Early results suggest high‑quality video generation from short prompts, pointing to a new wave of multimodal generative research.",
+        "source": "HF Trending Models",
+        "trust": "🟡 Community",
+        "date": "2026-08-23"
+      },
+      {
+        "title": "Inherent Faraday AI teammate research replication",
+        "link": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+        "summary": "Demonstrates that autonomous agents can reliably reproduce scientific findings, a stepping stone toward self‑driving research pipelines.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-23"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Microsoft Phi-4 mini instruct",
+    "link": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+    "summary": "A free, 7B‑parameter instruction‑tuned model that runs on a single GPU, perfect for students building chatbots or practicing prompt‑engineering."
+  },
+  "hot_take": "The surge of lightweight, open‑source models and autonomous research agents means tomorrow’s interview questions will focus as much on prompt‑engineering and safety awareness as on traditional coding skills."
+}

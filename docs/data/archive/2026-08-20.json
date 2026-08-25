@@ -1,0 +1,85 @@
+{
+  "date": "2026-08-20",
+  "date_display": "Thursday, 20 August 2026 (07:28 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Replit expands access to software creation with GPT-5.6 Luna",
+        "link": "https://openai.com/index/replit",
+        "summary": "Replit launches a Free Mode powered by GPT‑5.6 Luna, letting anyone build and run code without token limits. Why it matters: lowers the barrier for hands‑on AI‑assisted development, a trend hiring teams are watching.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-20"
+      },
+      {
+        "title": "LFM2.5 Q4_0 Checkpoints from Quantization-Aware Distillation",
+        "link": "https://huggingface.co/blog/LiquidAI/qad",
+        "summary": "Hugging Face releases LFM2.5 Q4_0 model checkpoints generated via Quantization‑Aware Distillation, offering high accuracy at a fraction of the size. Why it matters: showcases state‑of‑the‑art model compression for edge deployment.",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-20"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "5 new ways to level up your learning with Search",
+        "link": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
+        "summary": "Google AI Blog rolls out free study‑tool integrations (e.g., Add Notebook, Ask Google) to help students research and organize information faster. Why it matters: provides free, searchable knowledge bases useful for project prototyping.",
+        "source": "Google AI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-20"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Quantization‑Aware Distillation (QAD) for efficient models",
+        "link": "https://huggingface.co/blog/LiquidAI/qad",
+        "summary": "The QAD technique blends quantization and knowledge distillation to produce compact, high‑performing models—an increasingly common interview topic in MLOps and Edge AI. Why it matters: demonstrates a practical path to deploy large models on limited hardware.",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-20"
+      },
+      {
+        "title": "GPT‑5.6 Luna Free Mode illustrates agentic AI for coding",
+        "link": "https://openai.com/index/replit",
+        "summary": "Replit’s free‑mode lets users issue natural‑language prompts that generate, run, and debug code autonomously, a concrete example of agentic AI. Why it matters: interviewers often probe candidates on building or evaluating such autonomous agents.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-20"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Offering Zero Data Retention for frontier models",
+        "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+        "summary": "OpenAI reaffirms a zero‑data‑retention policy for eligible API customers and previews Private Safety Processing to keep data private while ensuring safety. Why it matters: privacy guarantees are becoming a differentiator in enterprise AI contracts.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-20"
+      },
+      {
+        "title": "OpenAI seeks to one‑up Anthropic with new customer privacy protections",
+        "link": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections/",
+        "summary": "OpenAI announces tighter privacy controls to outpace Anthropic, signaling a competitive race on data‑security features for enterprise users. Why it matters: showcases how regulatory pressure is shaping product roadmaps.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-20"
+      },
+      {
+        "title": "AI was supposed to win people over by now — it hasn't",
+        "link": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
+        "summary": "A TechCrunch analysis notes growing consumer wariness toward ubiquitous AI, highlighting the gap between hype and public trust. Why it matters: ethical and societal concerns are increasingly part of interview discussions.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-20"
+      }
+    ],
+    "🔮 On the Horizon": []
+  },
+  "tool_of_day": {
+    "title": "Hugging Face Quantization‑Aware Distillation (QAD) library",
+    "link": "https://github.com/huggingface/transformers/tree/main/examples/quantization",
+    "summary": "A free, open‑source library that lets you apply QAD to compress large language models, perfect for student projects and interview demos."
+  },
+  "hot_take": "Today's mix of privacy‑first launches and ultra‑efficient model tricks signals that the next wave of AI hiring will reward engineers who can build responsible, edge‑ready solutions."
+}
