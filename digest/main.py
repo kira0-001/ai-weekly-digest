@@ -48,40 +48,47 @@ log = logging.getLogger("ai-digest")
 # CONFIG
 # -----------------------
 TIMEZONE = os.getenv("TIMEZONE", "Asia/Kolkata")
-DAYS_BACK = int(os.getenv("DAYS_BACK", "1"))  # 1 = daily, 7 = weekly
+# 2-day rolling window covers weekends and time-zone delays for max story depth
+DAYS_BACK = int(os.getenv("DAYS_BACK", "2"))
 
 # Source trust levels — so readers know where data comes from
-# 🟢 Official = direct from the company's own blog/feed
-# 🟡 Community = third-party aggregator (accurate but unofficial)
-# 🔵 Academic = peer-reviewed / university-hosted
+# 🟢 Official = direct from company blog/feed
+# 🔵 Academic = peer-reviewed / research lab
+# 🟡 Industry News = verified tech media / aggregator
 TRUST_LEVELS = {
     "OpenAI Blog":         "🟢 Official",
     "Google AI Blog":      "🟢 Official",
     "DeepMind":            "🟢 Official",
-    "Meta AI":             "🟢 Official",
-    "Anthropic":           "🟢 Official",
+    "Meta AI Blog":        "🟢 Official",
+    "Microsoft AI Blog":   "🟢 Official",
+    "AWS ML Blog":         "🟢 Official",
+    "NVIDIA Tech Blog":    "🟢 Official",
     "Hugging Face Blog":   "🟢 Official",
-    "TechCrunch AI":       "🟡 Community",
-    "The Verge AI":        "🟡 Community",
-    "r/MachineLearning":   "🟡 Community",
-    "r/artificial":        "🟡 Community",
-    "MIT Tech Review AI":  "🟡 Community",
+    "GitHub AI & ML Blog": "🟢 Official",
+    "GitHub Changelog":    "🟢 Official",
+    "Google Research Blog":"🟢 Official",
     "arXiv cs.AI":         "🔵 Academic",
     "arXiv cs.LG":         "🔵 Academic",
     "arXiv cs.CL":         "🔵 Academic",
-    "HF Trending Models":  "🟡 Community",
-    "Google Research Blog": "🟢 Official",
-    "GitHub AI & ML Blog": "🟢 Official",
-    "GitHub Changelog":    "🟢 Official",
+    "BAIR Blog (Berkeley)": "🔵 Academic",
+    "TechCrunch AI":       "🟡 News",
+    "The Verge AI":        "🟡 News",
+    "MIT Tech Review AI":  "🟡 News",
+    "Simon Willison AI":   "🟡 News",
+    "MarkTechPost AI":     "🟡 News",
+    "HF Trending Models":  "🟡 News",
+    "r/MachineLearning":   "🟡 Community",
 }
 
-# Curated sources (reliable, low-friction RSS)
+# Tiered & Categorized feeds
 SOURCES = {
     "🚀 **Big Launches**": [
         ("OpenAI Blog", "https://openai.com/blog/rss.xml"),
         ("Google AI Blog", "https://blog.google/technology/ai/rss/"),
         ("DeepMind", "https://deepmind.google/discover/rss/"),
-        # Anthropic has no public RSS — covered via TechCrunch & The Verge
+        ("Microsoft Source", "https://blogs.microsoft.com/feed/"),
+        ("AWS ML Blog", "https://aws.amazon.com/blogs/machine-learning/feed/"),
+        ("NVIDIA Tech Blog", "https://developer.nvidia.com/blog/category/data-science/feed/"),
         ("Hugging Face Blog", "https://huggingface.co/blog/feed.xml"),
         ("TechCrunch AI", "https://techcrunch.com/category/artificial-intelligence/feed/"),
         ("The Verge AI", "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"),
@@ -90,24 +97,25 @@ SOURCES = {
         ("arXiv cs.AI", "http://export.arxiv.org/rss/cs.AI"),
         ("arXiv cs.LG", "http://export.arxiv.org/rss/cs.LG"),
         ("arXiv cs.CL", "http://export.arxiv.org/rss/cs.CL"),
+        ("Google Research Blog", "https://research.google/blog/rss/"),
     ],
     "🧪 **Cool Experiments & Demos**": [
         ("HF Trending Models", "https://zernel.github.io/huggingface-trending-feed/feed.xml"),
-        ("Google Research Blog", "https://research.google/blog/rss/"),
+        ("Simon Willison AI", "https://simonwillison.net/atom/everything/"),
     ],
     "🛠️ **New AI Tools**": [
         ("GitHub AI & ML Blog", "https://github.blog/ai-and-ml/feed/"),
         ("GitHub Changelog", "https://github.blog/changelog/feed/"),
     ],
-    "💬 **Community & Discussions**": [
-        ("r/MachineLearning", "https://www.reddit.com/r/MachineLearning/.rss"),
-        ("r/artificial", "https://www.reddit.com/r/artificial/.rss"),
+    "💬 **Industry Insights & Community**": [
+        ("MarkTechPost AI", "https://www.marktechpost.com/feed/"),
         ("MIT Tech Review AI", "https://www.technologyreview.com/topic/artificial-intelligence/feed"),
+        ("r/MachineLearning", "https://www.reddit.com/r/MachineLearning/.rss"),
     ],
 }
 
-MAX_ITEMS_PER_SECTION = 10  # more items for daily (fewer per day)
-MAX_RETRIES = 2  # retry once on failure
+MAX_ITEMS_PER_SECTION = 10
+MAX_RETRIES = 1  # fast 1-retry fallback
 
 # -----------------------
 # HELPERS
@@ -131,7 +139,7 @@ def entry_datetime(e):
     return datetime.datetime.now(datetime.timezone.utc)
 
 def summarize(text, max_words=25):
-    # Truncate to 25 words to keep payload small for groq/compound's context limit
+    # Truncate to 25 words to keep payload small for Groq context limit
     text = clean_text(text)
     words = text.split()
     if len(words) <= max_words:
@@ -146,13 +154,13 @@ def within_window(dt, cutoff):
 def fetch_section_items(name, url, cutoff):
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Accept-Language": "en-US,en;q=0.5",
     }
     feed = None
-    for attempt in range(1, MAX_RETRIES + 2):  # 1, 2, 3
+    for attempt in range(1, MAX_RETRIES + 2):  # 1, 2
         try:
-            resp = requests.get(url, headers=headers, timeout=15)
+            resp = requests.get(url, headers=headers, timeout=8)
             resp.raise_for_status()
             feed = feedparser.parse(resp.content)
             if feed.entries or not feed.bozo:
@@ -160,9 +168,7 @@ def fetch_section_items(name, url, cutoff):
         except Exception as exc:
             log.warning("  ⚠ %s — attempt %d failed: %s", name, attempt, exc)
         if attempt <= MAX_RETRIES:
-            wait = 2 ** attempt  # 2s, 4s
-            log.info("  ↻ %s — retrying in %ds...", name, wait)
-            time.sleep(wait)
+            time.sleep(1)
 
     if feed is None or (feed.bozo and not feed.entries):
         log.warning("  ✗ %s — all attempts failed (URL may be invalid or blocked)", name)
@@ -312,45 +318,72 @@ def analyze_with_ai(raw_items, api_key):
     model_name = get_best_groq_model(api_key)
     
     system_prompt = """
-    You are a Senior AI Research Lead and Career Mentor. You receive raw news items from the last 24 hours.
+    You are an Executive AI Research Lead and Senior Technical Mentor. You receive raw news items from the last 24 hours.
     
-    Your audience: A B.Tech AI & Data Science graduate who wants to stay interview-ready and professionally aware.
+    Your audience: Elite AI engineers, Tech Leads, and Data Science graduates who need actionable intelligence, strategic insight, and interview mastery.
     
     Your job:
-    1. Discard noise. Keep only important, useful, and actionable items.
-    2. Categorize items into EXACTLY these 5 sections:
+    1. Curate a rich, comprehensive digest by selecting 6 to 10 of the best, most impactful stories from the raw items across different categories.
+    2. Write an "executive_summary" with 3 high-impact bullet points summarizing today's key AI meta-shifts.
+    3. Categorize stories into EXACTLY these 5 sections (aim to populate every section that has relevant items):
        - "🚀 Big Launches" — Major product releases, model launches, company announcements
-       - "🛠️ Builder's Toolbox" — Free tools, libraries, student trials, open-source releases. Highlight anything FREE
-       - "🎯 Interview Edge" — Technical trends relevant to interviews: Agentic AI, MLOps, RAG, Edge AI, Multimodal models. Connect news to interview concepts
-       - "⚖️ Responsible AI" — Ethics, EU AI Act, bias, explainability, tech sovereignty, regulation news
-       - "🔮 On the Horizon" — Research breakthroughs, new architectures, quantum AI, novel techniques
-    3. For each item, write a 1-2 sentence summary that is easy to understand. Add a "Why it matters" angle where possible
-    4. Select ONE best "Tool of the Day" (preferably something free/useful for students)
-    5. Write a 1-sentence "Hot Take" connecting today's news to career/industry trends
+       - "🛠️ Builder's Toolbox" — Open-source repositories, developer tools, free tiers, dev SDKs, new weights
+       - "🎯 Interview Edge" — Technical deep-dives, architectural trade-offs (e.g. KV Cache, LoRA, MoE, Quantization, Agentic Tool Use)
+       - "⚖️ Responsible AI" — Governance, EU AI Act, security, guardrails, tech sovereignty, compliance
+       - "🔮 On the Horizon" — Frontier research papers, novel architectures, multimodal breakthroughs
+    4. For each story provide thorough details:
+       - "title": Clean, professional headline
+       - "summary": 2 clear sentences explaining what was built or discovered
+       - "why_it_matters": 1-2 sentences explaining strategic, developer, or commercial impact
+       - "takeaway": 1 punchy architectural or interview-relevant technical concept
+       - "tag": 1 short category tag (e.g. "LLMs", "Infra", "Open Source", "Vision", "Robotics", "Research")
+    5. ALWAYS select or curate ONE standout "tool_of_day":
+       - "title": Tool or Model name + short tagline
+       - "link": Primary URL
+       - "summary": What it does and how developers can use it
+       - "pricing": e.g. "100% Free / Open Source" or "Free Tier Available"
+       - "use_case": Best use case (e.g. "Local LLM inference & prototyping")
+    6. Write an insightful 1-2 sentence "hot_take" on career/market direction.
     
-    Return ONLY pure valid JSON. No markdown blocks. No ```json wrapping.
-    
-    JSON schema:
+    Return ONLY valid JSON matching this schema:
     {
+      "executive_summary": [
+        "First key industry shift or release today...",
+        "Second major technical or open-source milestone...",
+        "Third high-level infrastructure or research breakthrough..."
+      ],
       "sections": {
         "🚀 Big Launches": [
-          {"title": "...", "link": "...", "summary": "...", "source": "...", "trust": "🟢 Official"}
+          {
+            "title": "...",
+            "link": "...",
+            "summary": "...",
+            "why_it_matters": "...",
+            "takeaway": "...",
+            "tag": "LLMs",
+            "source": "...",
+            "trust": "🟢 Official"
+          }
         ],
         "🛠️ Builder's Toolbox": [],
         "🎯 Interview Edge": [],
         "⚖️ Responsible AI": [],
         "🔮 On the Horizon": []
       },
-      "tool_of_day": {"title": "...", "link": "...", "summary": "..."},
+      "tool_of_day": {
+        "title": "...",
+        "link": "...",
+        "summary": "...",
+        "pricing": "100% Open Source",
+        "use_case": "..."
+      },
       "hot_take": "..."
     }
     
     Trust field rules:
-    - Company blog (OpenAI, Google, Meta, GitHub, Anthropic, HuggingFace) = "🟢 Official"
-    - arXiv or university = "🔵 Academic"
-    - News site or community = "🟡 Community"
-    
-    IMPORTANT: If a section has no relevant items, use an empty array []. Always include all 5 section keys.
+    - Company blogs (OpenAI, Google, Meta, Microsoft, AWS, NVIDIA, GitHub, Hugging Face) = "🟢 Official"
+    - arXiv, Universities, Research Labs = "🔵 Academic"
+    - News sites & Media = "🟡 News"
     """
     
     clean_items = []
@@ -457,7 +490,12 @@ def analyze_with_ai(raw_items, api_key):
     if not succeeded or not response_data:
         raise RuntimeError(f"All models in cascade failed to return valid JSON. Last error: {last_error}")
         
-    return response_data.get("sections", {}), response_data.get("tool_of_day"), response_data.get("hot_take")
+    return (
+        response_data.get("sections", {}),
+        response_data.get("tool_of_day"),
+        response_data.get("hot_take"),
+        response_data.get("executive_summary", [])
+    )
 
 # -----------------------
 # MAIN
@@ -510,28 +548,50 @@ def main(dry_run=False):
     log.info("Time window: %s → %s", CUTOFF.strftime("%b %d"), NOW.strftime("%b %d, %Y"))
 
     # --- Fetch Raw Data ---
-    all_raw_items = []
+    # --- Fetch Raw Data per category ---
+    categorized_raw = {}
+    total_raw_count = 0
+    seen_links = set()
+    seen_slugs = set()
 
     for heading, feeds in SOURCES.items():
         log.info("Fetching raw section: %s (%d feeds)", heading, len(feeds))
+        section_items = []
         for (src_name, feed_url) in feeds:
-            all_raw_items.extend(fetch_section_items(src_name, feed_url, CUTOFF))
+            items = fetch_section_items(src_name, feed_url, CUTOFF)
+            for it in items:
+                key = (it["link"] or "")[:200]
+                slug = re.sub(r'[^a-z0-9]', '', (it.get("title") or "").lower())[:50]
+                if key in seen_links or (slug and slug in seen_slugs):
+                    continue
+                seen_links.add(key)
+                if slug:
+                    seen_slugs.add(slug)
+                section_items.append(it)
+        categorized_raw[heading] = section_items
+        total_raw_count += len(section_items)
 
-    # Deduplicate early by link
-    seen_links = set()
-    unique_items = []
-    for it in all_raw_items:
-        key = (it["link"] or "")[:200]
-        if key in seen_links: continue
-        seen_links.add(key)
-        unique_items.append(it)
-        
-    log.info("Collected %d unique raw items.", len(unique_items))
+    log.info("Collected %d unique raw items across all categories.", total_raw_count)
+
+    # Balanced sampling: pick top 2-3 highest-signal items from EACH category
+    # to guarantee diversity across Launches, Tools, Research, Demos, and Community
+    selected_items = []
+    for heading, items in categorized_raw.items():
+        # Pick top 2 items from each category
+        selected_items.extend(items[:2])
     
-    # Cap to top 6 items to fit safely within Groq's 12k TPM free limit
-    MAX_ITEMS = 6
-    unique_items = unique_items[:MAX_ITEMS]
-    log.info("Sending top %d items to AI to respect token limits.", len(unique_items))
+    # If still small, fill up to 10 items from remaining pool
+    if len(selected_items) < 10:
+        for heading, items in categorized_raw.items():
+            for it in items[2:]:
+                if it not in selected_items:
+                    selected_items.append(it)
+                if len(selected_items) >= 10:
+                    break
+            if len(selected_items) >= 10:
+                break
+
+    log.info("Sending %d diverse items across all categories to AI for rich curation.", len(selected_items))
 
     # --- AI Analysis ---
     GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
@@ -540,15 +600,21 @@ def main(dry_run=False):
         log.error("   Get a free key from https://console.groq.com/keys and set it.")
         raise SystemExit(1)
         
-    log.info("🧠 Sending data to Groq AI (Llama 3) for analysis and categorization...")
+    log.info("🧠 Sending data to Groq AI for executive analysis and categorization...")
     try:
-        sections, tool_of_week, hot_take = analyze_with_ai(unique_items, GROQ_API_KEY)
+        sections, tool_of_week, hot_take, exec_summary = analyze_with_ai(selected_items, GROQ_API_KEY)
         total_items = sum(len(items) for items in sections.values())
-        log.info("✅ Groq returned %d curated items.", total_items)
+        log.info("✅ Groq returned %d curated items across %d sections.", total_items, len([s for s in sections.values() if s]))
     except Exception as e:
         log.error("❌ AI Analysis failed: %s", e)
         raise SystemExit(1)
-    log.info("Total items across all sections: %d", total_items)
+
+    # Fallback for Tool of the Day if AI omitted it
+    if not tool_of_week:
+        tool_of_week = pick_tool_of_week(selected_items)
+        if tool_of_week:
+            tool_of_week["pricing"] = "100% Free / Open Source"
+            tool_of_week["use_case"] = "Developer productivity & AI prototyping"
 
     if total_items == 0:
         log.warning("⚠ No items found in any section — digest will be empty!")
@@ -562,13 +628,13 @@ def main(dry_run=False):
 
     # --- Compose email ---
     subject = subject_line(NOW, tz=TIMEZONE)
-    html_body = html_email(date_str, sections, tool_of_week, hot_take)
+    html_body = html_email(date_str, sections, tool_of_week, hot_take, exec_summary)
     plain_body = build_plain_text(sections, tool_of_week, hot_take, date_str)
     log.info("Email composed — Subject: %s", subject)
 
     # --- Generate website data ---
     try:
-        save_digest_json(sections, tool_of_week, hot_take, date_str)
+        save_digest_json(sections, tool_of_week, hot_take, date_str, executive_summary=exec_summary)
         log.info("🌐 Website data saved to docs/data/")
     except Exception as exc:
         log.warning("⚠ Website data generation failed: %s", exc)

@@ -6,7 +6,7 @@ import datetime
 # Resolve repo root (parent of the 'digest' directory where this file lives)
 _REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
-def save_digest_json(sections, tool_of_week, hot_take, date_str, output_dir=None):
+def save_digest_json(sections, tool_of_week, hot_take, date_str, output_dir=None, executive_summary=None):
     """Save today's digest as JSON for the website."""
     if output_dir is None:
         output_dir = os.path.join(_REPO_ROOT, "docs", "data")
@@ -15,8 +15,13 @@ def save_digest_json(sections, tool_of_week, hot_take, date_str, output_dir=None
     today = datetime.date.today().isoformat()
 
     data = {
+        "_meta": {
+            "schema_version": "2.0",
+            "generated_at": datetime.datetime.now(datetime.timezone.utc).isoformat()
+        },
         "date": today,
         "date_display": date_str,
+        "executive_summary": executive_summary or [],
         "sections": {},
         "tool_of_day": tool_of_week,
         "hot_take": hot_take,
@@ -33,6 +38,9 @@ def save_digest_json(sections, tool_of_week, hot_take, date_str, output_dir=None
                 "title": it.get("title", "Untitled"),
                 "link": it.get("link", "#"),
                 "summary": it.get("summary", ""),
+                "why_it_matters": it.get("why_it_matters", ""),
+                "takeaway": it.get("takeaway", ""),
+                "tag": it.get("tag", "AI"),
                 "source": it.get("source", "Unknown"),
                 "trust": it.get("trust", ""),
                 "date": str(item_date),

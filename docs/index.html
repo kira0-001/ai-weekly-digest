@@ -344,6 +344,17 @@
       let categories = 0;
       const sources = new Set();
 
+      // Executive TL;DR Snapshot
+      if (data.executive_summary && Array.isArray(data.executive_summary) && data.executive_summary.length > 0) {
+        const bullets = data.executive_summary.map(b => `<li style="margin-bottom:6px;">${esc(b)}</li>`).join('');
+        html += `<div class="spotlight fade-in" style="background:var(--bg-card);border:1px solid var(--border-glass);border-left:4px solid var(--accent-purple);margin-bottom:24px;">
+          <div class="spotlight-label" style="color:var(--accent-purple);">⚡ Executive TL;DR &bull; Today's Snapshot</div>
+          <ul style="margin:8px 0 0;padding-left:20px;font-size:13px;color:var(--text-primary);line-height:1.6;">
+            ${bullets}
+          </ul>
+        </div>`;
+      }
+
       // Sections
       for (const [key, items] of Object.entries(data.sections || {})) {
         if (!items || items.length === 0) continue;
@@ -365,16 +376,32 @@
           const favicon = getFavicon(item.link || '');
           const title = esc(item.title || 'Untitled');
           const summary = esc(item.summary || '');
-          html += `<a href="${link}" target="_blank" rel="noopener noreferrer" class="news-card" data-accent="${config.accent}" data-searchable="${(title + ' ' + summary + ' ' + source).toLowerCase()}">
+          const whyItMatters = esc(item.why_it_matters || '');
+          const takeaway = esc(item.takeaway || '');
+          const tag = esc(item.tag || '');
+
+          let insightsHtml = '';
+          if (whyItMatters) {
+            insightsHtml += `<div style="margin-top:6px;font-size:12px;color:var(--text-secondary);"><strong style="color:var(--text-primary);">⚡ Why it matters:</strong> ${whyItMatters}</div>`;
+          }
+          if (takeaway) {
+            insightsHtml += `<div style="margin-top:4px;font-size:12px;color:var(--text-secondary);"><strong style="color:var(--text-primary);">🧠 Takeaway:</strong> ${takeaway}</div>`;
+          }
+
+          const tagBadge = tag ? `<span style="font-size:10px;padding:2px 8px;border-radius:12px;background:rgba(255,255,255,0.05);color:var(--text-muted);font-weight:600;margin-right:6px;">#${tag}</span>` : '';
+
+          html += `<a href="${link}" target="_blank" rel="noopener noreferrer" class="news-card" data-accent="${config.accent}" data-searchable="${(title + ' ' + summary + ' ' + whyItMatters + ' ' + source).toLowerCase()}">
             <div class="card-top">
               <div class="card-favicon"><img src="${favicon}" alt="" loading="lazy"></div>
               <div class="card-body">
-                <span class="card-title">${title}</span>
-                <p class="card-summary">${summary}</p>
-                <div class="card-meta">
+                <div style="margin-bottom:4px;">
+                  ${tagBadge}
                   <span class="card-source">${source}</span>
                   ${trustBadge(item.trust)}
                 </div>
+                <span class="card-title">${title}</span>
+                <p class="card-summary">${summary}</p>
+                ${insightsHtml}
               </div>
             </div>
           </a>`;
@@ -387,17 +414,20 @@
       if (data.tool_of_day) {
         const t = data.tool_of_day;
         const tLink = safeUrl(t.link || '#');
+        const pricing = t.pricing ? `<span style="float:right;font-size:10px;padding:2px 8px;border-radius:8px;background:rgba(255,255,255,0.2);color:#fff;font-weight:700;">${esc(t.pricing)}</span>` : '';
+        const useCase = t.use_case ? `<div style="margin-top:6px;font-size:12px;color:rgba(255,255,255,0.9);"><strong style="color:#fff;">Best For:</strong> ${esc(t.use_case)}</div>` : '';
         html += `<div class="spotlight fade-in">
-          <div class="spotlight-label">⭐ Tool of the Day</div>
+          <div class="spotlight-label">⭐ Tool of the Day ${pricing}</div>
           <a href="${tLink}" target="_blank" rel="noopener noreferrer" class="spotlight-title">${esc(t.title || '')}</a>
           <p class="spotlight-summary">${esc(t.summary || '')}</p>
+          ${useCase}
         </div>`;
       }
 
       // Hot Take
       if (data.hot_take) {
         html += `<div class="hot-take fade-in">
-          <div class="hot-take-label">🔥 Hot Take</div>
+          <div class="hot-take-label">🔥 Strategic Hot Take</div>
           <p class="hot-take-text">${esc(data.hot_take)}</p>
         </div>`;
       }
