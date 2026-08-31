@@ -400,6 +400,8 @@ def analyze_with_ai(raw_items, api_key):
     # Model cascade: try best model first, fall back on token/rate errors
     MODEL_CASCADE = [
         model_name,
+        "llama-3.3-70b-versatile",
+        "llama-3.1-8b-instant",
         "qwen/qwen3.6-27b",
         "openai/gpt-oss-120b",
         "openai/gpt-oss-20b",
@@ -421,7 +423,7 @@ def analyze_with_ai(raw_items, api_key):
         log.info("🤖 Trying model: %s", current_model)
         for attempt in range(2):  # 2 attempts per model
             try:
-                # Use json_object format and ample max_tokens so output is never truncated
+                # Ample max_tokens so output is never truncated
                 chat_completion = client.chat.completions.create(
                     messages=[
                         {"role": "system", "content": system_prompt},
@@ -430,7 +432,6 @@ def analyze_with_ai(raw_items, api_key):
                     model=current_model,
                     temperature=0.2,
                     max_tokens=2500,
-                    response_format={"type": "json_object"},
                     timeout=45.0,
                 )
                 raw = ""
