@@ -287,7 +287,6 @@ def get_best_groq_model(api_key):
     This prevents breakage when Groq retires models."""
     # Priority order: best quality first, fallbacks after
     PREFERRED = [
-        "llama-3.3-70b-versatile",
         "qwen/qwen3.6-27b",
         "openai/gpt-oss-120b",
         "openai/gpt-oss-20b",
@@ -400,11 +399,9 @@ def analyze_with_ai(raw_items, api_key):
     # Model cascade: try best model first, fall back on token/rate errors
     MODEL_CASCADE = [
         model_name,
-        "llama-3.3-70b-versatile",
-        "llama-3.1-8b-instant",
-        "qwen/qwen3.6-27b",
         "openai/gpt-oss-120b",
         "openai/gpt-oss-20b",
+        "groq/compound",
         "groq/compound-mini",
     ]
     # Remove duplicates preserving order
@@ -446,10 +443,13 @@ def analyze_with_ai(raw_items, api_key):
                     continue
 
                 clean_raw = raw
+                # Strip reasoning blocks emitted by Qwen and reasoning models (<think>...</think>)
+                clean_raw = re.sub(r'<think>[\s\S]*?</think>', '', clean_raw).strip()
                 if clean_raw.startswith("```json"):
                     clean_raw = clean_raw[7:]
                 if clean_raw.endswith("```"):
                     clean_raw = clean_raw[:-3]
+                clean_raw = clean_raw.strip()
                 
                 # Validate JSON parsing immediately
                 try:
