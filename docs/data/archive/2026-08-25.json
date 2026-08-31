@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-25",
+  "date_display": "Tuesday, 25 August 2026 (12:46 PM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Advancing price-performance for developers with GPT-5.6 in Kiro",
+        "link": "https://openai.com/index/gpt-5-6-in-kiro",
+        "summary": "OpenAI released GPT-5.6 on the Kiro platform, offering faster inference at lower cost for code‑related tasks. Why it matters: cheaper, higher‑throughput models let developers build and test AI‑augmented software more efficiently, a hot topic in MLOps interviews.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-25"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+        "link": "https://huggingface.co/blog/gradio-workflow-guide",
+        "summary": "Hugging Face published a guide showing how to chain prompts, data processing, and model serving using Gradio’s free UI components. Why it matters: mastering Gradio speeds up prototype demos, a common interview assignment.",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-25"
+      }
+    ],
+    "🎯 Interview Edge": [],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Instinct’s powerful AI assistant is raising privacy and security concerns",
+        "link": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
+        "summary": "TechCrunch reports that Instinct’s assistant, while feature‑rich, collects broad user data and can act autonomously, sparking privacy red flags. Why it matters: highlights the need to design AI with clear data‑handling policies, a frequent responsible‑AI interview question.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-25"
+      }
+    ],
+    "🔮 On the Horizon": []
+  },
+  "tool_of_day": {
+    "title": "Gradio – Open‑source UI for ML demos",
+    "link": "https://www.gradio.app/",
+    "summary": "A free Python library that lets you turn models into interactive web apps in minutes, ideal for building portfolio projects and interview demos."
+  },
+  "hot_take": "Today's mix of high‑performance model releases, rapid‑deployment tools, and privacy scrutiny signals that interview‑ready candidates must blend cost‑aware MLOps skills, fast prototyping with Gradio, and a solid grounding in responsible AI."
+}

@@ -1,0 +1,60 @@
+{
+  "date": "2026-08-26",
+  "date_display": "Wednesday, 26 August 2026 (07:38 AM IST)",
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Jalapeño custom inference chip",
+        "link": "https://openai.com/index/jalapeno-first-results",
+        "summary": "OpenAI unveiled its Jalapeño inference chip, delivering up to 2× faster throughput and significantly lower latency and power use for modern LLMs. Why it matters: hardware‑model co‑design is a new competitive moat and interview candidates should be ready to discuss chip‑level optimizations.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-26"
+      },
+      {
+        "title": "Granite 4.2 LLMs: How They're Built",
+        "link": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+        "summary": "IBM released the Granite 4.2 series (7B‑70B parameters) on Hugging Face, optimized for instruction following and retrieval‑augmented generation. Why it matters: a free, high‑quality open‑source model that students can fine‑tune for projects and interview demos.",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-26"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [],
+    "🎯 Interview Edge": [
+      {
+        "title": "The full stack behind abundant intelligence",
+        "link": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+        "summary": "OpenAI’s CFO explains how advances across chips, compute, models, and products compound to lower cost per token and boost utility. Why it matters: interviewers expect candidates to think about end‑to‑end system scaling, not just isolated models.",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-26"
+      },
+      {
+        "title": "Robotics startup Generalist reaches $3B valuation",
+        "link": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
+        "summary": "Generalist, a robotics‑AI startup, raised $200 M, pushing its valuation to $3 B as it expands general‑purpose robot control capabilities. Why it matters: signals rapid growth in embodied AI, a hot topic for interviews on robotics, RL, and real‑world deployment.",
+        "source": "TechCrunch AI",
+        "trust": "🟡 Community",
+        "date": "2026-08-26"
+      }
+    ],
+    "⚖️ Responsible AI": [],
+    "🔮 On the Horizon": [
+      {
+        "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+        "link": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+        "summary": "A new 4‑bit quantization‑aware healing technique compresses models while achieving higher accuracy than the original full‑precision version on benchmark tasks. Why it matters: showcases that aggressive quantization can improve performance, a cutting‑edge topic for MLOps and model‑optimization interviews.",
+        "source": "Hugging Face Blog",
+        "trust": "🟢 Official",
+        "date": "2026-08-26"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Granite 4.2 LLMs (open‑source)",
+    "link": "https://huggingface.co/ibm-granite/granite-4-2b-base",
+    "summary": "Free, instruction‑tuned LLMs ranging from 7B to 70B parameters, ready for fine‑tuning or RAG experiments on Hugging Face."
+  },
+  "hot_take": "Today's mix of custom hardware, open‑source LLMs, and aggressive quantization shows that mastering both the stack and efficiency tricks is becoming essential for AI engineers."
+}
