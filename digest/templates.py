@@ -176,15 +176,15 @@ def html_email(subject_date_str, sections, tool_of_week=None, hot_take=None, exe
           </td></tr>
         """
 
-    # Hot Take
+    # Industry Shift & Hot Take
     hot_block = ""
     if hot_take:
         hot_block = f"""
-          <tr><td style="padding:8px 0 16px;">
-            <table width="100%" cellpadding="0" cellspacing="0" style="background:#fff1f2;border-radius:12px;border:1px solid #fecdd3;border-left:4px solid #e11d48;">
-              <tr><td style="padding:16px 20px;">
-                <div style="font-size:11px;text-transform:uppercase;letter-spacing:1.5px;color:#be123c;font-weight:800;margin-bottom:6px;">🔥 Strategic Hot Take</div>
-                <p style="margin:0;font-size:13px;color:#881337;line-height:1.5;font-weight:500;">{esc(hot_take)}</p>
+          <tr><td style="padding:10px 0 16px;">
+            <table width="100%" cellpadding="0" cellspacing="0" style="background:#fff1f2;border-radius:12px;border:1px solid #fecdd3;border-left:4px solid #e11d48;box-shadow:0 1px 3px rgba(0,0,0,0.04);">
+              <tr><td style="padding:18px 22px;">
+                <div style="font-size:11px;text-transform:uppercase;letter-spacing:1.5px;color:#be123c;font-weight:800;margin-bottom:8px;">🔥 Where the AI Industry is Moving &bull; Strategic Take</div>
+                <p style="margin:0;font-size:13px;color:#881337;line-height:1.6;font-weight:500;">{esc(hot_take)}</p>
               </td></tr>
             </table>
           </td></tr>

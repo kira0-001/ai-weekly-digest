@@ -108,6 +108,7 @@ SOURCES = {
         ("GitHub Changelog", "https://github.blog/changelog/feed/"),
     ],
     "💬 **Industry Insights & Community**": [
+        ("Hacker News AI", "https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT&points=50"),
         ("MarkTechPost AI", "https://www.marktechpost.com/feed/"),
         ("MIT Tech Review AI", "https://www.technologyreview.com/topic/artificial-intelligence/feed"),
         ("r/MachineLearning", "https://www.reddit.com/r/MachineLearning/.rss"),
@@ -138,8 +139,8 @@ def entry_datetime(e):
     # Fallback: epoch now
     return datetime.datetime.now(datetime.timezone.utc)
 
-def summarize(text, max_words=25):
-    # Truncate to 25 words to keep payload small for Groq context limit
+def summarize(text, max_words=60):
+    # Give AI 60 words of rich content so it can extract detailed insights
     text = clean_text(text)
     words = text.split()
     if len(words) <= max_words:
@@ -317,36 +318,36 @@ def analyze_with_ai(raw_items, api_key):
     model_name = get_best_groq_model(api_key)
     
     system_prompt = """
-    You are an Executive AI Research Lead and Senior Technical Mentor. You receive raw news items from the last 24 hours.
+    You are an Executive AI Research Lead, Senior AI Architect, and Career Mentor. You analyze raw news items from the last 24-48 hours.
     
-    Your audience: Elite AI engineers, Tech Leads, and Data Science graduates who need actionable intelligence, strategic insight, and interview mastery.
+    Your audience: AI Developers, Tech Leads, and Data Science graduates who want to stay deeply informed, understand practical benefits, and master architectural concepts.
     
     Your job:
-    1. Curate a rich, comprehensive digest by selecting 6 to 10 of the best, most impactful stories from the raw items across different categories.
-    2. Write an "executive_summary" with 3 high-impact bullet points summarizing today's key AI meta-shifts.
-    3. Categorize stories into EXACTLY these 5 sections (aim to populate every section that has relevant items):
-       - "🚀 Big Launches" — Major product releases, model launches, company announcements
-       - "🛠️ Builder's Toolbox" — Open-source repositories, developer tools, free tiers, dev SDKs, new weights
-       - "🎯 Interview Edge" — Technical deep-dives, architectural trade-offs (e.g. KV Cache, LoRA, MoE, Quantization, Agentic Tool Use)
-       - "⚖️ Responsible AI" — Governance, EU AI Act, security, guardrails, tech sovereignty, compliance
+    1. Select 6 to 10 of the most impactful stories from the raw items across different categories.
+    2. Write an "executive_summary" with 3 high-impact bullet points capturing today's major industry direction and what tech teams are adopting right now.
+    3. Categorize stories into EXACTLY these 5 sections (populate every section that has relevant items):
+       - "🚀 Big Launches" — Major model releases, company milestones, new flagship features
+       - "🛠️ Builder's Toolbox" — Open-source repositories, developer tools, free weights, SDKs
+       - "🎯 Interview Edge" — Technical deep-dives & architecture concepts (e.g. KV Cache, LoRA, MoE, Quantization, Agentic Tool Use, RAG)
+       - "⚖️ Responsible AI" — Governance, EU AI Act, security, guardrails, compliance, tech sovereignty
        - "🔮 On the Horizon" — Frontier research papers, novel architectures, multimodal breakthroughs
-    4. For each story provide thorough details:
-       - "title": Clean, professional headline
-       - "summary": 2 clear sentences explaining what was built or discovered
-       - "why_it_matters": 1-2 sentences explaining strategic, developer, or commercial impact
-       - "takeaway": 1 punchy architectural or interview-relevant technical concept
-       - "tag": 1 short category tag (e.g. "LLMs", "Infra", "Open Source", "Vision", "Robotics", "Research")
+    4. For EACH story, write a rich, engaging, and genuinely useful breakdown:
+       - "title": Clean, punchy headline
+       - "summary": 2-3 clear sentences explaining what was launched or discovered, who it helps, and how it reduces developer or enterprise workload.
+       - "why_it_matters": 1-2 insightful sentences explaining the practical utility: "When and where to implement this", "What developers gain from using it", or its commercial impact.
+       - "takeaway": 1 actionable architectural or interview-relevant concept (e.g. "Reduces memory bandwidth by 4x", "Enables local offline agent loops").
+       - "tag": 1 short category tag (e.g. "LLMs", "Infra", "Agents", "Open Source", "Vision", "Research")
     5. ALWAYS select or curate ONE standout "tool_of_day":
-       - "title": Tool or Model name + short tagline
+       - "title": Tool or Model name + clear value tagline
        - "link": Primary URL
-       - "summary": What it does and how developers can use it
+       - "summary": 2-3 sentences explaining exactly what it does, what problem it solves, how it saves time/money for engineers, and how to get started.
        - "pricing": e.g. "100% Free / Open Source" or "Free Tier Available"
-       - "use_case": Best use case (e.g. "Local LLM inference & prototyping")
-    6. Write an insightful 1-2 sentence "hot_take" on career/market direction.
+       - "use_case": Concrete practical use case (e.g. "Run local 70B models with quantized weights on standard hardware")
+    6. Write an insightful 2-sentence "hot_take" highlighting what the current AI industry is moving towards and how tech teams are upgrading themselves.
     
-    IMPORTANT: Output pure JSON directly starting with { and ending with }. Do NOT write <think> reasoning blocks.
+    IMPORTANT: Return pure JSON directly starting with { and ending with }. Do NOT write <think> reasoning blocks.
     
-    Return ONLY valid JSON matching this schema:
+    JSON schema:
     {
       "executive_summary": [
         "First key industry shift or release today...",
@@ -398,7 +399,7 @@ def analyze_with_ai(raw_items, api_key):
     
     user_prompt = "Raw Items:\n" + json.dumps(clean_items, indent=2)
     
-    # Model cascade: try best model first, fall back on token/rate errors
+    # Model cascade: try reliable models with smart fallback
     MODEL_CASCADE = [
         model_name,
         "openai/gpt-oss-120b",
@@ -422,15 +423,14 @@ def analyze_with_ai(raw_items, api_key):
         log.info("🤖 Trying model: %s", current_model)
         for attempt in range(2):  # 2 attempts per model
             try:
-                # Ample max_tokens so output is never truncated
                 chat_completion = client.chat.completions.create(
                     messages=[
                         {"role": "system", "content": system_prompt},
                         {"role": "user", "content": user_prompt}
                     ],
                     model=current_model,
-                    temperature=0.2,
-                    max_tokens=2500,
+                    temperature=0.3,
+                    max_tokens=3000,
                     timeout=45.0,
                 )
                 raw = ""
