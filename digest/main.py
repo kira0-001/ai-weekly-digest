@@ -59,39 +59,51 @@ TRUST_LEVELS = {
     "OpenAI Blog":         "🟢 Official",
     "Google AI Blog":      "🟢 Official",
     "DeepMind":            "🟢 Official",
+    "Anthropic News":      "🟢 Official",
     "Meta AI Blog":        "🟢 Official",
-    "Microsoft AI Blog":   "🟢 Official",
+    "Microsoft Source":    "🟢 Official",
     "AWS ML Blog":         "🟢 Official",
     "NVIDIA Tech Blog":    "🟢 Official",
+    "Stability AI News":   "🟢 Official",
+    "Together AI Blog":    "🟢 Official",
     "Hugging Face Blog":   "🟢 Official",
     "GitHub AI & ML Blog": "🟢 Official",
     "GitHub Changelog":    "🟢 Official",
+    "Ollama Blog":         "🟢 Official",
+    "LangChain Blog":      "🟢 Official",
+    "LlamaIndex Blog":     "🟢 Official",
     "Google Research Blog":"🟢 Official",
     "arXiv cs.AI":         "🔵 Academic",
     "arXiv cs.LG":         "🔵 Academic",
     "arXiv cs.CL":         "🔵 Academic",
-    "BAIR Blog (Berkeley)": "🔵 Academic",
     "TechCrunch AI":       "🟡 News",
     "The Verge AI":        "🟡 News",
+    "VentureBeat AI":      "🟡 News",
     "MIT Tech Review AI":  "🟡 News",
     "Simon Willison AI":   "🟡 News",
     "MarkTechPost AI":     "🟡 News",
     "HF Trending Models":  "🟡 News",
+    "Hacker News AI":      "🟡 Community",
     "r/MachineLearning":   "🟡 Community",
+    "r/LocalLLaMA":        "🟡 Community",
 }
 
-# Tiered & Categorized feeds
+# Tiered & Categorized feeds (28+ high-signal global sources)
 SOURCES = {
     "🚀 **Big Launches**": [
         ("OpenAI Blog", "https://openai.com/blog/rss.xml"),
+        ("Anthropic News", "https://www.anthropic.com/feed.xml"),
         ("Google AI Blog", "https://blog.google/technology/ai/rss/"),
         ("DeepMind", "https://deepmind.google/discover/rss/"),
         ("Microsoft Source", "https://blogs.microsoft.com/feed/"),
         ("AWS ML Blog", "https://aws.amazon.com/blogs/machine-learning/feed/"),
         ("NVIDIA Tech Blog", "https://developer.nvidia.com/blog/category/data-science/feed/"),
+        ("Stability AI News", "https://stability.ai/news?format=rss"),
+        ("Together AI Blog", "https://www.together.ai/blog/rss.xml"),
         ("Hugging Face Blog", "https://huggingface.co/blog/feed.xml"),
         ("TechCrunch AI", "https://techcrunch.com/category/artificial-intelligence/feed/"),
         ("The Verge AI", "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"),
+        ("VentureBeat AI", "https://venturebeat.com/category/ai/feed/"),
     ],
     "📄 **Viral Papers / Research**": [
         ("arXiv cs.AI", "http://export.arxiv.org/rss/cs.AI"),
@@ -104,6 +116,9 @@ SOURCES = {
         ("Simon Willison AI", "https://simonwillison.net/atom/everything/"),
     ],
     "🛠️ **New AI Tools**": [
+        ("Ollama Blog", "https://ollama.com/blog/rss.xml"),
+        ("LangChain Blog", "https://blog.langchain.dev/rss/"),
+        ("LlamaIndex Blog", "https://www.llamaindex.ai/blog/rss.xml"),
         ("GitHub AI & ML Blog", "https://github.blog/ai-and-ml/feed/"),
         ("GitHub Changelog", "https://github.blog/changelog/feed/"),
     ],
@@ -112,6 +127,7 @@ SOURCES = {
         ("MarkTechPost AI", "https://www.marktechpost.com/feed/"),
         ("MIT Tech Review AI", "https://www.technologyreview.com/topic/artificial-intelligence/feed"),
         ("r/MachineLearning", "https://www.reddit.com/r/MachineLearning/.rss"),
+        ("r/LocalLLaMA", "https://www.reddit.com/r/LocalLLaMA/.rss"),
     ],
 }
 
@@ -576,22 +592,21 @@ def main(dry_run=False):
 
     log.info("Collected %d unique raw items across all categories.", total_raw_count)
 
-    # Balanced sampling: pick top 2-3 highest-signal items from EACH category
-    # to guarantee diversity across Launches, Tools, Research, Demos, and Community
+    # Balanced sampling: pick top 2 highest-signal items from EACH of the 5 categories
+    # (Total = 10 items, ~1,200 tokens) -> 100% safe for Groq's 12k TPM limit
     selected_items = []
     for heading, items in categorized_raw.items():
-        # Pick top 2 items from each category
         selected_items.extend(items[:2])
     
-    # If still small, fill up to 10 items from remaining pool
-    if len(selected_items) < 10:
+    # Fill up to max 12 items from remaining pool if some categories had fewer items
+    if len(selected_items) < 12:
         for heading, items in categorized_raw.items():
             for it in items[2:]:
                 if it not in selected_items:
                     selected_items.append(it)
-                if len(selected_items) >= 10:
+                if len(selected_items) >= 12:
                     break
-            if len(selected_items) >= 10:
+            if len(selected_items) >= 12:
                 break
 
     log.info("Sending %d diverse items across all categories to AI for rich curation.", len(selected_items))
