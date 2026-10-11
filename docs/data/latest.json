@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-10-10T06:11:32.087213+00:00"
+    "generated_at": "2026-10-11T06:09:01.179696+00:00"
   },
-  "date": "2026-10-10",
-  "date_display": "Saturday, 10 October 2026 (11:40 AM IST)",
+  "date": "2026-10-11",
+  "date_display": "Sunday, 11 October 2026 (11:38 AM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -21,7 +21,7 @@
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-10-10"
+        "date": "2026-10-11"
       },
       {
         "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
@@ -32,10 +32,21 @@
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-10-10"
+        "date": "2026-10-11"
       }
     ],
     "🛠️ Builder's Toolbox": [
+      {
+        "title": "New controls and chat improvements in Copilot for JetBrains",
+        "link": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
+        "summary": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and… The post New controls and chat improvements in Copilot for JetBrains appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub Changelog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "GitHub Changelog",
+        "trust": "🟢 Official",
+        "date": "2026-10-11"
+      },
       {
         "title": "GitHub Copilot weekly releases — October 5",
         "link": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5",
@@ -45,18 +56,7 @@
         "tag": "AI",
         "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-10-10"
-      },
-      {
-        "title": "CodeQL 2.27.2 improves C++, Go, Rust, and JavaScript analysis",
-        "link": "https://github.blog/changelog/2026-10-09-codeql-2-27-2-improves-c-go-rust-and-javascript-analysis",
-        "summary": "CodeQL 2.27.2 is now available, adding a C++ regular-expression parser and analysis improvements across several languages. CodeQL is the static analysis engine behind GitHub code scanning, which helps you find… The post CodeQL 2.27.2 improves C++, Go, Rust, and JavaScript analysis appeared first on The GitHub Blog .",
-        "why_it_matters": "Key development from GitHub Changelog.",
-        "takeaway": "Architecture & industry alignment.",
-        "tag": "AI",
-        "source": "GitHub Changelog",
-        "trust": "🟢 Official",
-        "date": "2026-10-10"
+        "date": "2026-10-11"
       }
     ],
     "🎯 Interview Edge": [
@@ -69,7 +69,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-10-10"
+        "date": "2026-10-11"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -80,39 +80,39 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-10-10"
+        "date": "2026-10-11"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "Anthropic AI model submits false tip on unsolved Philly murder",
-        "link": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
-        "summary": "Article URL: https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/ Comments URL: https://news.ycombinator.com/item?id=50027118 Points: 135 # Comments: 101",
+        "title": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
+        "link": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+        "summary": "Article URL: https://momo5502.com/posts/2026-10-09-game-decompilation/ Comments URL: https://news.ycombinator.com/item?id=50039092 Points: 71 # Comments: 55",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-10-10"
+        "date": "2026-10-11"
       },
       {
-        "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
-        "link": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
-        "summary": "Article URL: https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/ Comments URL: https://news.ycombinator.com/item?id=50024090 Points: 79 # Comments: 14",
+        "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+        "link": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+        "summary": "Article URL: https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a Comments URL: https://news.ycombinator.com/item?id=50035886 Points: 148 # Comments: 97",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-10-10"
+        "date": "2026-10-11"
       }
     ],
     "🔮 On the Horizon": []
   },
   "tool_of_day": {
-    "title": "GitHub Copilot weekly releases — October 5",
-    "link": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5",
-    "summary": "This week’s updates make Copilot easier to use across accounts and environments, with more control over what agents can access and how you manage their work. GitHub Copilot Claude Haiku… The post GitHub Copilot weekly releases — October 5 appeared first on The GitHub Blog .",
+    "title": "New controls and chat improvements in Copilot for JetBrains",
+    "link": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
+    "summary": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and… The post New controls and chat improvements in Copilot for JetBrains appeared first on The GitHub Blog .",
     "pricing": "100% Free / Open Source",
     "use_case": "Developer productivity & AI prototyping"
   },
