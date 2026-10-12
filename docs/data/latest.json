@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-10-11T06:09:01.179696+00:00"
+    "generated_at": "2026-10-12T06:17:41.710157+00:00"
   },
-  "date": "2026-10-11",
-  "date_display": "Sunday, 11 October 2026 (11:38 AM IST)",
+  "date": "2026-10-12",
+  "date_display": "Monday, 12 October 2026 (11:47 AM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -13,26 +13,26 @@
   "sections": {
     "🚀 Big Launches": [
       {
-        "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-        "link": "https://openai.com/index/sophos",
-        "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-        "why_it_matters": "Key development from OpenAI Blog.",
+        "title": "Will the HomeView be Apple’s first smart home success?",
+        "link": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+        "summary": "Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.",
+        "why_it_matters": "Key development from TechCrunch AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "OpenAI Blog",
-        "trust": "🟢 Official",
-        "date": "2026-10-11"
+        "source": "TechCrunch AI",
+        "trust": "🟡 News",
+        "date": "2026-10-12"
       },
       {
-        "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-        "link": "https://openai.com/index/asana-browser-agent",
-        "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-        "why_it_matters": "Key development from OpenAI Blog.",
+        "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
+        "link": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
+        "summary": "Less than 48 hours, TechCrunch Disrupt 2026 starts in San Francisco’s Moscone West. Save up to $100 on your pass before prices increase at the door, plus get 50% on a second pass. Or score other deals.",
+        "why_it_matters": "Key development from TechCrunch AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "OpenAI Blog",
-        "trust": "🟢 Official",
-        "date": "2026-10-11"
+        "source": "TechCrunch AI",
+        "trust": "🟡 News",
+        "date": "2026-10-12"
       }
     ],
     "🛠️ Builder's Toolbox": [
@@ -45,18 +45,7 @@
         "tag": "AI",
         "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-10-11"
-      },
-      {
-        "title": "GitHub Copilot weekly releases — October 5",
-        "link": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5",
-        "summary": "This week’s updates make Copilot easier to use across accounts and environments, with more control over what agents can access and how you manage their work. GitHub Copilot Claude Haiku… The post GitHub Copilot weekly releases — October 5 appeared first on The GitHub Blog .",
-        "why_it_matters": "Key development from GitHub Changelog.",
-        "takeaway": "Architecture & industry alignment.",
-        "tag": "AI",
-        "source": "GitHub Changelog",
-        "trust": "🟢 Official",
-        "date": "2026-10-11"
+        "date": "2026-10-12"
       }
     ],
     "🎯 Interview Edge": [
@@ -69,7 +58,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-10-11"
+        "date": "2026-10-12"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -80,34 +69,57 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-10-11"
+        "date": "2026-10-12"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
-        "link": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
-        "summary": "Article URL: https://momo5502.com/posts/2026-10-09-game-decompilation/ Comments URL: https://news.ycombinator.com/item?id=50039092 Points: 71 # Comments: 55",
+        "title": "The gap in shared understanding of LLM capability is widening",
+        "link": "https://twitter.com/karpathy/status/2109361546505966046",
+        "summary": "Article URL: https://twitter.com/karpathy/status/2109361546505966046 Comments URL: https://news.ycombinator.com/item?id=50047422 Points: 384 # Comments: 541",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-10-11"
+        "date": "2026-10-12"
       },
       {
-        "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
-        "link": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
-        "summary": "Article URL: https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a Comments URL: https://news.ycombinator.com/item?id=50035886 Points: 148 # Comments: 97",
+        "title": "AI is creating a 'human premium' for art created by people",
+        "link": "https://www.bbc.com/news/articles/c5vgjm3gk7rzo",
+        "summary": "Article URL: https://www.bbc.com/news/articles/c5vgjm3gk7rzo Comments URL: https://news.ycombinator.com/item?id=50042107 Points: 70 # Comments: 114",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-10-11"
+        "date": "2026-10-12"
       }
     ],
-    "🔮 On the Horizon": []
+    "🔮 On the Horizon": [
+      {
+        "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
+        "link": "https://arxiv.org/abs/2610.12493",
+        "summary": "arXiv:2610.12493v1 Announce Type: new Abstract: Explainable Artificial Intelligence (XAI) tools have often been presented as methods to increase trust in machine learning models by making aspects of their algorithms more human-understandable. However, evidence accumulated over the last decade points to an overall failure of this objective, instead promoting overreliance on incorrect predictions, which can subsequently lead to algorithmic aversion. Rather,…",
+        "why_it_matters": "Key development from arXiv cs.AI.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-10-12"
+      },
+      {
+        "title": "EliteTable: Self-Improving Program Search for Executable Control Policies",
+        "link": "https://arxiv.org/abs/2610.12536",
+        "summary": "arXiv:2610.12536v1 Announce Type: new Abstract: EliteTable is a self-improving program-search algorithm guided by large language models (LLMs) that uses a fixed-capacity table of high-scoring solutions to guide new proposals, edits of existing solutions, and remixes of several solutions. Performance was evaluated across six Gymnasium control tasks, each with ten generations and fifty candidate slots per generation. Each task was evaluated…",
+        "why_it_matters": "Key development from arXiv cs.AI.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-10-12"
+      }
+    ]
   },
   "tool_of_day": {
     "title": "New controls and chat improvements in Copilot for JetBrains",
