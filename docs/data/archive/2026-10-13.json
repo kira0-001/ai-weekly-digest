@@ -1,0 +1,143 @@
+{
+  "_meta": {
+    "schema_version": "2.0",
+    "generated_at": "2026-10-13T06:58:05.762061+00:00"
+  },
+  "date": "2026-10-13",
+  "date_display": "Tuesday, 13 October 2026 (12:27 PM IST)",
+  "executive_summary": [
+    "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
+    "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
+    "Developer platforms expanding free inference tiers and edge compute toolkits."
+  ],
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Microsoft to expand Azure Maia system to multi-gigawatt deployments",
+        "link": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/",
+        "summary": "Azure Maia 200 now in production; Azure Maia 300 coming in 2027 As we move into the era of Super Intelligence, Microsoft is entering a new phase of infrastructure. We will scale our Azure Maia family to multi-gigawatt deployments starting in 2027, making Maia the primary inference system for Microsoft products and services. The multigenerational... The post Microsoft to expand…",
+        "why_it_matters": "Key development from Microsoft Source.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "Microsoft Source",
+        "trust": "🟢 Official",
+        "date": "2026-10-13"
+      },
+      {
+        "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
+        "link": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
+        "summary": "Learn how to run OpenAI GPT-6 Sol, Luna, and Astra on Amazon Bedrock through global cross-Region inference from Singapore, Jakarta, Thailand, Malaysia, and Taipei. This post covers the Converse and OpenAI-compatible APIs, IAM and SCP permissions, quota sizing, and monitoring inference from your source Region.",
+        "why_it_matters": "Key development from AWS ML Blog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "AWS ML Blog",
+        "trust": "🟢 Official",
+        "date": "2026-10-13"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+        "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
+        "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub AI & ML Blog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "GitHub AI & ML Blog",
+        "trust": "🟢 Official",
+        "date": "2026-10-13"
+      },
+      {
+        "title": "Client telemetry user attribution and configurable capture",
+        "link": "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
+        "summary": "Enterprise administrators can now use telemetry in managed settings to attribute GitHub Copilot activity to a user without collecting their prompts, responses, or tool content. The telemetry.capture.identity setting adds three… The post Client telemetry user attribution and configurable capture appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub Changelog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "GitHub Changelog",
+        "trust": "🟢 Official",
+        "date": "2026-10-13"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Wan-AI/Wan2.1-T2V-1.3B",
+        "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+        "summary": "Wan-AI/Wan2.1-T2V-1.3B",
+        "why_it_matters": "Key development from HF Trending Models.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "HF Trending Models",
+        "trust": "🟡 News",
+        "date": "2026-10-13"
+      },
+      {
+        "title": "microsoft/Phi-4-mini-instruct",
+        "link": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+        "summary": "microsoft/Phi-4-mini-instruct",
+        "why_it_matters": "Key development from HF Trending Models.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "HF Trending Models",
+        "trust": "🟡 News",
+        "date": "2026-10-13"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "AI Models Can Provably Hide Arbitrary Capabilities",
+        "link": "https://arxiv.org/abs/2610.13928",
+        "summary": "Article URL: https://arxiv.org/abs/2610.13928 Comments URL: https://news.ycombinator.com/item?id=50065692 Points: 140 # Comments: 73",
+        "why_it_matters": "Key development from Hacker News AI.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "Hacker News AI",
+        "trust": "🟡 Community",
+        "date": "2026-10-13"
+      },
+      {
+        "title": "I turned my unused Kindle into a photo frame with GPT-6 Astra",
+        "link": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai",
+        "summary": "Article URL: https://nirajrajgor.com/blog/kindle-photo-frame-with-ai Comments URL: https://news.ycombinator.com/item?id=50064318 Points: 141 # Comments: 92",
+        "why_it_matters": "Key development from Hacker News AI.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "Hacker News AI",
+        "trust": "🟡 Community",
+        "date": "2026-10-13"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
+        "link": "https://arxiv.org/abs/2610.12493",
+        "summary": "arXiv:2610.12493v1 Announce Type: new Abstract: Explainable Artificial Intelligence (XAI) tools have often been presented as methods to increase trust in machine learning models by making aspects of their algorithms more human-understandable. However, evidence accumulated over the last decade points to an overall failure of this objective, instead promoting overreliance on incorrect predictions, which can subsequently lead to algorithmic aversion. Rather,…",
+        "why_it_matters": "Key development from arXiv cs.AI.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-10-13"
+      },
+      {
+        "title": "EliteTable: Self-Improving Program Search for Executable Control Policies",
+        "link": "https://arxiv.org/abs/2610.12536",
+        "summary": "arXiv:2610.12536v1 Announce Type: new Abstract: EliteTable is a self-improving program-search algorithm guided by large language models (LLMs) that uses a fixed-capacity table of high-scoring solutions to guide new proposals, edits of existing solutions, and remixes of several solutions. Performance was evaluated across six Gymnasium control tasks, each with ten generations and fifty candidate slots per generation. Each task was evaluated…",
+        "why_it_matters": "Key development from arXiv cs.AI.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-10-13"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+    "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
+    "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog .",
+    "pricing": "100% Free / Open Source",
+    "use_case": "Developer productivity & AI prototyping"
+  },
+  "hot_take": "Strong ecosystem velocity across both proprietary platforms and open-source models today."
+}

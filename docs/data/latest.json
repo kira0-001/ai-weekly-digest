@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-10-12T06:17:41.710157+00:00"
+    "generated_at": "2026-10-13T06:58:05.762061+00:00"
   },
-  "date": "2026-10-12",
-  "date_display": "Monday, 12 October 2026 (11:47 AM IST)",
+  "date": "2026-10-13",
+  "date_display": "Tuesday, 13 October 2026 (12:27 PM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -13,39 +13,50 @@
   "sections": {
     "🚀 Big Launches": [
       {
-        "title": "Will the HomeView be Apple’s first smart home success?",
-        "link": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
-        "summary": "Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.",
-        "why_it_matters": "Key development from TechCrunch AI.",
+        "title": "Microsoft to expand Azure Maia system to multi-gigawatt deployments",
+        "link": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/",
+        "summary": "Azure Maia 200 now in production; Azure Maia 300 coming in 2027 As we move into the era of Super Intelligence, Microsoft is entering a new phase of infrastructure. We will scale our Azure Maia family to multi-gigawatt deployments starting in 2027, making Maia the primary inference system for Microsoft products and services. The multigenerational... The post Microsoft to expand…",
+        "why_it_matters": "Key development from Microsoft Source.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "TechCrunch AI",
-        "trust": "🟡 News",
-        "date": "2026-10-12"
+        "source": "Microsoft Source",
+        "trust": "🟢 Official",
+        "date": "2026-10-13"
       },
       {
-        "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
-        "link": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
-        "summary": "Less than 48 hours, TechCrunch Disrupt 2026 starts in San Francisco’s Moscone West. Save up to $100 on your pass before prices increase at the door, plus get 50% on a second pass. Or score other deals.",
-        "why_it_matters": "Key development from TechCrunch AI.",
+        "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
+        "link": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
+        "summary": "Learn how to run OpenAI GPT-6 Sol, Luna, and Astra on Amazon Bedrock through global cross-Region inference from Singapore, Jakarta, Thailand, Malaysia, and Taipei. This post covers the Converse and OpenAI-compatible APIs, IAM and SCP permissions, quota sizing, and monitoring inference from your source Region.",
+        "why_it_matters": "Key development from AWS ML Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "TechCrunch AI",
-        "trust": "🟡 News",
-        "date": "2026-10-12"
+        "source": "AWS ML Blog",
+        "trust": "🟢 Official",
+        "date": "2026-10-13"
       }
     ],
     "🛠️ Builder's Toolbox": [
       {
-        "title": "New controls and chat improvements in Copilot for JetBrains",
-        "link": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
-        "summary": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and… The post New controls and chat improvements in Copilot for JetBrains appeared first on The GitHub Blog .",
+        "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+        "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
+        "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub AI & ML Blog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "GitHub AI & ML Blog",
+        "trust": "🟢 Official",
+        "date": "2026-10-13"
+      },
+      {
+        "title": "Client telemetry user attribution and configurable capture",
+        "link": "https://github.blog/changelog/2026-10-12-client-telemetry-user-attribution-and-configurable-capture",
+        "summary": "Enterprise administrators can now use telemetry in managed settings to attribute GitHub Copilot activity to a user without collecting their prompts, responses, or tool content. The telemetry.capture.identity setting adds three… The post Client telemetry user attribution and configurable capture appeared first on The GitHub Blog .",
         "why_it_matters": "Key development from GitHub Changelog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-10-12"
+        "date": "2026-10-13"
       }
     ],
     "🎯 Interview Edge": [
@@ -58,7 +69,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-10-12"
+        "date": "2026-10-13"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -69,31 +80,31 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-10-12"
+        "date": "2026-10-13"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "The gap in shared understanding of LLM capability is widening",
-        "link": "https://twitter.com/karpathy/status/2109361546505966046",
-        "summary": "Article URL: https://twitter.com/karpathy/status/2109361546505966046 Comments URL: https://news.ycombinator.com/item?id=50047422 Points: 384 # Comments: 541",
+        "title": "AI Models Can Provably Hide Arbitrary Capabilities",
+        "link": "https://arxiv.org/abs/2610.13928",
+        "summary": "Article URL: https://arxiv.org/abs/2610.13928 Comments URL: https://news.ycombinator.com/item?id=50065692 Points: 140 # Comments: 73",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-10-12"
+        "date": "2026-10-13"
       },
       {
-        "title": "AI is creating a 'human premium' for art created by people",
-        "link": "https://www.bbc.com/news/articles/c5vgjm3gk7rzo",
-        "summary": "Article URL: https://www.bbc.com/news/articles/c5vgjm3gk7rzo Comments URL: https://news.ycombinator.com/item?id=50042107 Points: 70 # Comments: 114",
+        "title": "I turned my unused Kindle into a photo frame with GPT-6 Astra",
+        "link": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai",
+        "summary": "Article URL: https://nirajrajgor.com/blog/kindle-photo-frame-with-ai Comments URL: https://news.ycombinator.com/item?id=50064318 Points: 141 # Comments: 92",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-10-12"
+        "date": "2026-10-13"
       }
     ],
     "🔮 On the Horizon": [
@@ -106,7 +117,7 @@
         "tag": "AI",
         "source": "arXiv cs.AI",
         "trust": "🔵 Academic",
-        "date": "2026-10-12"
+        "date": "2026-10-13"
       },
       {
         "title": "EliteTable: Self-Improving Program Search for Executable Control Policies",
@@ -117,14 +128,14 @@
         "tag": "AI",
         "source": "arXiv cs.AI",
         "trust": "🔵 Academic",
-        "date": "2026-10-12"
+        "date": "2026-10-13"
       }
     ]
   },
   "tool_of_day": {
-    "title": "New controls and chat improvements in Copilot for JetBrains",
-    "link": "https://github.blog/changelog/2026-10-10-new-controls-and-chat-improvements-in-copilot-for-jetbrains",
-    "summary": "This update brings more control over default models and MCP server in GitHub Copilot for JetBrains. It also makes diagnostics easier to address, improves chat navigation and account controls, and… The post New controls and chat improvements in Copilot for JetBrains appeared first on The GitHub Blog .",
+    "title": "GitHub Copilot app for Beginners: How to teach Copilot about your codebase",
+    "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-teach-copilot-about-your-codebase/",
+    "summary": "Learn how to add custom instructions and skills to your repository, use custom agents, and connect MCP servers like Playwright. The post GitHub Copilot app for Beginners: How to teach Copilot about your codebase appeared first on The GitHub Blog .",
     "pricing": "100% Free / Open Source",
     "use_case": "Developer productivity & AI prototyping"
   },
