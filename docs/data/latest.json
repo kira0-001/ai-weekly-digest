@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-10-16T04:48:45.855547+00:00"
+    "generated_at": "2026-10-17T04:48:43.461384+00:00"
   },
-  "date": "2026-10-16",
-  "date_display": "Friday, 16 October 2026 (10:18 AM IST)",
+  "date": "2026-10-17",
+  "date_display": "Saturday, 17 October 2026 (10:17 AM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -13,50 +13,50 @@
   "sections": {
     "🚀 Big Launches": [
       {
-        "title": "Bringing GPT-Rosalind to academic research labs",
-        "link": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-        "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+        "title": "How Itaú is building generative AI for its entire customer base",
+        "link": "https://openai.com/index/itau-generative-ai",
+        "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-10-16"
+        "date": "2026-10-17"
       },
       {
-        "title": "Teaching students to think and learn through questions",
-        "link": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-        "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+        "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+        "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+        "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-10-16"
+        "date": "2026-10-17"
       }
     ],
     "🛠️ Builder's Toolbox": [
       {
-        "title": "Multi-repo support and other improvements for GitHub Copilot in Slack and Microsoft Teams",
-        "link": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
-        "summary": "Multi-repo support in Slack and Microsoft Teams GitHub Copilot in Slack and Microsoft Teams now supports working across multiple repositories in a single conversation. Whether you’re tracking pull requests, investigating… The post Multi-repo support and other improvements for GitHub Copilot in Slack and Microsoft Teams appeared first on The GitHub Blog .",
-        "why_it_matters": "Key development from GitHub Changelog.",
+        "title": "Reflection's Beam is freely available on Ollama for a limited time",
+        "link": "https://ollama.com/blog/reflection-beam",
+        "summary": "Reflection's first open-weight model is now available on Ollama, and free for a limited time only. Beam is designed for software engineering, reasoning, and long-running agentic tasks. Access Beam through Ollama Cloud.",
+        "why_it_matters": "Key development from Ollama Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "GitHub Changelog",
+        "source": "Ollama Blog",
         "trust": "🟢 Official",
-        "date": "2026-10-16"
+        "date": "2026-10-17"
       },
       {
-        "title": "Download GitHub Code Quality license usage as a CSV",
-        "link": "https://github.blog/changelog/2026-10-15-download-github-code-quality-license-usage-as-a-csv",
-        "summary": "You can now download a CSV report of your GitHub Code Quality license usage to reconcile your license count with your own records. The report includes: Each active committer who… The post Download GitHub Code Quality license usage as a CSV appeared first on The GitHub Blog .",
+        "title": "Open source license compliance generally available",
+        "link": "https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available",
+        "summary": "Enterprises can now manage their dependencies’ licenses at scale with sophisticated, ruleset-based checks that enforce a centralized policy. Open source license compliance is now generally available for GitHub Enterprise Cloud… The post Open source license compliance generally available appeared first on The GitHub Blog .",
         "why_it_matters": "Key development from GitHub Changelog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-10-16"
+        "date": "2026-10-17"
       }
     ],
     "🎯 Interview Edge": [
@@ -69,7 +69,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-10-16"
+        "date": "2026-10-17"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -80,62 +80,51 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-10-16"
+        "date": "2026-10-17"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "Meta Releases Muse Spark Open: 816B Open-Weight MoE With 1M Context",
-        "link": "https://www.marktechpost.com/2026/10/15/meta-muse-spark-open-816b-open-weight-model/",
-        "summary": "Meta released Muse Spark Open, an 816B-parameter open-weight MoE model with 42B active parameters and a 1M-token context. It leads open models on MCP-Atlas and runs on 2 M5 Ultra Mac Studios. The post Meta Releases Muse Spark Open: 816B Open-Weight MoE With 1M Context appeared first on MarkTechPost .",
+        "title": "Perplexity Open-Sources SPACE, a Firecracker MicroVM Sandbox for AI Agents",
+        "link": "https://www.marktechpost.com/2026/10/16/perplexity-open-sources-space-firecracker-microvm-sandbox-ai-agents/",
+        "summary": "Perplexity has open-sourced SPACE, the sandbox platform behind every task in Perplexity Computer. The Perplexity SPACE sandbox gives each agent task its own Firecracker microVM. Credentials and outbound traffic are controlled from outside that VM. The code ships under Apache 2.0 on GitHub. For teams building coding or browsing agents, this is a production-tested isolation […] The post Perplexity Open-Sources…",
         "why_it_matters": "Key development from MarkTechPost AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "MarkTechPost AI",
         "trust": "🟡 News",
-        "date": "2026-10-16"
+        "date": "2026-10-17"
       },
       {
-        "title": "NVIDIA Releases Nemotron 3.5 Super VL, a 120B Open Multimodal Agent Model",
-        "link": "https://www.marktechpost.com/2026/10/15/nvidia-nemotron-3-5-super-vl-release/",
-        "summary": "NVIDIA released Nemotron 3.5 Super VL, an open 120B-parameter multimodal MoE model with 12B active parameters, 1M-token context and NVFP4 weights that run on 1 DGX Spark, plus 2 Bolt edge models. The post NVIDIA Releases Nemotron 3.5 Super VL, a 120B Open Multimodal Agent Model appeared first on MarkTechPost .",
+        "title": "Liquid AI Releases d1-ultra: A Multimodal Decision Model That Scores 65 on the AA Decision Index",
+        "link": "https://www.marktechpost.com/2026/10/15/liquid-ai-d1-ultra-decision-model/",
+        "summary": "Liquid AI released d1-ultra, a text and image decision model that returns calibrated probabilities in 1 forward pass. It scores 65 on the Artificial Analysis Decision Index and costs $0.042 per million input tokens. The post Liquid AI Releases d1-ultra: A Multimodal Decision Model That Scores 65 on the AA Decision Index appeared first on MarkTechPost .",
         "why_it_matters": "Key development from MarkTechPost AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "MarkTechPost AI",
         "trust": "🟡 News",
-        "date": "2026-10-16"
+        "date": "2026-10-17"
       }
     ],
     "🔮 On the Horizon": [
       {
-        "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
-        "link": "https://arxiv.org/abs/2610.20665",
-        "summary": "arXiv:2610.20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an otherwise correct action may arrive too late. We introduce RealtimeBench, with 180 tasks across six game types, to evaluate agents while games continue running during inference. Paired evaluations show that GPT-6.1-sol outperforms the…",
-        "why_it_matters": "Key development from arXiv cs.AI.",
+        "title": "Grounding AI agents in biological reality: Building blocks for autonomous wet labs",
+        "link": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
+        "summary": "General Science",
+        "why_it_matters": "Key development from Google Research Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "arXiv cs.AI",
-        "trust": "🔵 Academic",
-        "date": "2026-10-16"
-      },
-      {
-        "title": "Evaluating Model Capabilities After Benchmark Saturation",
-        "link": "https://arxiv.org/abs/2610.20667",
-        "summary": "arXiv:2610.20667v1 Announce Type: new Abstract: Rapid advances in AI capabilities are causing benchmarks to saturate. Once several models approach perfect scores, a benchmark loses its power to differentiate between them, and with it its utility for informing AI safety cases and frontier policies. Yet benchmark items produce far more information than the scores we typically extract from them: a full…",
-        "why_it_matters": "Key development from arXiv cs.AI.",
-        "takeaway": "Architecture & industry alignment.",
-        "tag": "AI",
-        "source": "arXiv cs.AI",
-        "trust": "🔵 Academic",
-        "date": "2026-10-16"
+        "source": "Google Research Blog",
+        "trust": "🟢 Official",
+        "date": "2026-10-17"
       }
     ]
   },
   "tool_of_day": {
-    "title": "Multi-repo support and other improvements for GitHub Copilot in Slack and Microsoft Teams",
-    "link": "https://github.blog/changelog/2026-10-15-copilot-in-slack-and-teams-adds-model-and-repository-updates",
-    "summary": "Multi-repo support in Slack and Microsoft Teams GitHub Copilot in Slack and Microsoft Teams now supports working across multiple repositories in a single conversation. Whether you’re tracking pull requests, investigating… The post Multi-repo support and other improvements for GitHub Copilot in Slack and Microsoft Teams appeared first on The GitHub Blog .",
+    "title": "Open source license compliance generally available",
+    "link": "https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available",
+    "summary": "Enterprises can now manage their dependencies’ licenses at scale with sophisticated, ruleset-based checks that enforce a centralized policy. Open source license compliance is now generally available for GitHub Enterprise Cloud… The post Open source license compliance generally available appeared first on The GitHub Blog .",
     "pricing": "100% Free / Open Source",
     "use_case": "Developer productivity & AI prototyping"
   },
