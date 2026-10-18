@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-10-17T04:48:43.461384+00:00"
+    "generated_at": "2026-10-18T04:54:43.396738+00:00"
   },
-  "date": "2026-10-17",
-  "date_display": "Saturday, 17 October 2026 (10:17 AM IST)",
+  "date": "2026-10-18",
+  "date_display": "Sunday, 18 October 2026 (10:24 AM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -21,32 +21,21 @@
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-10-17"
+        "date": "2026-10-18"
       },
       {
-        "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-        "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-        "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-        "why_it_matters": "Key development from OpenAI Blog.",
+        "title": "Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore",
+        "link": "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/",
+        "summary": "Autonomous AI agents fail softly: latency stays flat while answer quality quietly erodes. This post shares a nine-stage evaluation framework, built on Amazon Bedrock AgentCore, that catches silent quality regressions across the full agent lifecycle, from first commit to live production.",
+        "why_it_matters": "Key development from AWS ML Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "OpenAI Blog",
+        "source": "AWS ML Blog",
         "trust": "🟢 Official",
-        "date": "2026-10-17"
+        "date": "2026-10-18"
       }
     ],
     "🛠️ Builder's Toolbox": [
-      {
-        "title": "Reflection's Beam is freely available on Ollama for a limited time",
-        "link": "https://ollama.com/blog/reflection-beam",
-        "summary": "Reflection's first open-weight model is now available on Ollama, and free for a limited time only. Beam is designed for software engineering, reasoning, and long-running agentic tasks. Access Beam through Ollama Cloud.",
-        "why_it_matters": "Key development from Ollama Blog.",
-        "takeaway": "Architecture & industry alignment.",
-        "tag": "AI",
-        "source": "Ollama Blog",
-        "trust": "🟢 Official",
-        "date": "2026-10-17"
-      },
       {
         "title": "Open source license compliance generally available",
         "link": "https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available",
@@ -56,7 +45,7 @@
         "tag": "AI",
         "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-10-17"
+        "date": "2026-10-18"
       }
     ],
     "🎯 Interview Edge": [
@@ -69,7 +58,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-10-17"
+        "date": "2026-10-18"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -80,31 +69,31 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-10-17"
+        "date": "2026-10-18"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "Perplexity Open-Sources SPACE, a Firecracker MicroVM Sandbox for AI Agents",
-        "link": "https://www.marktechpost.com/2026/10/16/perplexity-open-sources-space-firecracker-microvm-sandbox-ai-agents/",
-        "summary": "Perplexity has open-sourced SPACE, the sandbox platform behind every task in Perplexity Computer. The Perplexity SPACE sandbox gives each agent task its own Firecracker microVM. Credentials and outbound traffic are controlled from outside that VM. The code ships under Apache 2.0 on GitHub. For teams building coding or browsing agents, this is a production-tested isolation […] The post Perplexity Open-Sources…",
-        "why_it_matters": "Key development from MarkTechPost AI.",
+        "title": "Amazon uses AI to monitor union risk in UK warehouses",
+        "link": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
+        "summary": "Article URL: https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/ Comments URL: https://news.ycombinator.com/item?id=50132278 Points: 155 # Comments: 58",
+        "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "MarkTechPost AI",
-        "trust": "🟡 News",
-        "date": "2026-10-17"
+        "source": "Hacker News AI",
+        "trust": "🟡 Community",
+        "date": "2026-10-18"
       },
       {
-        "title": "Liquid AI Releases d1-ultra: A Multimodal Decision Model That Scores 65 on the AA Decision Index",
-        "link": "https://www.marktechpost.com/2026/10/15/liquid-ai-d1-ultra-decision-model/",
-        "summary": "Liquid AI released d1-ultra, a text and image decision model that returns calibrated probabilities in 1 forward pass. It scores 65 on the Artificial Analysis Decision Index and costs $0.042 per million input tokens. The post Liquid AI Releases d1-ultra: A Multimodal Decision Model That Scores 65 on the AA Decision Index appeared first on MarkTechPost .",
-        "why_it_matters": "Key development from MarkTechPost AI.",
+        "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+        "link": "https://llmspeed.dev/",
+        "summary": "Article URL: https://llmspeed.dev/ Comments URL: https://news.ycombinator.com/item?id=50127979 Points: 267 # Comments: 78",
+        "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "MarkTechPost AI",
-        "trust": "🟡 News",
-        "date": "2026-10-17"
+        "source": "Hacker News AI",
+        "trust": "🟡 Community",
+        "date": "2026-10-18"
       }
     ],
     "🔮 On the Horizon": [
@@ -117,7 +106,7 @@
         "tag": "AI",
         "source": "Google Research Blog",
         "trust": "🟢 Official",
-        "date": "2026-10-17"
+        "date": "2026-10-18"
       }
     ]
   },
