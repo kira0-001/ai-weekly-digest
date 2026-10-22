@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-10-21T05:07:53.416973+00:00"
+    "generated_at": "2026-10-22T05:10:49.704251+00:00"
   },
-  "date": "2026-10-21",
-  "date_display": "Wednesday, 21 October 2026 (10:37 AM IST)",
+  "date": "2026-10-22",
+  "date_display": "Thursday, 22 October 2026 (10:40 AM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -13,26 +13,26 @@
   "sections": {
     "🚀 Big Launches": [
       {
-        "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-        "link": "https://openai.com/index/ted-taylor-restaurant",
-        "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+        "title": "Broad access through consistent standards",
+        "link": "https://openai.com/index/broad-access-through-consistent-standards",
+        "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-10-21"
+        "date": "2026-10-22"
       },
       {
-        "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-        "link": "https://openai.com/index/terminal-x",
-        "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+        "title": "How AT&T is rethinking in-house legal work with OpenAI",
+        "link": "https://openai.com/index/att-legal",
+        "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-10-21"
+        "date": "2026-10-22"
       }
     ],
     "🛠️ Builder's Toolbox": [
@@ -45,18 +45,18 @@
         "tag": "AI",
         "source": "GitHub AI & ML Blog",
         "trust": "🟢 Official",
-        "date": "2026-10-21"
+        "date": "2026-10-22"
       },
       {
-        "title": "How to continue a GitHub Copilot app session in VS Code",
-        "link": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
-        "summary": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context. The post How to continue a GitHub Copilot app session in VS Code appeared first on The GitHub Blog .",
-        "why_it_matters": "Key development from GitHub AI & ML Blog.",
+        "title": "GitHub CLI: Opt in to expiring, auto-refreshing OAuth tokens",
+        "link": "https://github.blog/changelog/2026-10-21-github-cli-opt-in-to-expiring-auto-refreshing-oauth-tokens",
+        "summary": "You can now use expiring, automatically refreshing OAuth credentials in GitHub CLI as part of a public preview. When you opt in, gh stores an expiring access token alongside a… The post GitHub CLI: Opt in to expiring, auto-refreshing OAuth tokens appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub Changelog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "GitHub AI & ML Blog",
+        "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-10-21"
+        "date": "2026-10-22"
       }
     ],
     "🎯 Interview Edge": [
@@ -69,7 +69,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-10-21"
+        "date": "2026-10-22"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -80,31 +80,31 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-10-21"
+        "date": "2026-10-22"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "On AI writing",
-        "link": "https://www.bolkunov.com/p/on-ai-writing",
-        "summary": "Article URL: https://www.bolkunov.com/p/on-ai-writing Comments URL: https://news.ycombinator.com/item?id=50171771 Points: 81 # Comments: 57",
+        "title": "Google staff resign in backlash over its AI contracts with military",
+        "link": "https://www.bbc.com/news/articles/cmreyvepnv0po",
+        "summary": "Article URL: https://www.bbc.com/news/articles/cmreyvepnv0po Comments URL: https://news.ycombinator.com/item?id=50186043 Points: 119 # Comments: 23",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-10-21"
+        "date": "2026-10-22"
       },
       {
-        "title": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest",
-        "link": "https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop",
-        "summary": "Article URL: https://www.ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop Comments URL: https://news.ycombinator.com/item?id=50168190 Points: 173 # Comments: 201",
+        "title": "Rust off Rails: The opinionated web stack for the AI era",
+        "link": "https://rustoffrails.org/",
+        "summary": "Article URL: https://rustoffrails.org/ Comments URL: https://news.ycombinator.com/item?id=50183727 Points: 70 # Comments: 74",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-10-21"
+        "date": "2026-10-22"
       }
     ],
     "🔮 On the Horizon": [
@@ -117,7 +117,7 @@
         "tag": "AI",
         "source": "arXiv cs.AI",
         "trust": "🔵 Academic",
-        "date": "2026-10-21"
+        "date": "2026-10-22"
       },
       {
         "title": "Large language model and reinforcement learning based autonomous construction and progress updates",
@@ -128,7 +128,7 @@
         "tag": "AI",
         "source": "arXiv cs.AI",
         "trust": "🔵 Academic",
-        "date": "2026-10-21"
+        "date": "2026-10-22"
       }
     ]
   },
