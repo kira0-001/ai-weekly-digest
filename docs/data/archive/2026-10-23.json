@@ -1,0 +1,143 @@
+{
+  "_meta": {
+    "schema_version": "2.0",
+    "generated_at": "2026-10-23T05:10:33.443970+00:00"
+  },
+  "date": "2026-10-23",
+  "date_display": "Friday, 23 October 2026 (10:39 AM IST)",
+  "executive_summary": [
+    "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
+    "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
+    "Developer platforms expanding free inference tiers and edge compute toolkits."
+  ],
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Build more responsive apps with the Decisions API",
+        "link": "https://openai.com/index/decisions-api",
+        "summary": "Fast, focused, low-cost decisions for any application.",
+        "why_it_matters": "Key development from OpenAI Blog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-10-23"
+      },
+      {
+        "title": "What FDE means at OpenAI",
+        "link": "https://openai.com/index/forward-deployed-engineering-means",
+        "summary": "What forward deployed engineering means at OpenAI",
+        "why_it_matters": "Key development from OpenAI Blog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-10-23"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "GitHub Copilot in Visual Studio — September update",
+        "link": "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2",
+        "summary": "September 2026 brought deeper visibility into your work: explore pull requests without leaving chat, bring the AI model your team trusts, and fix vulnerable packages the moment Visual Studio flags… The post GitHub Copilot in Visual Studio — September update appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub Changelog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "GitHub Changelog",
+        "trust": "🟢 Official",
+        "date": "2026-10-23"
+      },
+      {
+        "title": "Custom skills, agents, and MCP servers in usage metrics API",
+        "link": "https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api",
+        "summary": "Copilot usage metrics now show the names of the skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins that your organization creates, instead of grouping them under… The post Custom skills, agents, and MCP servers in usage metrics API appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub Changelog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "GitHub Changelog",
+        "trust": "🟢 Official",
+        "date": "2026-10-23"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Wan-AI/Wan2.1-T2V-1.3B",
+        "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+        "summary": "Wan-AI/Wan2.1-T2V-1.3B",
+        "why_it_matters": "Key development from HF Trending Models.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "HF Trending Models",
+        "trust": "🟡 News",
+        "date": "2026-10-23"
+      },
+      {
+        "title": "microsoft/Phi-4-mini-instruct",
+        "link": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+        "summary": "microsoft/Phi-4-mini-instruct",
+        "why_it_matters": "Key development from HF Trending Models.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "HF Trending Models",
+        "trust": "🟡 News",
+        "date": "2026-10-23"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers",
+        "link": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
+        "summary": "Article URL: https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085 Comments URL: https://news.ycombinator.com/item?id=50200843 Points: 70 # Comments: 45",
+        "why_it_matters": "Key development from Hacker News AI.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "Hacker News AI",
+        "trust": "🟡 Community",
+        "date": "2026-10-23"
+      },
+      {
+        "title": "Show HN: UI micro interactions prompts for AI",
+        "link": "https://www.typeui.sh/micro-interactions",
+        "summary": "Article URL: https://www.typeui.sh/micro-interactions Comments URL: https://news.ycombinator.com/item?id=50199290 Points: 74 # Comments: 42",
+        "why_it_matters": "Key development from Hacker News AI.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "Hacker News AI",
+        "trust": "🟡 Community",
+        "date": "2026-10-23"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "A Small Model Asks Better: Fine-Tuning Query Clarification for Retrieval-Augmented Generation",
+        "link": "https://arxiv.org/abs/2610.28686",
+        "summary": "arXiv:2610.28686v1 Announce Type: new Abstract: Query clarification is essential for retrieval-augmented generation (RAG) systems that face ambiguous user queries. We consider multi-turn grounded conversational scenarios where a user query is either ill-formed or ambiguous in the context of the prior dialog or, more interestingly, it may be well-formed but when posed against retrieved documents there are multiple relevant interpretations. The…",
+        "why_it_matters": "Key development from arXiv cs.AI.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-10-23"
+      },
+      {
+        "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+        "link": "https://arxiv.org/abs/2610.28698",
+        "summary": "arXiv:2610.28698v1 Announce Type: new Abstract: Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes: data…",
+        "why_it_matters": "Key development from arXiv cs.AI.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-10-23"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "GitHub Copilot in Visual Studio — September update",
+    "link": "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2",
+    "summary": "September 2026 brought deeper visibility into your work: explore pull requests without leaving chat, bring the AI model your team trusts, and fix vulnerable packages the moment Visual Studio flags… The post GitHub Copilot in Visual Studio — September update appeared first on The GitHub Blog .",
+    "pricing": "100% Free / Open Source",
+    "use_case": "Developer productivity & AI prototyping"
+  },
+  "hot_take": "Strong ecosystem velocity across both proprietary platforms and open-source models today."
+}

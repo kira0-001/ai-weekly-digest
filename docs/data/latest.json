@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-10-22T05:10:49.704251+00:00"
+    "generated_at": "2026-10-23T05:10:33.443970+00:00"
   },
-  "date": "2026-10-22",
-  "date_display": "Thursday, 22 October 2026 (10:40 AM IST)",
+  "date": "2026-10-23",
+  "date_display": "Friday, 23 October 2026 (10:39 AM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -13,50 +13,50 @@
   "sections": {
     "🚀 Big Launches": [
       {
-        "title": "Broad access through consistent standards",
-        "link": "https://openai.com/index/broad-access-through-consistent-standards",
-        "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+        "title": "Build more responsive apps with the Decisions API",
+        "link": "https://openai.com/index/decisions-api",
+        "summary": "Fast, focused, low-cost decisions for any application.",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-10-22"
+        "date": "2026-10-23"
       },
       {
-        "title": "How AT&T is rethinking in-house legal work with OpenAI",
-        "link": "https://openai.com/index/att-legal",
-        "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+        "title": "What FDE means at OpenAI",
+        "link": "https://openai.com/index/forward-deployed-engineering-means",
+        "summary": "What forward deployed engineering means at OpenAI",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-10-22"
+        "date": "2026-10-23"
       }
     ],
     "🛠️ Builder's Toolbox": [
       {
-        "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
-        "link": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
-        "summary": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog .",
-        "why_it_matters": "Key development from GitHub AI & ML Blog.",
-        "takeaway": "Architecture & industry alignment.",
-        "tag": "AI",
-        "source": "GitHub AI & ML Blog",
-        "trust": "🟢 Official",
-        "date": "2026-10-22"
-      },
-      {
-        "title": "GitHub CLI: Opt in to expiring, auto-refreshing OAuth tokens",
-        "link": "https://github.blog/changelog/2026-10-21-github-cli-opt-in-to-expiring-auto-refreshing-oauth-tokens",
-        "summary": "You can now use expiring, automatically refreshing OAuth credentials in GitHub CLI as part of a public preview. When you opt in, gh stores an expiring access token alongside a… The post GitHub CLI: Opt in to expiring, auto-refreshing OAuth tokens appeared first on The GitHub Blog .",
+        "title": "GitHub Copilot in Visual Studio — September update",
+        "link": "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2",
+        "summary": "September 2026 brought deeper visibility into your work: explore pull requests without leaving chat, bring the AI model your team trusts, and fix vulnerable packages the moment Visual Studio flags… The post GitHub Copilot in Visual Studio — September update appeared first on The GitHub Blog .",
         "why_it_matters": "Key development from GitHub Changelog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-10-22"
+        "date": "2026-10-23"
+      },
+      {
+        "title": "Custom skills, agents, and MCP servers in usage metrics API",
+        "link": "https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api",
+        "summary": "Copilot usage metrics now show the names of the skills, custom agents, Model Context Protocol (MCP) servers, slash commands, and plugins that your organization creates, instead of grouping them under… The post Custom skills, agents, and MCP servers in usage metrics API appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub Changelog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "GitHub Changelog",
+        "trust": "🟢 Official",
+        "date": "2026-10-23"
       }
     ],
     "🎯 Interview Edge": [
@@ -69,7 +69,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-10-22"
+        "date": "2026-10-23"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -80,62 +80,62 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-10-22"
+        "date": "2026-10-23"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "Google staff resign in backlash over its AI contracts with military",
-        "link": "https://www.bbc.com/news/articles/cmreyvepnv0po",
-        "summary": "Article URL: https://www.bbc.com/news/articles/cmreyvepnv0po Comments URL: https://news.ycombinator.com/item?id=50186043 Points: 119 # Comments: 23",
+        "title": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers",
+        "link": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
+        "summary": "Article URL: https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085 Comments URL: https://news.ycombinator.com/item?id=50200843 Points: 70 # Comments: 45",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-10-22"
+        "date": "2026-10-23"
       },
       {
-        "title": "Rust off Rails: The opinionated web stack for the AI era",
-        "link": "https://rustoffrails.org/",
-        "summary": "Article URL: https://rustoffrails.org/ Comments URL: https://news.ycombinator.com/item?id=50183727 Points: 70 # Comments: 74",
+        "title": "Show HN: UI micro interactions prompts for AI",
+        "link": "https://www.typeui.sh/micro-interactions",
+        "summary": "Article URL: https://www.typeui.sh/micro-interactions Comments URL: https://news.ycombinator.com/item?id=50199290 Points: 74 # Comments: 42",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-10-22"
+        "date": "2026-10-23"
       }
     ],
     "🔮 On the Horizon": [
       {
-        "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
-        "link": "https://arxiv.org/abs/2610.26887",
-        "summary": "arXiv:2610.26887v1 Announce Type: new Abstract: Large language model (LLM) agents are evolving from conversational assistants into Cowork Agents capable of autonomous planning, tool use, and complex task execution. Financial analysis requires these agents to integrate cross-document evidence and perform multistep numerical reasoning, but expert task authoring is costly, while direct LLM synthesis struggles to produce challenging tasks with reliable answers.…",
+        "title": "A Small Model Asks Better: Fine-Tuning Query Clarification for Retrieval-Augmented Generation",
+        "link": "https://arxiv.org/abs/2610.28686",
+        "summary": "arXiv:2610.28686v1 Announce Type: new Abstract: Query clarification is essential for retrieval-augmented generation (RAG) systems that face ambiguous user queries. We consider multi-turn grounded conversational scenarios where a user query is either ill-formed or ambiguous in the context of the prior dialog or, more interestingly, it may be well-formed but when posed against retrieved documents there are multiple relevant interpretations. The…",
         "why_it_matters": "Key development from arXiv cs.AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "arXiv cs.AI",
         "trust": "🔵 Academic",
-        "date": "2026-10-22"
+        "date": "2026-10-23"
       },
       {
-        "title": "Large language model and reinforcement learning based autonomous construction and progress updates",
-        "link": "https://arxiv.org/abs/2610.26899",
-        "summary": "arXiv:2610.26899v1 Announce Type: new Abstract: Due to the rapid growth of the global population, traditional construction methods are gradually unable to meet the current housing demand. The advancement of machine learning algorithms has encouraged researchers to explore their applications in the construction industry, leading to more intelligent and efficient building processes. In particular, the rise of large language models in…",
+        "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+        "link": "https://arxiv.org/abs/2610.28698",
+        "summary": "arXiv:2610.28698v1 Announce Type: new Abstract: Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes: data…",
         "why_it_matters": "Key development from arXiv cs.AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "arXiv cs.AI",
         "trust": "🔵 Academic",
-        "date": "2026-10-22"
+        "date": "2026-10-23"
       }
     ]
   },
   "tool_of_day": {
-    "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
-    "link": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
-    "summary": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results. The post How 3 Java Champions are using GitHub Copilot for increased productivity appeared first on The GitHub Blog .",
+    "title": "GitHub Copilot in Visual Studio — September update",
+    "link": "https://github.blog/changelog/2026-10-22-github-copilot-in-visual-studio-september-update-2",
+    "summary": "September 2026 brought deeper visibility into your work: explore pull requests without leaving chat, bring the AI model your team trusts, and fix vulnerable packages the moment Visual Studio flags… The post GitHub Copilot in Visual Studio — September update appeared first on The GitHub Blog .",
     "pricing": "100% Free / Open Source",
     "use_case": "Developer productivity & AI prototyping"
   },
