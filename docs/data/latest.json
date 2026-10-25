@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-10-24T04:53:37.327368+00:00"
+    "generated_at": "2026-10-25T05:04:32.878862+00:00"
   },
-  "date": "2026-10-24",
-  "date_display": "Saturday, 24 October 2026 (10:22 AM IST)",
+  "date": "2026-10-25",
+  "date_display": "Sunday, 25 October 2026 (10:33 AM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -21,7 +21,7 @@
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-10-24"
+        "date": "2026-10-25"
       },
       {
         "title": "Securing our frontier model training environment",
@@ -32,10 +32,21 @@
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-10-24"
+        "date": "2026-10-25"
       }
     ],
     "🛠️ Builder's Toolbox": [
+      {
+        "title": "Speech models in Ollama",
+        "link": "https://ollama.com/blog/speech-models",
+        "summary": "Ollama now supports speech models, starting with Phonon from Gradium. Read text aloud in five languages and dozens of voices, streamed as it is generated, over 100 times faster than real time on Apple Silicon.",
+        "why_it_matters": "Key development from Ollama Blog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "Ollama Blog",
+        "trust": "🟢 Official",
+        "date": "2026-10-25"
+      },
       {
         "title": "Usage metrics API adds usage from tools like OpenCode",
         "link": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
@@ -45,18 +56,7 @@
         "tag": "AI",
         "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-10-24"
-      },
-      {
-        "title": "Turn notifications into code with GitHub Copilot in Teams",
-        "link": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
-        "summary": "The new GitHub app in Teams brings notifications and Copilot together, helping teams turn issues into fixes and ship code faster without leaving the conversation. Get notified in channels, group… The post Turn notifications into code with GitHub Copilot in Teams appeared first on The GitHub Blog .",
-        "why_it_matters": "Key development from GitHub Changelog.",
-        "takeaway": "Architecture & industry alignment.",
-        "tag": "AI",
-        "source": "GitHub Changelog",
-        "trust": "🟢 Official",
-        "date": "2026-10-24"
+        "date": "2026-10-25"
       }
     ],
     "🎯 Interview Edge": [
@@ -69,7 +69,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-10-24"
+        "date": "2026-10-25"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -80,31 +80,31 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-10-24"
+        "date": "2026-10-25"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "Show HN: We had AI write a wiki from 45k Enron emails, every fact cited",
-        "link": "https://www.thisandthat.chat/enron/",
-        "summary": "Article URL: https://www.thisandthat.chat/enron/ Comments URL: https://news.ycombinator.com/item?id=50207620 Points: 58 # Comments: 53",
-        "why_it_matters": "Key development from Hacker News AI.",
+        "title": "Cognition Open-Sources an Agent Plugin that Helps Secure Systems against Recent Cybersecurity Threats",
+        "link": "https://www.marktechpost.com/2026/10/24/cognition-devin-vulnerability-fixes-plugin-php2shell-nodejs-gitlab/",
+        "summary": "Cognition released the Devin Vulnerability Fixes plugin, 3 MIT-licensed agent skills that inventory, patch and test PHP, Node.js and self-managed GitLab deployments hit by this week’s critical RCE flaws, then open 1 PR per repo. The post Cognition Open-Sources an Agent Plugin that Helps Secure Systems against Recent Cybersecurity Threats appeared first on MarkTechPost .",
+        "why_it_matters": "Key development from MarkTechPost AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "Hacker News AI",
-        "trust": "🟡 Community",
-        "date": "2026-10-24"
+        "source": "MarkTechPost AI",
+        "trust": "🟡 News",
+        "date": "2026-10-25"
       },
       {
-        "title": "The same AI request emits 8.5 times more CO2 in Texas than in Sweden",
-        "link": "https://berget.ai/en/blog/per-request-co2-press-release",
-        "summary": "Article URL: https://berget.ai/en/blog/per-request-co2-press-release Comments URL: https://news.ycombinator.com/item?id=50205229 Points: 140 # Comments: 154",
-        "why_it_matters": "Key development from Hacker News AI.",
+        "title": "How to Run Underdog Saluki 27B: 2-Bit Qwen3.8-27B Tool-Calling Guide",
+        "link": "https://www.marktechpost.com/2026/10/24/underdog-saluki-27b-coding-guide-llama-cpp/",
+        "summary": "Explore a complete coding guide comparing Underdog Saluki 27B with ISTA's GSQ-RCO quantization, examining GGUF headers, memory usage, and BFCL tool-calling performance in stock llama.cpp The post How to Run Underdog Saluki 27B: 2-Bit Qwen3.8-27B Tool-Calling Guide appeared first on MarkTechPost .",
+        "why_it_matters": "Key development from MarkTechPost AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "Hacker News AI",
-        "trust": "🟡 Community",
-        "date": "2026-10-24"
+        "source": "MarkTechPost AI",
+        "trust": "🟡 News",
+        "date": "2026-10-25"
       }
     ],
     "🔮 On the Horizon": [
@@ -117,7 +117,7 @@
         "tag": "AI",
         "source": "Google Research Blog",
         "trust": "🟢 Official",
-        "date": "2026-10-24"
+        "date": "2026-10-25"
       }
     ]
   },
