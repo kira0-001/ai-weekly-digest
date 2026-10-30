@@ -1,0 +1,120 @@
+{
+  "_meta": {
+    "schema_version": "2.0",
+    "generated_at": "2026-10-30T06:10:46.743900+00:00"
+  },
+  "date": "2026-10-30",
+  "date_display": "Friday, 30 October 2026 (11:40 AM IST)",
+  "executive_summary": [
+    "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
+    "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
+    "Developer platforms expanding free inference tiers and edge compute toolkits."
+  ],
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "An updated Model Spec for more capable and beneficial AI",
+        "link": "https://openai.com/index/updated-model-spec",
+        "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+        "why_it_matters": "Key development from OpenAI Blog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-10-30"
+      },
+      {
+        "title": "How we detect frontier model misalignment",
+        "link": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+        "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+        "why_it_matters": "Key development from OpenAI Blog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-10-30"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Webhook IP ranges added to the Meta API",
+        "link": "https://github.blog/changelog/2026-10-29-webhook-ip-ranges-added-to-the-meta-api",
+        "summary": "We’re adding IP ranges for GitHub webhook deliveries on github.com. The Meta API now includes these additional ranges in the hooks field. If you maintain a static network allowlist for… The post Webhook IP ranges added to the Meta API appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub Changelog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "GitHub Changelog",
+        "trust": "🟢 Official",
+        "date": "2026-10-30"
+      },
+      {
+        "title": "Route and orchestrate models with GitHub Copilot Fusion",
+        "link": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion",
+        "summary": "GitHub Copilot Fusion is generally available. Instead of picking a model for each task, choose Copilot Fusion and let Copilot intelligently route and orchestrate which models it uses for you.… The post Route and orchestrate models with GitHub Copilot Fusion appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub Changelog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "GitHub Changelog",
+        "trust": "🟢 Official",
+        "date": "2026-10-30"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Wan-AI/Wan2.1-T2V-1.3B",
+        "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+        "summary": "Wan-AI/Wan2.1-T2V-1.3B",
+        "why_it_matters": "Key development from HF Trending Models.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "HF Trending Models",
+        "trust": "🟡 News",
+        "date": "2026-10-30"
+      },
+      {
+        "title": "microsoft/Phi-4-mini-instruct",
+        "link": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+        "summary": "microsoft/Phi-4-mini-instruct",
+        "why_it_matters": "Key development from HF Trending Models.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "HF Trending Models",
+        "trust": "🟡 News",
+        "date": "2026-10-30"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Google value plunges by $500B as AI fears rattle Wall Street",
+        "link": "https://www.bbc.com/news/articles/cm9qzdqpxy48o",
+        "summary": "Article URL: https://www.bbc.com/news/articles/cm9qzdqpxy48o Comments URL: https://news.ycombinator.com/item?id=50297037 Points: 50 # Comments: 23",
+        "why_it_matters": "Key development from Hacker News AI.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "Hacker News AI",
+        "trust": "🟡 Community",
+        "date": "2026-10-30"
+      },
+      {
+        "title": "Proton goes all in on using AI",
+        "link": "https://convo.casa/@b/117525936178835007",
+        "summary": "Article URL: https://convo.casa/@b/117525936178835007 Comments URL: https://news.ycombinator.com/item?id=50296602 Points: 88 # Comments: 92",
+        "why_it_matters": "Key development from Hacker News AI.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "Hacker News AI",
+        "trust": "🟡 Community",
+        "date": "2026-10-30"
+      }
+    ],
+    "🔮 On the Horizon": []
+  },
+  "tool_of_day": {
+    "title": "Webhook IP ranges added to the Meta API",
+    "link": "https://github.blog/changelog/2026-10-29-webhook-ip-ranges-added-to-the-meta-api",
+    "summary": "We’re adding IP ranges for GitHub webhook deliveries on github.com. The Meta API now includes these additional ranges in the hooks field. If you maintain a static network allowlist for… The post Webhook IP ranges added to the Meta API appeared first on The GitHub Blog .",
+    "pricing": "100% Free / Open Source",
+    "use_case": "Developer productivity & AI prototyping"
+  },
+  "hot_take": "Strong ecosystem velocity across both proprietary platforms and open-source models today."
+}
