@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-10-30T06:10:46.743900+00:00"
+    "generated_at": "2026-10-31T06:06:11.451738+00:00"
   },
-  "date": "2026-10-30",
-  "date_display": "Friday, 30 October 2026 (11:40 AM IST)",
+  "date": "2026-10-31",
+  "date_display": "Saturday, 31 October 2026 (11:35 AM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -13,26 +13,26 @@
   "sections": {
     "🚀 Big Launches": [
       {
-        "title": "An updated Model Spec for more capable and beneficial AI",
-        "link": "https://openai.com/index/updated-model-spec",
-        "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+        "title": "Making it easier for websites to express AI training preferences",
+        "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+        "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-10-30"
+        "date": "2026-10-31"
       },
       {
-        "title": "How we detect frontier model misalignment",
-        "link": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-        "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+        "title": "Community safety report and new protections for teens",
+        "link": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+        "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-10-30"
+        "date": "2026-10-31"
       }
     ],
     "🛠️ Builder's Toolbox": [
@@ -45,18 +45,7 @@
         "tag": "AI",
         "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-10-30"
-      },
-      {
-        "title": "Route and orchestrate models with GitHub Copilot Fusion",
-        "link": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion",
-        "summary": "GitHub Copilot Fusion is generally available. Instead of picking a model for each task, choose Copilot Fusion and let Copilot intelligently route and orchestrate which models it uses for you.… The post Route and orchestrate models with GitHub Copilot Fusion appeared first on The GitHub Blog .",
-        "why_it_matters": "Key development from GitHub Changelog.",
-        "takeaway": "Architecture & industry alignment.",
-        "tag": "AI",
-        "source": "GitHub Changelog",
-        "trust": "🟢 Official",
-        "date": "2026-10-30"
+        "date": "2026-10-31"
       }
     ],
     "🎯 Interview Edge": [
@@ -69,7 +58,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-10-30"
+        "date": "2026-10-31"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -80,34 +69,57 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-10-30"
+        "date": "2026-10-31"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "Google value plunges by $500B as AI fears rattle Wall Street",
-        "link": "https://www.bbc.com/news/articles/cm9qzdqpxy48o",
-        "summary": "Article URL: https://www.bbc.com/news/articles/cm9qzdqpxy48o Comments URL: https://news.ycombinator.com/item?id=50297037 Points: 50 # Comments: 23",
+        "title": "Wall Street closes sharply lower as AI cash burn fears spark tech selloff",
+        "link": "https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30/",
+        "summary": "Article URL: https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30/ Comments URL: https://news.ycombinator.com/item?id=50310431 Points: 52 # Comments: 8",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-10-30"
+        "date": "2026-10-31"
       },
       {
-        "title": "Proton goes all in on using AI",
-        "link": "https://convo.casa/@b/117525936178835007",
-        "summary": "Article URL: https://convo.casa/@b/117525936178835007 Comments URL: https://news.ycombinator.com/item?id=50296602 Points: 88 # Comments: 92",
+        "title": "Proton's CEO Cancels AI 'Re-Interviews'",
+        "link": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
+        "summary": "Article URL: https://www.404media.co/protons-ceo-cancels-ai-re-interviews/ Comments URL: https://news.ycombinator.com/item?id=50307183 Points: 267 # Comments: 221",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-10-30"
+        "date": "2026-10-31"
       }
     ],
-    "🔮 On the Horizon": []
+    "🔮 On the Horizon": [
+      {
+        "title": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
+        "link": "https://arxiv.org/abs/2610.37720",
+        "summary": "arXiv:2610.37720v1 Announce Type: new Abstract: Sparse Mixture-of-Experts (MoE) models offer scalable capacity for Web applications, but uneven routing creates computation and communication bottlenecks. Existing placement and replication methods redistribute this workload, yet additional expert copies compete with token-related buffers for limited GPU memory. We present LRMoE, a memory-aware MoE training system that jointly recalibrates backward demand and balances the retained…",
+        "why_it_matters": "Key development from arXiv cs.AI.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-10-31"
+      },
+      {
+        "title": "Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure",
+        "link": "https://arxiv.org/abs/2610.37731",
+        "summary": "arXiv:2610.37731v1 Announce Type: new Abstract: Model discrepancy may prevent a single calibration parameter from reproducing a physical response across the context domain. In addition, uncertainties in observations and contexts affect calibration and must be accounted for and quantified. We construct a family of localized posteriors by weighting observation likelihoods according to their proximity to a target context. Gaussian localization weights…",
+        "why_it_matters": "Key development from arXiv cs.AI.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-10-31"
+      }
+    ]
   },
   "tool_of_day": {
     "title": "Webhook IP ranges added to the Meta API",
