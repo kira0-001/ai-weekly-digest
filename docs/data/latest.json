@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-11-01T06:35:29.609864+00:00"
+    "generated_at": "2026-11-02T06:35:46.469741+00:00"
   },
-  "date": "2026-11-01",
-  "date_display": "Sunday, 01 November 2026 (12:04 PM IST)",
+  "date": "2026-11-02",
+  "date_display": "Monday, 02 November 2026 (12:05 PM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -13,26 +13,26 @@
   "sections": {
     "🚀 Big Launches": [
       {
-        "title": "Making it easier for websites to express AI training preferences",
-        "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-        "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
-        "why_it_matters": "Key development from OpenAI Blog.",
+        "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+        "link": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+        "summary": "Data centers are deeply unpopular. But what if we called them something else?",
+        "why_it_matters": "Key development from TechCrunch AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "OpenAI Blog",
-        "trust": "🟢 Official",
-        "date": "2026-11-01"
+        "source": "TechCrunch AI",
+        "trust": "🟡 News",
+        "date": "2026-11-02"
       },
       {
-        "title": "Community safety report and new protections for teens",
-        "link": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-        "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
-        "why_it_matters": "Key development from OpenAI Blog.",
+        "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+        "link": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+        "summary": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
+        "why_it_matters": "Key development from TechCrunch AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "OpenAI Blog",
-        "trust": "🟢 Official",
-        "date": "2026-11-01"
+        "source": "TechCrunch AI",
+        "trust": "🟡 News",
+        "date": "2026-11-02"
       }
     ],
     "🛠️ Builder's Toolbox": [],
@@ -46,7 +46,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-01"
+        "date": "2026-11-02"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -57,39 +57,62 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-01"
+        "date": "2026-11-02"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "Meet Factory Droid 1.0: A Model-Independent Coding Agent Harness Built on Script Mode",
-        "link": "https://www.marktechpost.com/2026/10/31/factory-droid-1-0-frontier-harness/",
-        "summary": "Factory released Droid 1.0, a model-independent coding agent harness that makes programmatic tool calling the default. On Factory’s own Terminal-Bench 4 runs, Droid scores 65.2% with Claude Opus 5.5 at $4.73 per passed task. The post Meet Factory Droid 1.0: A Model-Independent Coding Agent Harness Built on Script Mode appeared first on MarkTechPost .",
-        "why_it_matters": "Key development from MarkTechPost AI.",
+        "title": "AI fan wikis riddled with errors are muddying the waters of games culture",
+        "link": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
+        "summary": "Article URL: https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture Comments URL: https://news.ycombinator.com/item?id=50332086 Points: 62 # Comments: 40",
+        "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "MarkTechPost AI",
-        "trust": "🟡 News",
-        "date": "2026-11-01"
+        "source": "Hacker News AI",
+        "trust": "🟡 Community",
+        "date": "2026-11-02"
       },
       {
-        "title": "Vercel Labs Open-Sources agent-desktop for Agent Computer Use",
-        "link": "https://www.marktechpost.com/2026/10/31/vercel-labs-agent-desktop-computer-use/",
-        "summary": "Vercel Labs released agent-desktop, an Apache-2.0 Rust CLI that gives any AI agent computer use on macOS, Windows and Linux by reading OS accessibility trees and acting on stable refs instead of pixels. The post Vercel Labs Open-Sources agent-desktop for Agent Computer Use appeared first on MarkTechPost .",
-        "why_it_matters": "Key development from MarkTechPost AI.",
+        "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+        "link": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+        "summary": "Article URL: https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/ Comments URL: https://news.ycombinator.com/item?id=50330456 Points: 214 # Comments: 210",
+        "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "MarkTechPost AI",
-        "trust": "🟡 News",
-        "date": "2026-11-01"
+        "source": "Hacker News AI",
+        "trust": "🟡 Community",
+        "date": "2026-11-02"
       }
     ],
-    "🔮 On the Horizon": []
+    "🔮 On the Horizon": [
+      {
+        "title": "Automatic Construction of Strong Simple Baselines",
+        "link": "https://arxiv.org/abs/2610.40700",
+        "summary": "arXiv:2610.40700v1 Announce Type: new Abstract: To rigorously establish the value of a novel deep learning method, it must be compared against appropriate baselines. As deep learning has become increasingly common in the physical and life sciences, there have been numerous cases in which apparent progress has turned out to be an artifact of omitted or missing baselines. In this work,…",
+        "why_it_matters": "Key development from arXiv cs.LG.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "arXiv cs.LG",
+        "trust": "🔵 Academic",
+        "date": "2026-11-02"
+      },
+      {
+        "title": "Bayesian Distribution System State Estimation with Flow Matching",
+        "link": "https://arxiv.org/abs/2610.40728",
+        "summary": "arXiv:2610.40728v1 Announce Type: new Abstract: Medium-voltage feeders have few real-time measurements, so distribution system state estimation (DSSE) rests on pseudo-measurements of the secondary substations, a prior in Bayesian terms. Weighted least squares keeps the power flow exact but reduces this prior to a mean and variance, while supervised deep learning estimators also learn the power flow and are tied to…",
+        "why_it_matters": "Key development from arXiv cs.LG.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "arXiv cs.LG",
+        "trust": "🔵 Academic",
+        "date": "2026-11-02"
+      }
+    ]
   },
   "tool_of_day": {
-    "title": "nemotron-halloween",
-    "link": "https://huggingface.co/blog/nvidia/nemotron-halloween",
-    "summary": "nemotron-halloween",
+    "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+    "link": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+    "summary": "Data centers are deeply unpopular. But what if we called them something else?",
     "pricing": "100% Free / Open Source",
     "use_case": "Developer productivity & AI prototyping"
   },
