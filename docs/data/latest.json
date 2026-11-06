@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-11-05T07:09:33.049046+00:00"
+    "generated_at": "2026-11-06T07:09:12.637055+00:00"
   },
-  "date": "2026-11-05",
-  "date_display": "Thursday, 05 November 2026 (12:38 PM IST)",
+  "date": "2026-11-06",
+  "date_display": "Friday, 06 November 2026 (12:38 PM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -13,50 +13,50 @@
   "sections": {
     "🚀 Big Launches": [
       {
-        "title": "OpenAI to acquire Pierre Computer Company, Inc.",
-        "link": "https://openai.com/index/openai-to-acquire-pierre",
-        "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+        "title": "Cult.fit builds operational muscle with Codex",
+        "link": "https://openai.com/index/cultfit-builds-with-codex",
+        "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-05"
+        "date": "2026-11-06"
       },
       {
-        "title": "A thousand fewer paths to root",
-        "link": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-        "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+        "title": "Australian universities are creating AI-native graduates",
+        "link": "https://openai.com/index/australian-universities-ai-native-graduates",
+        "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-05"
+        "date": "2026-11-06"
       }
     ],
     "🛠️ Builder's Toolbox": [
       {
-        "title": "CodeQL 2.27.4 improves accuracy and query metadata",
-        "link": "https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata",
-        "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.27.4 with query accuracy improvements across several… The post CodeQL 2.27.4 improves accuracy and query metadata appeared first on The GitHub Blog .",
+        "title": "Usage metrics API adds code review details and addressed rate",
+        "link": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
+        "summary": "The enterprise and organization repository-level Copilot usage metrics reports now show what happens to Copilot code review feedback. A new copilot_code_review object on each repos-1-day row reports how many Copilot-reviewed… The post Usage metrics API adds code review details and addressed rate appeared first on The GitHub Blog .",
         "why_it_matters": "Key development from GitHub Changelog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-11-05"
+        "date": "2026-11-06"
       },
       {
-        "title": "GitHub Copilot is now available in Xcode’s coding assistant",
-        "link": "https://github.blog/changelog/2026-11-04-github-copilot-is-now-available-in-xcodes-coding-assistant",
-        "summary": "You can now work with GitHub Copilot directly in Xcode’s built-in coding assistant, bringing Copilot into your native Xcode workflow. The integration is now in public preview, available starting with… The post GitHub Copilot is now available in Xcode’s coding assistant appeared first on The GitHub Blog .",
+        "title": "Usage metrics API flags telemetry and version gaps",
+        "link": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
+        "summary": "The Copilot usage metrics API now shows which users are missing client telemetry or are running IDE or extension versions below the usage metrics minimums. New per-user fields appear in… The post Usage metrics API flags telemetry and version gaps appeared first on The GitHub Blog .",
         "why_it_matters": "Key development from GitHub Changelog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-11-05"
+        "date": "2026-11-06"
       }
     ],
     "🎯 Interview Edge": [
@@ -69,7 +69,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-05"
+        "date": "2026-11-06"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -80,62 +80,62 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-05"
+        "date": "2026-11-06"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "Everything is an AI scam now",
-        "link": "https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/",
-        "summary": "Article URL: https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/ Comments URL: https://news.ycombinator.com/item?id=50371508 Points: 134 # Comments: 53",
+        "title": "Closed AI models dominate the price-performance frontier",
+        "link": "https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier/",
+        "summary": "Article URL: https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier/ Comments URL: https://news.ycombinator.com/item?id=50387546 Points: 61 # Comments: 45",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-05"
+        "date": "2026-11-06"
       },
       {
-        "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
-        "link": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
-        "summary": "Article URL: https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra Comments URL: https://news.ycombinator.com/item?id=50370654 Points: 134 # Comments: 54",
+        "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+        "link": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+        "summary": "Article URL: https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html Comments URL: https://news.ycombinator.com/item?id=50385870 Points: 262 # Comments: 116",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-05"
+        "date": "2026-11-06"
       }
     ],
     "🔮 On the Horizon": [
       {
-        "title": "Who May Overrule the Agent? Evidence-Gated Authority in LLM Review Institutions",
-        "link": "https://arxiv.org/abs/2611.05390",
-        "summary": "arXiv:2611.05390v1 Announce Type: new Abstract: Multi-agent language-model systems often add a reviewer to improve an upstream agent's decision. Yet a reviewer can both repair errors and replace decisions that were already correct. We study this as a problem of institutional jurisdiction: conditional on the same proposal, task information, model, and review output, when is the reviewer authorized to make its…",
+        "title": "Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation",
+        "link": "https://arxiv.org/abs/2611.06962",
+        "summary": "arXiv:2611.06962v1 Announce Type: new Abstract: Proof assistants such as Lean check mathematical proofs down to the axioms, and AI agents have recently made writing such proofs cheap. We describe AutoIP, a Lean library in which classical linear regularization theory, together with the functional analysis it rests on, has been autoformalized by AI agents. A machine-checked proof certifies only the formal…",
         "why_it_matters": "Key development from arXiv cs.AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "arXiv cs.AI",
         "trust": "🔵 Academic",
-        "date": "2026-11-05"
+        "date": "2026-11-06"
       },
       {
-        "title": "Agent Harness Awareness: Turning Verified Telemetry into Operational Control for Tool-Using Agents",
-        "link": "https://arxiv.org/abs/2611.05391",
-        "summary": "arXiv:2611.05391v1 Announce Type: new Abstract: Tool descriptions tell an agent what an action can do, but they do not necessarily reveal whether that action is healthy or suitable at the moment of use. Execution harnesses often possess this information through monitors, traces, and recent failures while the model choosing the next action does not. We call this gap operational blindness.…",
+        "title": "KDASO: Knowledge-Data Dual-Driven Automated Skill Optimization for Liability Adjudication Tasks",
+        "link": "https://arxiv.org/abs/2611.06972",
+        "summary": "arXiv:2611.06972v1 Announce Type: new Abstract: Liability adjudication tasks (e.g., legal charge determination) require analyzing event descriptions against domain-specific skills to determine whether a party should bear liability. While Large Language Models (LLMs) have shown promise in this area by leveraging executable skills for interpretable reasoning, existing approaches face three critical limitations: skill libraries become stale as real-world scenarios dynamically evolve,…",
         "why_it_matters": "Key development from arXiv cs.AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "arXiv cs.AI",
         "trust": "🔵 Academic",
-        "date": "2026-11-05"
+        "date": "2026-11-06"
       }
     ]
   },
   "tool_of_day": {
-    "title": "CodeQL 2.27.4 improves accuracy and query metadata",
-    "link": "https://github.blog/changelog/2026-11-04-codeql-2-27-4-improves-accuracy-and-query-metadata",
-    "summary": "CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.27.4 with query accuracy improvements across several… The post CodeQL 2.27.4 improves accuracy and query metadata appeared first on The GitHub Blog .",
+    "title": "Usage metrics API adds code review details and addressed rate",
+    "link": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
+    "summary": "The enterprise and organization repository-level Copilot usage metrics reports now show what happens to Copilot code review feedback. A new copilot_code_review object on each repos-1-day row reports how many Copilot-reviewed… The post Usage metrics API adds code review details and addressed rate appeared first on The GitHub Blog .",
     "pricing": "100% Free / Open Source",
     "use_case": "Developer productivity & AI prototyping"
   },
