@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-11-06T07:09:12.637055+00:00"
+    "generated_at": "2026-11-07T06:21:17.075128+00:00"
   },
-  "date": "2026-11-06",
-  "date_display": "Friday, 06 November 2026 (12:38 PM IST)",
+  "date": "2026-11-07",
+  "date_display": "Saturday, 07 November 2026 (11:50 AM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -13,50 +13,50 @@
   "sections": {
     "🚀 Big Launches": [
       {
-        "title": "Cult.fit builds operational muscle with Codex",
-        "link": "https://openai.com/index/cultfit-builds-with-codex",
-        "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+        "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+        "link": "https://openai.com/index/partnering-with-hacktron",
+        "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-06"
+        "date": "2026-11-07"
       },
       {
-        "title": "Australian universities are creating AI-native graduates",
-        "link": "https://openai.com/index/australian-universities-ai-native-graduates",
-        "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+        "title": "Measuring how AI agents handle everyday wet-lab science",
+        "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+        "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-06"
+        "date": "2026-11-07"
       }
     ],
     "🛠️ Builder's Toolbox": [
       {
-        "title": "Usage metrics API adds code review details and addressed rate",
-        "link": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
-        "summary": "The enterprise and organization repository-level Copilot usage metrics reports now show what happens to Copilot code review feedback. A new copilot_code_review object on each repos-1-day row reports how many Copilot-reviewed… The post Usage metrics API adds code review details and addressed rate appeared first on The GitHub Blog .",
-        "why_it_matters": "Key development from GitHub Changelog.",
+        "title": "Beyond code generation: A developer’s guide to agentic engineering",
+        "link": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+        "summary": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code generation: A developer’s guide to agentic engineering appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub AI & ML Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "GitHub Changelog",
+        "source": "GitHub AI & ML Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-06"
+        "date": "2026-11-07"
       },
       {
-        "title": "Usage metrics API flags telemetry and version gaps",
-        "link": "https://github.blog/changelog/2026-11-05-usage-metrics-api-flags-telemetry-and-version-gaps",
-        "summary": "The Copilot usage metrics API now shows which users are missing client telemetry or are running IDE or extension versions below the usage metrics minimums. New per-user fields appear in… The post Usage metrics API flags telemetry and version gaps appeared first on The GitHub Blog .",
+        "title": "Copilot code review: API management and review overview updates",
+        "link": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
+        "summary": "You can now manage GitHub Copilot code review settings through the REST and GraphQL APIs, from enterprise policy down to individual repositories. Copilot’s review overview comment is now more compact,… The post Copilot code review: API management and review overview updates appeared first on The GitHub Blog .",
         "why_it_matters": "Key development from GitHub Changelog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-11-06"
+        "date": "2026-11-07"
       }
     ],
     "🎯 Interview Edge": [
@@ -69,7 +69,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-06"
+        "date": "2026-11-07"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -80,62 +80,51 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-06"
+        "date": "2026-11-07"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "Closed AI models dominate the price-performance frontier",
-        "link": "https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier/",
-        "summary": "Article URL: https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier/ Comments URL: https://news.ycombinator.com/item?id=50387546 Points: 61 # Comments: 45",
+        "title": "AI is dramatically accelerating AI research",
+        "link": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+        "summary": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai Comments URL: https://news.ycombinator.com/item?id=50397994 Points: 255 # Comments: 207",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-06"
+        "date": "2026-11-07"
       },
       {
-        "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
-        "link": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-        "summary": "Article URL: https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html Comments URL: https://news.ycombinator.com/item?id=50385870 Points: 262 # Comments: 116",
+        "title": "Microsoft is winding down Oracle deal to rent AI cloud capacity",
+        "link": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/",
+        "summary": "Article URL: https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/ Comments URL: https://news.ycombinator.com/item?id=50395933 Points: 88 # Comments: 18",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-06"
+        "date": "2026-11-07"
       }
     ],
     "🔮 On the Horizon": [
       {
-        "title": "Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation",
-        "link": "https://arxiv.org/abs/2611.06962",
-        "summary": "arXiv:2611.06962v1 Announce Type: new Abstract: Proof assistants such as Lean check mathematical proofs down to the axioms, and AI agents have recently made writing such proofs cheap. We describe AutoIP, a Lean library in which classical linear regularization theory, together with the functional analysis it rests on, has been autoformalized by AI agents. A machine-checked proof certifies only the formal…",
-        "why_it_matters": "Key development from arXiv cs.AI.",
+        "title": "Detecting signs of hypertension using wearable sensors",
+        "link": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
+        "summary": "Health & Bioscience",
+        "why_it_matters": "Key development from Google Research Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "arXiv cs.AI",
-        "trust": "🔵 Academic",
-        "date": "2026-11-06"
-      },
-      {
-        "title": "KDASO: Knowledge-Data Dual-Driven Automated Skill Optimization for Liability Adjudication Tasks",
-        "link": "https://arxiv.org/abs/2611.06972",
-        "summary": "arXiv:2611.06972v1 Announce Type: new Abstract: Liability adjudication tasks (e.g., legal charge determination) require analyzing event descriptions against domain-specific skills to determine whether a party should bear liability. While Large Language Models (LLMs) have shown promise in this area by leveraging executable skills for interpretable reasoning, existing approaches face three critical limitations: skill libraries become stale as real-world scenarios dynamically evolve,…",
-        "why_it_matters": "Key development from arXiv cs.AI.",
-        "takeaway": "Architecture & industry alignment.",
-        "tag": "AI",
-        "source": "arXiv cs.AI",
-        "trust": "🔵 Academic",
-        "date": "2026-11-06"
+        "source": "Google Research Blog",
+        "trust": "🟢 Official",
+        "date": "2026-11-07"
       }
     ]
   },
   "tool_of_day": {
-    "title": "Usage metrics API adds code review details and addressed rate",
-    "link": "https://github.blog/changelog/2026-11-05-usage-metrics-api-adds-code-review-details-and-addressed-rate",
-    "summary": "The enterprise and organization repository-level Copilot usage metrics reports now show what happens to Copilot code review feedback. A new copilot_code_review object on each repos-1-day row reports how many Copilot-reviewed… The post Usage metrics API adds code review details and addressed rate appeared first on The GitHub Blog .",
+    "title": "Beyond code generation: A developer’s guide to agentic engineering",
+    "link": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+    "summary": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code generation: A developer’s guide to agentic engineering appeared first on The GitHub Blog .",
     "pricing": "100% Free / Open Source",
     "use_case": "Developer productivity & AI prototyping"
   },
