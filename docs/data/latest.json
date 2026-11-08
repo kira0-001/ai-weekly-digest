@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-11-07T06:21:17.075128+00:00"
+    "generated_at": "2026-11-08T06:28:32.877304+00:00"
   },
-  "date": "2026-11-07",
-  "date_display": "Saturday, 07 November 2026 (11:50 AM IST)",
+  "date": "2026-11-08",
+  "date_display": "Sunday, 08 November 2026 (11:57 AM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -21,18 +21,18 @@
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-07"
+        "date": "2026-11-08"
       },
       {
-        "title": "Measuring how AI agents handle everyday wet-lab science",
-        "link": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-        "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
-        "why_it_matters": "Key development from OpenAI Blog.",
+        "title": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
+        "link": "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/",
+        "summary": "Amazon SageMaker Inference now supports GPU partitioning with NVIDIA Multi-Instance GPU (MIG), which divides one GPU into hardware-isolated partitions so you can run a different model in each or take a right-sized fraction of a newer accelerator. This post shows how two optional API fields place one model per partition, and what we measured against a whole older GPU.",
+        "why_it_matters": "Key development from AWS ML Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "OpenAI Blog",
+        "source": "AWS ML Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-07"
+        "date": "2026-11-08"
       }
     ],
     "🛠️ Builder's Toolbox": [
@@ -45,7 +45,7 @@
         "tag": "AI",
         "source": "GitHub AI & ML Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-07"
+        "date": "2026-11-08"
       },
       {
         "title": "Copilot code review: API management and review overview updates",
@@ -56,7 +56,7 @@
         "tag": "AI",
         "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-11-07"
+        "date": "2026-11-08"
       }
     ],
     "🎯 Interview Edge": [
@@ -69,7 +69,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-07"
+        "date": "2026-11-08"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -80,46 +80,34 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-07"
+        "date": "2026-11-08"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "AI is dramatically accelerating AI research",
-        "link": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-        "summary": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai Comments URL: https://news.ycombinator.com/item?id=50397994 Points: 255 # Comments: 207",
+        "title": "The End of AI Frontiers",
+        "link": "https://hunch.net/?p=13764006",
+        "summary": "Article URL: https://hunch.net/?p=13764006 Comments URL: https://news.ycombinator.com/item?id=50406589 Points: 81 # Comments: 4",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-07"
+        "date": "2026-11-08"
       },
       {
-        "title": "Microsoft is winding down Oracle deal to rent AI cloud capacity",
-        "link": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/",
-        "summary": "Article URL: https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/ Comments URL: https://news.ycombinator.com/item?id=50395933 Points: 88 # Comments: 18",
+        "title": "The AI sell-off compared to well-known stock market crashes",
+        "link": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
+        "summary": "Article URL: https://www.kadoa.com/companies/insights/ai-selloff-perspective Comments URL: https://news.ycombinator.com/item?id=50401029 Points: 89 # Comments: 74",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-07"
+        "date": "2026-11-08"
       }
     ],
-    "🔮 On the Horizon": [
-      {
-        "title": "Detecting signs of hypertension using wearable sensors",
-        "link": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/",
-        "summary": "Health & Bioscience",
-        "why_it_matters": "Key development from Google Research Blog.",
-        "takeaway": "Architecture & industry alignment.",
-        "tag": "AI",
-        "source": "Google Research Blog",
-        "trust": "🟢 Official",
-        "date": "2026-11-07"
-      }
-    ]
+    "🔮 On the Horizon": []
   },
   "tool_of_day": {
     "title": "Beyond code generation: A developer’s guide to agentic engineering",
