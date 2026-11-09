@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-11-08T06:28:32.877304+00:00"
+    "generated_at": "2026-11-09T07:00:09.103204+00:00"
   },
-  "date": "2026-11-08",
-  "date_display": "Sunday, 08 November 2026 (11:57 AM IST)",
+  "date": "2026-11-09",
+  "date_display": "Monday, 09 November 2026 (12:29 PM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -13,52 +13,29 @@
   "sections": {
     "🚀 Big Launches": [
       {
-        "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-        "link": "https://openai.com/index/partnering-with-hacktron",
-        "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
-        "why_it_matters": "Key development from OpenAI Blog.",
+        "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+        "link": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+        "summary": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
+        "why_it_matters": "Key development from TechCrunch AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "OpenAI Blog",
-        "trust": "🟢 Official",
-        "date": "2026-11-08"
+        "source": "TechCrunch AI",
+        "trust": "🟡 News",
+        "date": "2026-11-09"
       },
       {
-        "title": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
-        "link": "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/",
-        "summary": "Amazon SageMaker Inference now supports GPU partitioning with NVIDIA Multi-Instance GPU (MIG), which divides one GPU into hardware-isolated partitions so you can run a different model in each or take a right-sized fraction of a newer accelerator. This post shows how two optional API fields place one model per partition, and what we measured against a whole older GPU.",
-        "why_it_matters": "Key development from AWS ML Blog.",
+        "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+        "link": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+        "summary": "In a memo to the company, Huang admitted that he had an affair.",
+        "why_it_matters": "Key development from TechCrunch AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "AWS ML Blog",
-        "trust": "🟢 Official",
-        "date": "2026-11-08"
+        "source": "TechCrunch AI",
+        "trust": "🟡 News",
+        "date": "2026-11-09"
       }
     ],
-    "🛠️ Builder's Toolbox": [
-      {
-        "title": "Beyond code generation: A developer’s guide to agentic engineering",
-        "link": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
-        "summary": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code generation: A developer’s guide to agentic engineering appeared first on The GitHub Blog .",
-        "why_it_matters": "Key development from GitHub AI & ML Blog.",
-        "takeaway": "Architecture & industry alignment.",
-        "tag": "AI",
-        "source": "GitHub AI & ML Blog",
-        "trust": "🟢 Official",
-        "date": "2026-11-08"
-      },
-      {
-        "title": "Copilot code review: API management and review overview updates",
-        "link": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates",
-        "summary": "You can now manage GitHub Copilot code review settings through the REST and GraphQL APIs, from enterprise policy down to individual repositories. Copilot’s review overview comment is now more compact,… The post Copilot code review: API management and review overview updates appeared first on The GitHub Blog .",
-        "why_it_matters": "Key development from GitHub Changelog.",
-        "takeaway": "Architecture & industry alignment.",
-        "tag": "AI",
-        "source": "GitHub Changelog",
-        "trust": "🟢 Official",
-        "date": "2026-11-08"
-      }
-    ],
+    "🛠️ Builder's Toolbox": [],
     "🎯 Interview Edge": [
       {
         "title": "Wan-AI/Wan2.1-T2V-1.3B",
@@ -69,7 +46,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-08"
+        "date": "2026-11-09"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -80,39 +57,62 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-08"
+        "date": "2026-11-09"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "The End of AI Frontiers",
-        "link": "https://hunch.net/?p=13764006",
-        "summary": "Article URL: https://hunch.net/?p=13764006 Comments URL: https://news.ycombinator.com/item?id=50406589 Points: 81 # Comments: 4",
+        "title": "Apple capped engineers at a $200 daily AI budget",
+        "link": "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget#story-1",
+        "summary": "Article URL: https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget#story-1 Comments URL: https://news.ycombinator.com/item?id=50421426 Points: 56 # Comments: 59",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-08"
+        "date": "2026-11-09"
       },
       {
-        "title": "The AI sell-off compared to well-known stock market crashes",
-        "link": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
-        "summary": "Article URL: https://www.kadoa.com/companies/insights/ai-selloff-perspective Comments URL: https://news.ycombinator.com/item?id=50401029 Points: 89 # Comments: 74",
+        "title": "I'm not convinced the AI bubble exists",
+        "link": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+        "summary": "Article URL: https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists Comments URL: https://news.ycombinator.com/item?id=50418975 Points: 170 # Comments: 227",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-08"
+        "date": "2026-11-09"
       }
     ],
-    "🔮 On the Horizon": []
+    "🔮 On the Horizon": [
+      {
+        "title": "Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP",
+        "link": "https://arxiv.org/abs/2611.08639",
+        "summary": "arXiv:2611.08639v1 Announce Type: new Abstract: Safety benchmarks for large language models (LLMs) commonly use multiple-choice question (MCQ) format. However, prior studies documented that MCQ format reduces refusal rates, which may significantly affect the safety behavior of the model. We provide a first mechanistic explanation of this effect on the Weapons of Mass Destruction Proxy (WMDP) dataset across two models -…",
+        "why_it_matters": "Key development from arXiv cs.CL.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "arXiv cs.CL",
+        "trust": "🔵 Academic",
+        "date": "2026-11-09"
+      },
+      {
+        "title": "FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction",
+        "link": "https://arxiv.org/abs/2611.08643",
+        "summary": "arXiv:2611.08643v1 Announce Type: new Abstract: Financial institutions construct knowledge graphs (KGs) from shared SEC 10-Ks to serve risk analysis, portfolio management, and investment research, whose analytical needs differ. Extraction must adapt without fragmenting shared grounding, typing, and temporal rules. Hand-authored persona prompts and fine-tuning add cost. Weight-free prompt optimization offers an alternative, but unconstrained evolution of a monolithic prompt can…",
+        "why_it_matters": "Key development from arXiv cs.CL.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "arXiv cs.CL",
+        "trust": "🔵 Academic",
+        "date": "2026-11-09"
+      }
+    ]
   },
   "tool_of_day": {
-    "title": "Beyond code generation: A developer’s guide to agentic engineering",
-    "link": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
-    "summary": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment. The post Beyond code generation: A developer’s guide to agentic engineering appeared first on The GitHub Blog .",
+    "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
+    "link": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+    "summary": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
     "pricing": "100% Free / Open Source",
     "use_case": "Developer productivity & AI prototyping"
   },
