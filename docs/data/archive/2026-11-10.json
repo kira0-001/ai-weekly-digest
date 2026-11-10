@@ -1,0 +1,143 @@
+{
+  "_meta": {
+    "schema_version": "2.0",
+    "generated_at": "2026-11-10T07:36:53.627269+00:00"
+  },
+  "date": "2026-11-10",
+  "date_display": "Tuesday, 10 November 2026 (01:06 PM IST)",
+  "executive_summary": [
+    "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
+    "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
+    "Developer platforms expanding free inference tiers and edge compute toolkits."
+  ],
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "ChatGPT Enterprise now available in AWS Marketplace",
+        "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+        "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+        "why_it_matters": "Key development from OpenAI Blog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-11-10"
+      },
+      {
+        "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+        "link": "https://openai.com/index/control-room",
+        "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+        "why_it_matters": "Key development from OpenAI Blog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-11-10"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Claude Fable 5.2 in GitHub Copilot",
+        "link": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
+        "summary": "Claude Fable 5.2, Anthropic’s newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases. In early testing, Fable… The post Claude Fable 5.2 in GitHub Copilot appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub Changelog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "GitHub Changelog",
+        "trust": "🟢 Official",
+        "date": "2026-11-10"
+      },
+      {
+        "title": "Secret scanning detects secrets in GitHub Actions workflow logs",
+        "link": "https://github.blog/changelog/2026-11-09-secret-scanning-detects-secrets-in-github-actions-workflow-logs",
+        "summary": "GitHub secret scanning now detects secrets in GitHub Actions workflow logs, in addition to issues, wikis, discussions, and pull requests. Actions workflow log scanning is available in public preview. How… The post Secret scanning detects secrets in GitHub Actions workflow logs appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub Changelog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "GitHub Changelog",
+        "trust": "🟢 Official",
+        "date": "2026-11-10"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Wan-AI/Wan2.1-T2V-1.3B",
+        "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+        "summary": "Wan-AI/Wan2.1-T2V-1.3B",
+        "why_it_matters": "Key development from HF Trending Models.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "HF Trending Models",
+        "trust": "🟡 News",
+        "date": "2026-11-10"
+      },
+      {
+        "title": "microsoft/Phi-4-mini-instruct",
+        "link": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+        "summary": "microsoft/Phi-4-mini-instruct",
+        "why_it_matters": "Key development from HF Trending Models.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "HF Trending Models",
+        "trust": "🟡 News",
+        "date": "2026-11-10"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
+        "link": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+        "summary": "Article URL: https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html Comments URL: https://news.ycombinator.com/item?id=50435660 Points: 114 # Comments: 59",
+        "why_it_matters": "Key development from Hacker News AI.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "Hacker News AI",
+        "trust": "🟡 Community",
+        "date": "2026-11-10"
+      },
+      {
+        "title": "A year after the 100% AI mandate nobody understands our code",
+        "link": "https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody/",
+        "summary": "https://redlib.catsarch.com/r/ClaudeCode/comments/1xq2n3t/a_... Comments URL: https://news.ycombinator.com/item?id=50433079 Points: 121 # Comments: 157",
+        "why_it_matters": "Key development from Hacker News AI.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "Hacker News AI",
+        "trust": "🟡 Community",
+        "date": "2026-11-10"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP",
+        "link": "https://arxiv.org/abs/2611.08639",
+        "summary": "arXiv:2611.08639v1 Announce Type: new Abstract: Safety benchmarks for large language models (LLMs) commonly use multiple-choice question (MCQ) format. However, prior studies documented that MCQ format reduces refusal rates, which may significantly affect the safety behavior of the model. We provide a first mechanistic explanation of this effect on the Weapons of Mass Destruction Proxy (WMDP) dataset across two models -…",
+        "why_it_matters": "Key development from arXiv cs.CL.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "arXiv cs.CL",
+        "trust": "🔵 Academic",
+        "date": "2026-11-10"
+      },
+      {
+        "title": "FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction",
+        "link": "https://arxiv.org/abs/2611.08643",
+        "summary": "arXiv:2611.08643v1 Announce Type: new Abstract: Financial institutions construct knowledge graphs (KGs) from shared SEC 10-Ks to serve risk analysis, portfolio management, and investment research, whose analytical needs differ. Extraction must adapt without fragmenting shared grounding, typing, and temporal rules. Hand-authored persona prompts and fine-tuning add cost. Weight-free prompt optimization offers an alternative, but unconstrained evolution of a monolithic prompt can…",
+        "why_it_matters": "Key development from arXiv cs.CL.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "arXiv cs.CL",
+        "trust": "🔵 Academic",
+        "date": "2026-11-10"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Claude Fable 5.2 in GitHub Copilot",
+    "link": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
+    "summary": "Claude Fable 5.2, Anthropic’s newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases. In early testing, Fable… The post Claude Fable 5.2 in GitHub Copilot appeared first on The GitHub Blog .",
+    "pricing": "100% Free / Open Source",
+    "use_case": "Developer productivity & AI prototyping"
+  },
+  "hot_take": "Strong ecosystem velocity across both proprietary platforms and open-source models today."
+}

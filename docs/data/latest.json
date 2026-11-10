@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-11-09T07:00:09.103204+00:00"
+    "generated_at": "2026-11-10T07:36:53.627269+00:00"
   },
-  "date": "2026-11-09",
-  "date_display": "Monday, 09 November 2026 (12:29 PM IST)",
+  "date": "2026-11-10",
+  "date_display": "Tuesday, 10 November 2026 (01:06 PM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -13,29 +13,52 @@
   "sections": {
     "🚀 Big Launches": [
       {
-        "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
-        "link": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
-        "summary": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
-        "why_it_matters": "Key development from TechCrunch AI.",
+        "title": "ChatGPT Enterprise now available in AWS Marketplace",
+        "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+        "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+        "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "TechCrunch AI",
-        "trust": "🟡 News",
-        "date": "2026-11-09"
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-11-10"
       },
       {
-        "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
-        "link": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
-        "summary": "In a memo to the company, Huang admitted that he had an affair.",
-        "why_it_matters": "Key development from TechCrunch AI.",
+        "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+        "link": "https://openai.com/index/control-room",
+        "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+        "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "TechCrunch AI",
-        "trust": "🟡 News",
-        "date": "2026-11-09"
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-11-10"
       }
     ],
-    "🛠️ Builder's Toolbox": [],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Claude Fable 5.2 in GitHub Copilot",
+        "link": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
+        "summary": "Claude Fable 5.2, Anthropic’s newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases. In early testing, Fable… The post Claude Fable 5.2 in GitHub Copilot appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub Changelog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "GitHub Changelog",
+        "trust": "🟢 Official",
+        "date": "2026-11-10"
+      },
+      {
+        "title": "Secret scanning detects secrets in GitHub Actions workflow logs",
+        "link": "https://github.blog/changelog/2026-11-09-secret-scanning-detects-secrets-in-github-actions-workflow-logs",
+        "summary": "GitHub secret scanning now detects secrets in GitHub Actions workflow logs, in addition to issues, wikis, discussions, and pull requests. Actions workflow log scanning is available in public preview. How… The post Secret scanning detects secrets in GitHub Actions workflow logs appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub Changelog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "GitHub Changelog",
+        "trust": "🟢 Official",
+        "date": "2026-11-10"
+      }
+    ],
     "🎯 Interview Edge": [
       {
         "title": "Wan-AI/Wan2.1-T2V-1.3B",
@@ -46,7 +69,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-09"
+        "date": "2026-11-10"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -57,31 +80,31 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-09"
+        "date": "2026-11-10"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "Apple capped engineers at a $200 daily AI budget",
-        "link": "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget#story-1",
-        "summary": "Article URL: https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget#story-1 Comments URL: https://news.ycombinator.com/item?id=50421426 Points: 56 # Comments: 59",
+        "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
+        "link": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+        "summary": "Article URL: https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html Comments URL: https://news.ycombinator.com/item?id=50435660 Points: 114 # Comments: 59",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-09"
+        "date": "2026-11-10"
       },
       {
-        "title": "I'm not convinced the AI bubble exists",
-        "link": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
-        "summary": "Article URL: https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists Comments URL: https://news.ycombinator.com/item?id=50418975 Points: 170 # Comments: 227",
+        "title": "A year after the 100% AI mandate nobody understands our code",
+        "link": "https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody/",
+        "summary": "https://redlib.catsarch.com/r/ClaudeCode/comments/1xq2n3t/a_... Comments URL: https://news.ycombinator.com/item?id=50433079 Points: 121 # Comments: 157",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-09"
+        "date": "2026-11-10"
       }
     ],
     "🔮 On the Horizon": [
@@ -94,7 +117,7 @@
         "tag": "AI",
         "source": "arXiv cs.CL",
         "trust": "🔵 Academic",
-        "date": "2026-11-09"
+        "date": "2026-11-10"
       },
       {
         "title": "FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction",
@@ -105,14 +128,14 @@
         "tag": "AI",
         "source": "arXiv cs.CL",
         "trust": "🔵 Academic",
-        "date": "2026-11-09"
+        "date": "2026-11-10"
       }
     ]
   },
   "tool_of_day": {
-    "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
-    "link": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
-    "summary": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
+    "title": "Claude Fable 5.2 in GitHub Copilot",
+    "link": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
+    "summary": "Claude Fable 5.2, Anthropic’s newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases. In early testing, Fable… The post Claude Fable 5.2 in GitHub Copilot appeared first on The GitHub Blog .",
     "pricing": "100% Free / Open Source",
     "use_case": "Developer productivity & AI prototyping"
   },
