@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-11-10T07:36:53.627269+00:00"
+    "generated_at": "2026-11-11T06:54:41.507615+00:00"
   },
-  "date": "2026-11-10",
-  "date_display": "Tuesday, 10 November 2026 (01:06 PM IST)",
+  "date": "2026-11-11",
+  "date_display": "Wednesday, 11 November 2026 (12:24 PM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -13,50 +13,50 @@
   "sections": {
     "🚀 Big Launches": [
       {
-        "title": "ChatGPT Enterprise now available in AWS Marketplace",
-        "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-        "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+        "title": "Gilbert + Tobin rethinks the business of law with AI",
+        "link": "https://openai.com/index/gilbert-tobin-sam-nickless",
+        "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-10"
+        "date": "2026-11-11"
       },
       {
-        "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-        "link": "https://openai.com/index/control-room",
-        "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+        "title": "ChatGPT Plus for veterans and servicemembers",
+        "link": "https://openai.com/index/chatgpt-plus-for-veterans",
+        "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-10"
+        "date": "2026-11-11"
       }
     ],
     "🛠️ Builder's Toolbox": [
       {
-        "title": "Claude Fable 5.2 in GitHub Copilot",
-        "link": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
-        "summary": "Claude Fable 5.2, Anthropic’s newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases. In early testing, Fable… The post Claude Fable 5.2 in GitHub Copilot appeared first on The GitHub Blog .",
+        "title": "GitHub App support for Enterprise Copilot seat management",
+        "link": "https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management",
+        "summary": "Enterprise GitHub Apps can now call the enterprise-level Copilot seat management APIs to control which users and enterprise teams are assigned Copilot seats. The Copilot seat management APIs are accessible… The post GitHub App support for Enterprise Copilot seat management appeared first on The GitHub Blog .",
         "why_it_matters": "Key development from GitHub Changelog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-11-10"
+        "date": "2026-11-11"
       },
       {
-        "title": "Secret scanning detects secrets in GitHub Actions workflow logs",
-        "link": "https://github.blog/changelog/2026-11-09-secret-scanning-detects-secrets-in-github-actions-workflow-logs",
-        "summary": "GitHub secret scanning now detects secrets in GitHub Actions workflow logs, in addition to issues, wikis, discussions, and pull requests. Actions workflow log scanning is available in public preview. How… The post Secret scanning detects secrets in GitHub Actions workflow logs appeared first on The GitHub Blog .",
+        "title": "Gemini 4 Carbon in GitHub Copilot",
+        "link": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot",
+        "summary": "Gemini 4 Carbon, Google’s latest model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks, with a focus on secure code generation… The post Gemini 4 Carbon in GitHub Copilot appeared first on The GitHub Blog .",
         "why_it_matters": "Key development from GitHub Changelog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-11-10"
+        "date": "2026-11-11"
       }
     ],
     "🎯 Interview Edge": [
@@ -69,7 +69,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-10"
+        "date": "2026-11-11"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -80,62 +80,62 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-10"
+        "date": "2026-11-11"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
-        "link": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
-        "summary": "Article URL: https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html Comments URL: https://news.ycombinator.com/item?id=50435660 Points: 114 # Comments: 59",
+        "title": "Apple has new Mac app coming to make running local AI models easy",
+        "link": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+        "summary": "Article URL: https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/ Comments URL: https://news.ycombinator.com/item?id=50446520 Points: 155 # Comments: 116",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-10"
+        "date": "2026-11-11"
       },
       {
-        "title": "A year after the 100% AI mandate nobody understands our code",
-        "link": "https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody/",
-        "summary": "https://redlib.catsarch.com/r/ClaudeCode/comments/1xq2n3t/a_... Comments URL: https://news.ycombinator.com/item?id=50433079 Points: 121 # Comments: 157",
+        "title": "Meet the Sad Wives of AI",
+        "link": "https://www.wired.com/story/meet-the-sad-wives-of-ai/",
+        "summary": "Article URL: https://www.wired.com/story/meet-the-sad-wives-of-ai/ Comments URL: https://news.ycombinator.com/item?id=50438429 Points: 76 # Comments: 69",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-10"
+        "date": "2026-11-11"
       }
     ],
     "🔮 On the Horizon": [
       {
-        "title": "Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP",
-        "link": "https://arxiv.org/abs/2611.08639",
-        "summary": "arXiv:2611.08639v1 Announce Type: new Abstract: Safety benchmarks for large language models (LLMs) commonly use multiple-choice question (MCQ) format. However, prior studies documented that MCQ format reduces refusal rates, which may significantly affect the safety behavior of the model. We provide a first mechanistic explanation of this effect on the Weapons of Mass Destruction Proxy (WMDP) dataset across two models -…",
-        "why_it_matters": "Key development from arXiv cs.CL.",
+        "title": "Auditable Human-Agent Teams for Autonomous X-ray Experimentation",
+        "link": "https://arxiv.org/abs/2611.12933",
+        "summary": "arXiv:2611.12933v1 Announce Type: new Abstract: Closed-loop autonomous experimentation can accelerate scientific discovery, but implementation effort limits accessibility. Agentic systems may lower this barrier, although sustained operation on physical instruments remains largely unexplored. Here, using coding-agent infrastructure grounded in validated scientific methods, we demonstrate autonomous synchrotron X-ray experiments on nanoparticle superlattices under evolving, human-defined objectives. Complete human-agent and agent-agent transcripts enable…",
+        "why_it_matters": "Key development from arXiv cs.AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "arXiv cs.CL",
+        "source": "arXiv cs.AI",
         "trust": "🔵 Academic",
-        "date": "2026-11-10"
+        "date": "2026-11-11"
       },
       {
-        "title": "FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction",
-        "link": "https://arxiv.org/abs/2611.08643",
-        "summary": "arXiv:2611.08643v1 Announce Type: new Abstract: Financial institutions construct knowledge graphs (KGs) from shared SEC 10-Ks to serve risk analysis, portfolio management, and investment research, whose analytical needs differ. Extraction must adapt without fragmenting shared grounding, typing, and temporal rules. Hand-authored persona prompts and fine-tuning add cost. Weight-free prompt optimization offers an alternative, but unconstrained evolution of a monolithic prompt can…",
-        "why_it_matters": "Key development from arXiv cs.CL.",
+        "title": "EarthRecord: From Pixels to Land Change with Multimodal Agents over Four Decades of Satellite Imagery",
+        "link": "https://arxiv.org/abs/2611.12934",
+        "summary": "arXiv:2611.12934v1 Announce Type: new Abstract: While multimodal agents now carry out complex data analysis with tools, their ability to turn decades of satellite imagery into reliable land-change analysis, crucial for Earth observation science, remains unmeasured. Existing benchmarks fall short: they pose questions on curated images or give agents preprocessed inputs, leaving out the raw multi-sensor archives where such analysis begins.…",
+        "why_it_matters": "Key development from arXiv cs.AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "arXiv cs.CL",
+        "source": "arXiv cs.AI",
         "trust": "🔵 Academic",
-        "date": "2026-11-10"
+        "date": "2026-11-11"
       }
     ]
   },
   "tool_of_day": {
-    "title": "Claude Fable 5.2 in GitHub Copilot",
-    "link": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot",
-    "summary": "Claude Fable 5.2, Anthropic’s newest Fable model, is now generally available in GitHub Copilot. You can use it for complex, multistep coding tasks across large codebases. In early testing, Fable… The post Claude Fable 5.2 in GitHub Copilot appeared first on The GitHub Blog .",
+    "title": "GitHub App support for Enterprise Copilot seat management",
+    "link": "https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management",
+    "summary": "Enterprise GitHub Apps can now call the enterprise-level Copilot seat management APIs to control which users and enterprise teams are assigned Copilot seats. The Copilot seat management APIs are accessible… The post GitHub App support for Enterprise Copilot seat management appeared first on The GitHub Blog .",
     "pricing": "100% Free / Open Source",
     "use_case": "Developer productivity & AI prototyping"
   },
