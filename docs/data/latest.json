@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-11-11T06:54:41.507615+00:00"
+    "generated_at": "2026-11-12T07:30:40.081495+00:00"
   },
-  "date": "2026-11-11",
-  "date_display": "Wednesday, 11 November 2026 (12:24 PM IST)",
+  "date": "2026-11-12",
+  "date_display": "Thursday, 12 November 2026 (12:59 PM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -21,7 +21,7 @@
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-11"
+        "date": "2026-11-12"
       },
       {
         "title": "ChatGPT Plus for veterans and servicemembers",
@@ -32,10 +32,21 @@
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-11"
+        "date": "2026-11-12"
       }
     ],
     "🛠️ Builder's Toolbox": [
+      {
+        "title": "Issue types and fields are available for personal accounts",
+        "link": "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts",
+        "summary": "Issue types and issue fields are now generally available on repositories owned by personal accounts. This brings the same planning capabilities to individual developers and open source maintainers to standardize… The post Issue types and fields are available for personal accounts appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub Changelog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "GitHub Changelog",
+        "trust": "🟢 Official",
+        "date": "2026-11-12"
+      },
       {
         "title": "GitHub App support for Enterprise Copilot seat management",
         "link": "https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management",
@@ -45,18 +56,7 @@
         "tag": "AI",
         "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-11-11"
-      },
-      {
-        "title": "Gemini 4 Carbon in GitHub Copilot",
-        "link": "https://github.blog/changelog/2026-11-10-gemini-4-carbon-in-github-copilot",
-        "summary": "Gemini 4 Carbon, Google’s latest model, is now generally available in GitHub Copilot. It is designed for complex coding, agentic, and reasoning tasks, with a focus on secure code generation… The post Gemini 4 Carbon in GitHub Copilot appeared first on The GitHub Blog .",
-        "why_it_matters": "Key development from GitHub Changelog.",
-        "takeaway": "Architecture & industry alignment.",
-        "tag": "AI",
-        "source": "GitHub Changelog",
-        "trust": "🟢 Official",
-        "date": "2026-11-11"
+        "date": "2026-11-12"
       }
     ],
     "🎯 Interview Edge": [
@@ -69,7 +69,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-11"
+        "date": "2026-11-12"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -80,62 +80,51 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-11"
+        "date": "2026-11-12"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "Apple has new Mac app coming to make running local AI models easy",
-        "link": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
-        "summary": "Article URL: https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/ Comments URL: https://news.ycombinator.com/item?id=50446520 Points: 155 # Comments: 116",
+        "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+        "link": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+        "summary": "Article URL: https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/ Comments URL: https://news.ycombinator.com/item?id=50458900 Points: 517 # Comments: 505",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-11"
+        "date": "2026-11-12"
       },
       {
-        "title": "Meet the Sad Wives of AI",
-        "link": "https://www.wired.com/story/meet-the-sad-wives-of-ai/",
-        "summary": "Article URL: https://www.wired.com/story/meet-the-sad-wives-of-ai/ Comments URL: https://news.ycombinator.com/item?id=50438429 Points: 76 # Comments: 69",
+        "title": "Retirement Savings Are Fueling the AI Bubble",
+        "link": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/",
+        "summary": "Article URL: https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/ Comments URL: https://news.ycombinator.com/item?id=50457164 Points: 153 # Comments: 156",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-11"
+        "date": "2026-11-12"
       }
     ],
     "🔮 On the Horizon": [
       {
-        "title": "Auditable Human-Agent Teams for Autonomous X-ray Experimentation",
-        "link": "https://arxiv.org/abs/2611.12933",
-        "summary": "arXiv:2611.12933v1 Announce Type: new Abstract: Closed-loop autonomous experimentation can accelerate scientific discovery, but implementation effort limits accessibility. Agentic systems may lower this barrier, although sustained operation on physical instruments remains largely unexplored. Here, using coding-agent infrastructure grounded in validated scientific methods, we demonstrate autonomous synchrotron X-ray experiments on nanoparticle superlattices under evolving, human-defined objectives. Complete human-agent and agent-agent transcripts enable…",
-        "why_it_matters": "Key development from arXiv cs.AI.",
+        "title": "Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching",
+        "link": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/",
+        "summary": "Health & Bioscience",
+        "why_it_matters": "Key development from Google Research Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "arXiv cs.AI",
-        "trust": "🔵 Academic",
-        "date": "2026-11-11"
-      },
-      {
-        "title": "EarthRecord: From Pixels to Land Change with Multimodal Agents over Four Decades of Satellite Imagery",
-        "link": "https://arxiv.org/abs/2611.12934",
-        "summary": "arXiv:2611.12934v1 Announce Type: new Abstract: While multimodal agents now carry out complex data analysis with tools, their ability to turn decades of satellite imagery into reliable land-change analysis, crucial for Earth observation science, remains unmeasured. Existing benchmarks fall short: they pose questions on curated images or give agents preprocessed inputs, leaving out the raw multi-sensor archives where such analysis begins.…",
-        "why_it_matters": "Key development from arXiv cs.AI.",
-        "takeaway": "Architecture & industry alignment.",
-        "tag": "AI",
-        "source": "arXiv cs.AI",
-        "trust": "🔵 Academic",
-        "date": "2026-11-11"
+        "source": "Google Research Blog",
+        "trust": "🟢 Official",
+        "date": "2026-11-12"
       }
     ]
   },
   "tool_of_day": {
-    "title": "GitHub App support for Enterprise Copilot seat management",
-    "link": "https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management",
-    "summary": "Enterprise GitHub Apps can now call the enterprise-level Copilot seat management APIs to control which users and enterprise teams are assigned Copilot seats. The Copilot seat management APIs are accessible… The post GitHub App support for Enterprise Copilot seat management appeared first on The GitHub Blog .",
+    "title": "Issue types and fields are available for personal accounts",
+    "link": "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts",
+    "summary": "Issue types and issue fields are now generally available on repositories owned by personal accounts. This brings the same planning capabilities to individual developers and open source maintainers to standardize… The post Issue types and fields are available for personal accounts appeared first on The GitHub Blog .",
     "pricing": "100% Free / Open Source",
     "use_case": "Developer productivity & AI prototyping"
   },

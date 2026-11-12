@@ -1,0 +1,132 @@
+{
+  "_meta": {
+    "schema_version": "2.0",
+    "generated_at": "2026-11-12T07:30:40.081495+00:00"
+  },
+  "date": "2026-11-12",
+  "date_display": "Thursday, 12 November 2026 (12:59 PM IST)",
+  "executive_summary": [
+    "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
+    "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
+    "Developer platforms expanding free inference tiers and edge compute toolkits."
+  ],
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Gilbert + Tobin rethinks the business of law with AI",
+        "link": "https://openai.com/index/gilbert-tobin-sam-nickless",
+        "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+        "why_it_matters": "Key development from OpenAI Blog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-11-12"
+      },
+      {
+        "title": "ChatGPT Plus for veterans and servicemembers",
+        "link": "https://openai.com/index/chatgpt-plus-for-veterans",
+        "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+        "why_it_matters": "Key development from OpenAI Blog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-11-12"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Issue types and fields are available for personal accounts",
+        "link": "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts",
+        "summary": "Issue types and issue fields are now generally available on repositories owned by personal accounts. This brings the same planning capabilities to individual developers and open source maintainers to standardize… The post Issue types and fields are available for personal accounts appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub Changelog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "GitHub Changelog",
+        "trust": "🟢 Official",
+        "date": "2026-11-12"
+      },
+      {
+        "title": "GitHub App support for Enterprise Copilot seat management",
+        "link": "https://github.blog/changelog/2026-11-10-github-app-support-for-enterprise-copilot-seat-management",
+        "summary": "Enterprise GitHub Apps can now call the enterprise-level Copilot seat management APIs to control which users and enterprise teams are assigned Copilot seats. The Copilot seat management APIs are accessible… The post GitHub App support for Enterprise Copilot seat management appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub Changelog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "GitHub Changelog",
+        "trust": "🟢 Official",
+        "date": "2026-11-12"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Wan-AI/Wan2.1-T2V-1.3B",
+        "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+        "summary": "Wan-AI/Wan2.1-T2V-1.3B",
+        "why_it_matters": "Key development from HF Trending Models.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "HF Trending Models",
+        "trust": "🟡 News",
+        "date": "2026-11-12"
+      },
+      {
+        "title": "microsoft/Phi-4-mini-instruct",
+        "link": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+        "summary": "microsoft/Phi-4-mini-instruct",
+        "why_it_matters": "Key development from HF Trending Models.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "HF Trending Models",
+        "trust": "🟡 News",
+        "date": "2026-11-12"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+        "link": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+        "summary": "Article URL: https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/ Comments URL: https://news.ycombinator.com/item?id=50458900 Points: 517 # Comments: 505",
+        "why_it_matters": "Key development from Hacker News AI.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "Hacker News AI",
+        "trust": "🟡 Community",
+        "date": "2026-11-12"
+      },
+      {
+        "title": "Retirement Savings Are Fueling the AI Bubble",
+        "link": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/",
+        "summary": "Article URL: https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/ Comments URL: https://news.ycombinator.com/item?id=50457164 Points: 153 # Comments: 156",
+        "why_it_matters": "Key development from Hacker News AI.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "Hacker News AI",
+        "trust": "🟡 Community",
+        "date": "2026-11-12"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching",
+        "link": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/",
+        "summary": "Health & Bioscience",
+        "why_it_matters": "Key development from Google Research Blog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "Google Research Blog",
+        "trust": "🟢 Official",
+        "date": "2026-11-12"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Issue types and fields are available for personal accounts",
+    "link": "https://github.blog/changelog/2026-11-11-issue-types-and-fields-are-available-for-personal-accounts",
+    "summary": "Issue types and issue fields are now generally available on repositories owned by personal accounts. This brings the same planning capabilities to individual developers and open source maintainers to standardize… The post Issue types and fields are available for personal accounts appeared first on The GitHub Blog .",
+    "pricing": "100% Free / Open Source",
+    "use_case": "Developer productivity & AI prototyping"
+  },
+  "hot_take": "Strong ecosystem velocity across both proprietary platforms and open-source models today."
+}
