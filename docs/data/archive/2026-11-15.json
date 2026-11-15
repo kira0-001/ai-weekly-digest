@@ -1,0 +1,132 @@
+{
+  "_meta": {
+    "schema_version": "2.0",
+    "generated_at": "2026-11-15T06:56:38.501714+00:00"
+  },
+  "date": "2026-11-15",
+  "date_display": "Sunday, 15 November 2026 (12:26 PM IST)",
+  "executive_summary": [
+    "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
+    "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
+    "Developer platforms expanding free inference tiers and edge compute toolkits."
+  ],
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Introducing ChatGPT Wallet",
+        "link": "https://openai.com/index/introducing-chatgpt-wallet",
+        "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+        "why_it_matters": "Key development from OpenAI Blog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-11-15"
+      },
+      {
+        "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+        "link": "https://openai.com/business/customer-stories/shield",
+        "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+        "why_it_matters": "Key development from OpenAI Blog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-11-15"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Upcoming deprecation of selected GitHub Copilot models in December",
+        "link": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
+        "summary": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on December 14, 2026: Model Deprecation date… The post Upcoming deprecation of selected GitHub Copilot models in December appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub Changelog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "GitHub Changelog",
+        "trust": "🟢 Official",
+        "date": "2026-11-15"
+      },
+      {
+        "title": "GitHub Enterprise Server support in the GitHub Copilot app",
+        "link": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+        "summary": "You can now bring your work on GitHub Enterprise Server (GHES) into the GitHub Copilot app. Add your GHES account to work with remote repositories, issues, and pull requests. This… The post GitHub Enterprise Server support in the GitHub Copilot app appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub Changelog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "GitHub Changelog",
+        "trust": "🟢 Official",
+        "date": "2026-11-15"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Wan-AI/Wan2.1-T2V-1.3B",
+        "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+        "summary": "Wan-AI/Wan2.1-T2V-1.3B",
+        "why_it_matters": "Key development from HF Trending Models.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "HF Trending Models",
+        "trust": "🟡 News",
+        "date": "2026-11-15"
+      },
+      {
+        "title": "microsoft/Phi-4-mini-instruct",
+        "link": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+        "summary": "microsoft/Phi-4-mini-instruct",
+        "why_it_matters": "Key development from HF Trending Models.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "HF Trending Models",
+        "trust": "🟡 News",
+        "date": "2026-11-15"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy",
+        "link": "https://www.marktechpost.com/2026/11/14/cmpnd-dspy-wsp-weight-space-programming/",
+        "summary": "Cmpnd released dspy-wsp, a prototype DSPy optimizer for weight-space programming. A frontier LLM reads a small model’s weights, edits them in a sandbox, and tests each change, with no gradients and about $5 to $10 per run. The post Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy appeared first on MarkTechPost .",
+        "why_it_matters": "Key development from MarkTechPost AI.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "MarkTechPost AI",
+        "trust": "🟡 News",
+        "date": "2026-11-15"
+      },
+      {
+        "title": "Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs",
+        "link": "https://www.marktechpost.com/2026/11/14/stanford-memorilla-memory-system-16-memory-tokens/",
+        "summary": "Stanford researchers released Memorilla, an open-source memory system that compresses a document collection into 16 memory tokens for a frozen Qwen3-8B. It reaches 84.33% on FactKG using 108x fewer document tokens than full context. The post Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs appeared first on MarkTechPost .",
+        "why_it_matters": "Key development from MarkTechPost AI.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "MarkTechPost AI",
+        "trust": "🟡 News",
+        "date": "2026-11-15"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "Advancing science & engineering with Antigravity’s /teamwork",
+        "link": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+        "summary": "Education Innovation",
+        "why_it_matters": "Key development from Google Research Blog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "Google Research Blog",
+        "trust": "🟢 Official",
+        "date": "2026-11-15"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Upcoming deprecation of selected GitHub Copilot models in December",
+    "link": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
+    "summary": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on December 14, 2026: Model Deprecation date… The post Upcoming deprecation of selected GitHub Copilot models in December appeared first on The GitHub Blog .",
+    "pricing": "100% Free / Open Source",
+    "use_case": "Developer productivity & AI prototyping"
+  },
+  "hot_take": "Strong ecosystem velocity across both proprietary platforms and open-source models today."
+}

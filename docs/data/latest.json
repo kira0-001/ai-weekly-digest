@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-11-14T06:51:49.964397+00:00"
+    "generated_at": "2026-11-15T06:56:38.501714+00:00"
   },
-  "date": "2026-11-14",
-  "date_display": "Saturday, 14 November 2026 (12:21 PM IST)",
+  "date": "2026-11-15",
+  "date_display": "Sunday, 15 November 2026 (12:26 PM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -21,7 +21,7 @@
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-14"
+        "date": "2026-11-15"
       },
       {
         "title": "Shield helps technicians hand off legacy portal work with OpenAI",
@@ -32,21 +32,10 @@
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-14"
+        "date": "2026-11-15"
       }
     ],
     "🛠️ Builder's Toolbox": [
-      {
-        "title": "Build once, run on any agent: A practical guide to agent skills",
-        "link": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
-        "summary": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Blog .",
-        "why_it_matters": "Key development from GitHub AI & ML Blog.",
-        "takeaway": "Architecture & industry alignment.",
-        "tag": "AI",
-        "source": "GitHub AI & ML Blog",
-        "trust": "🟢 Official",
-        "date": "2026-11-14"
-      },
       {
         "title": "Upcoming deprecation of selected GitHub Copilot models in December",
         "link": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
@@ -56,7 +45,18 @@
         "tag": "AI",
         "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-11-14"
+        "date": "2026-11-15"
+      },
+      {
+        "title": "GitHub Enterprise Server support in the GitHub Copilot app",
+        "link": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
+        "summary": "You can now bring your work on GitHub Enterprise Server (GHES) into the GitHub Copilot app. Add your GHES account to work with remote repositories, issues, and pull requests. This… The post GitHub Enterprise Server support in the GitHub Copilot app appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub Changelog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "GitHub Changelog",
+        "trust": "🟢 Official",
+        "date": "2026-11-15"
       }
     ],
     "🎯 Interview Edge": [
@@ -69,7 +69,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-14"
+        "date": "2026-11-15"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -80,62 +80,51 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-14"
+        "date": "2026-11-15"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its GPUs",
-        "link": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-        "summary": "Article URL: https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus Comments URL: https://news.ycombinator.com/item?id=50493251 Points: 303 # Comments: 152",
-        "why_it_matters": "Key development from Hacker News AI.",
+        "title": "Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy",
+        "link": "https://www.marktechpost.com/2026/11/14/cmpnd-dspy-wsp-weight-space-programming/",
+        "summary": "Cmpnd released dspy-wsp, a prototype DSPy optimizer for weight-space programming. A frontier LLM reads a small model’s weights, edits them in a sandbox, and tests each change, with no gradients and about $5 to $10 per run. The post Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy appeared first on MarkTechPost .",
+        "why_it_matters": "Key development from MarkTechPost AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "Hacker News AI",
-        "trust": "🟡 Community",
-        "date": "2026-11-14"
+        "source": "MarkTechPost AI",
+        "trust": "🟡 News",
+        "date": "2026-11-15"
       },
       {
-        "title": "Anthropic upgrades Claude Code Projects to run parallel AI workers",
-        "link": "https://claude.com/resources/articles/projects-redesigned",
-        "summary": "Article URL: https://claude.com/resources/articles/projects-redesigned Comments URL: https://news.ycombinator.com/item?id=50492141 Points: 76 # Comments: 73",
-        "why_it_matters": "Key development from Hacker News AI.",
+        "title": "Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs",
+        "link": "https://www.marktechpost.com/2026/11/14/stanford-memorilla-memory-system-16-memory-tokens/",
+        "summary": "Stanford researchers released Memorilla, an open-source memory system that compresses a document collection into 16 memory tokens for a frozen Qwen3-8B. It reaches 84.33% on FactKG using 108x fewer document tokens than full context. The post Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs appeared first on MarkTechPost .",
+        "why_it_matters": "Key development from MarkTechPost AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "Hacker News AI",
-        "trust": "🟡 Community",
-        "date": "2026-11-14"
+        "source": "MarkTechPost AI",
+        "trust": "🟡 News",
+        "date": "2026-11-15"
       }
     ],
     "🔮 On the Horizon": [
       {
-        "title": "Zugwise: Domain-Aware Game Reconstruction for Digitizing Handwritten Chess Scoresheets",
-        "link": "https://arxiv.org/abs/2611.14544",
-        "summary": "arXiv:2611.14544v1 Announce Type: new Abstract: Digitizing handwritten chess scoresheets has been studied as a handwriting-recognition problem: read the move in each box and check that it is legal. This framing misses the errors that matter most. A misread that yields an illegal move is loud. One that yields a legal-but-wrong move is silent, because a legality-only pipeline accepts it and…",
-        "why_it_matters": "Key development from arXiv cs.AI.",
+        "title": "Advancing science & engineering with Antigravity’s /teamwork",
+        "link": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+        "summary": "Education Innovation",
+        "why_it_matters": "Key development from Google Research Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "arXiv cs.AI",
-        "trust": "🔵 Academic",
-        "date": "2026-11-14"
-      },
-      {
-        "title": "Cleaning an Agent's History Hurts When the World Still Holds the Error",
-        "link": "https://arxiv.org/abs/2611.14654",
-        "summary": "arXiv:2611.14654v1 Announce Type: new Abstract: Tool-using language-model agents accumulate histories of their own mistakes, and a system that compacts, repairs or hands off such a history decides what it says about those mistakes while their effects stay in the world. Prior work cleans the history at a fixed world, where showing a corrected step and saying it is done move…",
-        "why_it_matters": "Key development from arXiv cs.AI.",
-        "takeaway": "Architecture & industry alignment.",
-        "tag": "AI",
-        "source": "arXiv cs.AI",
-        "trust": "🔵 Academic",
-        "date": "2026-11-14"
+        "source": "Google Research Blog",
+        "trust": "🟢 Official",
+        "date": "2026-11-15"
       }
     ]
   },
   "tool_of_day": {
-    "title": "Build once, run on any agent: A practical guide to agent skills",
-    "link": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
-    "summary": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them. The post Build once, run on any agent: A practical guide to agent skills appeared first on The GitHub Blog .",
+    "title": "Upcoming deprecation of selected GitHub Copilot models in December",
+    "link": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
+    "summary": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on December 14, 2026: Model Deprecation date… The post Upcoming deprecation of selected GitHub Copilot models in December appeared first on The GitHub Blog .",
     "pricing": "100% Free / Open Source",
     "use_case": "Developer productivity & AI prototyping"
   },
