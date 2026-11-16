@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-11-15T06:56:38.501714+00:00"
+    "generated_at": "2026-11-16T07:01:02.481108+00:00"
   },
-  "date": "2026-11-15",
-  "date_display": "Sunday, 15 November 2026 (12:26 PM IST)",
+  "date": "2026-11-16",
+  "date_display": "Monday, 16 November 2026 (12:30 PM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -13,52 +13,29 @@
   "sections": {
     "🚀 Big Launches": [
       {
-        "title": "Introducing ChatGPT Wallet",
-        "link": "https://openai.com/index/introducing-chatgpt-wallet",
-        "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+        "title": "A step toward defining the Standard Model on a lattice",
+        "link": "https://openai.com/index/step-toward-defining-the-standard-model",
+        "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-15"
+        "date": "2026-11-16"
       },
       {
-        "title": "Shield helps technicians hand off legacy portal work with OpenAI",
-        "link": "https://openai.com/business/customer-stories/shield",
-        "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+        "title": "Our new blog for science",
+        "link": "https://openai.com/index/our-new-blog-for-science",
+        "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-15"
+        "date": "2026-11-16"
       }
     ],
-    "🛠️ Builder's Toolbox": [
-      {
-        "title": "Upcoming deprecation of selected GitHub Copilot models in December",
-        "link": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
-        "summary": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on December 14, 2026: Model Deprecation date… The post Upcoming deprecation of selected GitHub Copilot models in December appeared first on The GitHub Blog .",
-        "why_it_matters": "Key development from GitHub Changelog.",
-        "takeaway": "Architecture & industry alignment.",
-        "tag": "AI",
-        "source": "GitHub Changelog",
-        "trust": "🟢 Official",
-        "date": "2026-11-15"
-      },
-      {
-        "title": "GitHub Enterprise Server support in the GitHub Copilot app",
-        "link": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app",
-        "summary": "You can now bring your work on GitHub Enterprise Server (GHES) into the GitHub Copilot app. Add your GHES account to work with remote repositories, issues, and pull requests. This… The post GitHub Enterprise Server support in the GitHub Copilot app appeared first on The GitHub Blog .",
-        "why_it_matters": "Key development from GitHub Changelog.",
-        "takeaway": "Architecture & industry alignment.",
-        "tag": "AI",
-        "source": "GitHub Changelog",
-        "trust": "🟢 Official",
-        "date": "2026-11-15"
-      }
-    ],
+    "🛠️ Builder's Toolbox": [],
     "🎯 Interview Edge": [
       {
         "title": "Wan-AI/Wan2.1-T2V-1.3B",
@@ -69,7 +46,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-15"
+        "date": "2026-11-16"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -80,51 +57,62 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-15"
+        "date": "2026-11-16"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy",
-        "link": "https://www.marktechpost.com/2026/11/14/cmpnd-dspy-wsp-weight-space-programming/",
-        "summary": "Cmpnd released dspy-wsp, a prototype DSPy optimizer for weight-space programming. A frontier LLM reads a small model’s weights, edits them in a sandbox, and tests each change, with no gradients and about $5 to $10 per run. The post Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy appeared first on MarkTechPost .",
-        "why_it_matters": "Key development from MarkTechPost AI.",
+        "title": "\"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half of all jobs",
+        "link": "https://www.hntrends.com/2026/november.html",
+        "summary": "Article URL: https://www.hntrends.com/2026/november.html Comments URL: https://news.ycombinator.com/item?id=50512950 Points: 81 # Comments: 67",
+        "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "MarkTechPost AI",
-        "trust": "🟡 News",
-        "date": "2026-11-15"
+        "source": "Hacker News AI",
+        "trust": "🟡 Community",
+        "date": "2026-11-16"
       },
       {
-        "title": "Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs",
-        "link": "https://www.marktechpost.com/2026/11/14/stanford-memorilla-memory-system-16-memory-tokens/",
-        "summary": "Stanford researchers released Memorilla, an open-source memory system that compresses a document collection into 16 memory tokens for a frozen Qwen3-8B. It reaches 84.33% on FactKG using 108x fewer document tokens than full context. The post Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs appeared first on MarkTechPost .",
-        "why_it_matters": "Key development from MarkTechPost AI.",
+        "title": "Parents pay $75k for Alpha's AI school. Half of its students missed math target",
+        "link": "https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/",
+        "summary": "Article URL: https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/ Comments URL: https://news.ycombinator.com/item?id=50509953 Points: 64 # Comments: 62",
+        "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "MarkTechPost AI",
-        "trust": "🟡 News",
-        "date": "2026-11-15"
+        "source": "Hacker News AI",
+        "trust": "🟡 Community",
+        "date": "2026-11-16"
       }
     ],
     "🔮 On the Horizon": [
       {
-        "title": "Advancing science & engineering with Antigravity’s /teamwork",
-        "link": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
-        "summary": "Education Innovation",
-        "why_it_matters": "Key development from Google Research Blog.",
+        "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
+        "link": "https://arxiv.org/abs/2611.17338",
+        "summary": "arXiv:2611.17338v1 Announce Type: new Abstract: LLM memory systems often delete facts classified as stale. We show that this hard-filtering step can reduce downstream accuracy when resolver errors delete query-critical facts. Across three models, a controlled sensitivity intervention moves hard-drop from gains of +0.186 to +0.230 at perfect resolution to losses of -0.176 to -0.181 at the lowest tested reliability. Paired…",
+        "why_it_matters": "Key development from arXiv cs.AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "Google Research Blog",
-        "trust": "🟢 Official",
-        "date": "2026-11-15"
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-11-16"
+      },
+      {
+        "title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
+        "link": "https://arxiv.org/abs/2611.17339",
+        "summary": "arXiv:2611.17339v1 Announce Type: new Abstract: Hallucination detection for large language models is dominated by methods evaluated on 7B-70B research models with abundant sampling budgets and exact-match or ROUGE correctness labels. The small models practitioners actually ship on-device, Phi-3-mini, Llama-3.2-3B-Instruct, Qwen2.5-3B-Instruct, and Gemma-2-2B-Instruct, typically at 4-bit precision, sit outside this evidence base. We present a reproducible one-GPU audit of four detectors…",
+        "why_it_matters": "Key development from arXiv cs.AI.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-11-16"
       }
     ]
   },
   "tool_of_day": {
-    "title": "Upcoming deprecation of selected GitHub Copilot models in December",
-    "link": "https://github.blog/changelog/2026-11-13-upcoming-deprecation-of-selected-github-copilot-models-in-december",
-    "summary": "We will deprecate the following models across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) on December 14, 2026: Model Deprecation date… The post Upcoming deprecation of selected GitHub Copilot models in December appeared first on The GitHub Blog .",
+    "title": "A step toward defining the Standard Model on a lattice",
+    "link": "https://openai.com/index/step-toward-defining-the-standard-model",
+    "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
     "pricing": "100% Free / Open Source",
     "use_case": "Developer productivity & AI prototyping"
   },
