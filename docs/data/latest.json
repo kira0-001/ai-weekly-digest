@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-11-16T07:01:02.481108+00:00"
+    "generated_at": "2026-11-17T08:16:44.614309+00:00"
   },
-  "date": "2026-11-16",
-  "date_display": "Monday, 16 November 2026 (12:30 PM IST)",
+  "date": "2026-11-17",
+  "date_display": "Tuesday, 17 November 2026 (01:46 PM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -13,29 +13,52 @@
   "sections": {
     "🚀 Big Launches": [
       {
-        "title": "A step toward defining the Standard Model on a lattice",
-        "link": "https://openai.com/index/step-toward-defining-the-standard-model",
-        "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+        "title": "Strengthening NATO and allied cyber defenses with AI",
+        "link": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+        "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-16"
+        "date": "2026-11-17"
       },
       {
-        "title": "Our new blog for science",
-        "link": "https://openai.com/index/our-new-blog-for-science",
-        "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+        "title": "Broadening access to AI for scientists",
+        "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+        "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-16"
+        "date": "2026-11-17"
       }
     ],
-    "🛠️ Builder's Toolbox": [],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Dependabot alert dismissal requests now last one year",
+        "link": "https://github.blog/changelog/2026-11-16-dependabot-alert-dismissal-requests-now-last-one-year",
+        "summary": "If you use delegated alert dismissal for Dependabot, dismissal requests now stay open for one year instead of one week. Reviewers have more time to respond before a request expires… The post Dependabot alert dismissal requests now last one year appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub Changelog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "GitHub Changelog",
+        "trust": "🟢 Official",
+        "date": "2026-11-17"
+      },
+      {
+        "title": "GitHub Copilot weekly releases — November 9",
+        "link": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9",
+        "summary": "This week, bring GitHub Enterprise Server repositories into the Copilot app and see which agent sessions need you first in VS Code. You can also try two new models, Claude… The post GitHub Copilot weekly releases — November 9 appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub Changelog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "GitHub Changelog",
+        "trust": "🟢 Official",
+        "date": "2026-11-17"
+      }
+    ],
     "🎯 Interview Edge": [
       {
         "title": "Wan-AI/Wan2.1-T2V-1.3B",
@@ -46,7 +69,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-16"
+        "date": "2026-11-17"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -57,62 +80,39 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-16"
+        "date": "2026-11-17"
       }
     ],
     "⚖️ Responsible AI": [
       {
         "title": "\"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half of all jobs",
         "link": "https://www.hntrends.com/2026/november.html",
-        "summary": "Article URL: https://www.hntrends.com/2026/november.html Comments URL: https://news.ycombinator.com/item?id=50512950 Points: 81 # Comments: 67",
+        "summary": "Article URL: https://www.hntrends.com/2026/november.html Comments URL: https://news.ycombinator.com/item?id=50512950 Points: 94 # Comments: 86",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-16"
+        "date": "2026-11-17"
       },
       {
         "title": "Parents pay $75k for Alpha's AI school. Half of its students missed math target",
         "link": "https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/",
-        "summary": "Article URL: https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/ Comments URL: https://news.ycombinator.com/item?id=50509953 Points: 64 # Comments: 62",
+        "summary": "Article URL: https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/ Comments URL: https://news.ycombinator.com/item?id=50509953 Points: 69 # Comments: 67",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-16"
+        "date": "2026-11-17"
       }
     ],
-    "🔮 On the Horizon": [
-      {
-        "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
-        "link": "https://arxiv.org/abs/2611.17338",
-        "summary": "arXiv:2611.17338v1 Announce Type: new Abstract: LLM memory systems often delete facts classified as stale. We show that this hard-filtering step can reduce downstream accuracy when resolver errors delete query-critical facts. Across three models, a controlled sensitivity intervention moves hard-drop from gains of +0.186 to +0.230 at perfect resolution to losses of -0.176 to -0.181 at the lowest tested reliability. Paired…",
-        "why_it_matters": "Key development from arXiv cs.AI.",
-        "takeaway": "Architecture & industry alignment.",
-        "tag": "AI",
-        "source": "arXiv cs.AI",
-        "trust": "🔵 Academic",
-        "date": "2026-11-16"
-      },
-      {
-        "title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
-        "link": "https://arxiv.org/abs/2611.17339",
-        "summary": "arXiv:2611.17339v1 Announce Type: new Abstract: Hallucination detection for large language models is dominated by methods evaluated on 7B-70B research models with abundant sampling budgets and exact-match or ROUGE correctness labels. The small models practitioners actually ship on-device, Phi-3-mini, Llama-3.2-3B-Instruct, Qwen2.5-3B-Instruct, and Gemma-2-2B-Instruct, typically at 4-bit precision, sit outside this evidence base. We present a reproducible one-GPU audit of four detectors…",
-        "why_it_matters": "Key development from arXiv cs.AI.",
-        "takeaway": "Architecture & industry alignment.",
-        "tag": "AI",
-        "source": "arXiv cs.AI",
-        "trust": "🔵 Academic",
-        "date": "2026-11-16"
-      }
-    ]
+    "🔮 On the Horizon": []
   },
   "tool_of_day": {
-    "title": "A step toward defining the Standard Model on a lattice",
-    "link": "https://openai.com/index/step-toward-defining-the-standard-model",
-    "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+    "title": "Dependabot alert dismissal requests now last one year",
+    "link": "https://github.blog/changelog/2026-11-16-dependabot-alert-dismissal-requests-now-last-one-year",
+    "summary": "If you use delegated alert dismissal for Dependabot, dismissal requests now stay open for one year instead of one week. Reviewers have more time to respond before a request expires… The post Dependabot alert dismissal requests now last one year appeared first on The GitHub Blog .",
     "pricing": "100% Free / Open Source",
     "use_case": "Developer productivity & AI prototyping"
   },
