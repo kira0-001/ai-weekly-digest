@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-11-18T07:49:28.263029+00:00"
+    "generated_at": "2026-11-19T07:45:02.282047+00:00"
   },
-  "date": "2026-11-18",
-  "date_display": "Wednesday, 18 November 2026 (01:18 PM IST)",
+  "date": "2026-11-19",
+  "date_display": "Thursday, 19 November 2026 (01:14 PM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -13,50 +13,50 @@
   "sections": {
     "🚀 Big Launches": [
       {
-        "title": "Introducing GPT-6.2 Astra and Sol",
-        "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-        "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+        "title": "The Silent Consensus",
+        "link": "https://openai.com/index/the-silent-consensus",
+        "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-18"
+        "date": "2026-11-19"
       },
       {
-        "title": "Introducing ChatGPT for Sales",
-        "link": "https://openai.com/index/introducing-chatgpt-for-sales",
-        "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+        "title": "Research acceleration: The jagged frontier",
+        "link": "https://openai.com/index/research-acceleration-jagged-frontier",
+        "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-18"
+        "date": "2026-11-19"
       }
     ],
     "🛠️ Builder's Toolbox": [
       {
-        "title": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available",
-        "link": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available",
-        "summary": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol are now generally available in GitHub Copilot. Both models are designed for agentic coding and code review, with stronger coding judgment than earlier GPT-6… The post OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available appeared first on The GitHub Blog .",
+        "title": "Wait for pull request events with GitHub CLI",
+        "link": "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli",
+        "summary": "GitHub CLI now supports GitHub Event Streams. With gh v2.105.0, you and your agents can wait for a pull request to change with a single command instead of polling it… The post Wait for pull request events with GitHub CLI appeared first on The GitHub Blog .",
         "why_it_matters": "Key development from GitHub Changelog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-11-18"
+        "date": "2026-11-19"
       },
       {
-        "title": "GitHub Copilot Fusion updates: more availability, benchmarks, and models",
-        "link": "https://github.blog/changelog/2026-11-17-github-copilot-fusion-updates-more-availability-benchmarks-and-models",
-        "summary": "Today, we’re expanding GitHub Copilot Fusion with new models, available on more Copilot surfaces, and results on two public Terminal-Bench leaderboards, giving you more ways to use Fusion and compare… The post GitHub Copilot Fusion updates: more availability, benchmarks, and models appeared first on The GitHub Blog .",
+        "title": "Connect Supabase, Box, Calendly, and more to Copilot",
+        "link": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot",
+        "summary": "You can now connect eight more services to Copilot using GitHub-verified MCP servers, or connectors, available in public preview. They join more than 25 services you can already connect, like… The post Connect Supabase, Box, Calendly, and more to Copilot appeared first on The GitHub Blog .",
         "why_it_matters": "Key development from GitHub Changelog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-11-18"
+        "date": "2026-11-19"
       }
     ],
     "🎯 Interview Edge": [
@@ -69,7 +69,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-18"
+        "date": "2026-11-19"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -80,31 +80,31 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-18"
+        "date": "2026-11-19"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "Bank CEOs, NSA Tell Congress That AI-Driven Patches Are Behind Outages",
-        "link": "https://www.washingtonsun.com/technology/bank-ceos-nsa-tell-congress-ai-driven-patches-behind-outages",
-        "summary": "Article URL: https://www.washingtonsun.com/technology/bank-ceos-nsa-tell-congress-ai-driven-patches-behind-outages Comments URL: https://news.ycombinator.com/item?id=50540836 Points: 64 # Comments: 32",
+        "title": "AI will not make you rich (2025)",
+        "link": "https://colossus.com/article/ai-will-not-make-you-rich/",
+        "summary": "Article URL: https://colossus.com/article/ai-will-not-make-you-rich/ Comments URL: https://news.ycombinator.com/item?id=50555093 Points: 91 # Comments: 53",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-18"
+        "date": "2026-11-19"
       },
       {
-        "title": "Google's AI answers reducing search traffic by 40%",
-        "link": "https://revscope.co/blog/search-seo-geo-2026/",
-        "summary": "Article URL: https://revscope.co/blog/search-seo-geo-2026/ Comments URL: https://news.ycombinator.com/item?id=50540178 Points: 309 # Comments: 242",
+        "title": "Black high school students sue after AI mistakes Doritos bag for gun",
+        "link": "https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/",
+        "summary": "Article URL: https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/ Comments URL: https://news.ycombinator.com/item?id=50554641 Points: 79 # Comments: 39",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-18"
+        "date": "2026-11-19"
       }
     ],
     "🔮 On the Horizon": [
@@ -117,7 +117,7 @@
         "tag": "AI",
         "source": "arXiv cs.AI",
         "trust": "🔵 Academic",
-        "date": "2026-11-18"
+        "date": "2026-11-19"
       },
       {
         "title": "Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability",
@@ -128,14 +128,14 @@
         "tag": "AI",
         "source": "arXiv cs.AI",
         "trust": "🔵 Academic",
-        "date": "2026-11-18"
+        "date": "2026-11-19"
       }
     ]
   },
   "tool_of_day": {
-    "title": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available",
-    "link": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available",
-    "summary": "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol are now generally available in GitHub Copilot. Both models are designed for agentic coding and code review, with stronger coding judgment than earlier GPT-6… The post OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol now available appeared first on The GitHub Blog .",
+    "title": "Wait for pull request events with GitHub CLI",
+    "link": "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli",
+    "summary": "GitHub CLI now supports GitHub Event Streams. With gh v2.105.0, you and your agents can wait for a pull request to change with a single command instead of polling it… The post Wait for pull request events with GitHub CLI appeared first on The GitHub Blog .",
     "pricing": "100% Free / Open Source",
     "use_case": "Developer productivity & AI prototyping"
   },
