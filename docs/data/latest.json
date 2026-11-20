@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-11-19T07:45:02.282047+00:00"
+    "generated_at": "2026-11-20T07:37:06.186961+00:00"
   },
-  "date": "2026-11-19",
-  "date_display": "Thursday, 19 November 2026 (01:14 PM IST)",
+  "date": "2026-11-20",
+  "date_display": "Friday, 20 November 2026 (01:06 PM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -13,50 +13,50 @@
   "sections": {
     "🚀 Big Launches": [
       {
-        "title": "The Silent Consensus",
-        "link": "https://openai.com/index/the-silent-consensus",
-        "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+        "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+        "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+        "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-19"
+        "date": "2026-11-20"
       },
       {
-        "title": "Research acceleration: The jagged frontier",
-        "link": "https://openai.com/index/research-acceleration-jagged-frontier",
-        "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+        "title": "Deploying Daybreak Red",
+        "link": "https://openai.com/business/learn/deploying-daybreak-red",
+        "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-19"
+        "date": "2026-11-20"
       }
     ],
     "🛠️ Builder's Toolbox": [
       {
-        "title": "Wait for pull request events with GitHub CLI",
-        "link": "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli",
-        "summary": "GitHub CLI now supports GitHub Event Streams. With gh v2.105.0, you and your agents can wait for a pull request to change with a single command instead of polling it… The post Wait for pull request events with GitHub CLI appeared first on The GitHub Blog .",
+        "title": "Improvements on the pull request overview in public preview",
+        "link": "https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview",
+        "summary": "Your feedback has helped improve the new pull request Overview page since its November 5, 2026 public preview. Here’s what’s new! Clearer merge status and next steps Failed optional checks… The post Improvements on the pull request overview in public preview appeared first on The GitHub Blog .",
         "why_it_matters": "Key development from GitHub Changelog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-11-19"
+        "date": "2026-11-20"
       },
       {
-        "title": "Connect Supabase, Box, Calendly, and more to Copilot",
-        "link": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot",
-        "summary": "You can now connect eight more services to Copilot using GitHub-verified MCP servers, or connectors, available in public preview. They join more than 25 services you can already connect, like… The post Connect Supabase, Box, Calendly, and more to Copilot appeared first on The GitHub Blog .",
+        "title": "Enterprise Live Migrations from Azure DevOps generally available",
+        "link": "https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available",
+        "summary": "Enterprise Live Migrations (ELM) from Azure DevOps Services to GitHub Enterprise Cloud with data residency is now generally available. You can move your repositories while your teams keep working, then… The post Enterprise Live Migrations from Azure DevOps generally available appeared first on The GitHub Blog .",
         "why_it_matters": "Key development from GitHub Changelog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-11-19"
+        "date": "2026-11-20"
       }
     ],
     "🎯 Interview Edge": [
@@ -69,7 +69,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-19"
+        "date": "2026-11-20"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -80,62 +80,62 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-19"
+        "date": "2026-11-20"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "AI will not make you rich (2025)",
-        "link": "https://colossus.com/article/ai-will-not-make-you-rich/",
-        "summary": "Article URL: https://colossus.com/article/ai-will-not-make-you-rich/ Comments URL: https://news.ycombinator.com/item?id=50555093 Points: 91 # Comments: 53",
-        "why_it_matters": "Key development from Hacker News AI.",
+        "title": "Meta FAIR Self-Improving Memory Hits 56.0 on Continual Learning Bench",
+        "link": "https://www.marktechpost.com/2026/11/19/meta-fair-self-improving-memory-harness-distillation/",
+        "summary": "Meta FAIR’s Self-Improving Memory lets Kimi-K2.6 write its own LOAD and OFFLOAD memory prompts, then distills them into its weights. Optimized prompts score 56.0 versus 44.6 for the best hand-written harness on Continual Learning Bench. The post Meta FAIR Self-Improving Memory Hits 56.0 on Continual Learning Bench appeared first on MarkTechPost .",
+        "why_it_matters": "Key development from MarkTechPost AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "Hacker News AI",
-        "trust": "🟡 Community",
-        "date": "2026-11-19"
+        "source": "MarkTechPost AI",
+        "trust": "🟡 News",
+        "date": "2026-11-20"
       },
       {
-        "title": "Black high school students sue after AI mistakes Doritos bag for gun",
-        "link": "https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/",
-        "summary": "Article URL: https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/ Comments URL: https://news.ycombinator.com/item?id=50554641 Points: 79 # Comments: 39",
-        "why_it_matters": "Key development from Hacker News AI.",
+        "title": "13 Best Agent Gateways in 2026 for MCP, A2A and LLM Traffic: Kong, Bifrost, AgentCore, Arcade",
+        "link": "https://www.marktechpost.com/2026/11/19/best-agent-gateways-2026/",
+        "summary": "We ranked the 13 best agent gateways of 2026 by how they govern model, MCP tool and agent-to-agent traffic, with verified pricing, deployment options and the trade-offs each vendor's marketing leaves out. The post 13 Best Agent Gateways in 2026 for MCP, A2A and LLM Traffic: Kong, Bifrost, AgentCore, Arcade appeared first on MarkTechPost .",
+        "why_it_matters": "Key development from MarkTechPost AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "Hacker News AI",
-        "trust": "🟡 Community",
-        "date": "2026-11-19"
+        "source": "MarkTechPost AI",
+        "trust": "🟡 News",
+        "date": "2026-11-20"
       }
     ],
     "🔮 On the Horizon": [
       {
-        "title": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
-        "link": "https://arxiv.org/abs/2611.21682",
-        "summary": "arXiv:2611.21682v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly being explored for knowledge-intensive and safety-critical applications in nuclear engineering. However, existing nuclear-domain benchmarks provide limited content coverage or focus primarily on answer accuracy without systematically evaluating the quality of the underlying reasoning. This study introduces NEBench R1, a reasoning-oriented benchmark comprising 7,546 unique multiple-choice questions extracted from U.S.…",
+        "title": "Human-AI Mutualism Is Unstable under Capability Asymmetry",
+        "link": "https://arxiv.org/abs/2611.23322",
+        "summary": "arXiv:2611.23322v1 Announce Type: new Abstract: One hope for a good human future alongside advanced AI rests on enduring mutualism: humans and AI will need each other, so the relationship will stay good for both. We argue that this hope fails as AI capability grows. Bargaining guarantees each side only what it would get if bargaining failed. For humans, this can…",
         "why_it_matters": "Key development from arXiv cs.AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "arXiv cs.AI",
         "trust": "🔵 Academic",
-        "date": "2026-11-19"
+        "date": "2026-11-20"
       },
       {
-        "title": "Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability",
-        "link": "https://arxiv.org/abs/2611.21799",
-        "summary": "arXiv:2611.21799v1 Announce Type: new Abstract: Chain-of-thought (CoT) monitoring is a promising tool for detecting hidden goals, off-task behavior, and other failures in AI agents. One risk is that models could deliberately shape their reasoning to make it opaque to monitors. We stress-test this risk through persona-control training: supervised fine-tuning on mathematical reasoning traces rewritten in the voices of diverse personas.…",
+        "title": "Training Language Models for Introspective Oversight",
+        "link": "https://arxiv.org/abs/2611.23365",
+        "summary": "arXiv:2611.23365v1 Announce Type: new Abstract: Language models increasingly exhibit behaviors that are difficult to detect in transcripts, such as reward hacking, deception, and sycophancy. Asking the assistant follow-up questions about its actions is unreliable, since models are generally not trained to report their own misbehavior. As a result, approaches to oversight typically involve querying external models. These face limitations: external…",
         "why_it_matters": "Key development from arXiv cs.AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "arXiv cs.AI",
         "trust": "🔵 Academic",
-        "date": "2026-11-19"
+        "date": "2026-11-20"
       }
     ]
   },
   "tool_of_day": {
-    "title": "Wait for pull request events with GitHub CLI",
-    "link": "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli",
-    "summary": "GitHub CLI now supports GitHub Event Streams. With gh v2.105.0, you and your agents can wait for a pull request to change with a single command instead of polling it… The post Wait for pull request events with GitHub CLI appeared first on The GitHub Blog .",
+    "title": "Improvements on the pull request overview in public preview",
+    "link": "https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview",
+    "summary": "Your feedback has helped improve the new pull request Overview page since its November 5, 2026 public preview. Here’s what’s new! Clearer merge status and next steps Failed optional checks… The post Improvements on the pull request overview in public preview appeared first on The GitHub Blog .",
     "pricing": "100% Free / Open Source",
     "use_case": "Developer productivity & AI prototyping"
   },
