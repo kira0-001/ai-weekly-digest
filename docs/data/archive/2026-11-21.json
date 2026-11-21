@@ -1,0 +1,143 @@
+{
+  "_meta": {
+    "schema_version": "2.0",
+    "generated_at": "2026-11-21T07:32:13.100376+00:00"
+  },
+  "date": "2026-11-21",
+  "date_display": "Saturday, 21 November 2026 (01:01 PM IST)",
+  "executive_summary": [
+    "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
+    "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
+    "Developer platforms expanding free inference tiers and edge compute toolkits."
+  ],
+  "sections": {
+    "🚀 Big Launches": [
+      {
+        "title": "Combatting adversarial distillation",
+        "link": "https://openai.com/index/combatting-adversarial-distillation",
+        "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+        "why_it_matters": "Key development from OpenAI Blog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-11-21"
+      },
+      {
+        "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+        "link": "https://openai.com/business/customer-stories/hebbia",
+        "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+        "why_it_matters": "Key development from OpenAI Blog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "OpenAI Blog",
+        "trust": "🟢 Official",
+        "date": "2026-11-21"
+      }
+    ],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Security advisory permissions are now generally available",
+        "link": "https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available",
+        "summary": "Organization owners can now let people work on repository security advisories, including private vulnerability reports, through custom repository roles. You no longer have to make them repository administrators or give… The post Security advisory permissions are now generally available appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub Changelog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "GitHub Changelog",
+        "trust": "🟢 Official",
+        "date": "2026-11-21"
+      },
+      {
+        "title": "GitHub Enterprise Server 3.23 release candidate",
+        "link": "https://github.blog/changelog/2026-11-20-github-enterprise-server-3-23-release-candidate",
+        "summary": "GitHub Enterprise Server (GHES) 3.23 is now available and introduces new capabilities across the platform. Here are a few highlights in the 3.23 release: When working in GitHub Projects, you… The post GitHub Enterprise Server 3.23 release candidate appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub Changelog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "GitHub Changelog",
+        "trust": "🟢 Official",
+        "date": "2026-11-21"
+      }
+    ],
+    "🎯 Interview Edge": [
+      {
+        "title": "Wan-AI/Wan2.1-T2V-1.3B",
+        "link": "https://huggingface.co/Wan-AI/Wan2.1-T2V-1.3B",
+        "summary": "Wan-AI/Wan2.1-T2V-1.3B",
+        "why_it_matters": "Key development from HF Trending Models.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "HF Trending Models",
+        "trust": "🟡 News",
+        "date": "2026-11-21"
+      },
+      {
+        "title": "microsoft/Phi-4-mini-instruct",
+        "link": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+        "summary": "microsoft/Phi-4-mini-instruct",
+        "why_it_matters": "Key development from HF Trending Models.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "HF Trending Models",
+        "trust": "🟡 News",
+        "date": "2026-11-21"
+      }
+    ],
+    "⚖️ Responsible AI": [
+      {
+        "title": "Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street",
+        "link": "https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
+        "summary": "Article URL: https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90 Comments URL: https://news.ycombinator.com/item?id=50582280 Points: 54 # Comments: 5",
+        "why_it_matters": "Key development from Hacker News AI.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "Hacker News AI",
+        "trust": "🟡 Community",
+        "date": "2026-11-21"
+      },
+      {
+        "title": "Google workers tell their employer not to punish schools that don't want AI",
+        "link": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+        "summary": "Article URL: https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/ Comments URL: https://news.ycombinator.com/item?id=50577901 Points: 275 # Comments: 201",
+        "why_it_matters": "Key development from Hacker News AI.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "Hacker News AI",
+        "trust": "🟡 Community",
+        "date": "2026-11-21"
+      }
+    ],
+    "🔮 On the Horizon": [
+      {
+        "title": "How Google Duplex evolved to also call businesses for you in Gemini",
+        "link": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+        "summary": "Generative AI",
+        "why_it_matters": "Key development from Google Research Blog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "Google Research Blog",
+        "trust": "🟢 Official",
+        "date": "2026-11-21"
+      },
+      {
+        "title": "A game you cannot win unless you have a quantum computer",
+        "link": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/",
+        "summary": "Quantum",
+        "why_it_matters": "Key development from Google Research Blog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "Google Research Blog",
+        "trust": "🟢 Official",
+        "date": "2026-11-21"
+      }
+    ]
+  },
+  "tool_of_day": {
+    "title": "Security advisory permissions are now generally available",
+    "link": "https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available",
+    "summary": "Organization owners can now let people work on repository security advisories, including private vulnerability reports, through custom repository roles. You no longer have to make them repository administrators or give… The post Security advisory permissions are now generally available appeared first on The GitHub Blog .",
+    "pricing": "100% Free / Open Source",
+    "use_case": "Developer productivity & AI prototyping"
+  },
+  "hot_take": "Strong ecosystem velocity across both proprietary platforms and open-source models today."
+}

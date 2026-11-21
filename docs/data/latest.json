@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-11-20T07:37:06.186961+00:00"
+    "generated_at": "2026-11-21T07:32:13.100376+00:00"
   },
-  "date": "2026-11-20",
-  "date_display": "Friday, 20 November 2026 (01:06 PM IST)",
+  "date": "2026-11-21",
+  "date_display": "Saturday, 21 November 2026 (01:01 PM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -13,50 +13,50 @@
   "sections": {
     "🚀 Big Launches": [
       {
-        "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-        "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-        "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+        "title": "Combatting adversarial distillation",
+        "link": "https://openai.com/index/combatting-adversarial-distillation",
+        "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-20"
+        "date": "2026-11-21"
       },
       {
-        "title": "Deploying Daybreak Red",
-        "link": "https://openai.com/business/learn/deploying-daybreak-red",
-        "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+        "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+        "link": "https://openai.com/business/customer-stories/hebbia",
+        "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-20"
+        "date": "2026-11-21"
       }
     ],
     "🛠️ Builder's Toolbox": [
       {
-        "title": "Improvements on the pull request overview in public preview",
-        "link": "https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview",
-        "summary": "Your feedback has helped improve the new pull request Overview page since its November 5, 2026 public preview. Here’s what’s new! Clearer merge status and next steps Failed optional checks… The post Improvements on the pull request overview in public preview appeared first on The GitHub Blog .",
+        "title": "Security advisory permissions are now generally available",
+        "link": "https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available",
+        "summary": "Organization owners can now let people work on repository security advisories, including private vulnerability reports, through custom repository roles. You no longer have to make them repository administrators or give… The post Security advisory permissions are now generally available appeared first on The GitHub Blog .",
         "why_it_matters": "Key development from GitHub Changelog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-11-20"
+        "date": "2026-11-21"
       },
       {
-        "title": "Enterprise Live Migrations from Azure DevOps generally available",
-        "link": "https://github.blog/changelog/2026-11-19-enterprise-live-migrations-from-azure-devops-generally-available",
-        "summary": "Enterprise Live Migrations (ELM) from Azure DevOps Services to GitHub Enterprise Cloud with data residency is now generally available. You can move your repositories while your teams keep working, then… The post Enterprise Live Migrations from Azure DevOps generally available appeared first on The GitHub Blog .",
+        "title": "GitHub Enterprise Server 3.23 release candidate",
+        "link": "https://github.blog/changelog/2026-11-20-github-enterprise-server-3-23-release-candidate",
+        "summary": "GitHub Enterprise Server (GHES) 3.23 is now available and introduces new capabilities across the platform. Here are a few highlights in the 3.23 release: When working in GitHub Projects, you… The post GitHub Enterprise Server 3.23 release candidate appeared first on The GitHub Blog .",
         "why_it_matters": "Key development from GitHub Changelog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-11-20"
+        "date": "2026-11-21"
       }
     ],
     "🎯 Interview Edge": [
@@ -69,7 +69,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-20"
+        "date": "2026-11-21"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -80,62 +80,62 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-20"
+        "date": "2026-11-21"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "Meta FAIR Self-Improving Memory Hits 56.0 on Continual Learning Bench",
-        "link": "https://www.marktechpost.com/2026/11/19/meta-fair-self-improving-memory-harness-distillation/",
-        "summary": "Meta FAIR’s Self-Improving Memory lets Kimi-K2.6 write its own LOAD and OFFLOAD memory prompts, then distills them into its weights. Optimized prompts score 56.0 versus 44.6 for the best hand-written harness on Continual Learning Bench. The post Meta FAIR Self-Improving Memory Hits 56.0 on Continual Learning Bench appeared first on MarkTechPost .",
-        "why_it_matters": "Key development from MarkTechPost AI.",
+        "title": "Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street",
+        "link": "https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
+        "summary": "Article URL: https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90 Comments URL: https://news.ycombinator.com/item?id=50582280 Points: 54 # Comments: 5",
+        "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "MarkTechPost AI",
-        "trust": "🟡 News",
-        "date": "2026-11-20"
+        "source": "Hacker News AI",
+        "trust": "🟡 Community",
+        "date": "2026-11-21"
       },
       {
-        "title": "13 Best Agent Gateways in 2026 for MCP, A2A and LLM Traffic: Kong, Bifrost, AgentCore, Arcade",
-        "link": "https://www.marktechpost.com/2026/11/19/best-agent-gateways-2026/",
-        "summary": "We ranked the 13 best agent gateways of 2026 by how they govern model, MCP tool and agent-to-agent traffic, with verified pricing, deployment options and the trade-offs each vendor's marketing leaves out. The post 13 Best Agent Gateways in 2026 for MCP, A2A and LLM Traffic: Kong, Bifrost, AgentCore, Arcade appeared first on MarkTechPost .",
-        "why_it_matters": "Key development from MarkTechPost AI.",
+        "title": "Google workers tell their employer not to punish schools that don't want AI",
+        "link": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+        "summary": "Article URL: https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/ Comments URL: https://news.ycombinator.com/item?id=50577901 Points: 275 # Comments: 201",
+        "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "MarkTechPost AI",
-        "trust": "🟡 News",
-        "date": "2026-11-20"
+        "source": "Hacker News AI",
+        "trust": "🟡 Community",
+        "date": "2026-11-21"
       }
     ],
     "🔮 On the Horizon": [
       {
-        "title": "Human-AI Mutualism Is Unstable under Capability Asymmetry",
-        "link": "https://arxiv.org/abs/2611.23322",
-        "summary": "arXiv:2611.23322v1 Announce Type: new Abstract: One hope for a good human future alongside advanced AI rests on enduring mutualism: humans and AI will need each other, so the relationship will stay good for both. We argue that this hope fails as AI capability grows. Bargaining guarantees each side only what it would get if bargaining failed. For humans, this can…",
-        "why_it_matters": "Key development from arXiv cs.AI.",
+        "title": "How Google Duplex evolved to also call businesses for you in Gemini",
+        "link": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+        "summary": "Generative AI",
+        "why_it_matters": "Key development from Google Research Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "arXiv cs.AI",
-        "trust": "🔵 Academic",
-        "date": "2026-11-20"
+        "source": "Google Research Blog",
+        "trust": "🟢 Official",
+        "date": "2026-11-21"
       },
       {
-        "title": "Training Language Models for Introspective Oversight",
-        "link": "https://arxiv.org/abs/2611.23365",
-        "summary": "arXiv:2611.23365v1 Announce Type: new Abstract: Language models increasingly exhibit behaviors that are difficult to detect in transcripts, such as reward hacking, deception, and sycophancy. Asking the assistant follow-up questions about its actions is unreliable, since models are generally not trained to report their own misbehavior. As a result, approaches to oversight typically involve querying external models. These face limitations: external…",
-        "why_it_matters": "Key development from arXiv cs.AI.",
+        "title": "A game you cannot win unless you have a quantum computer",
+        "link": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/",
+        "summary": "Quantum",
+        "why_it_matters": "Key development from Google Research Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "arXiv cs.AI",
-        "trust": "🔵 Academic",
-        "date": "2026-11-20"
+        "source": "Google Research Blog",
+        "trust": "🟢 Official",
+        "date": "2026-11-21"
       }
     ]
   },
   "tool_of_day": {
-    "title": "Improvements on the pull request overview in public preview",
-    "link": "https://github.blog/changelog/2026-11-19-improvements-on-the-pull-request-overview-in-public-preview",
-    "summary": "Your feedback has helped improve the new pull request Overview page since its November 5, 2026 public preview. Here’s what’s new! Clearer merge status and next steps Failed optional checks… The post Improvements on the pull request overview in public preview appeared first on The GitHub Blog .",
+    "title": "Security advisory permissions are now generally available",
+    "link": "https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available",
+    "summary": "Organization owners can now let people work on repository security advisories, including private vulnerability reports, through custom repository roles. You no longer have to make them repository administrators or give… The post Security advisory permissions are now generally available appeared first on The GitHub Blog .",
     "pricing": "100% Free / Open Source",
     "use_case": "Developer productivity & AI prototyping"
   },
