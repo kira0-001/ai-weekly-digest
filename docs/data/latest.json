@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-11-21T07:32:13.100376+00:00"
+    "generated_at": "2026-11-22T07:14:16.652762+00:00"
   },
-  "date": "2026-11-21",
-  "date_display": "Saturday, 21 November 2026 (01:01 PM IST)",
+  "date": "2026-11-22",
+  "date_display": "Sunday, 22 November 2026 (12:43 PM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -21,18 +21,18 @@
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-21"
+        "date": "2026-11-22"
       },
       {
-        "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
-        "link": "https://openai.com/business/customer-stories/hebbia",
-        "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
-        "why_it_matters": "Key development from OpenAI Blog.",
+        "title": "Meta ads is now available in AWS Quick",
+        "link": "https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/",
+        "summary": "AWS Quick now has a Meta ads AI connector. Meta advertisers can use natural language in Quick to create, manage, and analyze campaigns while staying connected to the Meta ad management network, and combine Meta ad data with first- and third-party sources to build dashboards, documents, slide decks, and automated workflows.",
+        "why_it_matters": "Key development from AWS ML Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "OpenAI Blog",
+        "source": "AWS ML Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-21"
+        "date": "2026-11-22"
       }
     ],
     "🛠️ Builder's Toolbox": [
@@ -45,7 +45,7 @@
         "tag": "AI",
         "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-11-21"
+        "date": "2026-11-22"
       },
       {
         "title": "GitHub Enterprise Server 3.23 release candidate",
@@ -56,7 +56,7 @@
         "tag": "AI",
         "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-11-21"
+        "date": "2026-11-22"
       }
     ],
     "🎯 Interview Edge": [
@@ -69,7 +69,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-21"
+        "date": "2026-11-22"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -80,31 +80,31 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-21"
+        "date": "2026-11-22"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street",
-        "link": "https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
-        "summary": "Article URL: https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90 Comments URL: https://news.ycombinator.com/item?id=50582280 Points: 54 # Comments: 5",
+        "title": "Pandex – Official European Law for AI Agents, over MCP",
+        "link": "https://www.pandex.io",
+        "summary": "Article URL: https://www.pandex.io Comments URL: https://news.ycombinator.com/item?id=50593481 Points: 66 # Comments: 13",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-21"
+        "date": "2026-11-22"
       },
       {
-        "title": "Google workers tell their employer not to punish schools that don't want AI",
-        "link": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
-        "summary": "Article URL: https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/ Comments URL: https://news.ycombinator.com/item?id=50577901 Points: 275 # Comments: 201",
+        "title": "ClawDOS – An AI coding agent for DOS",
+        "link": "http://ricapar.net/ClawDOS/",
+        "summary": "Article URL: http://ricapar.net/ClawDOS/ Comments URL: https://news.ycombinator.com/item?id=50586292 Points: 162 # Comments: 51",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-21"
+        "date": "2026-11-22"
       }
     ],
     "🔮 On the Horizon": [
@@ -117,18 +117,7 @@
         "tag": "AI",
         "source": "Google Research Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-21"
-      },
-      {
-        "title": "A game you cannot win unless you have a quantum computer",
-        "link": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/",
-        "summary": "Quantum",
-        "why_it_matters": "Key development from Google Research Blog.",
-        "takeaway": "Architecture & industry alignment.",
-        "tag": "AI",
-        "source": "Google Research Blog",
-        "trust": "🟢 Official",
-        "date": "2026-11-21"
+        "date": "2026-11-22"
       }
     ]
   },
