@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-11-23T07:59:13.547985+00:00"
+    "generated_at": "2026-11-24T10:13:59.033597+00:00"
   },
-  "date": "2026-11-23",
-  "date_display": "Monday, 23 November 2026 (01:28 PM IST)",
+  "date": "2026-11-24",
+  "date_display": "Tuesday, 24 November 2026 (03:43 PM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -13,29 +13,52 @@
   "sections": {
     "🚀 Big Launches": [
       {
-        "title": "Perplexity and Intelligence",
-        "link": "https://openai.com/index/perplexity-and-intelligence",
-        "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+        "title": "OpenAI and Cisco introduce Shirudo",
+        "link": "https://openai.com/index/introducing-shirudo",
+        "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-23"
+        "date": "2026-11-24"
       },
       {
-        "title": "Meta ads is now available in AWS Quick",
-        "link": "https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/",
-        "summary": "AWS Quick now has a Meta ads AI connector. Meta advertisers can use natural language in Quick to create, manage, and analyze campaigns while staying connected to the Meta ad management network, and combine Meta ad data with first- and third-party sources to build dashboards, documents, slide decks, and automated workflows.",
-        "why_it_matters": "Key development from AWS ML Blog.",
+        "title": "Connected intelligence for in-house legal",
+        "link": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+        "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+        "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "AWS ML Blog",
+        "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-23"
+        "date": "2026-11-24"
       }
     ],
-    "🛠️ Builder's Toolbox": [],
+    "🛠️ Builder's Toolbox": [
+      {
+        "title": "Issue statuses and repository boards are in public preview",
+        "link": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
+        "summary": "Open or closed doesn’t always tell you where an issue stands. You can now use more specific statuses to give your team and agents shared context about what’s in flight… The post Issue statuses and repository boards are in public preview appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub Changelog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "GitHub Changelog",
+        "trust": "🟢 Official",
+        "date": "2026-11-24"
+      },
+      {
+        "title": "Secret scanning reduces false positives for Slack",
+        "link": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack",
+        "summary": "Secret scanning now reduces false-positive detections for Slack secrets. False positives reduced The following detector improvements reduce false-positive matches for supported secrets. Provider Secret type Improvement Slack slack_incoming_webhook_url Exclude URLs… The post Secret scanning reduces false positives for Slack appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub Changelog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "GitHub Changelog",
+        "trust": "🟢 Official",
+        "date": "2026-11-24"
+      }
+    ],
     "🎯 Interview Edge": [
       {
         "title": "Wan-AI/Wan2.1-T2V-1.3B",
@@ -46,7 +69,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-23"
+        "date": "2026-11-24"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -57,62 +80,62 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-23"
+        "date": "2026-11-24"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
-        "link": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-        "summary": "Article URL: https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth Comments URL: https://news.ycombinator.com/item?id=50603845 Points: 433 # Comments: 174",
+        "title": "Declare is a UI language for you and your AI",
+        "link": "https://davidtemkin.github.io/declarelang/",
+        "summary": "Article URL: https://davidtemkin.github.io/declarelang/ Comments URL: https://news.ycombinator.com/item?id=50622854 Points: 52 # Comments: 42",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-23"
+        "date": "2026-11-24"
       },
       {
-        "title": "Harvard CS 2881R AI Safety",
-        "link": "https://boazbk.github.io/mltheoryseminar/",
-        "summary": "Article URL: https://boazbk.github.io/mltheoryseminar/ Comments URL: https://news.ycombinator.com/item?id=50602153 Points: 64 # Comments: 8",
+        "title": "How should an LLM see a computer?",
+        "link": "https://www.greptile.com/blog/trex-computer-use",
+        "summary": "Article URL: https://www.greptile.com/blog/trex-computer-use Comments URL: https://news.ycombinator.com/item?id=50615520 Points: 51 # Comments: 23",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-23"
+        "date": "2026-11-24"
       }
     ],
     "🔮 On the Horizon": [
       {
-        "title": "Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams",
-        "link": "https://arxiv.org/abs/2611.26663",
-        "summary": "arXiv:2611.26663v1 Announce Type: new Abstract: Generative AI has improved individual productivity, but whether adding a plurality of AI partners helps or hurts remains open. We crossed AI partnership (one versus two) with behavioral formation (calibrated to average human behavior versus customized by the participant) in a brainstorming experiment ($N$=168) with human-human dyads as reference. Two-AI rooms posted more ideas to…",
-        "why_it_matters": "Key development from arXiv cs.AI.",
+        "title": "SkillPrivus: Uncovering PRIVacy of USe Harms in Agentic Skills",
+        "link": "https://arxiv.org/abs/2611.26747",
+        "summary": "arXiv:2611.26747v1 Announce Type: new Abstract: Agent skills extend AI assistants through installable instructions and code that can access users' files, accounts, and data. Even when performing their advertised tasks, skills may infer sensitive attributes, retain unnecessary information, or disclose data to unexpected recipients. We study these potential privacy-of-use harms through SkillPrivus, a static audit framework that analyzes skills before installation…",
+        "why_it_matters": "Key development from arXiv cs.CL.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "arXiv cs.AI",
+        "source": "arXiv cs.CL",
         "trust": "🔵 Academic",
-        "date": "2026-11-23"
+        "date": "2026-11-24"
       },
       {
-        "title": "Coherence by Construction: Synthesizing CTI Knowledge Graphs and the Formal Limits of Coherence Validation",
-        "link": "https://arxiv.org/abs/2611.26717",
-        "summary": "arXiv:2611.26717v1 Announce Type: new Abstract: Synthesizing relational training data such as knowledge graphs with a large language model typically emits structured objects one at a time, which keeps each object valid but leaves the relationships between them ungrounded. We study an alternative paradigm, generation by simulation: rather than describing a relational artifact, we simulate a process that produces it and…",
-        "why_it_matters": "Key development from arXiv cs.AI.",
+        "title": "Reinforcement Learning Unlearns Corrupted SFT Reasoning",
+        "link": "https://arxiv.org/abs/2611.26756",
+        "summary": "arXiv:2611.26756v1 Announce Type: new Abstract: We show that reinforcement learning (RL) in reasoning tasks can succeed even when the supervised fine-tuning (SFT) data is severely corrupted. In a mathematical reasoning dataset (GSM8K), we systematically corrupt training trajectories across 361 configurations by injecting realistic error types, varying error locations, trace-answer consistency, and corruption ratios up to 100%. While aggregated SFT-only performance…",
+        "why_it_matters": "Key development from arXiv cs.CL.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "arXiv cs.AI",
+        "source": "arXiv cs.CL",
         "trust": "🔵 Academic",
-        "date": "2026-11-23"
+        "date": "2026-11-24"
       }
     ]
   },
   "tool_of_day": {
-    "title": "Perplexity and Intelligence",
-    "link": "https://openai.com/index/perplexity-and-intelligence",
-    "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+    "title": "Issue statuses and repository boards are in public preview",
+    "link": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
+    "summary": "Open or closed doesn’t always tell you where an issue stands. You can now use more specific statuses to give your team and agents shared context about what’s in flight… The post Issue statuses and repository boards are in public preview appeared first on The GitHub Blog .",
     "pricing": "100% Free / Open Source",
     "use_case": "Developer productivity & AI prototyping"
   },
