@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-11-24T10:13:59.033597+00:00"
+    "generated_at": "2026-11-25T08:57:56.656216+00:00"
   },
-  "date": "2026-11-24",
-  "date_display": "Tuesday, 24 November 2026 (03:43 PM IST)",
+  "date": "2026-11-25",
+  "date_display": "Wednesday, 25 November 2026 (02:27 PM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -13,29 +13,40 @@
   "sections": {
     "🚀 Big Launches": [
       {
-        "title": "OpenAI and Cisco introduce Shirudo",
-        "link": "https://openai.com/index/introducing-shirudo",
-        "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+        "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+        "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+        "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-24"
+        "date": "2026-11-25"
       },
       {
-        "title": "Connected intelligence for in-house legal",
-        "link": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
-        "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+        "title": "Searching for distant planets with Astra",
+        "link": "https://openai.com/index/searching-for-distant-planets-with-astra",
+        "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
         "why_it_matters": "Key development from OpenAI Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-24"
+        "date": "2026-11-25"
       }
     ],
     "🛠️ Builder's Toolbox": [
+      {
+        "title": "More predictable notifications on GitHub.com",
+        "link": "https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com",
+        "summary": "Starting December 1, 2026, we’re migrating notifications on GitHub.com over the course of a week to make subscriptions more predictable, correct unexpected behavior, and support the growing scale of activity.… The post More predictable notifications on GitHub.com appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub Changelog.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "GitHub Changelog",
+        "trust": "🟢 Official",
+        "date": "2026-11-25"
+      },
       {
         "title": "Issue statuses and repository boards are in public preview",
         "link": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
@@ -45,18 +56,7 @@
         "tag": "AI",
         "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-11-24"
-      },
-      {
-        "title": "Secret scanning reduces false positives for Slack",
-        "link": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack",
-        "summary": "Secret scanning now reduces false-positive detections for Slack secrets. False positives reduced The following detector improvements reduce false-positive matches for supported secrets. Provider Secret type Improvement Slack slack_incoming_webhook_url Exclude URLs… The post Secret scanning reduces false positives for Slack appeared first on The GitHub Blog .",
-        "why_it_matters": "Key development from GitHub Changelog.",
-        "takeaway": "Architecture & industry alignment.",
-        "tag": "AI",
-        "source": "GitHub Changelog",
-        "trust": "🟢 Official",
-        "date": "2026-11-24"
+        "date": "2026-11-25"
       }
     ],
     "🎯 Interview Edge": [
@@ -69,7 +69,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-24"
+        "date": "2026-11-25"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -80,62 +80,51 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-24"
+        "date": "2026-11-25"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "Declare is a UI language for you and your AI",
-        "link": "https://davidtemkin.github.io/declarelang/",
-        "summary": "Article URL: https://davidtemkin.github.io/declarelang/ Comments URL: https://news.ycombinator.com/item?id=50622854 Points: 52 # Comments: 42",
+        "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+        "link": "https://www.marginalia.nu/log/a_141_marginalia_update/",
+        "summary": "Article URL: https://www.marginalia.nu/log/a_141_marginalia_update/ Comments URL: https://news.ycombinator.com/item?id=50638220 Points: 97 # Comments: 37",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-24"
+        "date": "2026-11-25"
       },
       {
-        "title": "How should an LLM see a computer?",
-        "link": "https://www.greptile.com/blog/trex-computer-use",
-        "summary": "Article URL: https://www.greptile.com/blog/trex-computer-use Comments URL: https://news.ycombinator.com/item?id=50615520 Points: 51 # Comments: 23",
+        "title": "Working with AI",
+        "link": "https://www.anthropic.com/research/working-with-ai",
+        "summary": "Article URL: https://www.anthropic.com/research/working-with-ai Comments URL: https://news.ycombinator.com/item?id=50634734 Points: 70 # Comments: 65",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-24"
+        "date": "2026-11-25"
       }
     ],
     "🔮 On the Horizon": [
       {
-        "title": "SkillPrivus: Uncovering PRIVacy of USe Harms in Agentic Skills",
-        "link": "https://arxiv.org/abs/2611.26747",
-        "summary": "arXiv:2611.26747v1 Announce Type: new Abstract: Agent skills extend AI assistants through installable instructions and code that can access users' files, accounts, and data. Even when performing their advertised tasks, skills may infer sensitive attributes, retain unnecessary information, or disclose data to unexpected recipients. We study these potential privacy-of-use harms through SkillPrivus, a static audit framework that analyzes skills before installation…",
-        "why_it_matters": "Key development from arXiv cs.CL.",
+        "title": "Supercharging transformer residual connections",
+        "link": "https://research.google/blog/supercharging-transformer-residual-connections/",
+        "summary": "Algorithms & Theory",
+        "why_it_matters": "Key development from Google Research Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "arXiv cs.CL",
-        "trust": "🔵 Academic",
-        "date": "2026-11-24"
-      },
-      {
-        "title": "Reinforcement Learning Unlearns Corrupted SFT Reasoning",
-        "link": "https://arxiv.org/abs/2611.26756",
-        "summary": "arXiv:2611.26756v1 Announce Type: new Abstract: We show that reinforcement learning (RL) in reasoning tasks can succeed even when the supervised fine-tuning (SFT) data is severely corrupted. In a mathematical reasoning dataset (GSM8K), we systematically corrupt training trajectories across 361 configurations by injecting realistic error types, varying error locations, trace-answer consistency, and corruption ratios up to 100%. While aggregated SFT-only performance…",
-        "why_it_matters": "Key development from arXiv cs.CL.",
-        "takeaway": "Architecture & industry alignment.",
-        "tag": "AI",
-        "source": "arXiv cs.CL",
-        "trust": "🔵 Academic",
-        "date": "2026-11-24"
+        "source": "Google Research Blog",
+        "trust": "🟢 Official",
+        "date": "2026-11-25"
       }
     ]
   },
   "tool_of_day": {
-    "title": "Issue statuses and repository boards are in public preview",
-    "link": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
-    "summary": "Open or closed doesn’t always tell you where an issue stands. You can now use more specific statuses to give your team and agents shared context about what’s in flight… The post Issue statuses and repository boards are in public preview appeared first on The GitHub Blog .",
+    "title": "More predictable notifications on GitHub.com",
+    "link": "https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com",
+    "summary": "Starting December 1, 2026, we’re migrating notifications on GitHub.com over the course of a week to make subscriptions more predictable, correct unexpected behavior, and support the growing scale of activity.… The post More predictable notifications on GitHub.com appeared first on The GitHub Blog .",
     "pricing": "100% Free / Open Source",
     "use_case": "Developer productivity & AI prototyping"
   },
