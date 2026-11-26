@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-11-25T08:57:56.656216+00:00"
+    "generated_at": "2026-11-26T08:44:22.559454+00:00"
   },
-  "date": "2026-11-25",
-  "date_display": "Wednesday, 25 November 2026 (02:27 PM IST)",
+  "date": "2026-11-26",
+  "date_display": "Thursday, 26 November 2026 (02:13 PM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -21,7 +21,7 @@
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-25"
+        "date": "2026-11-26"
       },
       {
         "title": "Searching for distant planets with Astra",
@@ -32,31 +32,31 @@
         "tag": "AI",
         "source": "OpenAI Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-25"
+        "date": "2026-11-26"
       }
     ],
     "🛠️ Builder's Toolbox": [
       {
-        "title": "More predictable notifications on GitHub.com",
-        "link": "https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com",
-        "summary": "Starting December 1, 2026, we’re migrating notifications on GitHub.com over the course of a week to make subscriptions more predictable, correct unexpected behavior, and support the growing scale of activity.… The post More predictable notifications on GitHub.com appeared first on The GitHub Blog .",
-        "why_it_matters": "Key development from GitHub Changelog.",
+        "title": "How to choose the next safe step in application modernization",
+        "link": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
+        "summary": "Learn how to assess a legacy application, choose a bounded modernization step, and reuse the method with a GitHub Copilot agent skill. The post How to choose the next safe step in application modernization appeared first on The GitHub Blog .",
+        "why_it_matters": "Key development from GitHub AI & ML Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "GitHub Changelog",
+        "source": "GitHub AI & ML Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-25"
+        "date": "2026-11-26"
       },
       {
-        "title": "Issue statuses and repository boards are in public preview",
-        "link": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview",
-        "summary": "Open or closed doesn’t always tell you where an issue stands. You can now use more specific statuses to give your team and agents shared context about what’s in flight… The post Issue statuses and repository boards are in public preview appeared first on The GitHub Blog .",
+        "title": "Copilot code review billing will default to the organization",
+        "link": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
+        "summary": "If you haven’t chosen how to bill Copilot code review for members with a Copilot license, those reviews will be billed to your organization starting December 30, 2026. To keep… The post Copilot code review billing will default to the organization appeared first on The GitHub Blog .",
         "why_it_matters": "Key development from GitHub Changelog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "GitHub Changelog",
         "trust": "🟢 Official",
-        "date": "2026-11-25"
+        "date": "2026-11-26"
       }
     ],
     "🎯 Interview Edge": [
@@ -69,7 +69,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-25"
+        "date": "2026-11-26"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -80,51 +80,62 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-25"
+        "date": "2026-11-26"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
-        "link": "https://www.marginalia.nu/log/a_141_marginalia_update/",
-        "summary": "Article URL: https://www.marginalia.nu/log/a_141_marginalia_update/ Comments URL: https://news.ycombinator.com/item?id=50638220 Points: 97 # Comments: 37",
+        "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+        "link": "https://twitter.com/thsottiaux/status/2125784147889393806",
+        "summary": "Article URL: https://twitter.com/thsottiaux/status/2125784147889393806 Comments URL: https://news.ycombinator.com/item?id=50651117 Points: 204 # Comments: 99",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-25"
+        "date": "2026-11-26"
       },
       {
-        "title": "Working with AI",
-        "link": "https://www.anthropic.com/research/working-with-ai",
-        "summary": "Article URL: https://www.anthropic.com/research/working-with-ai Comments URL: https://news.ycombinator.com/item?id=50634734 Points: 70 # Comments: 65",
+        "title": "New York bans AI toys, including those using internet to talk to children",
+        "link": "https://www.theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys",
+        "summary": "Article URL: https://www.theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys Comments URL: https://news.ycombinator.com/item?id=50644909 Points: 53 # Comments: 11",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-25"
+        "date": "2026-11-26"
       }
     ],
     "🔮 On the Horizon": [
       {
-        "title": "Supercharging transformer residual connections",
-        "link": "https://research.google/blog/supercharging-transformer-residual-connections/",
-        "summary": "Algorithms & Theory",
-        "why_it_matters": "Key development from Google Research Blog.",
+        "title": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
+        "link": "https://arxiv.org/abs/2611.31284",
+        "summary": "arXiv:2611.31284v1 Announce Type: new Abstract: Autonomous agent governance is commonly framed as a problem of enforcing correct execution. However, in multi-agent systems, an equally fundamental question precedes execution: which agents are allowed to act. In this paper, we show that allocation is not an auxiliary concern but a structural component of governance. When multiple agents compete for execution under constrained…",
+        "why_it_matters": "Key development from arXiv cs.AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "Google Research Blog",
-        "trust": "🟢 Official",
-        "date": "2026-11-25"
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-11-26"
+      },
+      {
+        "title": "MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake",
+        "link": "https://arxiv.org/abs/2611.31301",
+        "summary": "arXiv:2611.31301v2 Announce Type: new Abstract: Audio-video (AV) deepfakes can fake the face, the voice, or both. Most benchmarks only ask whether a clip is real or fake, so they cannot show whether a detector relies on the picture, the voice, or encoding traces. We present MOZAIC, a paired benchmark with a 4-way label in which every source clip is released…",
+        "why_it_matters": "Key development from arXiv cs.AI.",
+        "takeaway": "Architecture & industry alignment.",
+        "tag": "AI",
+        "source": "arXiv cs.AI",
+        "trust": "🔵 Academic",
+        "date": "2026-11-26"
       }
     ]
   },
   "tool_of_day": {
-    "title": "More predictable notifications on GitHub.com",
-    "link": "https://github.blog/changelog/2026-11-24-more-predictable-notifications-on-github-com",
-    "summary": "Starting December 1, 2026, we’re migrating notifications on GitHub.com over the course of a week to make subscriptions more predictable, correct unexpected behavior, and support the growing scale of activity.… The post More predictable notifications on GitHub.com appeared first on The GitHub Blog .",
+    "title": "How to choose the next safe step in application modernization",
+    "link": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
+    "summary": "Learn how to assess a legacy application, choose a bounded modernization step, and reuse the method with a GitHub Copilot agent skill. The post How to choose the next safe step in application modernization appeared first on The GitHub Blog .",
     "pricing": "100% Free / Open Source",
     "use_case": "Developer productivity & AI prototyping"
   },
