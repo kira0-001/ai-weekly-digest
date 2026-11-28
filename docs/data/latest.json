@@ -1,10 +1,10 @@
 {
   "_meta": {
     "schema_version": "2.0",
-    "generated_at": "2026-11-27T08:55:19.613002+00:00"
+    "generated_at": "2026-11-28T08:15:55.384125+00:00"
   },
-  "date": "2026-11-27",
-  "date_display": "Friday, 27 November 2026 (02:24 PM IST)",
+  "date": "2026-11-28",
+  "date_display": "Saturday, 28 November 2026 (01:45 PM IST)",
   "executive_summary": [
     "Top AI labs and open-source ecosystems shipped new models and tools over the last 48 hours.",
     "Research advancements in multimodal architectures and latency optimization continue to accelerate.",
@@ -13,15 +13,15 @@
   "sections": {
     "🚀 Big Launches": [
       {
-        "title": "Distilling Kimi-K3.1-Pro into Qwen3.8-27B: Teaching a model a new language",
-        "link": "https://www.together.ai/blog/distilling-kimi-into-qwen",
-        "summary": "Qwen3.8-27B answered in Thai when asked for Lao. We distilled Kimi-K3.1-Pro's Lao translation into it with Together Post-Training: 93% of the teacher's score, with Thai intact. Code and costs included.",
-        "why_it_matters": "Key development from Together AI Blog.",
+        "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+        "link": "https://huggingface.co/blog/video-trainium3",
+        "summary": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+        "why_it_matters": "Key development from Hugging Face Blog.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
-        "source": "Together AI Blog",
+        "source": "Hugging Face Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-27"
+        "date": "2026-11-28"
       },
       {
         "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
@@ -32,33 +32,10 @@
         "tag": "AI",
         "source": "Hugging Face Blog",
         "trust": "🟢 Official",
-        "date": "2026-11-27"
+        "date": "2026-11-28"
       }
     ],
-    "🛠️ Builder's Toolbox": [
-      {
-        "title": "How to choose the next safe step in application modernization",
-        "link": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
-        "summary": "Learn how to assess a legacy application, choose a bounded modernization step, and reuse the method with a GitHub Copilot agent skill. The post How to choose the next safe step in application modernization appeared first on The GitHub Blog .",
-        "why_it_matters": "Key development from GitHub AI & ML Blog.",
-        "takeaway": "Architecture & industry alignment.",
-        "tag": "AI",
-        "source": "GitHub AI & ML Blog",
-        "trust": "🟢 Official",
-        "date": "2026-11-27"
-      },
-      {
-        "title": "Copilot code review billing will default to the organization",
-        "link": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization",
-        "summary": "If you haven’t chosen how to bill Copilot code review for members with a Copilot license, those reviews will be billed to your organization starting December 30, 2026. To keep… The post Copilot code review billing will default to the organization appeared first on The GitHub Blog .",
-        "why_it_matters": "Key development from GitHub Changelog.",
-        "takeaway": "Architecture & industry alignment.",
-        "tag": "AI",
-        "source": "GitHub Changelog",
-        "trust": "🟢 Official",
-        "date": "2026-11-27"
-      }
-    ],
+    "🛠️ Builder's Toolbox": [],
     "🎯 Interview Edge": [
       {
         "title": "Wan-AI/Wan2.1-T2V-1.3B",
@@ -69,7 +46,7 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-27"
+        "date": "2026-11-28"
       },
       {
         "title": "microsoft/Phi-4-mini-instruct",
@@ -80,62 +57,39 @@
         "tag": "AI",
         "source": "HF Trending Models",
         "trust": "🟡 News",
-        "date": "2026-11-27"
+        "date": "2026-11-28"
       }
     ],
     "⚖️ Responsible AI": [
       {
-        "title": "The group chat where your AI talks behind your back",
-        "link": "https://construct22.com/",
-        "summary": "Article URL: https://construct22.com/ Comments URL: https://news.ycombinator.com/item?id=50663595 Points: 156 # Comments: 55",
+        "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+        "link": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+        "summary": "Article URL: https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai Comments URL: https://news.ycombinator.com/item?id=50673521 Points: 152 # Comments: 115",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-27"
+        "date": "2026-11-28"
       },
       {
-        "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
-        "link": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
-        "summary": "Article URL: https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/ Comments URL: https://news.ycombinator.com/item?id=50661218 Points: 54 # Comments: 27",
+        "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+        "link": "https://github.com/skeeto/prospero",
+        "summary": "Article URL: https://github.com/skeeto/prospero Comments URL: https://news.ycombinator.com/item?id=50671275 Points: 55 # Comments: 17",
         "why_it_matters": "Key development from Hacker News AI.",
         "takeaway": "Architecture & industry alignment.",
         "tag": "AI",
         "source": "Hacker News AI",
         "trust": "🟡 Community",
-        "date": "2026-11-27"
+        "date": "2026-11-28"
       }
     ],
-    "🔮 On the Horizon": [
-      {
-        "title": "Context Scaling: A New Frontier of AI Scaling",
-        "link": "https://arxiv.org/abs/2611.33160",
-        "summary": "arXiv:2611.33160v1 Announce Type: new Abstract: Many failures of deployed AI arise not from weak inference but from a mismatch between the state a task depends on and the context available when the system acts. Relevant user state, repository revisions, tool traces, sensor readings, or environment changes may be unavailable, distorted, or poorly selected. We call the effort to reduce this…",
-        "why_it_matters": "Key development from arXiv cs.AI.",
-        "takeaway": "Architecture & industry alignment.",
-        "tag": "AI",
-        "source": "arXiv cs.AI",
-        "trust": "🔵 Academic",
-        "date": "2026-11-27"
-      },
-      {
-        "title": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
-        "link": "https://arxiv.org/abs/2611.33161",
-        "summary": "arXiv:2611.33161v1 Announce Type: new Abstract: When an LLM or VLM produces several candidate answers, picking the best one usually relies on the model's own confidence, a learned judge model, or a domain check. Each has a known weakness: an answer can be fluent but insecure, mathematically plausible but physically infeasible, or rated highly by a judge while quietly breaking a…",
-        "why_it_matters": "Key development from arXiv cs.AI.",
-        "takeaway": "Architecture & industry alignment.",
-        "tag": "AI",
-        "source": "arXiv cs.AI",
-        "trust": "🔵 Academic",
-        "date": "2026-11-27"
-      }
-    ]
+    "🔮 On the Horizon": []
   },
   "tool_of_day": {
-    "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
-    "link": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
-    "summary": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+    "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+    "link": "https://huggingface.co/blog/video-trainium3",
+    "summary": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
     "pricing": "100% Free / Open Source",
     "use_case": "Developer productivity & AI prototyping"
   },
